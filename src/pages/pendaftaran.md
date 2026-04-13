@@ -107,7 +107,7 @@ import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
   <p>Halaman alamat</p>
 </div>
 
-1. **Alamat**  
+1. **Alamat**   
 Masukkan alamat kedudukan / surat-menyurat (nombor rumah, nama jalan, dan kawasan).
 
 <Admonition type="info">
