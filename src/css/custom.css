@@ -28,3 +28,263 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* =========================
+   Documentation Container
+========================= */
+.theme-doc-markdown {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #2d2d2d;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+
+h3 {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.step-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 0 50px;
+  margin: 10px 0 10px 0;
+}
+
+/* =========================
+   Lists (clean spacing)
+========================= */
+ul {
+  padding-left: 3rem;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* =========================
+   Image Card Style (IMPORTANT)
+========================= */
+.doc-image {
+  margin: 20px auto;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  max-width: 700px;
+  padding: 12px 12px 0 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.doc-image:hover {
+  transform: scale(1.01);
+}
+
+.doc-image img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+}
+
+/* Caption under image */
+.doc-image p {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* =========================
+   Links styling
+========================= */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   Highlight boxes (optional)
+========================= */
+/* =========================
+   Base Admonition
+========================= */
+.admonition {
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0 0 30px 30px;
+  border-left: 5px solid;
+}
+
+.admonition-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.admonition p, .admonition li{
+  font-weight: 400;
+  margin: 0;
+}
+
+/* =========================
+   TIP (Light)
+========================= */
+.tip, .do {
+  --bg: #E6F6E6;
+  --border: #009400;
+  --title: #19482e;
+  --text: #194e31;
+}
+
+.tip, .do {
+  background: var(--bg);
+  border-left-color: var(--border);
+}
+
+.tip .Admonition-title,
+.do .Admonition-title {
+  color: var(--title);
+}
+
+.tip p,
+.tip li, 
+.do p,
+.do li{
+  color: var(--text);
+}
+
+/* =========================
+   INFO (Light)
+========================= */
+.info {
+  --bg: #E8F4FF;
+  --border: #1e88e5;
+  --title: #0d47a1;
+  --text: #0b3c91;
+}
+
+.info {
+  background: var(--bg);
+  border-left-color: var(--border);
+}
+
+.info .admonition-title {
+  color: var(--title);
+}
+
+.info p,
+.info li {
+  color: var(--text);
+}
+
+/* =========================
+   WARNING (Light)
+========================= */
+.warning {
+  --bg: #FFF4E5;
+  --border: #ff9800;
+  --title: #8a4b00;
+  --text: #7a4200;
+}
+
+.warning {
+  background: var(--bg);
+  border-left-color: var(--border);
+}
+
+.warning .admonition-title {
+  color: var(--title);
+}
+
+.warning p,
+.warning li {
+  color: var(--text);
+}
+
+/* =========================
+   DANGER (Light)
+========================= */
+.dont {
+  --bg: #FDECEC;
+  --border: #DC2626;
+  --title: #7F1D1D;
+  --text: #991B1B;
+}
+
+.dont {
+  background: var(--bg);
+  border-left-color: var(--border);
+}
+
+.dont .admonition-title {
+  color: var(--title);
+}
+
+.dont p, 
+.dont li {
+  color: var(--text);
+}
+
+/* =========================
+   🌙 DARK MODE
+========================= */
+[data-theme='dark'] .tip,
+[data-theme='dark'] .do {
+  --bg: #0f2e1f;
+  --border: #22c55e;
+  --title: #86efac;
+  --text: #bbf7d0;
+}
+
+[data-theme='dark'] .info {
+  --bg: #0f1f3a;
+  --border: #3b82f6;
+  --title: #93c5fd;
+  --text: #bfdbfe;
+}
+
+[data-theme='dark'] .warning {
+  --bg: #2a1a05;
+  --border: #f59e0b;
+  --title: #fcd34d;
+  --text: #fde68a;
+}
+
+[data-theme='dark'] .dont {
+  --bg: #2a0f0f;
+  --border: #ef4444;
+  --title: #fca5a5;
+  --text: #fecaca;
+}
+
+/* Side-by-side layout */
+.admonition-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* Make it responsive (VERY IMPORTANT) */
+@media (max-width: 768px) {
+  .admonition-row {
+    grid-template-columns: 1fr;
+  }
+}
