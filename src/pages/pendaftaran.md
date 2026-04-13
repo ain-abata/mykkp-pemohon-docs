@@ -4,7 +4,7 @@ description: Panduan lengkap pendaftaran akaun MyKKP
 hide_table_of_contents: true
 ---
 
-import Admonition from '@site/src/components/Admonition';
+import Admonition from '@site/src/components/admonition';
 
 # 📝 Pendaftaran Akaun MyKKP
 
