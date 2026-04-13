@@ -166,10 +166,8 @@ a:hover {
   color: var(--title);
 }
 
-.tip p,
-.tip li, 
-.do p,
-.do li{
+.tip,
+.do {
   color: var(--text);
 }
 
@@ -193,8 +191,7 @@ a:hover {
   color: var(--title);
 }
 
-.info p,
-.info li {
+.info {
   color: var(--text);
 }
 
@@ -218,8 +215,7 @@ a:hover {
   color: var(--title);
 }
 
-.warning p,
-.warning li {
+.warning {
   color: var(--text);
 }
 
@@ -243,8 +239,7 @@ a:hover {
   color: var(--title);
 }
 
-.dont p, 
-.dont li {
+.dont {
   color: var(--text);
 }
 
