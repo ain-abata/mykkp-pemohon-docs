@@ -5,6 +5,7 @@ hide_table_of_contents: true
 ---
 
 import Admonition from '@site/src/components/admonition';
+import React from 'react';
 
 # 📝 Pendaftaran Akaun MyKKP
 
@@ -28,9 +29,10 @@ Pendaftaran akaun diperlukan untuk membolehkan pengguna mengakses sistem MyKKP d
 
 Klik pautan berikut:  👉 [Daftar Akaun MyKKP](https://mykkpstg.dosh.gov.my/#/home/pendaftaran)
 
-<Admonition type="tip">
-Pastikan sambungan internet stabil sebelum memulakan pendaftaran.
-</Admonition>
+{Admonition({
+  type: "tip",
+  children: "Pastikan sambungan internet stabil sebelum memulakan pendaftaran."
+})}
 
 </div>
 
@@ -44,55 +46,35 @@ import step1 from '../../assets/images/pendaftaran/halaman_maklumat_peribadi.png
 
 <div className="doc-image">
   <img src={step1} />
-  <p>Halaman utama pendaftaran MyKKP</p>
+  <p>Halaman Utama Pendaftaran MyKKP</p>
 </div>
 
-1. **Nama Penuh**  
-Isi nama seperti dalam kad pengenalan atau pasport.
+1. Isi **Nama Penuh** seperti dalam kad pengenalan atau pasport.
 
-2. **No. Kad Pengenalan / Passport**  
-Pilih jenis pengenalan dan masukkan nombor yang sah.
+2. Pilih **No. Kad Pengenalan / Passport** dan masukkan nombor yang sah.  
+   Jika No. Kad Pengenalan dipilih, **Tarikh Lahir** dijana automatik. Jika Pasport, isi secara manual.
 
-3. **Tarikh Lahir**
-- Jika pilih **No. Kad Pengenalan**, tarikh kelahiran akan dijana secara automatik berdasarkan nombor IC.
-- Jika pilih **Passport**, sila isi secara manual.
-
-4. **Jantina**  
-Pilih jantina yang sesuai.
-
-5. **Warganegara**  
-Klik medan dan pilih kewarganegaraan.
-
-6. **Bangsa**  
-Klik medan dan pilih bangsa.
+3. Pilih **Jantina**, **Warganegara** dan **Bangsa**.
 
 #### B. Maklumat Perhubungan
 
-7. **Alamat Emel**  
-Isi alamat emel aktif.
+4. Isi **Alamat Emel** yang aktif dan isi semula emel pada **Pengesahan Emel** untuk pengesahan.
 
-<Admonition type="info">
-Kod pengesahan akan dihantar ke emel ini.
-</Admonition>
+{Admonition({
+  type: "info",
+  children: "Kod pengesahan akan dihantar ke emel ini."
+})}
 
-8. **Pengesahan Emel**  
-Masukkan semula emel untuk pengesahan.
+5. Isi **No. Telefon Bimbit** yang aktif.
 
-9. **Emel Alternatif (Opsional)**  
-Isi jika ada.
+6. Isi **Emel Alternatif (Opsional)** dan **No. Telefon Rumah (Opsional)** jika ada.
 
-10. **No. Telefon Bimbit**  
-Gunakan nombor aktif.
+{Admonition({
+  type: "warning",
+  children: "Pastikan emel dan nombor telefon adalah betul untuk mengelakkan kegagalan pengesahan."
+})}
 
-11. **No. Telefon Rumah (Opsional)**  
-Isi jika ada nombor aktif.
-
-<Admonition type="warning">
-Pastikan emel dan nombor telefon adalah betul untuk mengelakkan kegagalan pengesahan.
-</Admonition>
-
-12. **Seterusnya**  
-👉 Klik butang **Seterusnya** untuk meneruskan pendaftaran.
+7. Klik butang 👉 **Seterusnya** untuk meneruskan pendaftaran.
 
 </div>
 
@@ -104,40 +86,41 @@ import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
 
 <div className="doc-image">
   <img src={halaman_alamat} />
-  <p>Halaman alamat</p>
+  <p>Halaman Alamat</p>
 </div>
 
-1. **Alamat**   
-Masukkan alamat kedudukan / surat-menyurat (nombor rumah, nama jalan, dan kawasan).
+1. Isi **Alamat** kedudukan / surat-menyurat (nombor rumah, nama jalan, dan kawasan).
 
-<Admonition type="info">
-Poskod, Bandar dan Negeri tidak perlu diisi di medan ini.
-</Admonition>
+{Admonition({
+  type: "warning",
+  children: "Poskod, Bandar dan Negeri tidak perlu diisi di medan ini."
+})}
 
-2. **Poskod**  
-Masukkan poskod yang tepat.
+2. Isi **Poskod** yang tepat dan semak medan **Negeri** dan **Bandar**.
 
-import medan13_2 from '../../assets/images/pendaftaran/medan13_2.png';
-import medan13_3 from '../../assets/images/pendaftaran/medan13_3.png';
+{React.createElement(
+  'div',
+  { className: 'admonition-row' },
+  Admonition({
+    type: 'do',
+    children: React.createElement(
+      'ul',
+      null,
+      React.createElement('li', null, 'Poskod mestilah 5 digit'),
+      React.createElement('li', null, 'Pastikan padanan poskod dengan negeri & bandar adalah betul')
+    )
+  }),
+  Admonition({
+    type: 'dont',
+    children: React.createElement(
+      'ul',
+      null,
+      React.createElement('li', null, 'Poskod yang tidak sah akan menyebabkan ralat sistem')
+    )
+  })
+)}
 
-<div className="admonition-row">
-  <Admonition type="do">
-  - Poskod mestilah 5 digit  
-  - Pastikan padanan poskod dengan negeri & bandar adalah betul  
-  <div className="doc-image">
-    <img src={medan13_2} />
-  </div>
-  </Admonition>
-  <Admonition type="dont">
-  - Poskod yang tidak sah akan menyebabkan ralat sistem  
-  <div className="doc-image">
-    <img src={medan13_3} />
-  </div>
-  </Admonition>
-</div>
-
-3. **Seterusnya**  
-👉 Klik butang **Seterusnya** untuk meneruskan pendaftaran.
+3. Klik butang 👉 **Seterusnya** untuk meneruskan pendaftaran.
 
 </div>
 
@@ -149,21 +132,36 @@ import halaman_kata_laluan from '../../assets/images/pendaftaran/halaman_kata_la
 
 <div className="doc-image">
   <img src={halaman_kata_laluan} />
-  <p>Halaman kata laluan</p>
+  <p>Halaman Kata Laluan</p>
 </div>
 
-1. **ID Pengguna**  
-- Mempunyai sekurang-kurangnya enam (6) huruf dan tiga (3) digit nombor.  
-- Pastikan ID Pengguna anda tiada sebarang simbol.  
+1. Isi **ID Pengguna** mengikut tip dibawah 👇.
 
-2. **Kata Laluan**  
-- Sekurang-kurangnya enam (6) huruf:
-  - 1 nombor  
-  - 1 aksara  
-  - 1 simbol  
+{Admonition({
+  type: "tip",
+  children: React.createElement(
+      'ul',
+      null,
+      React.createElement('li', null, 'Mempunyai sekurang-kurangnya enam (6) huruf dan tiga (3) digit nombor.'),
+      React.createElement('li', null, 'Pastikan ID Pengguna anda tiada sebarang simbol.')
+    )
+})}
 
-3. **Pengesahan Kata Laluan**  
-Mesti sama dengan kata laluan
+2. Isi **Kata Laluan** dan **Pengesahan Kata Laluan**.
+
+{Admonition({
+  type: "tip",
+  children: React.createElement(
+      'ul',
+      null,
+      React.createElement('li', null, 'Sekurang-kurangnya enam (6) huruf:'),
+      React.createElement('ul', null, 
+        React.createElement('li', null, '1 nombor.'),
+        React.createElement('li', null, '1 aksara.'),
+        React.createElement('li', null, '1 simbol.'),
+      )
+    )
+})}
 
 </div>  
 
@@ -171,22 +169,27 @@ Mesti sama dengan kata laluan
 
 ### Langkah 5: Selesai
 
-- Klik butang **Daftar**, dan mesej berjaya akan dipaparkan.
+1. Klik butang **Daftar**, dan mesej berjaya akan dipaparkan.
 
 import mesej_pendaftaran_berjaya from '../../assets/images/pendaftaran/mesej_pendaftaran_berjaya.png'
 
 <div className="doc-image">
   <img src={mesej_pendaftaran_berjaya} />
-  <p>Mesej pendataran berjaya</p>
+  <p>Mesej Pendataran Berjaya</p>
 </div>
 
-- Semak emel untuk pengesahan akaun.
-- Klik pada *link* **Verifikasi Akaun MyKKP Saya**.
+2. Semak emel dan klik pada *link* "**Verifikasi Akaun MyKKP Saya**" bagi pengesahan akaun.
 
-<Admonition type="tip">
-Jika tidak menerima emel, semak folder Spam atau Junk.
-</Admonition>
-<br/>
+{Admonition({
+  type: "tip",
+  children: React.createElement(
+      'ul',
+      null,
+      React.createElement('li', null, 'Jika tidak menerima emel, semak folder Spam atau Junk.'),
+      React.createElement('li', null, 'Jika masih tidak menjumpai, sila emel kepada MyKKP Nama Penuh, Emel dan No. IC anda.')
+    )
+})}
+
 🎉 Akaun anda kini sedia digunakan!
 
 </div>
