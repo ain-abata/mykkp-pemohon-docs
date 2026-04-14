@@ -2,6 +2,7 @@
 title: Pendaftaran MyKKP
 description: Panduan lengkap pendaftaran akaun MyKKP
 hide_table_of_contents: true
+sidebar_label: 'Daftar Sebagai Pengguna MyKKP'
 ---
 
 import Admonition from '@site/src/components/admonition';
