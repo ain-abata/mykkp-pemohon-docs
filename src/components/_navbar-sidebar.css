@@ -1,0 +1,46 @@
+/* CSS child items */
+.menu__link { 
+  color: #6b7280;
+  font-weight: 600;
+
+  :hover {
+  color: #374151;
+  }
+
+  padding-left: 0;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  color: #000;
+  font-weight: 600;
+  font-size: .913rem;
+}
+
+.menu__list-item-collapsible > .menu__link:hover {
+  color: #000;
+}
+
+
+.menu__link--active {
+  color: #3880ff !important;
+  font-weight: 600;
+}
+
+.menu__list-item {
+  margin: 4px 0;
+  font-size: .813rem;
+}
+
+.menu__list-item-collapsible {
+  margin-top: 10px;
+}
+
+/* scrollbar styling */
+.theme-doc-sidebar-container {
+  scrollbar-width: thin;
+}
+
+ul.menu__list {
+  padding-left: 10px;
+}
+

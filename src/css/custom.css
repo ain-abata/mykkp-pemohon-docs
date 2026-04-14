@@ -5,6 +5,10 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import '../components/_navbar-sidebar.css';
+
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -130,6 +134,7 @@ a:hover {
   padding: 15px;
   border-radius: 8px;
   margin: 0 0 30px 30px;
+  border: 1px solid;
   border-left: 5px solid;
 }
 
@@ -157,6 +162,7 @@ a:hover {
 .tip, .do {
   background: var(--bg);
   border-left-color: var(--border);
+  border-color: var(--border);
 }
 
 .tip .Admonition-title,
@@ -164,10 +170,8 @@ a:hover {
   color: var(--title);
 }
 
-.tip p,
-.tip li, 
-.do p,
-.do li{
+.tip,
+.do {
   color: var(--text);
 }
 
@@ -184,14 +188,14 @@ a:hover {
 .info {
   background: var(--bg);
   border-left-color: var(--border);
+  border-color: var(--border);
 }
 
 .info .admonition-title {
   color: var(--title);
 }
 
-.info p,
-.info li {
+.info {
   color: var(--text);
 }
 
@@ -208,14 +212,14 @@ a:hover {
 .warning {
   background: var(--bg);
   border-left-color: var(--border);
+  border-color: var(--border);
 }
 
 .warning .admonition-title {
   color: var(--title);
 }
 
-.warning p,
-.warning li {
+.warning {
   color: var(--text);
 }
 
@@ -232,14 +236,14 @@ a:hover {
 .dont {
   background: var(--bg);
   border-left-color: var(--border);
+  border-color: var(--border);
 }
 
 .dont .admonition-title {
   color: var(--title);
 }
 
-.dont p, 
-.dont li {
+.dont {
   color: var(--text);
 }
 
