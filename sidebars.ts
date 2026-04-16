@@ -22,7 +22,10 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['pendaftaran/pendaftaran'],
+      items: [
+        'pendaftaran/pendaftaran',
+        'pemtk/pemtk'
+      ],
     },
     {
       type: 'category',
