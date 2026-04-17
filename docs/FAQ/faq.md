@@ -135,10 +135,10 @@ import Admonition from '@site/src/components/admonition';
 <details className="faq-item">
   <summary>Saya tidak dapat menghubungi talian terus MyKKP 03-6419 2525</summary>
   <div className="faq-answer">
-    Talian tersebut hanya boleh dihubungi pada waktu berikut:
+    Talian tersebut hanya boleh dihubungi pada waktu berikut (kecuali pada Hari Kelepasan Am):
     <ul>
-      <li>Isnin – Jumaat (8.30 pagi – 1.00 petang / 2.00 petang – 4.30 petang)</li>
-      <li>Kecuali Hari Kelepasan Am</li>
+      <li>Isnin - Khamis (9:00 pagi - 1:00 petang / 2:00 petang - 4:30 petang)</li>
+      <li>Jumaat (9:00 pagi - 12:00 tengah hari / 2:45 petang - 4:30 petang)</li> 
     </ul>
     <p>Untuk negeri yang bekerja pada hari Ahad, sila hubungi pejabat JKKP Negeri tersebut.</p>
   </div>
@@ -169,7 +169,7 @@ import Admonition from '@site/src/components/admonition';
   <div className="faq-answer">
     <ol>
       <li>Perkara ini adalah disebabkan oleh pengguna tidak menunggu sehingga resit MyKKP dipaparkan.</li>
-      <li>Sila e-melkan no bil beserta bukti pembayaran kepada <strong>mykkp@mohr.gov.my</strong> dan salinan kepada <strong>sharifahraini@mohr.gov.my</strong> dan <strong>snorhazlina@mohr.gov.my</strong>.</li>
+      <li>Sila e-melkan No. Bil beserta bukti pembayaran kepada <strong>mykkp@mohr.gov.my</strong> dan salinan kepada <strong>sharifahraini@mohr.gov.my</strong> dan <strong>snorhazlina@mohr.gov.my</strong>.</li>
     </ol>
   </div>
 </details>
