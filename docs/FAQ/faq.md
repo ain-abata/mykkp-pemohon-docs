@@ -5,7 +5,9 @@ sidebar_label: 'FAQ'
 hide_table_of_contents: true
 ---
 
-# ❓FAQ
+import Admonition from '@site/src/components/admonition';
+
+# FAQ
 
 <div className="faq-top-cards">
   <div className="faq-module-card">
@@ -24,7 +26,7 @@ hide_table_of_contents: true
   </div>
 </div>
 
-## Soalan Umum
+## ❓Soalan Umum
 
 ### Akaun & Log Masuk
 
@@ -55,14 +57,14 @@ hide_table_of_contents: true
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin menggunakan no kad pengenalan saya untuk mendaftar 2 ID pengguna MyKKP.</summary>
+  <summary>Saya ingin menggunakan No. Kad Pengenalan saya untuk mendaftar 2 ID pengguna MyKKP.</summary>
   <div className="faq-answer">
-    Satu no kad pengenalan hanya boleh digunakan untuk mendaftar <strong>1 ID pengguna MyKKP</strong>.
+    Satu No. Kad Pengenalan hanya boleh digunakan untuk mendaftar <strong>1 ID pengguna MyKKP</strong>.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>No kad pengenalan saya telah didaftarkan oleh pengguna lain.</summary>
+  <summary>No. Kad Pengenalan saya telah didaftarkan oleh pengguna lain.</summary>
   <div className="faq-answer">
     Mohon hubungi pasukan teknikal menerusi e-mel <strong>mykkp@mohr.gov.my</strong> beserta bukti pengenalan diri seperti salinan MyKad untuk semakan pihak teknikal selanjutnya.
   </div>
@@ -70,17 +72,17 @@ hide_table_of_contents: true
 
 </div>
 
-### Emel & Pengaktifan
+### E-mel & Pengaktifan
 
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya tidak menerima emel pengaktifan.</summary>
+  <summary>Saya tidak menerima e-mel pengaktifan.</summary>
   <div className="faq-answer">
     <ol>
       <li>E-mel pengaktifan akan dihantar secara automatik ke inbox e-mel yang telah didaftarkan dengan sistem MyKKP selepas pendaftaran akaun berjaya dilakukan.</li>
-      <li>Pengguna dikehendaki menyemak ruangan e-mel <strong>Spam</strong> atau <strong>Junk Mail</strong> di dalam emel peribadi sekiranya masih tidak menerima emel dalam tempoh 5 minit.</li>
-      <li>Sekiranya emel pengaktifan masih tiada, sila e-melkan kepada <strong>mykkp@mohr.gov.my</strong> atau hubungi no telefon <strong>03-6419 2525</strong>.</li>
+      <li>Pengguna dikehendaki menyemak ruangan e-mel <strong><i>Spam</i></strong> atau <strong><i>Junk Mail</i></strong> di dalam e-mel peribadi sekiranya masih tidak menerima e-mel dalam tempoh 5 minit.</li>
+      <li>Sekiranya e-mel pengaktifan masih tiada, sila e-melkan kepada <strong>mykkp@mohr.gov.my</strong> atau hubungi no. telefon <strong>03-6419 2525</strong>.</li>
     </ol>
 
     <p><strong>Sila pastikan e-mel peribadi yang didaftarkan adalah e-mel yang sah dan masih aktif.</strong></p>
@@ -88,9 +90,9 @@ hide_table_of_contents: true
 </details>
 
 <details className="faq-item">
-  <summary>Saya tidak menerima sebarang emel pemakluman Aktiviti MyKKP.</summary>
+  <summary>Saya tidak menerima sebarang e-mel pemakluman Aktiviti MyKKP.</summary>
   <div className="faq-answer">
-    Pengguna dikehendaki menyemak ruangan emel <strong>Spam</strong> atau <strong>Junk Mail</strong> di dalam emel peribadi. Rekod aktiviti semasa MyKKP masih boleh disemak dalam akaun MyKKP pengguna.
+    Pengguna dikehendaki menyemak ruangan e-mel <strong><i>Spam</i></strong> atau <strong><i>Junk Mail</i></strong> di dalam e-mel peribadi. Rekod aktiviti semasa MyKKP masih boleh disemak dalam akaun MyKKP pengguna.
   </div>
 </details>
 
@@ -99,11 +101,11 @@ hide_table_of_contents: true
   <div className="faq-answer">
     <ol>
       <li>Log masuk ke akaun MyKKP.</li>
-      <li>Klik menu <strong>Profil Saya</strong> dan klik sub menu <strong>Maklumat Emel</strong>.</li>
-      <li>Masukkan alamat emel baru yang sah untuk verifikasi dan klik butang <strong>Verifikasi</strong>.</li>
+      <li>Klik menu <strong>Profil Saya</strong> dan klik sub menu <strong>Maklumat e-mel</strong>.</li>
+      <li>Masukkan alamat e-mel baru yang sah untuk verifikasi dan klik butang <strong>Verifikasi</strong>.</li>
       <li>Sila semak e-mel asal yang didaftarkan untuk mendapatkan Kod Verifikasi.</li>
-      <li>Masukkan Kod Verifikasi di ruangan <strong>Kod Pengesahan Emel</strong> dan klik butang <strong>Pengesahan Kod</strong>.</li>
-      <li>Popup mesej <strong>“Anda telah berjaya kemaskini emel yang baru.”</strong></li>
+      <li>Masukkan Kod Verifikasi di ruangan <strong>Kod Pengesahan E   -mel</strong> dan klik butang <strong>Pengesahan Kod</strong>.</li>
+      <li>Popup mesej <strong>“Anda telah berjaya kemaskini e-mel yang baru.”</strong></li>
     </ol>
   </div>
 </details>
@@ -132,7 +134,7 @@ hide_table_of_contents: true
   <div className="faq-answer">
     Talian tersebut hanya boleh dihubungi pada waktu berikut:
     <ul>
-      <li>Isnin – Jumaat (8.30 pagi – 1.00 petang / 2.00 petang – 5.30 petang)</li>
+      <li>Isnin – Jumaat (8.30 pagi – 1.00 petang / 2.00 petang – 4.30 petang)</li>
       <li>Kecuali Hari Kelepasan Am</li>
     </ul>
     <p>Untuk negeri yang bekerja pada hari Ahad, sila hubungi pejabat JKKP Negeri tersebut.</p>
@@ -170,3 +172,8 @@ hide_table_of_contents: true
 </details>
 
 </div>
+
+{Admonition({
+  type: "tip",
+  children: "Jika anda masih tidak menemui jawapan yang diperlukan, sila rujuk panduan mengikut modul seperti Pendaftaran Akaun atau PEMTK."
+})}
