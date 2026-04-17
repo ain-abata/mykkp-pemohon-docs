@@ -392,26 +392,52 @@ tr:last-child td:last-child {
 .faq-module-card {
   background: #ffffff;
   border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  padding: 1.25rem;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 18px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .faq-module-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  border-color: #d1d5db;
+}
+
+.faq-module-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  font-size: 1.8rem;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.05);
 }
 
 .faq-module-card h3 {
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.4rem;
   font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
 }
 
 .faq-module-card p {
   margin: 0;
   color: #6b7280;
   font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 996px) {
+  .faq-top-cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* flat FAQ list */
@@ -454,7 +480,7 @@ tr:last-child td:last-child {
   font-weight: 600;
   font-size: 1rem;
   color: #000000;
-  padding: 1rem 3rem 1rem 0;
+  padding: 1.5rem 3rem 1.5rem 0;
   border: none !important;
   outline: none !important;
   box-shadow: none !important;

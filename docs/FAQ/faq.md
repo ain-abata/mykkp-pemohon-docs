@@ -11,18 +11,21 @@ import Admonition from '@site/src/components/admonition';
 
 <div className="faq-top-cards">
   <div className="faq-module-card">
-    <h3>TK</h3>
-    <p>Akan dikemas kini.</p>
+    <div className="faq-module-icon">🏭</div>
+    <h3>Tempat Kerja (TK)</h3>
+    <p>Soalan lazim berkaitan tempat kerja akan dikemas kini.</p>
   </div>
 
   <div className="faq-module-card">
-    <h3>LOJI</h3>
-    <p>Akan dikemas kini.</p>
+    <div className="faq-module-icon">⚙️</div>
+    <h3>Loji</h3>
+    <p>Soalan lazim berkaitan loji dan jentera akan dikemas kini.</p>
   </div>
 
   <div className="faq-module-card">
-    <h3>OYK</h3>
-    <p>Akan dikemas kini.</p>
+    <div className="faq-module-icon">👷</div>
+    <h3>Orang Kompeten (OYK)</h3>
+    <p>Soalan lazim berkaitan orang kompeten akan dikemas kini.</p>
   </div>
 </div>
 
