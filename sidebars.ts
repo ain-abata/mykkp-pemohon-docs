@@ -41,6 +41,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'orang-kompeten/pembatalan-permohonan',
+        'orang-kompeten/pembayaran-fi',
       ],
     },
     {

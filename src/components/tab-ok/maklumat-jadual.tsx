@@ -6,8 +6,7 @@ Copy below 👇:
     tabNumber={1}
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgOkMaklumatKelayakanAkademik}
-    tambahImgSrc={imgOkTambahMaklumatKelayakanAkademik}
- />
+    tambahImgSrc={imgOkTambahMaklumatKelayakanAkademik} />
 
 Explanation of alphabetNumbering:
 - Isi dengan huruf kecil untuk penomboran abjad pada setiap tab. Contoh: a, b, c, ...

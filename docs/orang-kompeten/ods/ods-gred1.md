@@ -45,9 +45,9 @@ import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
-import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tab_maklumat_kelayakan_akademik.png';
+import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_kelayakan_akademik.png';
 
-import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tambah_maklumat_kelayakan_akademik.png';
+import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/ods-gred2/tambah_maklumat_kelayakan_akademik.png';
 
 <OkMaklumatJadual
     alphabetNumbering="C"
@@ -56,9 +56,9 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/t
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
 
-import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tab_pengalaman_kerja.png';
+import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gred2/tab_pengalaman_kerja.png';
 
-import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tambah_pengalaman_kerja.png';
+import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gred2/tambah_pengalaman_kerja.png';
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 <OkMaklumatJadual
