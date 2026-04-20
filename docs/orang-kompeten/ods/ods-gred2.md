@@ -145,7 +145,7 @@ import imgOkPerakuanKebolehan from '@site/assets/images/orang-kompeten/ods-gred2
 {/* Step K. Tab 11: Perakuan */}
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 
-import imgOkPerakuan from '@site/assets/images/orang-kompeten/ods-gred2/tab_Perakuan.png';
+import imgOkPerakuan from '@site/assets/images/orang-kompeten/ods-gred2/tab_perakuan.png';
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
