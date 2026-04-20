@@ -1,0 +1,31 @@
+/* =========================
+   Image Card Style
+========================= */
+.doc-image {
+  margin: 20px auto;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  max-width: 700px;
+  padding: 12px 12px 0 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.doc-image:hover {
+  transform: scale(1.01);
+}
+
+.doc-image img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+}
+
+/* Caption under image */
+.doc-image p {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #777;
+}

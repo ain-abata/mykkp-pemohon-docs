@@ -6,7 +6,12 @@
 
 /* You can override the default Infima variables here. */
 
-@import '../components/_navbar-sidebar.css';
+@import './navbar-sidebar.css';
+@import './step-card.css';
+@import './doc-card.css';
+@import './image-card.css';
+@import './admonition.css';
+@import './table-style.css';
 
 
 :root {
@@ -61,13 +66,6 @@ h3 {
   font-size: 1.2rem;
 }
 
-.step-card {
-  border: 1px solid #eee;
-  border-radius: 12px;
-  padding: 0 50px;
-  margin: 10px 0 10px 0;
-}
-
 /* =========================
    Lists (clean spacing)
 ========================= */
@@ -77,38 +75,6 @@ ul {
 
 li {
   margin-bottom: 6px;
-}
-
-/* =========================
-   Image Card Style (IMPORTANT)
-========================= */
-.doc-image {
-  margin: 20px auto;
-  text-align: center;
-  background: #ffffff;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  max-width: 700px;
-  padding: 12px 12px 0 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
-}
-
-.doc-image:hover {
-  transform: scale(1.01);
-}
-
-.doc-image img {
-  width: 100%;
-  max-width: 700px;
-  border-radius: 8px;
-}
-
-/* Caption under image */
-.doc-image p {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #777;
 }
 
 /* =========================
@@ -123,13 +89,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
+}
 
 /* =========================
    Highlight boxes (optional)
-========================= */
 /* =========================
    Base Admonition
-========================= */
 .admonition {
   padding: 15px;
   border-radius: 8px;
@@ -151,7 +116,6 @@ a:hover {
 
 /* =========================
    TIP (Light)
-========================= */
 .tip, .do {
   --bg: #E6F6E6;
   --border: #009400;
@@ -177,7 +141,6 @@ a:hover {
 
 /* =========================
    INFO (Light)
-========================= */
 .info {
   --bg: #E8F4FF;
   --border: #1e88e5;
@@ -201,7 +164,6 @@ a:hover {
 
 /* =========================
    WARNING (Light)
-========================= */
 .warning {
   --bg: #FFF4E5;
   --border: #ff9800;
@@ -225,7 +187,6 @@ a:hover {
 
 /* =========================
    DANGER (Light)
-========================= */
 .dont {
   --bg: #FDECEC;
   --border: #DC2626;
@@ -249,7 +210,6 @@ a:hover {
 
 /* =========================
    🌙 DARK MODE
-========================= */
 [data-theme='dark'] .tip,
 [data-theme='dark'] .do {
   --bg: #0f2e1f;
@@ -295,7 +255,6 @@ a:hover {
 
 /* =========================
    Table
-========================= */
 table {
   width: 100%;
   border-collapse: separate;

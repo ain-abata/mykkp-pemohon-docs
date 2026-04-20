@@ -1,0 +1,173 @@
+/* =========================
+   Highlight boxes (optional)
+========================= */
+/* =========================
+   Base Admonition
+========================= */
+.admonition {
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0 0 30px 30px;
+  border: 1px solid;
+  border-left: 5px solid;
+}
+
+.admonition-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.admonition p, .admonition li{
+  font-weight: 400;
+  margin: 0;
+}
+
+/* =========================
+   TIP (Light)
+========================= */
+.tip, .do {
+  --bg: #E6F6E6;
+  --border: #009400;
+  --title: #19482e;
+  --text: #194e31;
+}
+
+.tip, .do {
+  background: var(--bg);
+  border-left-color: var(--border);
+  border-color: var(--border);
+}
+
+.tip .Admonition-title,
+.do .Admonition-title {
+  color: var(--title);
+}
+
+.tip,
+.do {
+  color: var(--text);
+}
+
+/* =========================
+   INFO (Light)
+========================= */
+.info {
+  --bg: #E8F4FF;
+  --border: #1e88e5;
+  --title: #0d47a1;
+  --text: #0b3c91;
+}
+
+.info {
+  background: var(--bg);
+  border-left-color: var(--border);
+  border-color: var(--border);
+}
+
+.info .admonition-title {
+  color: var(--title);
+}
+
+.info {
+  color: var(--text);
+}
+
+/* =========================
+   WARNING (Light)
+========================= */
+.warning {
+  --bg: #FFF4E5;
+  --border: #ff9800;
+  --title: #8a4b00;
+  --text: #7a4200;
+}
+
+.warning {
+  background: var(--bg);
+  border-left-color: var(--border);
+  border-color: var(--border);
+}
+
+.warning .admonition-title {
+  color: var(--title);
+}
+
+.warning {
+  color: var(--text);
+}
+
+/* =========================
+   DANGER (Light)
+========================= */
+
+.important, .dont {
+  --bg: #FDECEC;
+  --border: #DC2626;
+  --title: #7F1D1D;
+  --text: #991B1B;
+}
+
+.important, .dont {
+  background: var(--bg);
+  border-left-color: var(--border);
+  border-color: var(--border);
+}
+
+.important .admonition-title,
+.dont .admonition-title {
+  color: var(--title);
+}
+
+.important, .dont {
+  color: var(--text);
+}
+
+/* =========================
+   🌙 DARK MODE
+========================= */
+[data-theme='dark'] .tip,
+[data-theme='dark'] .do {
+  --bg: #0f2e1f;
+  --border: #22c55e;
+  --title: #86efac;
+  --text: #bbf7d0;
+}
+
+[data-theme='dark'] .info {
+  --bg: #0f1f3a;
+  --border: #3b82f6;
+  --title: #93c5fd;
+  --text: #bfdbfe;
+}
+
+[data-theme='dark'] .warning {
+  --bg: #2a1a05;
+  --border: #f59e0b;
+  --title: #fcd34d;
+  --text: #fde68a;
+}
+
+[data-theme='dark'] .important,
+[data-theme='dark'] .dont {
+  --bg: #2a0f0f;
+  --border: #ef4444;
+  --title: #fca5a5;
+  --text: #fecaca;
+}
+
+/* =========================
+   Side-by-side layout
+========================= */
+.admonition-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* Make it responsive (VERY IMPORTANT) */
+@media (max-width: 768px) {
+  .admonition-row {
+    grid-template-columns: 1fr;
+  }
+}
