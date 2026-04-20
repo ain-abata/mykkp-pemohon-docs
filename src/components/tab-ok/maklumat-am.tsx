@@ -2,33 +2,47 @@
  * 
 Copy below 👇:
 <OkMaklumatAm
-    hasPanduanODS={true} />
+    hasPanduanODS={true}
+    tabImgSrc={imgOkMaklumatAm} />
 
 Explanation of hasPanduanODS:
 - true: Papar panduan ODS
 - false: Tidak papar panduan ODS
- 
+
+Explanation of tabImgSrc:
+- Import sumber gambar yang ingin dipaparkan pada tab.
+- Contoh:
+    import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
+                    👇
+    tabImgSrc={imgOkMaklumatAm}
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/tab/tab_maklumat_am.png';
-import imgOkMaklumatAm2 from '@site/assets/images/orang-kompeten/tab/tab_maklumat_am_2.png';
 import {KemaskiniMaklumat} from '@site/src/components/admonition-components';
 
-export default function OkMaklumatAm ({ hasPanduanODS }: { hasPanduanODS: boolean }) {
+
+interface OkMaklumatAmProps {
+  hasPanduan: boolean;
+  tabImgSrc?: string;
+}
+
+export default function OkMaklumatAm ({
+  hasPanduan,
+  tabImgSrc,
+}: OkMaklumatAmProps) {
     return (
         <div>
             <h4>A. Tab 1: Maklumat Am</h4>
             <div className="doc-image">
-                <img src={hasPanduanODS ? imgOkMaklumatAm2 : imgOkMaklumatAm} style={{ width: 450 }} />
-                <p>Tab A: Maklumat Am</p>
+                <img src={tabImgSrc} style={{ width: 450 }} />
+                <p>Tab 1: Maklumat Am</p>
             </div>
             
             <ul>
-                {hasPanduanODS && (
+                {hasPanduan && (
                     <li><b>Panduan:</b> Klik pada link berikut untuk merujuk Panduan Permohonan Pendaftaran & Pembaharuan.</li>
                 )}
                 <li><b>Contoh Gambar:</b> Klik pada link berikut untuk melihat format gambar yang menepati syarat.</li>

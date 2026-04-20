@@ -5,7 +5,8 @@ Copy below 👇:
     alphabetNumbering="a"
     tabNumber={1}
     tabName="Maklumat Sijil Kompetensi"
- />
+    tabImgSrc={imgOkMaklumatSijil}
+    mesejBerjayaImgSrc={imgOkMesejBerjaya} />
 
 Explanation of alphabetNumbering:
 - Isi dengan huruf kecil untuk penomboran abjad pada setiap tab. Contoh: a, b, c, ...
@@ -15,31 +16,39 @@ Explanation of tabNumber:
 
 Explanation of tabName:
 - Isi dengan nama modul yang dipaparkan pada tab. Contoh: Kelayakan Akademik, Pengalaman Kerja, ...
+
+Explanation of tabImgSrc & mesejBerjayaImgSrc:
+- Import sumber gambar yang ingin dipaparkan pada tab.
+- Contoh:
+    import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
+                    👇
+    tabImgSrc={imgOkMaklumatAm}
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import imgOkPerakuan from '@site/assets/images/orang-kompeten/tab/tab_Perakuan.png';
-import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
-
 interface OkPerakuanProps {
   alphabetNumbering: string;
   tabNumber: number;
   tabName: string;
+  tabImgSrc?: string;
+  mesejBerjayaImgSrc?: string;
 }
 
 export default function OkPerakuan({
     alphabetNumbering,
     tabNumber,
     tabName,
+    tabImgSrc,
+    mesejBerjayaImgSrc,
 }: OkPerakuanProps) {
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
         <div className="doc-image">
-            <img src={imgOkPerakuan} style={{ width: 450 }} />
+            <img src={tabImgSrc} style={{ width: 450 }} />
             <p>Tab {tabNumber}: {tabName}</p>
         </div>
         <ol>
@@ -53,7 +62,7 @@ export default function OkPerakuan({
             <br/>
             <p>Untuk membuat pembayaran, sila rujuk 👉 <b>Pembayaran</b>.</p>
             <div className="doc-image">
-                <img src={imgOkMesejBerjaya} style={{width: 450}} />
+                <img src={mesejBerjayaImgSrc} style={{width: 450}} />
                 <p><i>Pop-up</i> Mesej Berjaya</p>
             </div>
         </Admonition>

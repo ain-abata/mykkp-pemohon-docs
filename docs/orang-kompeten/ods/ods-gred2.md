@@ -10,13 +10,13 @@ import React from 'react';
 
 # 📝 Pendaftaran Sijil Operator Dandang Stim (Gred 2)
 
-import LoginStep from '../../../src/components/login-step';
+import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
-import MenuOk from '../../../src/components/menu-ok';
+import MenuOk from '@site/src/components/menu-ok';
 
 <MenuOk
   stepNumber={2}
@@ -28,26 +28,32 @@ import MenuOk from '../../../src/components/menu-ok';
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Operator Dandan Stim Gred 2
+### Langkah 3: Pengisian Borang Pendaftaran Operator Dandang Stim Gred 2
 
 {/* Step A. Tab 1: Maklumat Am */}
-import OkMaklumatAm from '../../../src/components/tab-ok/maklumat-am';
+import OkMaklumatAm from '@site/src/components/tab-ok/maklumat-am';
+
+import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
 
 <OkMaklumatAm
-    hasPanduanODS={true} />
+    hasPanduan={true}
+    tabImgSrc={imgOkMaklumatAm} />
 
 {/* Step B. Tab 2: Maklumat Majikan */}
-import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
+import OkMaklumatMajikan from '@site/src/components/tab-ok/maklumat-majikan';
+
+import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_majikan.png';
 
 <OkMaklumatMajikan
-    statusMajikanCount={3} />
+    hasOptionTiadaMajikan={true}
+    tabImgSrc={imgOkMaklumatMajikan} />
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
-import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
+import OkMaklumatJadual from '@site/src/components/tab-ok/maklumat-jadual';
 
-import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tab_maklumat_kelayakan_akademik.png';
+import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_kelayakan_akademik.png';
 
-import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tambah_maklumat_kelayakan_akademik.png';
+import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/ods-gred2/tambah_maklumat_kelayakan_akademik.png';
 
 <OkMaklumatJadual
     alphabetNumbering="C"
@@ -56,9 +62,9 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/t
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
 
-import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tab_pengalaman_kerja.png';
+import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gred2/tab_pengalaman_kerja.png';
 
-import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tambah_pengalaman_kerja.png';
+import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gred2/tambah_pengalaman_kerja.png';
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 <OkMaklumatJadual
@@ -68,9 +74,9 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tam
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
 
-import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/tab/tab_kursus_berkaitan.png';
+import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/ods-gred2/tab_kursus_berkaitan.png';
 
-import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/tab/tambah_kursus_berkaitan.png';
+import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/ods-gred2/tambah_kursus_berkaitan.png';
 
 {/* Step E. Tab 5: Kursus Berkaitan */}
 <OkMaklumatJadual
@@ -80,9 +86,9 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/tab/tam
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
 
-import imgJadualPeperiksaan from '@site/assets/images/orang-kompeten/tab/tab_maklumat_peperiksaan.png';
+import imgJadualPeperiksaan from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_peperiksaan.png';
 
-import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/tab/tambah_maklumat_peperiksaan.png';
+import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/ods-gred2/tambah_maklumat_peperiksaan.png';
 
 {/* Step F. Tab 6: Maklumat Peperiksaan */}
 <OkMaklumatJadual
@@ -93,47 +99,64 @@ import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/tab/tambah_
     tambahImgSrc={imgTambahPeperiksaan} />
 
 {/* Step G. Tab 7: Sijil Kompetensi */}
-import OkMaklumatSijil from '../../../src/components/tab-ok/sijil-kompetensi';
+import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
+
+import imgOkSijil from '@site/assets/images/orang-kompeten/ods-gred2/tab_sijil_kompetensi.png';
 
 <OkMaklumatSijil
     alphabetNumbering="G"
     tabNumber={7}
-    tabName="Sijil Kompetensi" />
+    tabName="Sijil Kompetensi"
+    tabImgSrc={imgOkSijil} />
 
 {/* Step H. Tab 8: Maklumat Perubatan */}
-import OkMaklumatPerubatan from '../../../src/components/tab-ok/maklumat-perubatan';
+import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan';
+
+import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_perubatan.png';
 
 <OkMaklumatPerubatan
     alphabetNumbering="H"
     tabNumber={8}
-    tabName="Maklumat Perubatan" />
+    tabName="Maklumat Perubatan"
+    tabImgSrc={imgOkMaklumatPerubatan} />
 
 {/* Step I. Tab 9: Dokumen Sokongan */}
-import OkDokumenSokongan from '../../../src/components/tab-ok/dokumen-sokongan';
+import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
+
+import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/ods-gred2/tab_dokumen_sokongan.png';
 
 <OkDokumenSokongan
     alphabetNumbering="I"
     tabNumber={9}
-    tabName="Dokumen Sokongan" />
+    tabName="Dokumen Sokongan"
+    tabImgSrc={imgOkDokumenSokongan} />
 
 {/* Step J. Tab 10: Perakuan Kebolehan */}
-import OkPerakuanKebolehan from '../../../src/components/tab-ok/perakuan-kebolehan';
+import OkPerakuanKebolehan from '@site/src/components/tab-ok/perakuan-kebolehan';
+
+import imgOkPerakuanKebolehan from '@site/assets/images/orang-kompeten/ods-gred2/tab_perakuan_kebolehan.png';
 
 <OkPerakuanKebolehan
     alphabetNumbering="I"
     tabNumber={9}
-    tabName="Perakuan Kebolehan" />
+    tabName="Perakuan Kebolehan"
+    tabImgSrc={imgOkPerakuanKebolehan} />
 
 {/* Step K. Tab 11: Perakuan */}
-import OkPerakuan from '../../../src/components/tab-ok/perakuan';
+import OkPerakuan from '@site/src/components/tab-ok/perakuan';
+
+import imgOkPerakuan from '@site/assets/images/orang-kompeten/ods-gred2/tab_Perakuan.png';
+import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
     alphabetNumbering="K"
     tabNumber={10}
-    tabName="Perakuan" />
+    tabName="Perakuan"
+    tabImgSrc={imgOkPerakuan}
+    mesejBerjayaImgSrc={imgOkMesejBerjaya} />
 
 </div>
 
-import WhatNext from '../../../src/components/tab-ok/what-next';
+import WhatNext from '@site/src/components/tab-ok/what-next';
 
 <WhatNext />

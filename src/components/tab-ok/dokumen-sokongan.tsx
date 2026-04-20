@@ -5,7 +5,7 @@ Copy below 👇:
     alphabetNumbering="a"
     tabNumber={1}
     tabName="Dokumen Sokongan"
- />
+    tabImgSrc={imgOkDokumenSokongan} />
 
 Explanation of alphabetNumbering:
 - Isi dengan huruf kecil untuk penomboran abjad pada setiap tab. Contoh: a, b, c, ...
@@ -15,31 +15,39 @@ Explanation of tabNumber:
 
 Explanation of tabName:
 - Isi dengan nama modul yang dipaparkan pada tab. Contoh: Kelayakan Akademik, Pengalaman Kerja, ...
+
+Explanation of tabImgSrc:
+- Import sumber gambar yang ingin dipaparkan pada tab.
+- Contoh:
+    import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
+                    👇
+    tabImgSrc={imgOkMaklumatAm}
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/tab/tab_dokumen_sokongan.png';
 import iconMuatNaik from '@site/assets/images/orang-kompeten/ikon_muat_naik.png';
 
 interface OkDokumenSokonganProps {
   alphabetNumbering: string;
   tabNumber: number;
   tabName: string;
+  tabImgSrc?: string;
 }
 
 export default function OkDokumenSokongan({
     alphabetNumbering,
     tabNumber,
     tabName,
+    tabImgSrc,
 }: OkDokumenSokonganProps) {
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
         <div className="doc-image">
-            <img src={imgOkDokumenSokongan} style={{ width: 450 }} />
+            <img src={tabImgSrc} style={{ width: 450 }} />
             <p>Tab {tabNumber}: {tabName}</p>
         </div>
         <ol>

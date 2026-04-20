@@ -5,6 +5,7 @@ Copy below 👇:
     alphabetNumbering="a"
     tabNumber={1}
     tabName="Perakuan Kebolehan"
+    tabImgSrc={imgOkPerakuanKebolehan} />
  />
 
 Explanation of alphabetNumbering:
@@ -15,30 +16,37 @@ Explanation of tabNumber:
 
 Explanation of tabName:
 - Isi dengan nama modul yang dipaparkan pada tab. Contoh: Kelayakan Akademik, Pengalaman Kerja, ...
+
+Explanation of tabImgSrc:
+- Import sumber gambar yang ingin dipaparkan pada tab.
+- Contoh:
+    import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
+                    👇
+    tabImgSrc={imgOkMaklumatAm}
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import imgOkPerakuanKebolehan from '@site/assets/images/orang-kompeten/tab/tab_perakuan_kebolehan.png';
-
 interface OkPerakuanKebolehanProps {
   alphabetNumbering: string;
   tabNumber: number;
   tabName: string;
+  tabImgSrc?: string;
 }
 
 export default function OkPerakuanKebolehan({
     alphabetNumbering,
     tabNumber,
     tabName,
+    tabImgSrc,
 }: OkPerakuanKebolehanProps) {
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
         <div className="doc-image">
-            <img src={imgOkPerakuanKebolehan} style={{ width: 450 }} />
+            <img src={tabImgSrc} style={{ width: 450 }} />
             <p>Tab {tabNumber}: {tabName}</p>
         </div>
         <Admonition type="warning">

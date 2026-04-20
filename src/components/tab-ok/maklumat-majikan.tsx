@@ -2,11 +2,19 @@
  * 
 Copy below 👇:
 <OkMaklumatMajikan
-    statusMajikanCount={3} />
+    statusMajikanCount={3}
+    tabImgSrc={imgOkMaklumatMajikan} />
 
 Explanation of statusMajikanCount:
 - 3: Ada Majikan, Majikan Sementara, Tiada Majikan
 - 2: Ada Majikan, Majikan Sementara
+
+Explanation of tabImgSrc:
+- Import sumber gambar yang ingin dipaparkan pada tab.
+- Contoh:
+    import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
+                    👇
+    tabImgSrc={imgOkMaklumatAm}
  
 */
 
@@ -14,26 +22,23 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/tab/tab_maklumat_majikan_3status.png';
-import imgOkMaklumatMajikan2 from '@site/assets/images/orang-kompeten/tab/tab_maklumat_majikan_2status.png';
+import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_majikan_3status.png';
+import imgOkMaklumatMajikan2 from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_majikan_2status.png';
 
-export default function OkMaklumatMajikan ( {statusMajikanCount}: { statusMajikanCount: number } ) {
-    
-    let imageSrc;
+interface OkMaklumatMajikanProps {
+  hasOptionTiadaMajikan: boolean;
+  tabImgSrc?: string;
+}
 
-    if (statusMajikanCount === 3) {
-    imageSrc = imgOkMaklumatMajikan;
-    } else if (statusMajikanCount === 2) {
-    imageSrc = imgOkMaklumatMajikan2;
-    } else {
-    imageSrc = imgOkMaklumatMajikan; // fallback
-    }
-
+export default function OkMaklumatMajikan ({
+    hasOptionTiadaMajikan,
+    tabImgSrc,
+}: OkMaklumatMajikanProps) {
     return (
         <div>
             <h4>B. Tab 2: Maklumat Majikan</h4>
             <div className="doc-image">
-                <img src={imageSrc} style={{ width: 450 }} />
+                <img src={tabImgSrc} style={{ width: 450 }} />
                 <p>Tab 2: Maklumat Majikan</p>
             </div>
             
@@ -54,7 +59,7 @@ export default function OkMaklumatMajikan ( {statusMajikanCount}: { statusMajika
                                 <li>Maklumat majikan yang dipilih akan terpapar pada medan.</li>
                             </ol>
                         </li>
-                        {statusMajikanCount === 3 && (
+                        {hasOptionTiadaMajikan && (
                             <li><b>Tiada Majikan:</b> Tidak perlu mengisi maklumat.</li>
                         )}
                         <li><b>Majikan Sementara:</b> Isi maklumat pada medan ruangan yang berkaitan.</li>
