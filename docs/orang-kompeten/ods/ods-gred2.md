@@ -47,7 +47,7 @@ import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
 import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tab_maklumat_kelayakan_akademik.png';
 
-import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tambah_maklumat_kelayakan_akademik.png';
+import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tambah_maklumat_kelayakan_akademik.png';
 
 <OkMaklumatJadual
     alphabetNumbering="C"
@@ -58,7 +58,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tamba
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tab_pengalaman_kerja.png';
 
-import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tambah_pengalaman_kerja.png';
+import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tambah_pengalaman_kerja.png';
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 <OkMaklumatJadual
@@ -70,7 +70,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tambah_
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/tab/tab_kursus_berkaitan.png';
 
-import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/tambah_kursus_berkaitan.png';
+import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/tab/tambah_kursus_berkaitan.png';
 
 {/* Step E. Tab 5: Kursus Berkaitan */}
 <OkMaklumatJadual
@@ -82,7 +82,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/tambah_
 
 import imgJadualPeperiksaan from '@site/assets/images/orang-kompeten/tab/tab_maklumat_peperiksaan.png';
 
-import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/tambah_maklumat_peperiksaan.png';
+import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/tab/tambah_maklumat_peperiksaan.png';
 
 {/* Step F. Tab 6: Maklumat Peperiksaan */}
 <OkMaklumatJadual

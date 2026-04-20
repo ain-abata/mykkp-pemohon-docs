@@ -47,7 +47,7 @@ import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
 import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tab_maklumat_kelayakan_akademik.png';
 
-import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tambah_maklumat_kelayakan_akademik.png';
+import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tab/tambah_maklumat_kelayakan_akademik.png';
 
 <OkMaklumatJadual
     alphabetNumbering="C"
@@ -58,7 +58,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/tamba
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tab_pengalaman_kerja.png';
 
-import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tambah_pengalaman_kerja.png';
+import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/tab/tambah_pengalaman_kerja.png';
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 <OkMaklumatJadual
