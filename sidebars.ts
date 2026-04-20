@@ -36,7 +36,21 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Bantuan',
-      items: ['FAQ/faq'],
+      items: [
+        {
+          type: 'category',
+          label: 'FAQ',
+          link: {
+            type: 'doc',
+            id: 'FAQ/faq',
+          },
+          items: [
+            'FAQ/tk',
+            'FAQ/loji',
+            'FAQ/oyk',
+          ],
+        },
+      ],
     },
   ],
 
