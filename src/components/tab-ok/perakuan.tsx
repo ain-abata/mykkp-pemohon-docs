@@ -22,7 +22,7 @@ Explanation of tabImgSrc & mesejBerjayaImgSrc:
 - Contoh:
     import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
                     👇
-    tabImgSrc={imgOkMaklumatAm}
+    tabImgSrc={imgOkMaklumatAm} 
 */
 
 import React from 'react';
