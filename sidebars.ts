@@ -24,7 +24,23 @@ const sidebars: SidebarsConfig = {
       label: 'Getting Started',
       items: [
         'pendaftaran/pendaftaran',
-        'pemtk/pemtk'
+        'pemtk/pemtk',
+        'orang-kompeten/orang-kompeten'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Orang Kompeten',
+      items: [
+        {
+          type: 'category',
+          label: 'Keselamatan',
+          items: [
+            'orang-kompeten/ods/ods-gred2',
+            'orang-kompeten/ods/ods-gred1',
+          ],
+        },
+        'orang-kompeten/pembatalan-permohonan',
       ],
     },
     {

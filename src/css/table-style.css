@@ -1,0 +1,71 @@
+/* =========================
+   Table
+========================= */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: fit-content;
+  margin: 1.5rem auto;
+  font-size: 0.95rem;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header */
+th {
+  background: linear-gradient(135deg, #538DD3, #6a9fe1);
+  color: #fff;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Cells */
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+
+/* Zebra striping */
+tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+/* Hover effect */
+tr:hover td {
+  background: #eef2ff;
+  transition: 0.2s ease;
+}
+
+/* Rounded corners */
+th:first-child {
+  border-top-left-radius: 12px;
+}
+th:last-child {
+  border-top-right-radius: 12px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+@media print {
+  table {
+    background: white !important;
+    color: black !important;
+  }
+
+  th {
+    background: white !important;
+    color: black !important;
+  }
+}

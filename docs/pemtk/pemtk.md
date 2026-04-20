@@ -2,7 +2,7 @@
 title: Pemberitahuan Tempat Kerja
 description: Panduan lengkap pemberitahuan tempat kerja
 hide_table_of_contents: true
-sidebar_label: 'Daftar Tempat Kerja (PEMTK)'
+sidebar_label: 'Daftar Tempat Kerja'
 ---
 
 import Admonition from '@site/src/components/admonition';
@@ -29,38 +29,9 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan Pemberitahuan 
 
 ## 🧭 Langkah-langkah Pemberitahuan
 
-<div className="step-card">
+import LoginStep from '../../src/components/login-step';
 
-### Langkah 1: Akses Halaman Log Masuk MyKKP
-
-Klik pautan berikut:  👉 [Log Masuk MyKKP](https://mykkpstg.dosh.gov.my/#/home/log-masuk)
-
-import step1 from '../../assets/images/pemtk/log_masuk.png';
-
-<div className="doc-image">
-  <img src={step1} style={{width: 400}} />
-  <p>Halaman Log Masuk MyKKP</p>
-</div>
-
-1. Masukkan **ID pengguna** dan **Kata Laluan** yang tepat dan sah.
-2. Klik butang **Log Masuk**.
-
-{Admonition({
-  type: "info",
-  children: React.createElement(
-      'ul',
-      null,
-      React.createElement('li', null, 'Jika terlupa ID Pengguna, sila emel kepada MyKKP.'),
-      React.createElement('li', null, 'Jika terlupa Kata Laluan, sila klik ',
-        React.createElement('strong', null, 'Lupa Kata Laluan?'), '.'
-      ),
-      React.createElement('li', null, 'Jika belum mempunyai akaun, sila klik ',
-        React.createElement('strong', null, 'Daftar sini'), '.'
-      )
-    )
-})}
-
-</div>
+<LoginStep title="Langkah 1: Akses Halaman Log Masuk MyKKP" />
 
 <div className="step-card">
 
@@ -275,6 +246,6 @@ import step5_2 from '../../assets/images/pemtk/pop_up_jenis_surat_sijil.png';
 </div>
 
 4. Klik butang **OK** dan klik butang **Cari** yang berada di sebelah kanan medan *dropdown*.
-5. Klik butang **Lihat** berdasarkan **No.Rujukan Permohonan** yang telah dibuat untuk memaparkan surat yang dikehendaki.
+5. Klik butang **Lihat** berdasarkan **No. Rujukan Permohonan** yang telah dibuat untuk memaparkan surat yang dikehendaki.
 
 </div>
