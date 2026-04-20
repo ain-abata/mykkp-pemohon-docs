@@ -21,7 +21,7 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import imgOkPerakuan from '@site/assets/images/orang-kompeten/tab/tab_Perakuan.png';
+import imgOkPerakuan from '@site/assets/images/orang-kompeten/tab/tab_perakuan.png';
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 interface OkPerakuanProps {
