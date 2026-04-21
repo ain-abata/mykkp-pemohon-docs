@@ -60,7 +60,7 @@ export default function OkPerakuan({
         <Admonition type="important">
             <p>Pemohon perlu membuat <b>pembayaran Fi Pemprosesan dalam masa 7 hari dari tarikh penghantaran permohonan</b>. Jika pembayaran tidak dijelaskan dalam tempoh tersebut, permohonan akan digugurkan secara automatik oleh sistem.</p>
             <br/>
-            <p>Untuk membuat pembayaran, sila rujuk 👉 <b>Pembayaran</b>.</p>
+            <p>Untuk membuat pembayaran, sila rujuk 👉 <b><Link to="../pembayaran-fi">Cara Pembayaran Fi</Link></b>.</p>
             <div className="doc-image">
                 <img src={mesejBerjayaImgSrc} style={{width: 450}} />
                 <p><i>Pop-up</i> Mesej Berjaya</p>

@@ -21,7 +21,7 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-import {KemaskiniMaklumat} from '@site/src/components/admonition-components';
+import KemaskiniMaklumat from '@site/src/components/admonitions/kemaskini-maklumat';
 
 
 interface OkMaklumatAmProps {

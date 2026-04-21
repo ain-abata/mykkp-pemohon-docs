@@ -110,11 +110,11 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/ods-gred2/tab_sijil_k
     tabImgSrc={imgOkSijil} />
 
 {/* Step H. Tab 8: Maklumat Perubatan */}
-import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan';
+import OkMaklumatPerubatanOHD from '@site/src/components/tab-ok/maklumat-perubatan-ohd';
 
 import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_perubatan.png';
 
-<OkMaklumatPerubatan
+<OkMaklumatPerubatanOHD
     alphabetNumbering="H"
     tabNumber={8}
     tabName="Maklumat Perubatan"
@@ -146,7 +146,7 @@ import imgOkPerakuanKebolehan from '@site/assets/images/orang-kompeten/ods-gred2
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 
 import imgOkPerakuan from '@site/assets/images/orang-kompeten/ods-gred2/tab_perakuan.png';
-import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
+import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/ods-gred2/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
     alphabetNumbering="K"
