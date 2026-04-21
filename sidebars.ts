@@ -38,6 +38,8 @@ const sidebars: SidebarsConfig = {
           items: [
             'orang-kompeten/ods/ods-gred2',
             'orang-kompeten/ods/ods-gred1',
+            'orang-kompeten/kren/kren-menara-daftar',
+            'orang-kompeten/kren/kren-menara-renewal',
           ],
         },
         'orang-kompeten/pembatalan-permohonan',
