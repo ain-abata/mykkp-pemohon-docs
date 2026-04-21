@@ -28,19 +28,21 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
-interface OkMaklumatPerubatanProps {
+import EmptyFieldWarning from '@site/src/components/admonitions/empty-field-warning';
+
+interface OkMaklumatPerubatanMMCProps {
   alphabetNumbering: string;
   tabNumber: number;
   tabName: string;
   tabImgSrc?: string;
 }
 
-export default function OkMaklumatPerubatan({
+export default function OkMaklumatPerubatanMMC({
     alphabetNumbering,
     tabNumber,
     tabName,
     tabImgSrc,
-}: OkMaklumatPerubatanProps) {
+}: OkMaklumatPerubatanMMCProps) {
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
@@ -49,12 +51,10 @@ export default function OkMaklumatPerubatan({
             <p>Tab {tabNumber}: {tabName}</p>
         </div>
         <ol>
-            <li>Isi <b>No. Pendaftaran OHD</b> yang telah berdaftar dengan sistem MyKKP pada medan ruangan disediakan untuk memaparkan maklumat pegawai perubatan OHD.</li>
+            <li>Isi pada medan yang disediakan.</li>
             <li>Klik butang <b>Seterusnya</b>.</li>
         </ol>
-        <Admonition type="warning">
-            Pastikan <b>No. Pendaftaran OHD</b> yang dimasukkan masih sah.
-        </Admonition>
+        <EmptyFieldWarning />
     </div>
   );
 }

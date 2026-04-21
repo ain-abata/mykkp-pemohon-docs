@@ -1,0 +1,201 @@
+/* top cards */
+.faq-top-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.faq-module-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+height: 100%;
+}
+
+.faq-module-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  border-color: #d1d5db;
+}
+
+.faq-module-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  font-size: 1.8rem;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.05);
+}
+
+.faq-module-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.faq-module-card p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.faq-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.faq-card-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 996px) {
+  .faq-top-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.faq-list {
+  margin: 0.75rem 0 1.5rem;
+}
+
+
+.faq-item {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  margin-bottom: 0.9rem;
+  padding: 0.4rem;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+
+.faq-item:hover {
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.07);
+  border-color: #d1d5db;
+}
+
+
+.faq-item summary {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000000;
+  padding: 1rem 3rem 1rem 1.25rem;
+}
+
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary::marker {
+  content: "";
+}
+.faq-item summary::before {
+  content: none !important;
+  display: none !important;
+}
+
+
+.faq-item summary::after {
+  content: "❯";
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  font-size: 0.95rem;
+  color: #9ca3af;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+
+.faq-item[open] summary::after {
+  transform: translateY(-50%) rotate(90deg);
+  color: #6b7280;
+}
+
+
+.faq-answer {
+  padding: 0 1.25rem 1rem 1.25rem;
+  color: #374151;
+  line-height: 1.75;
+    border-top: none !important;
+  box-shadow: none !important;
+}
+.faq-answer::before,
+.faq-answer::after {
+  display: none !important;
+  content: none !important;
+}
+
+
+.faq-answer hr {
+  display: none;
+}
+.faq-answer p:first-child,
+.faq-answer ul:first-child,
+.faq-answer ol:first-child {
+  margin-top: 0;
+}
+
+
+.faq-answer p:last-child,
+.faq-answer ul:last-child,
+.faq-answer ol:last-child {
+  margin-bottom: 0;
+}
+
+
+.theme-doc-markdown h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+
+.theme-doc-markdown h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+
+@media (max-width: 996px) {
+  .faq-top-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* remove Docusaurus collapsible divider line inside FAQ */
+.faq-item [class^="collapsibleContent_"],
+.faq-item [class*=" collapsibleContent_"] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-top: none !important;
+}
+
+
+.faq-item details,
+.faq-item summary,
+.faq-item .faq-answer {
+  border-top: none !important;
+}
