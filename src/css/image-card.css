@@ -29,3 +29,58 @@
   font-size: 13px;
   color: #777;
 }
+.doc-image img {
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.doc-image img:hover {
+  transform: scale(1.02);
+}
+
+.image-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 1.5rem;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  text-align: center;
+}
+
+.image-modal-img {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+}
+
+.image-modal-caption {
+  margin-top: 0.75rem;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 999px;
+  background: #fff;
+  color: #000;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1;
+}

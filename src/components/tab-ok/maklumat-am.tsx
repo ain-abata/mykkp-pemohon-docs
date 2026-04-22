@@ -20,27 +20,29 @@ Explanation of tabImgSrc:
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
-
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import KemaskiniMaklumat from '@site/src/components/admonitions/kemaskini-maklumat';
 
 
 interface OkMaklumatAmProps {
-  hasPanduan: boolean;
-  tabImgSrc?: string;
+    hasPanduan: boolean;
+    tabImgSrc?: string;
 }
 
-export default function OkMaklumatAm ({
-  hasPanduan,
-  tabImgSrc,
+export default function OkMaklumatAm({
+    hasPanduan,
+    tabImgSrc,
 }: OkMaklumatAmProps) {
     return (
         <div>
             <h4>A. Tab 1: Maklumat Am</h4>
-            <div className="doc-image">
-                <img src={tabImgSrc} style={{ width: 450 }} />
-                <p>Tab 1: Maklumat Am</p>
-            </div>
-            
+            <ExpandableImage
+                src={tabImgSrc}
+                alt="Tab 1 Maklumat Am"
+                caption="Tab 1: Maklumat Am"
+                width={650}
+            />
+
             <ul>
                 {hasPanduan && (
                     <li><b>Panduan:</b> Klik pada link berikut untuk merujuk Panduan Permohonan Pendaftaran & Pembaharuan.</li>
@@ -64,5 +66,6 @@ export default function OkMaklumatAm ({
             */}
 
         </div>
+
     );
 }
