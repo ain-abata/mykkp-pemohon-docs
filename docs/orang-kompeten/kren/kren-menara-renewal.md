@@ -2,7 +2,7 @@
 title: PEMBAHARUAN OPERATOR KREN MENARA (OKren)
 description: Panduan lengkap penmbaharuan sijil operator kren menara
 hide_table_of_contents: true
-sidebar_label: 'Pembaharuan Operator Kren Menara'
+sidebar_label: 'Pembaharuan'
 ---
 
 import Admonition from '@site/src/components/admonition';
