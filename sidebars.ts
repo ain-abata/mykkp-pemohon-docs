@@ -38,6 +38,22 @@ const sidebars: SidebarsConfig = {
           items: [
             'orang-kompeten/ods/ods-gred2',
             'orang-kompeten/ods/ods-gred1',
+            {
+              type: 'category',
+              label: 'Operator Kren Menara',
+              items: [
+                'orang-kompeten/kren/kren-menara-daftar',
+                'orang-kompeten/kren/kren-menara-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Operator Kren Bergerak Beroda',
+              items: [
+                'orang-kompeten/kren/kren-bergerakberoda-daftar',
+                'orang-kompeten/kren/kren-bergerakberoda-renewal',
+              ],
+            },
           ],
         },
         'orang-kompeten/pembatalan-permohonan',
