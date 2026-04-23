@@ -17,7 +17,17 @@ import LoginStep from '@site/src/components/login-step';
   title="Akses Halaman Log Masuk MyKKP" />
 
 {/* Langkah 2: Masuk ke Menu untuk melakukan Pembaharuan */}
+import PembaharuanOk from '@site/src/components/menu-renewal-ok';
 
+import imgMenuOk from '@site/assets/images/orang-kompeten/agtes/pembaharuan/menu_utama.png';
+
+import imgMenuRenewal from '@site/assets/images/orang-kompeten/agtes/pembaharuan/halaman_senarai_kompetensi.png';
+
+<PembaharuanOk 
+    stepNumber={2}
+    pageName="Penguji Gas Bertauliah dan Penyelia Kemasukan"
+    pageImgSrc={imgMenuOk}
+    tambahImgSrc={imgMenuRenewal} />
 
 <div className="step-card">
 

@@ -39,9 +39,8 @@ export default function OkMaklumatAm({
                 src={tabImgSrc}
                 alt="Tab 1 Maklumat Am"
                 caption="Tab 1: Maklumat Am"
-                width={650}
-            />
-
+                width={450} />
+                
             <ul>
                 {hasPanduan && (
                     <li><b>Panduan:</b> Klik pada link berikut untuk merujuk Panduan Permohonan Pendaftaran & Pembaharuan.</li>

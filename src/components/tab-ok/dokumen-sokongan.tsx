@@ -27,6 +27,7 @@ Explanation of tabImgSrc:
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 import iconMuatNaik from '@site/assets/images/orang-kompeten/ikon_muat_naik.png';
 
@@ -46,10 +47,11 @@ export default function OkDokumenSokongan({
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
-        <div className="doc-image">
-            <img src={tabImgSrc} style={{ width: 450 }} />
-            <p>Tab {tabNumber}: {tabName}</p>
-        </div>
+        <ExpandableImage
+            src={tabImgSrc}
+            alt={tabName}
+            caption={'Tab ' + tabNumber + ': ' + tabName}
+            width={450} />
         <ol>
             <li>Klik butang <img src={iconMuatNaik} style={{width: 15}} /> untuk memuat naik dokumen <b>PDF</b> yang berkenaan pada medan bersyarat <b>Wajib</b>.</li>
             <li>Isi medan <b>Diskripsi</b> dan klik butang <b><i>Choose File</i></b> untuk memilih dokumen.</li>

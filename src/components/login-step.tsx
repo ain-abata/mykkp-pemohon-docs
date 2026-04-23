@@ -1,5 +1,6 @@
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 import imgLogin from '@site/assets/images/log_masuk.png';
 
@@ -15,10 +16,11 @@ export default function LoginStep({ stepNumber, title }: { stepNumber: number; t
         </a>
       </p>
 
-      <div className="doc-image">
-        <img src={imgLogin} style={{ width: 300 }} />
-        <p>Halaman Log Masuk MyKKP</p>
-      </div>
+      <ExpandableImage
+        src={imgLogin}
+        alt="Halaman Log Masuk MyKKP"
+        caption="Halaman Log Masuk MyKKP"
+        width={300} />
 
       <ol>
         <li>Masukkan <b>ID pengguna</b> dan <b>Kata Laluan</b>.</li>

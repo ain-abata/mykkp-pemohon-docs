@@ -21,6 +21,7 @@ Explanation of tabImgSrc:
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 interface OkMaklumatMajikanProps {
   hasOptionTiadaMajikan: boolean;
@@ -34,13 +35,13 @@ export default function OkMaklumatMajikan ({
     return (
         <div>
             <h4>B. Tab 2: Maklumat Majikan</h4>
-            <div className="doc-image">
-                <img src={tabImgSrc} style={{ width: 450 }} />
-                <p>Tab 2: Maklumat Majikan</p>
-            </div>
-            
+            <ExpandableImage
+                src={tabImgSrc}
+                alt="Maklumat Majikan"
+                caption="Tab 2: Maklumat Majikan"
+                width={450} />
             <ol>
-                <li>Pilih salah satu (1) antara tiga (3) <b>Status Majikan</b>:
+                <li>Pilih salah satu (1) antara <b>Status Majikan</b> berikut:
                     <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                         <li>
                             <b>Ada Majikan:</b>
