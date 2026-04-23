@@ -51,7 +51,7 @@ export default function OkMaklumatMajikan({
                 width={650}
             />
             <ol>
-                <li>Pilih salah satu (1) antara tiga (3) <b>Status Majikan</b>:
+                <li>Pilih salah satu (1) antara <b>Status Majikan</b> berikut:
                     <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                         <li>
                             <b>Ada Majikan:</b>
@@ -70,7 +70,7 @@ export default function OkMaklumatMajikan({
                         {hasOptionTiadaMajikan && (
                             <li><b>Tiada Majikan:</b> Tidak perlu mengisi maklumat.</li>
                         )}
-                        <li><b>Majikan Sementara:</b> Isi maklumat pada medan ruangan yang berkaitan.</li>
+                        <li><b>Majikan Luar Negara:</b> Isi maklumat pada medan ruangan yang berkaitan.</li>
                     </ul>
                 </li>
                 <li>Klik butang <b>Seterusnya</b>.</li>

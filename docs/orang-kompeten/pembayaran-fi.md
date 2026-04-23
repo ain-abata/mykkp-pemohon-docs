@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 
       ### Langkah 1: Lihat Sebut Harga Pemprosesan
 
-      Terdapat **dua (2)** cara untuk menyemak dokumen **Sebut Harga Pemprosesan**:
+      Terdapat **DUA (2)** cara untuk menyemak dokumen **Sebut Harga Pemprosesan**:
 
       #### A. Dari Halaman Senarai Permohonan
 
@@ -101,7 +101,7 @@ import imgStatusBayarProses from '@site/assets/images/orang-kompeten/pembayaran-
 
       ### Langkah 1: Lihat Sebut Harga Pendaftaran
 
-      Terdapat **dua (2)** cara untuk menyemak dokumen **Sebut Harga Pendaftaran**:
+      Terdapat **DUA (2)** cara untuk menyemak dokumen **Sebut Harga Pendaftaran**:
 
       #### A. Dari Halaman Senarai Permohonan
 

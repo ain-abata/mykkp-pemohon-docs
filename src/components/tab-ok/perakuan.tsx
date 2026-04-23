@@ -31,6 +31,7 @@ Explanation of tabImgSrc & mesejBerjayaImgSrc:
 */
 
 import React from 'react';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 import ExpandableImage from '../common/ExpandableImage';
@@ -70,10 +71,13 @@ export default function OkPerakuan({
             <p>Pemohon perlu membuat <b>pembayaran Fi Pemprosesan dalam masa 7 hari dari tarikh penghantaran permohonan</b>. Jika pembayaran tidak dijelaskan dalam tempoh tersebut, permohonan akan digugurkan secara automatik oleh sistem.</p>
             <br/>
             <p>Untuk membuat pembayaran, sila rujuk 👉 <b><Link to="../pembayaran-fi">Cara Pembayaran Fi</Link></b>.</p>
-            <div className="doc-image">
-                <img src={mesejBerjayaImgSrc} style={{width: 450}} />
-                <p><i>Pop-up</i> Mesej Berjaya</p>
-            </div>
+            
+            <ExpandableImage
+                src={mesejBerjayaImgSrc} 
+                alt={tabName}
+                caption={'Pop-up Mesej Berjaya'}
+                width={450} />
+                
         </Admonition>
     </div>
   );
