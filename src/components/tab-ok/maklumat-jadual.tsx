@@ -28,6 +28,7 @@ Explanation of tabImgSrc and tambahImgSrc:
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 interface OkMaklumatJadualProps {
   alphabetNumbering: string;
@@ -47,10 +48,11 @@ export default function OkMaklumatJadual({
     return (
         <div>
             <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
-            <div className="doc-image">
-                <img src={tabImgSrc} />
-                <p>Tab {tabNumber}: {tabName}</p>
-            </div>
+            <ExpandableImage
+                src={tabImgSrc}
+                alt={tabName}
+                caption={'Tab ' + tabNumber + ': ' + tabName}
+                width={450} />
             <ol>
                 <li>Pengemaskinian maklumat pengalaman kerja boleh dilakukan seperti berikut:</li>
             </ol>
@@ -63,10 +65,11 @@ export default function OkMaklumatJadual({
                     <li>Klik butang <b>Simpan</b> untuk menyimpan maklumat yang telah diisi.</li>
                 </ol>
             </ul>
-            <div className="doc-image">
-                <img src={tambahImgSrc} style={{maxWidth: 500}} />
-                <p><i>Pop-up</i> Tambah Maklumat</p>
-            </div>
+            <ExpandableImage
+                src={tambahImgSrc}
+                alt="Pop-up Tambah Maklumat"
+                caption="Pop-up Tambah Maklumat"
+                width={450} />
             <ul>
                 <li><b>Kemaskini Maklumat:</b></li>
 

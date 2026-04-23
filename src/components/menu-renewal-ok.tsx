@@ -5,7 +5,6 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 interface PembaharuanOkProps {
     stepNumber: number;
     pageName: string;
-    registrationType: string;
     pageImgSrc?: string;
     tambahImgSrc?: string;
 }
@@ -13,7 +12,6 @@ interface PembaharuanOkProps {
 export default function PembaharuanOk({
     stepNumber,
     pageName,
-    registrationType,
     pageImgSrc,
     tambahImgSrc,
 }: PembaharuanOkProps) {
@@ -27,6 +25,14 @@ export default function PembaharuanOk({
                 caption="Halaman Menu Utama"
                 width={650}
             />
+            <Admonition type="tip">
+                Pastikan dashboard yang dipilih adalah dashboard <b>Orang Kompeten</b>.
+            </Admonition>
+            <ExpandableImage
+                src={tambahImgSrc}
+                alt={`Halaman Maklumat OK ${pageName}`}
+                caption="Halaman Maklumat OK"
+                width={650} />
 
             <ol>
                 <li>
@@ -35,18 +41,9 @@ export default function PembaharuanOk({
                 <li>
                     Klik butang sub-menu <b>Maklumat OK</b> yang terdapat dalam pilihan menu <b>Profil Saya</b>.
                 </li>
-                <Admonition type="tip">
-                    Pastikan dashboard yang dipilih adalah dashboard <b>Orang Kompeten</b>.
-                </Admonition>
                 <li>
                     Halaman <b>Maklumat OK/Orang Terlatih</b> akan dipaparkan seperti di bawah.
                 </li>
-                <ExpandableImage
-                    src={tambahImgSrc}
-                    alt={`Halaman Maklumat OK ${pageName}`}
-                    caption="Halaman Maklumat OK"
-                    width={650}
-                />
                 <li>
                     Pada <b>Senarai Kompetensi Yang Diluluskan</b>, klik butang <b>Pembaharuan</b> untuk membuat permohonan pembaharuan bagi no. pendaftaran jenis <b>{registrationType}</b>.
                 </li>

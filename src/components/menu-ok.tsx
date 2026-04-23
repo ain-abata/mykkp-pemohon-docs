@@ -37,7 +37,7 @@ Explanation of moduleType:
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
-
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import imgMenu from '@site/assets/images/orang-kompeten/menu_utama.png';
 
 interface MenuOkProps {
@@ -61,10 +61,10 @@ export default function MenuOk({
     <div className="step-card">
       <h3>Langkah {stepNumber}: Masuk Ke Halaman Pendaftaran {pageName}</h3>
 
-      <div className="doc-image">
-        <img src={imgMenu} />
-        <p>Halaman Menu Utama</p>
-      </div>
+      <ExpandableImage
+        src={imgMenu}
+        alt="Halaman Menu Utama"
+        caption="Halaman Menu Utama" />
 
       <ol>
         <li>Klik menu <b>Orang Kompeten</b>.</li>

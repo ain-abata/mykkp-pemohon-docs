@@ -33,9 +33,9 @@ Sila klik jenis orang kompeten dibawah 👇 untuk melihat cara mendapatkan **Sij
     <div className="doc-card">
       Juruteknik Higien 2 (JHII)
     </div>
-    <div className="doc-card">
+    <Link to="agtes/agtes-daftar" className="doc-card">
       Penguji Gas Bertauliah dan Penyelia Kemasukan (AGTES)
-    </div>
+    </Link>
     <div className="doc-card">
       Penaksir Risiko Bising (PEB)
     </div>
