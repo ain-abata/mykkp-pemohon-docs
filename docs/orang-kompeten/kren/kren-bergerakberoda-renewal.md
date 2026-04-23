@@ -26,7 +26,7 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/kren-bergerakbe
 <PembaharuanOk
   stepNumber={2}
   pageName="Operator Kren Bergerak Beroda"
-  registrationType="OYKOKren"
+  moduleName="OYKOKren"
   pageImgSrc={imgMaklumatOk}
   tambahImgSrc={tambahMaklumatOk}
 />

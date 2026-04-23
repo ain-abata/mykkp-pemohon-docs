@@ -33,6 +33,11 @@ Explanation of moduleType:
 - Isi dengan jenis modul yang ingin didaftarkan. Contoh: Gred 1, Gred 2, ...
 - Jika hasDropdown = false, delete moduleType.
 
+image no zoom
+<div className="doc-image">
+        <img src={imgMenu} />
+        <p>Halaman Menu Utama</p>
+      </div>
 */
 
 import React from 'react';
@@ -62,10 +67,7 @@ export default function MenuOk({
     <div className="step-card">
       <h3>Langkah {stepNumber}: Masuk Ke Halaman Pendaftaran {pageName}</h3>
 
-      <div className="doc-image">
-        <img src={imgMenu} />
-        <p>Halaman Menu Utama</p>
-      </div>
+      
       <ExpandableImage
         src={imgMenu}
         alt={`Halaman Menu Utama`}
