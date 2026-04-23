@@ -23,7 +23,6 @@ import Link from '@docusaurus/Link';
 
 import KemaskiniMaklumat from '@site/src/components/admonitions/kemaskini-maklumat';
 
-
 interface OkMaklumatAmProps {
   hasPanduan: boolean;
   tabImgSrc?: string;
