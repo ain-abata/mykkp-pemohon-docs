@@ -56,6 +56,20 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'Higien',
+          items: [
+            {
+              type: 'category',
+              label: 'Penguji Gas Bertauliah dan Penyelia Kemasukan',
+              items: [
+                'orang-kompeten/agtes/agtes-daftar',
+                'orang-kompeten/agtes/agtes-renewal',
+              ],
+            },
+          ],
+        },
         'orang-kompeten/pembatalan-permohonan',
         'orang-kompeten/pembayaran-fi',
         'orang-kompeten/kelulusan-permohonan',
