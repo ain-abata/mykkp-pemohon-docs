@@ -33,11 +33,17 @@ Explanation of moduleType:
 - Isi dengan jenis modul yang ingin didaftarkan. Contoh: Gred 1, Gred 2, ...
 - Jika hasDropdown = false, delete moduleType.
 
+image no zoom
+<div className="doc-image">
+        <img src={imgMenu} />
+        <p>Halaman Menu Utama</p>
+      </div>
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
-import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import ExpandableImage from './common/ExpandableImage';
+
 import imgMenu from '@site/assets/images/orang-kompeten/menu_utama.png';
 
 interface MenuOkProps {
@@ -61,10 +67,14 @@ export default function MenuOk({
     <div className="step-card">
       <h3>Langkah {stepNumber}: Masuk Ke Halaman Pendaftaran {pageName}</h3>
 
+      
       <ExpandableImage
         src={imgMenu}
-        alt="Halaman Menu Utama"
-        caption="Halaman Menu Utama" />
+        alt={`Halaman Menu Utama`}
+        caption={`Halaman Menu Utama`}
+        width={650}
+      />
+
 
       <ol>
         <li>Klik menu <b>Orang Kompeten</b>.</li>

@@ -54,6 +54,14 @@ const sidebars: SidebarsConfig = {
                 'orang-kompeten/kren/kren-bergerakberoda-renewal',
               ],
             },
+            {
+              type: 'category',
+              label: 'Operator Kren Bergerak Berantai',
+              items: [
+                'orang-kompeten/kren/kren-bergerakberantai-daftar',
+                'orang-kompeten/kren/kren-bergerakberantai-renewal',
+              ],
+            },
           ],
         },
         {

@@ -5,7 +5,7 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 interface PembaharuanOkProps {
     stepNumber: number;
     pageName: string;
-    registrationType: string;
+  moduleName: string;
     pageImgSrc?: string;
     tambahImgSrc?: string;
 }
@@ -13,7 +13,8 @@ interface PembaharuanOkProps {
 export default function PembaharuanOk({
     stepNumber,
     pageName,
-    registrationType,
+      moduleName,
+
     pageImgSrc,
     tambahImgSrc,
 }: PembaharuanOkProps) {
@@ -47,7 +48,7 @@ export default function PembaharuanOk({
                     Halaman <b>Maklumat OK/Orang Terlatih</b> akan dipaparkan seperti di bawah.
                 </li>
                 <li>
-                    Pada <b>Senarai Kompetensi Yang Diluluskan</b>, klik butang <b>Pembaharuan</b> untuk membuat permohonan pembaharuan bagi no. pendaftaran jenis <b>{registrationType}</b>.
+                    Pada <b>Senarai Kompetensi Yang Diluluskan</b>, klik butang <b>Pembaharuan</b> untuk membuat permohonan pembaharuan bagi no. pendaftaran jenis <b>{moduleName}</b>.
                 </li>
             </ol>
 

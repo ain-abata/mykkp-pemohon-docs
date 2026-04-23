@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 interface ExpandableImageProps {
   src?: string;
   alt?: string;
-  caption?: string;
+  caption?: React.ReactNode;
   width?: number | string;
 }
 

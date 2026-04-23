@@ -23,12 +23,18 @@ Explanation of tabImgSrc:
     import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
                     👇
     tabImgSrc={imgOkMaklumatAm}
+
+    image no zoom
+    <div className="doc-image">
+            <img src={tabImgSrc} style={{ width: 450 }} />
+            <p>Tab {tabNumber}: {tabName}</p>
+        </div>
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
-import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import ExpandableImage from '../common/ExpandableImage';
 
 interface OkPerakuanKebolehanProps {
   alphabetNumbering: string;
@@ -46,11 +52,13 @@ export default function OkPerakuanKebolehan({
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
+        
         <ExpandableImage
-            src={tabImgSrc} 
-            alt={tabName}
-            caption={'Tab ' + tabNumber + ': ' + tabName}
-            width={450} />
+                src={tabImgSrc}
+                alt={`Tab ${tabNumber}: ${tabName}`}
+                caption={`Tab ${tabNumber}: ${tabName}`}
+                width={650}
+            />
         <Admonition type="warning">
             Pastikan maklumat yang dipaparkan adalah tepat.
         </Admonition>
