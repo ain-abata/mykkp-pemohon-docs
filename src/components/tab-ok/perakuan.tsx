@@ -23,11 +23,17 @@ Explanation of tabImgSrc & mesejBerjayaImgSrc:
     import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
                     👇
     tabImgSrc={imgOkMaklumatAm} 
+
+    <div className="doc-image">
+            <img src={tabImgSrc} style={{ width: 450 }} />
+            <p>Tab {tabNumber}: {tabName}</p>
+        </div>
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '../common/ExpandableImage';
 
 interface OkPerakuanProps {
   alphabetNumbering: string;
@@ -47,10 +53,13 @@ export default function OkPerakuan({
   return (
     <div>
         <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
-        <div className="doc-image">
-            <img src={tabImgSrc} style={{ width: 450 }} />
-            <p>Tab {tabNumber}: {tabName}</p>
-        </div>
+        
+        <ExpandableImage
+                src={tabImgSrc}
+                alt={`Tab ${tabNumber}: ${tabName}`}
+                caption={`Tab ${tabNumber}: ${tabName}`}
+                width={650}
+            />
         <ol>
             <li>Klik pada butang <i>checkbox</i> <b>Perakuan</b>.</li>
             <li>Isi maklumat pada medan <b>Jawatan</b> dan klik butang <b>Hantar</b>.</li>

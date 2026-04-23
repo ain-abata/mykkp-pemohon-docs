@@ -22,39 +22,48 @@ Explanation of tabImgSrc:
     import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_am.png';
                     👇
     tabImgSrc={imgOkMaklumatAm}
-*/
+image no zoom
+<div className="doc-image">
+                <img src={tabImgSrc} style={{ width: 450 }} />
+                <p>Tab {tabNumber}: {tabName}</p>
+            </div>
+    */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '../common/ExpandableImage';
 
 interface OkMaklumatPerubatanOHDProps {
-  alphabetNumbering: string;
-  tabNumber: number;
-  tabName: string;
-  tabImgSrc?: string;
+    alphabetNumbering: string;
+    tabNumber: number;
+    tabName: string;
+    tabImgSrc?: string;
 }
 
-export default function OkMaklumatPerubatanOHD ({
+export default function OkMaklumatPerubatanOHD({
     alphabetNumbering,
     tabNumber,
     tabName,
     tabImgSrc,
 }: OkMaklumatPerubatanOHDProps) {
-  return (
-    <div>
-        <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
-        <div className="doc-image">
-            <img src={tabImgSrc} style={{ width: 450 }} />
-            <p>Tab {tabNumber}: {tabName}</p>
+    return (
+        <div>
+            <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
+            
+            <ExpandableImage
+                src={tabImgSrc}
+                alt={`Tab ${tabNumber}: ${tabName}`}
+                caption={`Tab ${tabNumber}: ${tabName}`}
+                width={650}
+            />
+            <ol>
+                <li>Isi <b>No. Pendaftaran OHD</b> yang telah berdaftar dengan sistem MyKKP pada medan ruangan disediakan untuk memaparkan maklumat pegawai perubatan OHD.</li>
+                <li>Klik butang <b>Seterusnya</b>.</li>
+            </ol>
+            <Admonition type="warning">
+                Pastikan <b>No. Pendaftaran OHD</b> yang dimasukkan masih sah.
+            </Admonition>
         </div>
-        <ol>
-            <li>Isi <b>No. Pendaftaran OHD</b> yang telah berdaftar dengan sistem MyKKP pada medan ruangan disediakan untuk memaparkan maklumat pegawai perubatan OHD.</li>
-            <li>Klik butang <b>Seterusnya</b>.</li>
-        </ol>
-        <Admonition type="warning">
-            Pastikan <b>No. Pendaftaran OHD</b> yang dimasukkan masih sah.
-        </Admonition>
-    </div>
-  );
+    );
 }

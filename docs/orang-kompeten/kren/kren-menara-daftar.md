@@ -121,7 +121,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-menara
 {/* Step I. Tab 9: Perakuan */}
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 
-import imgOkPerakuan from '@site/assets/images/orang-kompeten/ods-gred2/tab_Perakuan.png';
+import imgOkPerakuan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_perakuan.png';
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan

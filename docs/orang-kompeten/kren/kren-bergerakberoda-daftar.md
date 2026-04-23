@@ -1,5 +1,5 @@
 ---
-title: PENDAFTARAN OPERATOR KREN MENARA (OKren)
+title: PENDAFTARAN OPERATOR KREN BERGERAK BERODA (OKren)
 description: Panduan lengkap pendaftaran sijil operator kren menara
 hide_table_of_contents: true
 sidebar_label: 'Pendaftaran'
@@ -8,7 +8,7 @@ sidebar_label: 'Pendaftaran'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pendaftaran Sijil Operator Kren Menara
+# 📝 Pendaftaran Sijil Operator Kren Bergerak Beroda
 
 import LoginStep from '../../../src/components/login-step';
 
@@ -20,7 +20,7 @@ import MenuOk from '../../../src/components/menu-ok';
 
 <MenuOk
   stepNumber={2}
-  pageName="Operator Kren Menara"
+  pageName="Operator Kren Bergerak Beroda"
   okType="Keselamatan"
   hasDropdown={true}
   moduleName="[OYKOKren] - Operator Kren"
@@ -121,7 +121,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-berger
 {/* Step I. Tab 9: Perakuan */}
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 
-import imgOkPerakuan from '@site/assets/images/orang-kompeten/ods-gred2/tab_Perakuan.png';
+import imgOkPerakuan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_perakuan.png';
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan

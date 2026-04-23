@@ -23,34 +23,49 @@ Explanation of tabImgSrc and tambahImgSrc:
     import imgOkMaklumatKelayakanAkademik from '@site/assets/images/orang-kompeten/tab_maklumat_kelayakan_akademik.png';
                     👇
     tabImgSrc={imgOkMaklumatKelayakanAkademik}
+
+    Image no zoom
+    <div className="doc-image">
+                <img src={tabImgSrc} />
+                <p>Tab {tabNumber}: {tabName}</p>
+            </div>
+
+<div className="doc-image">
+                <img src={tambahImgSrc} style={{ maxWidth: 500 }} />
+                <p><i>Pop-up</i> Tambah Maklumat</p>
+            </div>
 */
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '../common/ExpandableImage';
 
 interface OkMaklumatJadualProps {
-  alphabetNumbering: string;
-  tabNumber: number;
-  tabName: string;
-  tabImgSrc?: string;
-  tambahImgSrc?: string;
+    alphabetNumbering: string;
+    tabNumber: number;
+    tabName: string;
+    tabImgSrc?: string;
+    tambahImgSrc?: string;
 }
 
 export default function OkMaklumatJadual({
-  alphabetNumbering,
-  tabNumber,
-  tabName,
-  tabImgSrc,
-  tambahImgSrc,
+    alphabetNumbering,
+    tabNumber,
+    tabName,
+    tabImgSrc,
+    tambahImgSrc,
 }: OkMaklumatJadualProps) {
     return (
         <div>
             <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
-            <div className="doc-image">
-                <img src={tabImgSrc} />
-                <p>Tab {tabNumber}: {tabName}</p>
-            </div>
+
+            <ExpandableImage
+                src={tabImgSrc}
+                alt={`Tab ${tabNumber}: ${tabName}`}
+                caption={`Tab ${tabNumber}: ${tabName}`}
+                width={650}
+            />
             <ol>
                 <li>Pengemaskinian maklumat pengalaman kerja boleh dilakukan seperti berikut:</li>
             </ol>
@@ -63,10 +78,17 @@ export default function OkMaklumatJadual({
                     <li>Klik butang <b>Simpan</b> untuk menyimpan maklumat yang telah diisi.</li>
                 </ol>
             </ul>
-            <div className="doc-image">
-                <img src={tambahImgSrc} style={{maxWidth: 500}} />
-                <p><i>Pop-up</i> Tambah Maklumat</p>
-            </div>
+
+            <ExpandableImage
+                src={tambahImgSrc}
+                alt="Pop-up Tambah Maklumat"
+                caption={
+                    <>
+                        <i>Pop-up</i> Tambah Maklumat
+                    </>
+                }
+                width={650}
+            />
             <ul>
                 <li><b>Kemaskini Maklumat:</b></li>
 
@@ -74,7 +96,7 @@ export default function OkMaklumatJadual({
                     <li>Pilih maklumat yang ingin dikemaskini dan klik butang <b>Kemaskini.</b></li>
                     <li>Kemaskini maklumat pada <i>pop-up</i> yang dipaparkan.</li>
                 </ol>
-                
+
                 <li><b>Hapus Maklumat:</b></li>
                 <ol>
                     <li>Pilih maklumat yang ingin dihapuskan dan klik butang <b>Hapus</b>.</li>

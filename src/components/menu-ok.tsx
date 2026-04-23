@@ -37,6 +37,7 @@ Explanation of moduleType:
 
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
+import ExpandableImage from './common/ExpandableImage';
 
 import imgMenu from '@site/assets/images/orang-kompeten/menu_utama.png';
 
@@ -65,6 +66,13 @@ export default function MenuOk({
         <img src={imgMenu} />
         <p>Halaman Menu Utama</p>
       </div>
+      <ExpandableImage
+        src={imgMenu}
+        alt={`Halaman Menu Utama`}
+        caption={`Halaman Menu Utama`}
+        width={650}
+      />
+
 
       <ol>
         <li>Klik menu <b>Orang Kompeten</b>.</li>
