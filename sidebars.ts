@@ -62,6 +62,30 @@ const sidebars: SidebarsConfig = {
                 'orang-kompeten/kren/kren-bergerakberantai-renewal',
               ],
             },
+            {
+              type: 'category',
+              label: 'Major Hazard',
+              items: [
+                'orang-kompeten/major-hazard/major-hazard-daftar',
+                'orang-kompeten/major-hazard/major-hazard-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Keselamatan Kesihatan',
+              items: [
+                'orang-kompeten/keselamatan-kesihatan/keselamatan-kesihatan-daftar',
+                'orang-kompeten/keselamatan-kesihatan/keselamatan-kesihatan-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Keselamatan Tapak',
+              items: [
+                'orang-kompeten/keselamatan-tapak/keselamatan-tapak-daftar',
+                'orang-kompeten/keselamatan-tapak/keselamatan-tapak-renewal',
+              ],
+            },
           ],
         },
         {

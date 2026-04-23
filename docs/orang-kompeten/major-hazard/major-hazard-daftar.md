@@ -1,6 +1,6 @@
 ---
-title: PENDAFTARAN OPERATOR KREN BERGERAK BERODA (OKren)
-description: Panduan lengkap pendaftaran sijil operator kren bergerak beroda
+title: PENDAFTARAN ORANG KOMPETEN MAJOR HAZARD (OYKMH)
+description: Panduan lengkap pendaftaran sijil Orang Kompeten Major Hazard
 hide_table_of_contents: true
 sidebar_label: 'Pendaftaran'
 ---
@@ -8,7 +8,7 @@ sidebar_label: 'Pendaftaran'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pendaftaran Sijil Operator Kren Bergerak Beroda
+# 📝 Pendaftaran Sijil Orang Kompeten Major Hazard
 
 import LoginStep from '../../../src/components/login-step';
 
@@ -20,21 +20,21 @@ import MenuOk from '../../../src/components/menu-ok';
 
 <MenuOk
   stepNumber={2}
-  pageName="Operator Kren Bergerak Beroda"
+  pageName="Major Hazard"
   okType="Keselamatan"
   hasDropdown={true}
-  moduleName="[OYKOKren] - Operator Kren"
-  moduleType="Bergerak Beroda" />
+  moduleName="[OYKMH] - Orang Kompeten Major Hazard"
+ />
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Operator Kren Bergerak Beroda
+### Langkah 3: Pengisian Borang Pendaftaran Orang Kompeten Major Hazard
 
 {/* Step A. Tab 1: Maklumat Am */}
 
 import OkMaklumatAm from '../../../src/components/tab-ok/maklumat-am';
 
-import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_maklumat_am.png';
+import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_maklumat_am.png';
 
 <OkMaklumatAm
     hasPanduan={false}
@@ -44,7 +44,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kren-bergerakber
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
 
-import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_maklumat_majikan.png';
+import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_maklumat_majikan.png';
 
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
@@ -54,9 +54,9 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kren-berger
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
-import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_maklumat_kelayakan_akademik.png';
+import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_maklumat_kelayakan_akademik.png';
 
-import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tambah_maklumat_kelayakan_akademik.png';
+import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/major-hazard/daftar/tambah_maklumat_kelayakan_akademik.png';
 
 <OkMaklumatJadual
     alphabetNumbering="C"
@@ -67,9 +67,9 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kren-
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
-import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_pengalaman_kerja.png';
+import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_pengalaman_kerja.png';
 
-import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tambah_pengalaman_kerja.png';
+import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/major-hazard/daftar/tambah_pengalaman_kerja.png';
 
 <OkMaklumatJadual
     alphabetNumbering="D"
@@ -80,9 +80,9 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kren-be
 
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
-import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_kursus_berkaitan.png';
+import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_kursus_berkaitan.png';
 
-import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tambah_kursus_berkaitan.png';
+import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tambah_kursus_berkaitan.png';
 
 <OkMaklumatJadual
     alphabetNumbering="E"
@@ -91,35 +91,36 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-be
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
 
-{/* Step F. Tab 6: Sijil Kompetensi */}
+{/* Step F. Tab 6: Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar  */}
+
+import imgPengalamanKawalan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_pengalaman_kawalan.png';
+
+import imgTambahPengalamanKawalan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tambah_pengalaman_kawalan.png';
+
+<OkMaklumatJadual
+    alphabetNumbering="F"
+    tabNumber={6}
+    tabName="Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar"
+    tabImgSrc={imgPengalamanKawalan}
+    tambahImgSrc={imgTambahPengalamanKawalan} />
+
+{/* Step G. Tab 7: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
 
-import imgOkSijil from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_sijil_kompetensi.png';
+import imgOkSijil from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_sijil_kompetensi.png';
 
 <OkMaklumatSijil
-    alphabetNumbering="F"
-    tabNumber={6}
-    tabName="Sijil Kompetensi"
-    tabImgSrc={imgOkSijil} />
-
-{/* Step G. Tab 7: Maklumat Perubatan */}
-
-import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan-mmc';
-
-import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_maklumat_perubatan.png';
-
-<OkMaklumatPerubatan
     alphabetNumbering="G"
     tabNumber={7}
-    tabName="Maklumat Perubatan"
-    tabImgSrc={imgOkMaklumatPerubatan} />
+    tabName="Sijil Kompetensi"
+    tabImgSrc={imgOkSijil} />
 
 {/* Step H. Tab 8: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
 
-import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_dokumen_sokongan.png';
+import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_dokumen_sokongan.png';
 
 <OkDokumenSokongan
     alphabetNumbering="H"
@@ -131,7 +132,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-berger
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 
-import imgOkPerakuan from '@site/assets/images/orang-kompeten/kren-bergerakberoda/daftar/tab_perakuan.png';
+import imgOkPerakuan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_perakuan.png';
 
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
@@ -142,6 +143,7 @@ import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghant
     tabImgSrc={imgOkPerakuan}
     mesejBerjayaImgSrc={imgOkMesejBerjaya} />
 </div>
+
 
 import WhatNext from '@site/src/components/tab-ok/what-next';
 

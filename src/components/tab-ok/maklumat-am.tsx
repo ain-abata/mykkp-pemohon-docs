@@ -39,7 +39,7 @@ export default function OkMaklumatAm({
                 src={tabImgSrc}
                 alt="Tab 1 Maklumat Am"
                 caption="Tab 1: Maklumat Am"
-                width={450} />
+                width={650} />
                 
             <ul>
                 {hasPanduan && (
