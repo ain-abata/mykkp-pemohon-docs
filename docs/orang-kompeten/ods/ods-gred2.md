@@ -27,7 +27,7 @@ import MenuOk from '@site/src/components/menu-ok';
   moduleType="Gred 2" />
 
 <div className="step-card">
-
+test
 ### Langkah 3: Pengisian Borang Pendaftaran Operator Dandang Stim Gred 2
 
 {/* Step A. Tab 1: Maklumat Am */}
