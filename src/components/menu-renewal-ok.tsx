@@ -5,6 +5,7 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 interface PembaharuanOkProps {
     stepNumber: number;
     pageName: string;
+    registrationType: string;
     pageImgSrc?: string;
     tambahImgSrc?: string;
 }
@@ -12,6 +13,7 @@ interface PembaharuanOkProps {
 export default function PembaharuanOk({
     stepNumber,
     pageName,
+    registrationType,
     pageImgSrc,
     tambahImgSrc,
 }: PembaharuanOkProps) {
