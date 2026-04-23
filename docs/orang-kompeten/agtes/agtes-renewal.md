@@ -26,6 +26,7 @@ import imgMenuRenewal from '@site/assets/images/orang-kompeten/agtes/pembaharuan
 <PembaharuanOk 
     stepNumber={2}
     pageName="Penguji Gas Bertauliah dan Penyelia Kemasukan"
+    registrationType="OYKAGTES"
     pageImgSrc={imgMenuOk}
     tambahImgSrc={imgMenuRenewal} />
 
