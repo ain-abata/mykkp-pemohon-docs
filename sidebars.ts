@@ -85,8 +85,14 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Getting Started',
-      items: ['loji/intro'],
+      label: 'Kilang & Loji',
+      items: [
+        'loji/intro',
+        'loji/pekala',
+        'loji/pembatalan-permohonan',
+        'loji/pembayaran',
+        'loji/semak-status',
+      ],
     },
     {
       type: 'category',
