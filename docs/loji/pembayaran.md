@@ -56,6 +56,13 @@ import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_
 
 ### Langkah 2: Bayaran Permulaan & Bayaran Akhir
 
+<Admonition type="tip">
+  Pemohon perlu membuat <b>Bayaran Permulaan</b> sebelum permohonan diproses.  
+  Selepas semakan selesai, <b>Bayaran Akhir</b> perlu dibuat bagi melengkapkan permohonan.
+  <br/>
+  <b>Aliran Proses Permohonan:</b> Pengisian Permohonan 👉 Bayaran Permulaan 👉 Semakan Pegawai 👉 Bayaran Akhir
+</Admonition>
+
 import imgBtnBayar from '@site/assets/images/loji/pembayaran/halaman_pembayaran_butang_bayar.png';
 
       <ExpandableImage
@@ -86,12 +93,9 @@ import imgStatusBayarProses from '@site/assets/images/orang-kompeten/pembayaran-
       5. Selepas pembayaran berjaya, klik butang **Lihat Resit** untuk melihat salinan resit sebagai bukti pembayaran.
       6. Maklumat resit akan dipaparkan pada halaman tab baru.
 
-      {Admonition({
-        type: "info",
-        children: React.createElement('null', null, 'Permohonan akan bertukar menjadi status ',
-          React.createElement('strong', null, 'Minit Pengarah '), 
-          'dan akan diproses oleh pegawai JKKP berdasarkan piagam yang telah ditetapkan.'
-        )
-      })}
+      <Admonition type="info">
+        - Jika selesai **Bayaran Pemulaan**, status permohonan akan berubah menjadi **Minit Pengarah** dan akan diproses oleh pegawai JKKP berdasarkan piagam yang telah ditetapkan.
+        - Jika selesai **Bayaran Akhir**, status permohonan akan berubah menjadi **Selesai Diproses - Diluluskan**.
+      </Admonition>
 
 </div>
