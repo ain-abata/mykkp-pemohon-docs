@@ -67,7 +67,7 @@ export default function OkMaklumatJadual({
                 width={650}
             />
             <ol>
-                <li>Pengemaskinian maklumat pengalaman kerja boleh dilakukan seperti berikut:</li>
+                <li>Pengemaskinian {tabName} boleh dilakukan seperti berikut:</li>
             </ol>
             <ul>
                 <li><b>Tambah Maklumat:</b></li>

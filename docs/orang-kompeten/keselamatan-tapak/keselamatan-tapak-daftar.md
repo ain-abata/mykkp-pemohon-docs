@@ -28,7 +28,7 @@ import MenuOk from '../../../src/components/menu-ok';
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Pegawai Keselamatan & Kesihatan
+### Langkah 3: Pengisian Borang Pendaftaran Penyelia Keselamatan Tapak
 
 {/* Step A. Tab 1: Maklumat Am */}
 

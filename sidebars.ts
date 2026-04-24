@@ -36,8 +36,14 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Keselamatan',
           items: [
-            'orang-kompeten/ods/ods-gred2',
-            'orang-kompeten/ods/ods-gred1',
+            {
+              type: 'category',
+              label: 'Operator Dandang Stim',
+              items: [
+                'orang-kompeten/ods/ods-gred1',
+                'orang-kompeten/ods/ods-gred2',
+              ],
+            },
             {
               type: 'category',
               label: 'Operator Kren Menara',
