@@ -1,5 +1,5 @@
 ---
-title: PENDAFTARAN PEGAWAI KESELAMATAN & KESIHATAN (SHO)
+title: PENDAFTARAN PENYELIA KESELAMATAN TAPAK (SSS)
 description: Panduan lengkap pendaftaran penyelia keselamatan tapak
 hide_table_of_contents: true
 sidebar_label: 'Pendaftaran'
@@ -20,8 +20,8 @@ import MenuOk from '../../../src/components/menu-ok';
 
 <MenuOk
   stepNumber={2}
-  pageName="Keselamatan & Kesihatan"
-  okType="Keselamatan"
+  pageName="Keselamatan Tapak"
+  okType="Tapak"
   hasDropdown={true}
   moduleName="[SSS] - Penyelia Keselamatan Tapak"
  />

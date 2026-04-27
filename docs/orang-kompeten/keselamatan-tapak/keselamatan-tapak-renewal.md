@@ -8,7 +8,7 @@ sidebar_label: 'Pembaharuan'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pembaharuan Sijil Pegawai Keselamatan & Kesihatan
+# 📝 Pembaharuan Sijil Penyelia Keselamatan Tapak
 import LoginStep from '../../../src/components/login-step';
 
 <LoginStep 
@@ -31,7 +31,7 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tap
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Penyelia Keselamatan Tapak
+### Langkah 3: Pengisian Borang Pembaharuan Penyelia Keselamatan Tapak
 
 {/* Step A. Tab 1: Maklumat Am */}
 

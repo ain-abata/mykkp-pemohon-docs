@@ -32,7 +32,7 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/kren-menara/pem
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Operator Kren Menara
+### Langkah 3: Pengisian Borang Pembaharuan Operator Kren Menara
 
 {/* Step A. Tab 1: Maklumat Am */}
 
