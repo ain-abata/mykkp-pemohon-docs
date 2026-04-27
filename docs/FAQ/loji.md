@@ -2,7 +2,7 @@
 title: FAQ Loji
 description: Soalan lazim berkaitan modul Loji
 sidebar_label: Loji
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

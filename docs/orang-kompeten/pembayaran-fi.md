@@ -1,7 +1,7 @@
 ---
 title: Pembayaran Fi Pemprosesan dan Fi Pendaftaran
 description: Panduan lengkap pembayaran fi
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembayaran Fi'
 ---
 

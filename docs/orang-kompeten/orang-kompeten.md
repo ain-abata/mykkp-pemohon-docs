@@ -1,7 +1,7 @@
 ---
 title: Pendaftaran Sijil Orang Kompeten
 description: Panduan lengkap pendaftaran sijil orang kompeten
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Daftar Sebagai Orang Kompeten'
 ---
 

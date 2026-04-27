@@ -2,7 +2,7 @@
 title: FAQ Orang Kompeten (OYK)
 description: Soalan lazim berkaitan modul Orang Kompeten
 sidebar_label: OYK
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
