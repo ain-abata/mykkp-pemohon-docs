@@ -4,6 +4,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const branch = process.env.GITHUB_REF_NAME;
+
+const baseUrl =
+  branch === "main"
+    ? "/mykkp-pemohon-docs/"
+    : "";
+
 const config: Config = {
   title: 'MyKKP Pemohon Documentation',
   tagline: 'Dinosaurs are cool',
@@ -23,7 +30,7 @@ const config: Config = {
   // baseUrl: '/mykkp-pemohon-docs',
 
   // for Cloudfare, set to this
-  baseUrl: '/',
+  baseUrl: baseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
