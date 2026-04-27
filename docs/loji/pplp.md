@@ -10,21 +10,21 @@ import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 📝 Permohonan Pemindahan Loji Pemunya
+# 📝 Permohonan Pemindahan Loji Pemunya (PPLP)
 
 ## 📌 Ringkasan Modul
 Pemohon (Pemunya) membuat permohonan pemindahan lokasi loji dengan memilih senarai loji yang dikehendaki, membuat pemilihan pembukaan loji (jika perlu), memuat naik dokumen yang diperlukan dan menghantar permohonan.
 
 ## 👤 Peranan Terlibat & Syarat Permohonan
-Kriteria pemohon yang dibenarkan untuk menghantar **Permohonan Pemindahan Loji Pemunya (PPLP)** adalah seperti berikut:
-1. Pemunya loji yang telah berdaftar sebagai **PATK Tahap 1** pada sistem MyKKP.
+Kriteria pemohon yang dibenarkan untuk menghantar **Permohonan Pemindahan Loji Pemunya** adalah seperti berikut:
+1. **Pemunya** loji yang telah berdaftar sebagai **PATK Tahap 1** pada sistem MyKKP.
 
-Syarat-syarat bagi status loji yang dibenarkan untuk **Permohonan Pemindahan Loji Pemunya (PPLP)** adalah seperti berikut:
+Syarat-syarat bagi status loji yang dibenarkan untuk **Permohonan Pemindahan Loji Pemunya** adalah seperti berikut:
 1. Aktif.   
 2. Tidak Digunakan.
 3. Dilupuskan (Tidak dibenarkan untuk menukar status loji)
 
-Jenis jentera yang terlibat bagi **Permohonan Pemindahan Loji Pemunya (PPLP)** adalah seperti berikut:
+Jenis jentera yang terlibat bagi **Permohonan Pemindahan Loji Pemunya** adalah seperti berikut:
 1. PMA
 2. PMD
 3. PMT
@@ -70,6 +70,8 @@ import imgMaklumatAm from '@site/assets/images/loji/pplp/tab_maklumat_pemunya.pn
     hasRujukan={false}
     tabImgSrc={imgMaklumatAm} />
 
+---
+
 import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
 
 import imgSenaraiLojiPemunya from '@site/assets/images/loji/pplp/tab_senarai_loji.png';
@@ -80,7 +82,10 @@ import imgSenaraiLojiPemunya from '@site/assets/images/loji/pplp/tab_senarai_loj
     tabName="Senarai Loji"
     tabImgSrc={imgSenaraiLojiPemunya}
     leftTableName="Senarai Loji Pemunya Yang Asal"
-    rightTableName="Senarai Loji Loji Untuk Dipindah Lokasi" />
+    rightTableName="Senarai Loji Loji Untuk Dipindah Lokasi"
+    hasDropdownSearch={true} />
+
+---
 
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
 
@@ -92,6 +97,8 @@ import imgPerihalPemindahan from '@site/assets/images/loji/pplp/tab_perihal_pemi
     tabName="Perihal Pemindahan"
     tabImgSrc={imgPerihalPemindahan} />
 
+---
+
 import TempatLojiDipindahkan from '@site/src/components/loji/tab/tempat-dipindahkan';
 
 import imgTempatDipindahkan from '@site/assets/images/loji/pplp/tab_maklumat_tempat_loji_dipindahkan.png';
@@ -102,6 +109,8 @@ import imgTempatDipindahkan from '@site/assets/images/loji/pplp/tab_maklumat_tem
     tabName="Maklumat Tempat Loji Akan Dipindahkan"
     tabImgSrc={imgTempatDipindahkan} />
 
+---
+
 import imgDokSokongan from '@site/assets/images/loji/pplp/tab_dokumen_sokongan.png';
 
 <DokumenSokongan
@@ -109,6 +118,8 @@ import imgDokSokongan from '@site/assets/images/loji/pplp/tab_dokumen_sokongan.p
     tabNumber={5}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgDokSokongan} />
+
+---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 

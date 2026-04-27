@@ -62,6 +62,8 @@ import imgMaklumatAm from '@site/assets/images/loji/pekala/tab_maklumat_am.png';
     hasRujukan={true}
     tabImgSrc={imgMaklumatAm} />
 
+---
+
 import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
 
 import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_loji_pemunya.png';
@@ -72,7 +74,10 @@ import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_l
     tabName="Senarai Loji"
     tabImgSrc={imgSenaraiLojiPemunya}
     leftTableName="Senarai Loji"
-    rightTableName="Senarai Loji Dipilih Untuk Pemeriksaan" />
+    rightTableName="Senarai Loji Dipilih Untuk Pemeriksaan"
+    hasDropdownSearch={true} />
+
+---
 
 import PengesahanSpesifikasi from '@site/src/components/loji/tab/pengesahan-spesifikasi';
 
@@ -84,6 +89,8 @@ import imgPengesahanSpesifikasi from '@site/assets/images/loji/pekala/tab_penges
     tabName="Pengesahan Spesifikasi"
     tabImgSrc={imgPengesahanSpesifikasi} />
 
+---
+
 import SenaraiCaj from '@site/src/components/loji/tab/senarai-caj';
 
 import imgSenaraiCaj from '@site/assets/images/loji/pekala/tab_senarai_caj.png';
@@ -93,6 +100,8 @@ import imgSenaraiCaj from '@site/assets/images/loji/pekala/tab_senarai_caj.png';
     tabNumber={4}
     tabName="Senarai Caj"
     tabImgSrc={imgSenaraiCaj} />
+
+---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 

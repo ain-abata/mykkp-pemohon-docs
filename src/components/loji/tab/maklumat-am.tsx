@@ -9,6 +9,7 @@ interface MaklumatAmProps {
     tabName: string;
     hasRujukan: boolean;
     tabImgSrc?: string;
+    hasPemunyaAsalSection?: boolean;
 }
 
 export default function MaklumatAm({
@@ -17,6 +18,7 @@ export default function MaklumatAm({
     tabName,
     hasRujukan,
     tabImgSrc,
+    hasPemunyaAsalSection,
 }: MaklumatAmProps) {
     return (
         <div>
@@ -46,12 +48,24 @@ export default function MaklumatAm({
                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }} >
                     <li><b>Maklumat Hubungan</b></li>
                 </ul>
-                <li>Klik butang <b>Seterusnya</b>.</li>
             </ol>
 
             <Admonition type="info">
                 Untuk melakukan pengemaskinian di medan yang <i>disabled</i>, emelkan kepada <b>mykkp@mohr.gov.my</b> beserta <i>letterhead</i>.
             </Admonition>
+
+            {hasPemunyaAsalSection ? (
+                <ol start={3}>
+                    <li>Isi <b>No. Pendaftaran Pemunya</b> pada medan yang disediakan.dan klik butang <b>Carian No. Pendaftaran Pemunya</b>.</li>
+                    <li>Maklumat pemunya yang dicari akan terpapar pada medan</li>
+                    <li>Semak semua maklumat yang berkaitan.</li>
+                    <li>Klik butang <b>Seterusnya</b>.</li>
+                </ol>
+            ) : (
+                <ol start={3}>
+                    <li>Klik butang <b>Seterusnya</b>.</li>
+                </ol>
+            )}
         </div>
     );
 }

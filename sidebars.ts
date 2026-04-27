@@ -94,6 +94,7 @@ const sidebars: SidebarsConfig = {
           label: 'Pemindahan Loji',
           items: [
             'loji/pplp',
+            'loji/pplhm',
           ],
         },
         'loji/pembatalan-permohonan',
