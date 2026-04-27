@@ -74,16 +74,6 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexDocs: true,
-        indexBlog: false,
-        language: ["en"],
-      },
-    ],
-  ],
 
   themeConfig: {
     // Replace with your project's social card
