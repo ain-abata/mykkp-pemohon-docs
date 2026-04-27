@@ -1,7 +1,7 @@
 ---
 title: Pendaftaran Sijil Penguji Gas Bertauliah dan Penyelia Kemasukan
 description: Panduan lengkap pendaftaran sijil penguji gas bertauliah dan penyelia kemasukan
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pendaftaran'
 ---
 

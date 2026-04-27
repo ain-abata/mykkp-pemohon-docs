@@ -1,7 +1,7 @@
 ---
 title: Pendaftaran MyKKP
 description: Panduan lengkap pendaftaran akaun MyKKP
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Daftar Sebagai Pengguna MyKKP'
 ---
 
