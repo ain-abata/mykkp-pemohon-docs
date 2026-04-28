@@ -156,3 +156,7 @@ import SemakSurat from '@site/src/components/loji/semak-surat';
 
 <SemakSurat
     stepNumber={5} />
+
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+
+<BatalOlehPemohon />
