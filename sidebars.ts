@@ -89,6 +89,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'loji/intro',
         'loji/pekala',
+        'loji/pti',
         {
           type: 'category',
           label: 'Pemindahan Loji',

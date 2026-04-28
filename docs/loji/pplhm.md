@@ -65,13 +65,16 @@ import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 
 import imgMaklumatAm from '@site/assets/images/loji/pplhm/tab_maklumat_am.png';
 
+import imgMaklumatAmCarian from '@site/assets/images/loji/pplhm/tab_maklumat_am_carian.png';
+
 <MaklumatAm
     alphabetNumbering="A"
     tabNumber={1}
     tabName="Maklumat Am"
     hasRujukan={false}
     tabImgSrc={imgMaklumatAm}
-    hasPemunyaAsalSection={true} />
+    hasPemunyaAsalSection={true}
+    carianImgSrc={imgMaklumatAmCarian}  />
 
 ---
 

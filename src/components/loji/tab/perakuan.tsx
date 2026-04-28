@@ -30,9 +30,6 @@ export default function Perakuan({
                 alt={`Tab ${tabNumber}: ${tabName}`}
                 caption={`Tab ${tabNumber}: ${tabName}`}
                 width={450} />
-            <Admonition type="info">
-                Sila pastikan semua maklumat yang dipaparkan pada tab ini adalah tepat sebelum klik butang <b>Seterusnya</b>.
-            </Admonition>
             <ol>
                 <li>Klik pada butang <i>checkbox</i> <b>Perakuan</b>.</li>
                 <li>Isi maklumat pada medan ruangan yang berkaitan.</li>

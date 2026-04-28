@@ -10,6 +10,8 @@ interface MaklumatAmProps {
     hasRujukan: boolean;
     tabImgSrc?: string;
     hasPemunyaAsalSection?: boolean;
+    hasPemunyaSection?: boolean;
+    carianImgSrc: string;
 }
 
 export default function MaklumatAm({
@@ -19,6 +21,8 @@ export default function MaklumatAm({
     hasRujukan,
     tabImgSrc,
     hasPemunyaAsalSection,
+    hasPemunyaSection,
+    carianImgSrc,
 }: MaklumatAmProps) {
     return (
         <div>
@@ -56,9 +60,26 @@ export default function MaklumatAm({
 
             {hasPemunyaAsalSection ? (
                 <ol start={3}>
-                    <li>Isi <b>No. Pendaftaran Pemunya</b> pada medan yang disediakan.dan klik butang <b>Carian No. Pendaftaran Pemunya</b>.</li>
-                    <li>Maklumat pemunya yang dicari akan terpapar pada medan</li>
+                    <ExpandableImage
+                      src={carianImgSrc}
+                      alt="Seksyen Maklumat Pemunya Asal"
+                      caption="Seksyen Maklumat Pemunya Asal"
+                      width={450} />
+                    <li>Isi <b>No. Pendaftaran Pemunya</b> pada medan yang disediakan dan klik butang <b>Carian No. Pendaftaran Pemunya</b>.</li>
+                    <li>Maklumat pemunya yang dicari akan terpapar pada medan.</li>
                     <li>Semak semua maklumat yang berkaitan.</li>
+                    <li>Klik butang <b>Seterusnya</b>.</li>
+                </ol>
+            ) : hasPemunyaSection ? (
+                <ol start={3}>
+                    <ExpandableImage
+                      src={carianImgSrc}
+                      alt="Seksyen Maklumat Pemunya"
+                      caption="Seksyen Maklumat Pemunya"
+                      width={450} />
+                    <li>Klik butang <b>Carian</b> pada pilihan <b>Carian Pemunya</b> sekiranya Maklumat Pemunya tidak sama seperti Maklumat Penghuni.</li>
+                    <li><i>Pop-up</i> <b>Carian Pemunya</b> akan dipaparkan. Pengguna boleh mengisi Nama Organisasi dan klik butang <b>Cari</b>.</li>
+                    <li>Klik butang <b>Pilih</b> untuk memilih organisasi yang ingin dipilih.</li>
                     <li>Klik butang <b>Seterusnya</b>.</li>
                 </ol>
             ) : (
