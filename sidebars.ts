@@ -106,8 +106,83 @@ const sidebars: SidebarsConfig = {
                 'orang-kompeten/agtes/agtes-renewal',
               ],
             },
+            {
+              type: 'category',
+              label: 'Juruteknik Higien 2',
+              items: [
+                'orang-kompeten/higien-2/higien-2-daftar',
+                'orang-kompeten/higien-2/higien-2-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Penaksir Risiko Bising',
+              items: [
+                'orang-kompeten/risiko-bising/risiko-bising-daftar',
+                'orang-kompeten/risiko-bising/risiko-bising-renewal',
+              ],
+            },
           ],
         },
+        {
+          type: 'category',
+          label: 'Pengurusan Kimia',
+          items: [
+            {
+              type: 'category',
+              label: 'Juruteknik Higien 1',
+              items: [
+                'orang-kompeten/higien-1/higien-1-daftar',
+                'orang-kompeten/higien-1/higien-1-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Penaksir Kualiti Udara Dalaman',
+              items: [
+                'orang-kompeten/kualiti-udara/kualiti-udara-daftar',
+                'orang-kompeten/kualiti-udara/kualiti-udara-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Pengapit',
+              items: [
+                'orang-kompeten/pengapit/pengapit-daftar',
+                'orang-kompeten/pengapit/pengapit-renewal',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Kesihatan Pekerjaan',
+          items: [
+            {
+              type: 'category',
+              label: 'Doktor Kesihatan',
+              items: [
+                'orang-kompeten/doktor-kesihatan/doktor-kesihatan-daftar',
+                'orang-kompeten/doktor-kesihatan/doktor-kesihatan-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Medical Surveillance',
+              items: [
+                'orang-kompeten/kualiti-udara/kualiti-udara-daftar',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'OSH-Coordinator',
+          items: [
+            'orang-kompeten/higien-1/higien-1-daftar',
+          ],
+        },
+
         'orang-kompeten/pembatalan-permohonan',
         'orang-kompeten/pembayaran-fi',
         'orang-kompeten/kelulusan-permohonan',
