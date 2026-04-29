@@ -179,7 +179,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'OSH-Coordinator',
           items: [
-            'orang-kompeten/higien-1/higien-1-daftar',
+            'orang-kompeten/osh-coordinator/osh-daftar',
           ],
         },
 
