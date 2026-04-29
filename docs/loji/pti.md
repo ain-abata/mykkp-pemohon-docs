@@ -2,34 +2,34 @@
 title: Permohonan Kebenaran Memasang Loji (PTI)
 description: Panduan lengkap permohonan kebenaran memasang loji
 hide_table_of_contents: true
-sidebar_label: 'Kebenaran Memasang Loji'
+sidebar_label: 'Kebenaran Memasang'
 ---
 
 import Admonition from '@site/src/components/admonition';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 ## 📌 Ringkasan Modul
 Modul **Permohonan Kebenaran Memasang Loji (PTI)** adalah proses yang membolehkan pemohon untuk membuat permohonan kebenaran memasang loji di tempat kerja.
 
 ## 👤 Peranan Terlibat & Syarat Permohonan
-Kriteria pemohon yang dibenarkan untuk menghantar **Kebenaran Memasang Loji (PTI)** adalah seperti berikut:
+Kriteria pemohon yang dibenarkan untuk menghantar **Kebenaran Memasang Loji** adalah seperti berikut:
 1. Penghuni (Tempat Loji) telah berdaftar sebagai **PATK Tahap 1** dan **PATK Tahap 2** pada sistem MyKKP.
 
-Syarat-syarat bagi status loji yang dibenarkan untuk **Kebenaran Memasang Loji (PTI)** adalah seperti berikut:
+Syarat-syarat bagi status loji yang dibenarkan untuk **Kebenaran Memasang Loji** adalah seperti berikut:
 1. Aktif.   
 2. Tidak Digunakan.
 
-Jenis jentera yang terlibat bagi **Kebenaran Memasang Loji (PTI)** adalah seperti berikut:
+Jenis jentera yang terlibat bagi **Kebenaran Memasang Loji** adalah seperti berikut:
 1. PMA
 2. PMA (Lif / Eskalator / Laluan Gerak)
 3. PMD
 4. PMT
 
 ## 📂 Dokumen Sokongan Pemasangan
-Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Kebenarang Memasang Loji (PTI)** seperti:
+Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Kebenarang Memasang Loji** seperti:
 
 <Admonition type="important">
     Dokumen yang bertanda ** wajib dimuat naik

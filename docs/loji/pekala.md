@@ -6,12 +6,13 @@ sidebar_label: 'Pemeriksaan Berkala Loji'
 ---
 
 import Admonition from '@site/src/components/admonition';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ## 📌 Ringkasan Modul
-Pemohon membuat permohonan pemeriksaan berkala dengan memilih senarai loji yang dikehendaki dan menghantar permohonan.
+Pemohon membuat **Permohonan Pemeriksaan Berkala (PEKALA)** dengan memilih senarai loji yang dikehendaki dan menghantar permohonan.
 
 ## 👤 Peranan Terlibat & Syarat Permohonan
 Kriteria pemohon yang dibenarkan untuk menghantar **Pemeriksaan Berkala** adalah seperti berikut:
@@ -87,7 +88,8 @@ import imgPengesahanSpesifikasi from '@site/assets/images/loji/pekala/tab_penges
     alphabetNumbering="C"
     tabNumber={3}
     tabName="Pengesahan Spesifikasi"
-    tabImgSrc={imgPengesahanSpesifikasi} />
+    tabImgSrc={imgPengesahanSpesifikasi}
+    hasBoilerType={true} />
 
 ---
 
@@ -191,10 +193,31 @@ import imgSelesaiProses from '@site/assets/images/loji/pekala/halaman_permohonan
     imgTabSedangDiproses={imgSedangProses}
     imgTabSelesaiDiproses={imgSelesaiProses} />
 
+import SemakSebutHarga from '@site/src/components/loji/lihat-sebut-harga';
+
+import imgPermohonanProses from '@site/assets/images/loji/pembayaran/halaman_senarai_permohonan.png';
+
+import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_butang_lihat.png';
+
+<SemakSebutHarga 
+    stepNumber={5}
+    imgPermohonanProses={imgPermohonanProses}
+    imgBtnLihat={imgBtnLihat} />
+
+import Pembayaran from '@site/src/components/loji/pembayaran';
+
+import imgPembayaran from '@site/assets/images/loji/pekala/halaman_pembayaran.png';
+
+import imgLihatResit from '@site/assets/images/loji/pembayaran/lihat_resit.png';
+
+<Pembayaran
+    stepNumber={6}
+    paymentType="Bayaran Permulaan & Bayaran Akhir"
+    imgBayar={imgPembayaran}
+    imgResit={imgLihatResit} />
+
 import WhatNext from '@site/src/components/loji/what-next';
 
 <WhatNext
   canBatalPermohonan={true}
-  hasPayment={true}
-  linkPembatalan="pembatalan-permohonan"
-  linkPembayaran="pembayaran" />
+  linkPembatalan="pembatalan-permohonan" />

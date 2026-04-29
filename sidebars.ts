@@ -90,6 +90,7 @@ const sidebars: SidebarsConfig = {
         'loji/intro',
         'loji/pekala',
         'loji/pti',
+        'loji/pemula',
         {
           type: 'category',
           label: 'Pemindahan Loji',
@@ -99,7 +100,6 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'loji/pembatalan-permohonan',
-        'loji/pembayaran',
       ],
     },
     {
