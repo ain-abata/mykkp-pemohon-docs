@@ -144,9 +144,9 @@ import imgMesejBerjaya from '@site/assets/images/loji/pplhm/mesej_penghantaran_b
 
 import SemakStatus from '@site/src/components/loji/semak-status';
 
-import imgSedangProses from '@site/assets/images/loji/pplp/halaman_permohonan_sedang_diproses.png'
+import imgSedangProses from '@site/assets/images/loji/pplhm/halaman_permohonan_sedang_diproses.png'
 
-import imgSelesaiProses from '@site/assets/images/loji/pplp/halaman_permohonan_selesai_diproses.png'
+import imgSelesaiProses from '@site/assets/images/loji/pplhm/halaman_permohonan_selesai_diproses.png'
 
 <SemakStatus 
     stepNumber={4}

@@ -245,9 +245,9 @@ import imgPerakuan from '@site/assets/images/loji/pti/tab_perakuan.png';
 
 import SemakStatus from '@site/src/components/loji/semak-status';
 
-import imgSedangProses from '@site/assets/images/loji/pplp/halaman_permohonan_sedang_diproses.png'
+import imgSedangProses from '@site/assets/images/loji/pti/halaman_permohonan_sedang_diproses.png'
 
-import imgSelesaiProses from '@site/assets/images/loji/pplp/halaman_permohonan_selesai_diproses.png'
+import imgSelesaiProses from '@site/assets/images/loji/pti/halaman_permohonan_selesai_diproses.png'
 
 <SemakStatus 
     stepNumber={4}
