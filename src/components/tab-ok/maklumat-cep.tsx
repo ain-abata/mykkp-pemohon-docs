@@ -32,7 +32,7 @@ export default function OkMaklumatCep({
             />
 
             <ol>
-                <li>Pengemaskinian maklumat CEP boleh dilakuakan seperti berikut:</li>
+                <li>Pengemaskinian maklumat CEP boleh dilakukan seperti berikut:</li>
                 <li>
                     Klik butang <b>Sila klik disini untuk mengisi maklumat CEP</b>.
                 </li>
@@ -64,22 +64,19 @@ export default function OkMaklumatCep({
                     <li>Klik butang <b>Simpan</b>. <i>Pop-up</i> mesej berjaya akan dipaparkan dan klik butang <b>OK</b>.</li>
                     <li>Dokumen yang berjaya dimuat naik akan dipaparkan dalam <b>Jadual Senarai Dokumen</b></li>
                     <li>Klik butang <b>Tutup</b>. Pada kolum <b> Bil. Fail</b> akan menunjukkan jumlah bilangan fail yang telah dimuat naik.</li>
+
+                    <Admonition type="warning">
+                        <ol>
+                            <li>Pastikan dokumen yang dimuat naik adalah mengikut format yang ditetapkan.</li>
+                            <li>Pastikan saiz dokumen tidak melebihi 20MB.</li>
+                            <li>Sila pastikan nama lampiran tidak mengandungi simbol. <b>[Contoh: ! @ # $ % ^ & * ( ) - + dll...]</b></li>
+                        </ol>
+                    </Admonition>
+                    <Admonition type="info">
+                        Bagi <b>menghapuskan dokumen</b> yang telah dimuat naik 👉 Klik butang <b>Hapus Fail</b> pada <b>Jadual Senarai Dokumen</b>.
+                    </Admonition>
+
                 </ol>
-                <Admonition type="warning">
-                    <ol>
-                        <li>Pastikan dokumen yang dimuat naik adalah mengikut format yang ditetapkan.</li>
-                        <li>Pastikan saiz dokumen tidak melebihi 20MB.</li>
-                        <li>Sila pastikan nama lampiran tidak mengandungi simbol. <b>[Contoh: ! @ # $ % ^ & * ( ) - + dll...]</b></li>
-                    </ol>
-                </Admonition>
-                <Admonition type="info">
-                    Bagi <b>menghapuskan dokumen</b> yang telah dimuat naik 👉 Klik butang <b>Hapus Fail</b> pada <b>Jadual Senarai Dokumen</b>.
-                </Admonition>
-            </ol>
-
-
-
-            <ol start={9}>
                 <li>
                     Klik butang <b>Seterusnya</b>.
                 </li>

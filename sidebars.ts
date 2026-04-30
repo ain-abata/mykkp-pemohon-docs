@@ -170,7 +170,7 @@ const sidebars: SidebarsConfig = {
               type: 'category',
               label: 'Medical Surveillance',
               items: [
-                'orang-kompeten/kualiti-udara/kualiti-udara-daftar',
+                'orang-kompeten/medical-surveillance/medical-surveillance-daftar',
               ],
             },
           ],

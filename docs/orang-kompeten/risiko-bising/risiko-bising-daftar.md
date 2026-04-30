@@ -63,7 +63,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/risik
     tabNumber={3}
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
-    hasDropdown={false}
+    hasDropdown={true}
     tambahImgSrc={imgTambahKelayakanAkademik} />
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
