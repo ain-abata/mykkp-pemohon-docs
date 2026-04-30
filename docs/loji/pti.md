@@ -241,6 +241,10 @@ import imgPerakuan from '@site/assets/images/loji/pti/tab_perakuan.png';
     noRujukan="XX/PTI/XX/XXXXX"
     hasPayment={false} />
 
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+
+<BatalOlehPemohon />
+
 </div>
 
 import SemakStatus from '@site/src/components/loji/semak-status';

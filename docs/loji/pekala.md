@@ -75,8 +75,7 @@ import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_l
     tabName="Senarai Loji"
     tabImgSrc={imgSenaraiLojiPemunya}
     leftTableName="Senarai Loji"
-    rightTableName="Senarai Loji Dipilih Untuk Pemeriksaan"
-    hasDropdownSearch={true} />
+    rightTableName="Senarai Loji Dipilih Untuk Pemeriksaan" />
 
 ---
 

@@ -23,7 +23,7 @@ export default function SemakStatus({
             <h3>Langkah {stepNumber}: Penyemakan Status Permohonan {moduleName}</h3>
             <Tabs>
                 <TabItem value="sedangDiproses" label="Permohonan Sedang Diproses" default>
-                    <h4 className="print-only">A. Semak Status Permohonan</h4>
+                    <h4 className="print-only">A. Semak Status - Permohonan Sedang Diproses</h4>
                     <ExpandableImage
                         src={imgTabSedangDiproses}
                         alt="Contoh Paparan Status Permohonan Sedang Diproses"
@@ -36,7 +36,7 @@ export default function SemakStatus({
                     </ol>
                 </TabItem>
                 <TabItem value="selesaiDiproses" label="Permohonan Selesai Diproses">
-                    <h4 className="print-only">A. Semak Status Permohonan</h4>
+                    <h4 className="print-only">B. Semak Status - Permohonan Selesai Diproses</h4>
                     <ExpandableImage
                         src={imgTabSelesaiDiproses}
                         alt="Contoh Paparan Status Permohonan Selesai Diproses"

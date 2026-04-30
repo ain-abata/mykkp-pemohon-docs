@@ -10,8 +10,6 @@ interface DokumenSokonganProps {
     tabNumber: number;
     tabName: string;
     tabImgSrc?: string;
-    leftTableName: string;
-    rightTableName: string;
 }
 
 export default function DokumenSokongan({
@@ -19,8 +17,6 @@ export default function DokumenSokongan({
     tabNumber,
     tabName,
     tabImgSrc,
-    leftTableName,
-    rightTableName,
 }: DokumenSokonganProps) {
     return (
         <div>

@@ -6,6 +6,7 @@ sidebar_label: 'Loji Hak Milik'
 ---
 
 import Admonition from '@site/src/components/admonition';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -94,12 +95,16 @@ import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
 
 import imgSenaraiLoji from '@site/assets/images/loji/pplhm/tab_senarai_loji.png';
 
-<SenaraiLoji
-    alphabetNumbering="C"
-    tabNumber={3}
-    tabName="Senarai Loji"
-    tabImgSrc={imgSenaraiLoji}
-    hasDropdownSearch={false} />
+    <h4>C. Tab 3: Senarai Loji</h4>
+    <ExpandableImage
+        src={imgSenaraiLoji}
+        alt="Tab 3: Senarai Loji"
+        caption="Tab 3: Senarai Loji"
+        width={450} />
+    1. Pilih negeri lokasi loji pada CF/eDoket semasa.
+    2. Isi **No. Pendaftaran Loji** pada medan carian dan klik butang **Tambah Loji**.
+    3. Klik butang **Pilih** pada *pop-up* **Maklumat Loji** yang dipaparkan.
+    4. Klik butang **Ya** dan loji berikut akan dipaparkan dalam jadual **Senarai Loji Untuk Pindah Hak Milik**.
 
 ---
 
@@ -140,6 +145,10 @@ import imgMesejBerjaya from '@site/assets/images/loji/pplhm/mesej_penghantaran_b
     noRujukan="XX/PPLHM/XX/XXXXX"
     hasPayment={false} />
 
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+
+<BatalOlehPemohon />
+
 </div>
 
 import SemakStatus from '@site/src/components/loji/semak-status';
@@ -154,12 +163,7 @@ import imgSelesaiProses from '@site/assets/images/loji/pplhm/halaman_permohonan_
     imgTabSedangDiproses={imgSedangProses}
     imgTabSelesaiDiproses={imgSelesaiProses} />
 
-
 import SemakSurat from '@site/src/components/loji/semak-surat';
 
 <SemakSurat
     stepNumber={5} />
-
-import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
-
-<BatalOlehPemohon />

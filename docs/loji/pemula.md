@@ -112,8 +112,6 @@ import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 
 import imgMaklumatAm from '@site/assets/images/loji/pemula/tab_maklumat_am.png';
 
-import imgMaklumatAmCarian from '@site/assets/images/loji/pti/tab_maklumat_am_carian.png';
-
 <MaklumatAm
     alphabetNumbering="A"
     tabNumber={1}
@@ -133,8 +131,7 @@ import imgSenaraiLoji from '@site/assets/images/loji/pemula/tab_senarai_loji.png
     tabName="Senarai Loji"
     tabImgSrc={imgSenaraiLoji}
     leftTableName="Senarai PTI"
-    rightTableName="Senarai PTI Yang Dipilih Untuk Pemeriksaan"
-    hasDropdownSearch={true} />
+    rightTableName="Senarai PTI Yang Dipilih Untuk Pemeriksaan" />
 
 ---
 
@@ -173,6 +170,10 @@ import imgPerakuan from '@site/assets/images/loji/pemula/tab_perakuan.png';
     tabImgSrc={imgPerakuan}
     noRujukan="XX/PEMULA/XX/XXXXX"
     hasPayment={false} />
+
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+
+<BatalOlehPemohon />
 
 </div>
 

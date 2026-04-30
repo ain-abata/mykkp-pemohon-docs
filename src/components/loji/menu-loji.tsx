@@ -47,7 +47,6 @@ export default function MenuLoji({
   return (
     <div className="step-card">
       <h3>Langkah {stepNumber}: Masuk Ke Halaman Permohonan {pageName}</h3>
-
       
       <ExpandableImage
         src={imgMenu}
@@ -66,9 +65,8 @@ export default function MenuLoji({
       </Admonition>
 
       <ol start={3}>
-        <li>
-          Pilih butang radio <b>{moduleType}</b> dan klik butang <strong>Seterusnya</strong>.
-        </li>
+        <li>Pilih butang radio <b>{moduleType}</b>.</li>
+        <li>Klik butang <strong>Seterusnya</strong>.</li>
       </ol>
 
       <Admonition type="info">
