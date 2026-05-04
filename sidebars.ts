@@ -89,9 +89,18 @@ const sidebars: SidebarsConfig = {
       items: [
         'loji/intro',
         'loji/pekala',
+        'loji/pti',
+        'loji/pemula',
+        'loji/psl',
+        {
+          type: 'category',
+          label: 'Pemindahan Loji',
+          items: [
+            'loji/pplp',
+            'loji/pplhm',
+          ],
+        },
         'loji/pembatalan-permohonan',
-        'loji/pembayaran',
-        'loji/semak-status',
       ],
     },
     {

@@ -1,14 +1,34 @@
 ---
-title: Permohonan Pemeriksaan Berkala
+title: Permohonan Pemeriksaan Berkala (PEKALA)
 description: Panduan lengkap permohonan pemeriksaan berkala
 hide_table_of_contents: true
 sidebar_label: 'Pemeriksaan Berkala Loji'
 ---
 
 import Admonition from '@site/src/components/admonition';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+## 📌 Ringkasan Modul
+Pemohon membuat **Permohonan Pemeriksaan Berkala (PEKALA)** dengan memilih senarai loji yang dikehendaki dan menghantar permohonan.
+
+## 👤 Peranan Terlibat & Syarat Permohonan
+Kriteria pemohon yang dibenarkan untuk menghantar **Pemeriksaan Berkala** adalah seperti berikut:
+1. Penghuni dan Pemunya loji yang telah berdaftar sebagai **PATK Tahap 1** pada sistem MyKKP.
+
+Syarat-syarat bagi status loji yang dibenarkan untuk **Pemeriksaan Berkala** adalah seperti berikut:
+1. Aktif.   
+2. Tidak Digunakan.
+
+Jenis jentera yang terlibat bagi **Pemeriksaan Berkala** adalah seperti berikut:
+1. PMA
+2. PMA (Lif / Eskalator / Laluan Gerak)
+3. PMD
+4. PMT
+
+## 🧭 Langkah-langkah Permohonan
 
 <Tabs>
   <TabItem value="pemunya" label="Pemunya" default>
@@ -43,6 +63,8 @@ import imgMaklumatAm from '@site/assets/images/loji/pekala/tab_maklumat_am.png';
     hasRujukan={true}
     tabImgSrc={imgMaklumatAm} />
 
+---
+
 import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
 
 import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_loji_pemunya.png';
@@ -51,7 +73,11 @@ import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_l
     alphabetNumbering="B"
     tabNumber={2}
     tabName="Senarai Loji"
-    tabImgSrc={imgSenaraiLojiPemunya} />
+    tabImgSrc={imgSenaraiLojiPemunya}
+    leftTableName="Senarai Loji"
+    rightTableName="Senarai Loji Dipilih Untuk Pemeriksaan" />
+
+---
 
 import PengesahanSpesifikasi from '@site/src/components/loji/tab/pengesahan-spesifikasi';
 
@@ -61,7 +87,10 @@ import imgPengesahanSpesifikasi from '@site/assets/images/loji/pekala/tab_penges
     alphabetNumbering="C"
     tabNumber={3}
     tabName="Pengesahan Spesifikasi"
-    tabImgSrc={imgPengesahanSpesifikasi} />
+    tabImgSrc={imgPengesahanSpesifikasi}
+    hasBoilerType={true} />
+
+---
 
 import SenaraiCaj from '@site/src/components/loji/tab/senarai-caj';
 
@@ -72,6 +101,8 @@ import imgSenaraiCaj from '@site/assets/images/loji/pekala/tab_senarai_caj.png';
     tabNumber={4}
     tabName="Senarai Caj"
     tabImgSrc={imgSenaraiCaj} />
+
+---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 
@@ -84,7 +115,9 @@ import imgMesejBerjaya from '@site/assets/images/loji/pekala/mesej_penghantaran_
     tabNumber={5}
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
-    mesejBerjayaImgSrc={imgMesejBerjaya} />
+    mesejBerjayaImgSrc={imgMesejBerjaya}
+    noRujukan="XX/PEKALA/XX/XXXXX"
+    hasPayment={true} />
 
 </div>
 
@@ -138,16 +171,52 @@ import imgSenaraiLojiPenghuni from '@site/assets/images/loji/pekala/tab_senarai_
     tabNumber={5}
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
-    mesejBerjayaImgSrc={imgMesejBerjaya} />
+    mesejBerjayaImgSrc={imgMesejBerjaya}
+    noRujukan="XX/PEKALA/XX/XXXXX"
+    hasPayment={true} />
 
 </div>
 
   </TabItem>
 </Tabs>
 
+import SemakStatus from '@site/src/components/loji/semak-status';
+
+import imgSedangProses from '@site/assets/images/loji/pekala/halaman_permohonan_sedang_diproses.png'
+
+import imgSelesaiProses from '@site/assets/images/loji/pekala/halaman_permohonan_selesai_diproses.png'
+
+<SemakStatus 
+    stepNumber={4}
+    moduleName="PEKALA"
+    imgTabSedangDiproses={imgSedangProses}
+    imgTabSelesaiDiproses={imgSelesaiProses} />
+
+import SemakSebutHarga from '@site/src/components/loji/lihat-sebut-harga';
+
+import imgPermohonanProses from '@site/assets/images/loji/pembayaran/halaman_senarai_permohonan.png';
+
+import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_butang_lihat.png';
+
+<SemakSebutHarga 
+    stepNumber={5}
+    imgPermohonanProses={imgPermohonanProses}
+    imgBtnLihat={imgBtnLihat} />
+
+import Pembayaran from '@site/src/components/loji/pembayaran';
+
+import imgPembayaran from '@site/assets/images/loji/pekala/halaman_pembayaran.png';
+
+import imgLihatResit from '@site/assets/images/loji/pembayaran/lihat_resit.png';
+
+<Pembayaran
+    stepNumber={6}
+    paymentType="Bayaran Permulaan & Bayaran Akhir"
+    imgBayar={imgPembayaran}
+    imgResit={imgLihatResit} />
+
 import WhatNext from '@site/src/components/loji/what-next';
 
 <WhatNext
-  linkPembatalan="pembatalan-permohonan"
-  linkPembayaran="pembayaran"
-  linkSemakStatus="semak-status" />
+  canBatalPermohonan={true}
+  linkPembatalan="pembatalan-permohonan" />
