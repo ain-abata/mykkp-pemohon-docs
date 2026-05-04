@@ -204,8 +204,6 @@ import imgPerakuan from '@site/assets/images/loji/psl/tab_perakuan.png';
   </TabItem>
 </Tabs>
 
-
-
 import SemakStatus from '@site/src/components/loji/semak-status';
 
 import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png'
