@@ -42,6 +42,19 @@ import Link from '@docusaurus/Link';
   </div>
 </details>
 
+<details className="faq-item">
+  <summary>Permohonan saya telah ditolak. Bagaimanakah saya boleh dapatkan sebab penolakan?</summary>
+  <div className="faq-answer">
+    Anda boleh dapatkan sebab penolakan pada Surat Tolak di Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
+    1. Log masuk akaun MYKKP
+    2. Pastikan anda berada pada dashboard **Tempat Kerja/Kilang**.
+    3. Klik menu **Senarai Permohonan**.
+    4. Tekan butang **Tindakan**.
+    5. Tekan butang  **Lihat Senarai Permohonan.**
+    6. Lihat pada jadual Senarai Surat untuk dapatkan **Surat Tolak**.
+  </div>
+</details>
+
 </div>
 
 {Admonition({
