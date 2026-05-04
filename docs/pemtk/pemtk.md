@@ -31,7 +31,9 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan Pemberitahuan 
 
 import LoginStep from '../../src/components/login-step';
 
-<LoginStep title="Langkah 1: Akses Halaman Log Masuk MyKKP" />
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP" />
 
 <div className="step-card">
 

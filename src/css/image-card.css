@@ -84,3 +84,20 @@
   font-weight: bold;
   line-height: 1;
 }
+
+@media print {
+  .doc-image {
+    page-break-inside: avoid;
+    margin: 20px auto;
+  }
+
+  .doc-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .doc-image p {
+    font-size: 12px;
+    color: #555;
+  }
+}

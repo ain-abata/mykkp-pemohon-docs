@@ -190,8 +190,23 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Getting Started',
-      items: ['loji/intro'],
+      label: 'Kilang & Loji',
+      items: [
+        'loji/intro',
+        'loji/pekala',
+        'loji/pti',
+        'loji/pemula',
+        'loji/psl',
+        {
+          type: 'category',
+          label: 'Pemindahan Loji',
+          items: [
+            'loji/pplp',
+            'loji/pplhm',
+          ],
+        },
+        'loji/pembatalan-permohonan',
+      ],
     },
     {
       type: 'category',
