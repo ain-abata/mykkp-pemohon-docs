@@ -1,3 +1,19 @@
+/**
+ * Copy below 👇:
+
+import SenaraiCaj from '@site/src/components/loji/tab/senarai-loji';
+
+<SenaraiLoji
+    alphabetNumbering="B"
+    tabNumber={2}
+    tabName="Senarai Loji"
+    tabImgSrc={imgSenaraiLoji}
+    leftTableName="Senarai PTI"                 // Write name of table on the left side
+    rightTableName="Senarai PTI Yang Dipilih"   // Write name of table on the right side 
+     />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

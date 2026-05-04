@@ -1,3 +1,16 @@
+/**
+ * Copy below 👇:
+
+import SemakStatus from '@site/src/components/loji/semak-status';
+
+<SemakStatus 
+    stepNumber={4}
+    moduleName="PEMULA"
+    imgTabSedangDiproses={imgSedangProses}      // Import image of page 'Senarai Permohonan' tab 'Sedang Diproses'
+    imgTabSelesaiDiproses={imgSelesaiProses}    // Import image of page 'Senarai Permohonan' tab 'Lulus/Selesai' or 'Batal/Tolak' />
+
+ */
+
 import React from 'react';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';

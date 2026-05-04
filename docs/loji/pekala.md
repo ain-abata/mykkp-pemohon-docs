@@ -182,9 +182,9 @@ import imgSenaraiLojiPenghuni from '@site/assets/images/loji/pekala/tab_senarai_
 
 import SemakStatus from '@site/src/components/loji/semak-status';
 
-import imgSedangProses from '@site/assets/images/loji/pekala/halaman_permohonan_sedang_diproses.png'
+import imgSedangProses from '@site/assets/images/loji/pekala/halaman_permohonan_sedang_diproses.png';
 
-import imgSelesaiProses from '@site/assets/images/loji/pekala/halaman_permohonan_selesai_diproses.png'
+import imgSelesaiProses from '@site/assets/images/loji/pekala/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
     stepNumber={4}

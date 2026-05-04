@@ -1,6 +1,9 @@
 /**
  * 
 Copy below 👇:
+
+import MenuLoji from '@site/src/components/loji/menu-loji';
+
 <MenuLoji
     stepNumber={2}
     pageName="Pemeriksaan Berkala Loji"

@@ -71,7 +71,9 @@ import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
+import SemakStatus from '@site/src/components/loji/semak-status';
+import SemakSurat from '@site/src/components/loji/semak-surat';
 
 
 import imgMaklumatAm from '@site/assets/images/loji/psl/tab_maklumat_am.png';
@@ -80,6 +82,8 @@ import imgSenaraiLojiDikecualikan from '@site/assets/images/loji/psl/tab_senarai
 import imgPerihal from '@site/assets/images/loji/psl/tab_perihal_pemberitahuan.png';
 import imgDokumenSokongan from '@site/assets/images/loji/psl/tab_dokumen_sokongan.png';
 import imgPerakuan from '@site/assets/images/loji/psl/tab_perakuan.png';
+import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png';
+import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png';
 
 <Tabs>
   <TabItem value="pelupusan" label="Pelupusan">
@@ -204,19 +208,11 @@ import imgPerakuan from '@site/assets/images/loji/psl/tab_perakuan.png';
   </TabItem>
 </Tabs>
 
-import SemakStatus from '@site/src/components/loji/semak-status';
-
-import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png'
-
-import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png'
-
 <SemakStatus 
     stepNumber={4}
     moduleName="PSL"
     imgTabSedangDiproses={imgSedangProses}
     imgTabSelesaiDiproses={imgSelesaiProses} />
-
-import SemakSurat from '@site/src/components/loji/semak-surat';
 
 <SemakSurat
     stepNumber={5} />

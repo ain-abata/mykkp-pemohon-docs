@@ -1,3 +1,16 @@
+/**
+ * Copy below 👇:
+
+import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
+
+<DokumenSokongan
+    alphabetNumbering="D"
+    tabNumber={4}
+    tabName="Dokumen Sokongan"
+    tabImgSrc={imgDokumenSokongan} />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

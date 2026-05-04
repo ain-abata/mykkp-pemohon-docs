@@ -1,3 +1,16 @@
+/**
+ * Copy below 👇:
+
+import SenaraiCaj from '@site/src/components/loji/tab/tempat-dipindahkan';
+
+<TempatLojiDipindahkan
+    alphabetNumbering="B"
+    tabNumber={2}
+    tabName="Maklumat Tempat Loji Akan Dipindahkan"
+    tabImgSrc={imgTempatDipindahkan} />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

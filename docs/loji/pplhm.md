@@ -145,7 +145,7 @@ import imgMesejBerjaya from '@site/assets/images/loji/pplhm/mesej_penghantaran_b
     noRujukan="XX/PPLHM/XX/XXXXX"
     hasPayment={false} />
 
-import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
 
 <BatalOlehPemohon />
 
@@ -153,9 +153,9 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 
 import SemakStatus from '@site/src/components/loji/semak-status';
 
-import imgSedangProses from '@site/assets/images/loji/pplhm/halaman_permohonan_sedang_diproses.png'
+import imgSedangProses from '@site/assets/images/loji/pplhm/halaman_permohonan_sedang_diproses.png';
 
-import imgSelesaiProses from '@site/assets/images/loji/pplhm/halaman_permohonan_selesai_diproses.png'
+import imgSelesaiProses from '@site/assets/images/loji/pplhm/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
     stepNumber={4}

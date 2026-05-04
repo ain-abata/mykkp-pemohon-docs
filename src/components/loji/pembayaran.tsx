@@ -1,3 +1,17 @@
+/**
+ * Copy below 👇:
+
+import Pembayaran from '@site/src/components/loji/pembayaran';
+
+<Pembayaran 
+    stepNumber={5}
+    paymentType="Bayaran Permulaan & Bayaran Akhir"     // Write payment type
+    imgBayar={imgPermohonanProses}                      // Import image of page 'Senarai Pembayaran' with highlight 'Lihat' & 'Bayar' buttons
+    imgResit={imgPembayaran}                            // Import image of page 'Status Pembayaran' after payment success
+    />
+
+*/
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
@@ -5,19 +19,19 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
-interface SemakSebutHargaProps {
+interface PembayaranProps {
     stepNumber: number;
     paymentType: string;
     imgBayar?: string;
     imgResit?: string;
 }
 
-export default function SemakSebutHarga({
+export default function Pembayaran({
     stepNumber,
     paymentType,
     imgBayar,
     imgResit,
-}: SemakSebutHargaProps) {
+}: PembayaranProps) {
     return (
         <div className="step-card">
             <h3>Langkah {stepNumber}: {paymentType}</h3>
