@@ -60,7 +60,7 @@ export default function OkMaklumatSijil({
                 width={650}
             />
         <ol>
-            <li>Rekod <b>Sijil Kompetensi</b> akan terpapar sekiranya pemohon memiliki sijil kompetensi yang lain.</li>
+            <li>Rekod <b>{tabName}</b> akan terpapar sekiranya pemohon memiliki {tabName} yang lain.</li>
             <li>Klik butang <b>Seterusnya</b>.</li>
         </ol>
     </div>

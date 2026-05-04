@@ -34,7 +34,6 @@ import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 
 import EmptyFieldWarning from '@site/src/components/admonitions/empty-field-warning';
-import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 interface OkMaklumatPerubatanMMCProps {
     alphabetNumbering: string;

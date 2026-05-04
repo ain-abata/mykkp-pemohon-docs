@@ -46,6 +46,7 @@ interface OkMaklumatJadualProps {
     tabNumber: number;
     tabName: string;
     tabImgSrc?: string;
+    hasDropdown: boolean;
     tambahImgSrc?: string;
 }
 
@@ -54,6 +55,7 @@ export default function OkMaklumatJadual({
     tabNumber,
     tabName,
     tabImgSrc,
+    hasDropdown,
     tambahImgSrc,
 }: OkMaklumatJadualProps) {
     return (
@@ -67,7 +69,15 @@ export default function OkMaklumatJadual({
                 width={650}
             />
             <ol>
-                <li>Pengemaskinian maklumat pengalaman kerja boleh dilakukan seperti berikut:</li>
+                {hasDropdown && (
+          <li>
+            Klik pilih <b>{tabName}</b>.
+          </li>
+          
+                )}
+
+
+                <li>Pengemaskinian {tabName} boleh dilakukan seperti berikut:</li>
             </ol>
             <ul>
                 <li><b>Tambah Maklumat:</b></li>
