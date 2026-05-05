@@ -1,7 +1,7 @@
 ---
 title: FAQ Orang Kompeten (OYK)
 description: Soalan lazim berkaitan modul Orang Kompeten
-sidebar_label: OYK
+sidebar_label: Orang Kompeten
 hide_table_of_contents: true
 ---
 import Admonition from '@site/src/components/admonition';
@@ -9,6 +9,7 @@ import Link from '@docusaurus/Link';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
 
 # FAQ Orang Kompeten (OK)
 
@@ -16,7 +17,54 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 <Tabs>
   <TabItem value="OYK" label="Orang Kompeten" default>
+    <details className="faq-item">
+      <summary>Nama saya tiada dalam semakan OK.</summary>
+        <div className="faq-answer">
+           Sila e-melkan sijil kompetensi kepada pegawai **IT JKKP Negeri** berkaitan untuk dikemaskini.
+        </div>
+    </details>
+
+  <details className="faq-item">
+    <summary>Bagaimanakah cara untuk menyemak status permohonan OK saya?</summary>
+      <div className="faq-answer">
+          Untuk menyemak status permohonan OYK anda, sila ikuti langkah-langkah berikut:  
+          1. Log masuk akaun MyKKP.  
+          2. Pastikan anda berada pada dashboard **Orang Kompeten**. 
     
+    <ExpandableImage
+                src={menu}
+                alt="dashboard OK"
+                caption="Dashboard OK"
+                width={450} 
+    />
+          
+          3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon.  
+          4. Cari nombor rujukan permohonan anda untuk menyemak status permohonan dan nama pegawai yang mengendalikan permohonan tersebut.  
+  <p>
+      Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:
+      👉https://staff.dosh.gov.my/  
+  </p>
+    </div>
+  </details>
+
+<details className="faq-item">
+  <summary>Permohonan OYK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</summary>
+  <div className="faq-answer">
+    1. Log masuk akaun MyKKP.  
+    2. Pergi ke **Profil Saya**.  
+    3. Pergi ke **Maklumat OK**.  
+    4. Lihat pada **Senarai Kompetensi Yang Diluluskan**.  
+    5. Tekan butang **Lihat Slip**.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary>Saya tersalah isi maklumat semasa permohonan. Adakah saya boleh mengemaskini maklumat permohonan yang telah dihantar jika ianya sedang diproses oleh pegawai?</summary>
+  <div className="faq-answer">
+    Sila rujuk dengan pegawai JKKP yang melakukan semakan permohonan tersebut.
+  </div>
+</details>
+
   </TabItem>
 
   <TabItem value="OYT" label="Orang Terlatih">
@@ -81,64 +129,6 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
   </TabItem>
 
 </Tabs>
-
-<details className="faq-item">
-  <summary>Nama saya tiada dalam semakan OK.</summary>
-  <div className="faq-answer">
-    Sila e-melkan sijil kompetensi kepada pegawai **IT JKKP Negeri** berkaitan untuk dikemaskini.
-  </div>
-</details>
-
-<details className="faq-item">
-  <summary>Bagaimanakah cara untuk menyemak status permohonan OYK saya?</summary>
-  <div className="faq-answer">
-    Untuk menyemak status permohonan OYK anda, sila ikuti langkah-langkah berikut:  
-    1. Log masuk akaun MyKKP.  
-    2. Pastikan anda berada pada dashboard **Orang Kompeten**. 
-
-import menu from '@site/assets/images/orang-kompeten/menu_utama.png';
-    
-    <ExpandableImage
-                src={menu}
-                alt="dashboard OK"
-                caption="Dashboard OK"
-                width={450} 
-    />
-          
-    3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon.  
-    4. Cari nombor rujukan permohonan anda untuk meyemak status permohonan dan nama pegawai yang mengendalikan permohonan tersebut.  
-<p>
-      Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:
-      👉https://staff.dosh.gov.my/
-</p>
-
-  </div>
-</details>
-
-<details className="faq-item">
-  <summary>Permohonan OYK saya telah ditolak, adakah saya boleh mengemaskini sahaja?</summary>
-  <div className="faq-answer">
-    Tidak. Permohonan yang telah selesai diproses tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MYKKP.
-  </div>
-</details>
-
-<details className="faq-item">
-  <summary>Saya tersalah isi maklumat semasa permohonan. Adakah saya boleh mengemaskini maklumat permohonan yang telah dihantar jika ianya sedang diproses oleh pegawai?</summary>
-  <div className="faq-answer">
-    Sila rujuk dengan pegawai JKKP yang melakukan semakan permohonan tersebut.
-  </div>
-</details>
-
-<details className="faq-item">
-  <summary>Permohonan OYK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</summary>
-  <div className="faq-answer">
-    1. Log masuk akaun MyKKP.  
-    2. Pergi ke **Profil Saya**.  
-    3. Pergi ke **Maklumat OK**.  
-    4. Lihat pada **Senarai Kompetensi Yang Diluluskan**.  
-    5. Tekan butang **Lihat Slip**.
-  </div>
-</details>
 
 </div>
 

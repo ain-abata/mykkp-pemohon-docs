@@ -30,7 +30,7 @@ import Link from '@docusaurus/Link';
   <Link to="./oyk" className="faq-card-link">
     <div className="faq-module-card">
       <div className="faq-module-icon">👷</div>
-      <h3>Orang Kompeten (OYK)</h3>
+      <h3>Orang Kompeten (OK)</h3>
       <p>Soalan lazim berkaitan orang kompeten.</p>
     </div>
   </Link>
