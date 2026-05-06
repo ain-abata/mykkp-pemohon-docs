@@ -197,6 +197,8 @@ const sidebars: SidebarsConfig = {
         'loji/pti',
         'loji/pemula',
         'loji/psl',
+        'loji/pbuka',
+        'loji/pbaik',
         {
           type: 'category',
           label: 'Pemindahan Loji',
@@ -205,7 +207,16 @@ const sidebars: SidebarsConfig = {
             'loji/pplhm',
           ],
         },
+        'loji/muat-turun-cf',
         'loji/pembatalan-permohonan',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Kemalangan & Aduan',
+      items: [
+        'loji/aduan',
+        'loji/kemalangan-JKKP6'
       ],
     },
     {

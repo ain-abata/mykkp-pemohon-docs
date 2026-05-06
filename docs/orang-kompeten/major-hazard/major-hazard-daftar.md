@@ -24,6 +24,7 @@ import MenuOk from '../../../src/components/menu-ok';
   okType="Keselamatan"
   hasDropdown={true}
   moduleName="[OYKMH] - Orang Kompeten Major Hazard"
+  moduleType="Major Hazard"
  />
 
 <div className="step-card">

@@ -29,7 +29,7 @@ export default function Perakuan({
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}
                 caption={`Tab ${tabNumber}: ${tabName}`}
-                width={450} />
+                width={650} />
             <ol>
                 <li>Klik pada butang <i>checkbox</i> <b>Perakuan</b>.</li>
                 <li>Isi maklumat pada medan ruangan yang berkaitan.</li>

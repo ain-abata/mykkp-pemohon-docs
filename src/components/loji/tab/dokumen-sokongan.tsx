@@ -25,7 +25,7 @@ export default function DokumenSokongan({
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}
                 caption={`Tab ${tabNumber}: ${tabName}`}
-                width={450} />
+                width={650} />
                 
             <ol>
                 <li>Klik butang <img src={uploadIcon} style={{width: 15}} /> untuk memuat naik dokumen yang berkenaan pada medan bersyarat <b>Wajib</b>.</li>
