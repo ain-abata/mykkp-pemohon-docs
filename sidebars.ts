@@ -89,6 +89,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'loji/intro',
         'loji/psk',
+        'loji/ambil-alih-tk',
         'loji/pekala',
         'loji/pti',
         'loji/pemula',
