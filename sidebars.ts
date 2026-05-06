@@ -88,10 +88,19 @@ const sidebars: SidebarsConfig = {
       label: 'Kilang & Loji',
       items: [
         'loji/intro',
+        'loji/psk',
         'loji/pekala',
         'loji/pti',
         'loji/pemula',
-        'loji/psl',
+        {
+          type: 'category',
+          label: 'Pemberitahuan Status Loji',
+          items: [
+            'loji/psl-pelupusan',
+            'loji/psl-tidak-digunakan',
+            'loji/psl-pengecualian',
+          ],
+        },
         {
           type: 'category',
           label: 'Pemindahan Loji',

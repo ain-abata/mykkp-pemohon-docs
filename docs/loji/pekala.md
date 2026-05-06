@@ -1,7 +1,7 @@
 ---
 title: Permohonan Pemeriksaan Berkala (PEKALA)
 description: Panduan lengkap permohonan pemeriksaan berkala
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pemeriksaan Berkala Loji'
 ---
 

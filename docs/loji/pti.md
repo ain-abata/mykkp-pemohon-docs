@@ -1,7 +1,7 @@
 ---
 title: Permohonan Kebenaran Memasang Loji (PTI)
 description: Panduan lengkap permohonan kebenaran memasang loji
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Kebenaran Memasang'
 ---
 

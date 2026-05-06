@@ -1,7 +1,7 @@
 ---
 title: Permohonan Pemindahan Loji Hak Milik
 description: Panduan lengkap permohonan pemindahan loji hak milik
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Loji Hak Milik'
 ---
 
