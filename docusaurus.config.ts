@@ -9,16 +9,28 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
+    //meta tag
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '93EEBA4F8450F083',
+      },
+    },
+  ],
+
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ain-abata.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mykkp-pemohon-docs',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -75,6 +87,13 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+     // 👇 ADD THIS
+  algolia: {
+    appId: 'P14KWFGPWB',
+    apiKey: '877953df5cf2bdd57f792442f023df7b',
+    indexName: 'mykkp',
+    contextualSearch: true,
+  },
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -90,6 +109,14 @@ const config: Config = {
           label: 'Manual Penggunaan',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        
+        // 👇 ADD THIS
+       {
+          type: 'search',
+          position: 'right',
+       },
+        
+        
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

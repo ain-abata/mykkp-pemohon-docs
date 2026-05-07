@@ -84,9 +84,10 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
     />
 
     3. Klik menu **Senarai Permohonan**.
-    4. Tekan butang **Tindakan**.
-    5. Tekan butang  **Lihat Senarai Permohonan.**
-    6. Lihat pada jadual Senarai Surat untuk dapatkan **Surat Tolak**.
+    4. Pergi ke tab **Batal/Tolak**.
+    5. Tekan butang **Tindakan**.
+    6. Tekan butang  **Lihat Maklumat**.
+    7. Lihat pada jadual Senarai Surat untuk dapatkan **Surat Tolak**.
   </div>
 </details>
 

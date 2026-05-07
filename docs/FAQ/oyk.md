@@ -23,7 +23,6 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
            Sila e-melkan sijil kompetensi kepada pegawai **IT JKKP Negeri** berkaitan untuk dikemaskini.
         </div>
     </details>
-
   <details className="faq-item">
     <summary>Bagaimanakah cara untuk menyemak status permohonan OK saya?</summary>
       <div className="faq-answer">
@@ -42,7 +41,7 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
           4. Cari nombor rujukan permohonan anda untuk menyemak status permohonan dan nama pegawai yang mengendalikan permohonan tersebut.  
   <p>
       Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:
-      👉https://staff.dosh.gov.my/  
+      👉https://staff.dosh.gov.my/  dan lakukan carian nama pegawai tersebut.
   </p>
     </div>
   </details>
@@ -50,6 +49,8 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
 <details className="faq-item">
   <summary>Permohonan OYK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</summary>
   <div className="faq-answer">
+  Untuk mendapatkan slip ringkas, sila ikuti langkah-langkah berikut:  
+
     1. Log masuk akaun MyKKP.  
     2. Pergi ke **Profil Saya**.  
     3. Pergi ke **Maklumat OK**.  
@@ -62,6 +63,36 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
   <summary>Saya tersalah isi maklumat semasa permohonan. Adakah saya boleh mengemaskini maklumat permohonan yang telah dihantar jika ianya sedang diproses oleh pegawai?</summary>
   <div className="faq-answer">
     Sila rujuk dengan pegawai JKKP yang melakukan semakan permohonan tersebut.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary>Bolehkah saya mengemaskini permohonan OYK yang sudah ditolak?</summary>
+  <div className="faq-answer">
+    Tidak. Permohonan yang sudah ditolak tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MyKKP.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary>Permohonan OYK saya telah ditolak. Bagaimanakah cara untuk dapatkan sebab penolakan?</summary>
+  <div className="faq-answer">
+    Anda boleh dapatkan sebab penolakan pada halaman Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
+    1. Log masuk akaun MyKKP
+    2. Pastikan anda berada pada dashboard **Orang Kompeten**.
+    
+    <ExpandableImage
+                src={menu}
+                alt="dashboard orang Kompeten"
+                caption="Dashboard Orang Kompeten"
+                width={450} 
+    />
+
+    3. Klik menu **Senarai Permohonan**.
+    4. Pergi ke tab **Batal/Tolak**.
+    5. Tekan butang **Tindakan**.
+    6. Tekan butang  **Lihat Ulasan Pegawai**.  
+
+    Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:  👉 https://staff.dosh.gov.my/ dan lakukan carian nama pegawai tersebut.
   </div>
 </details>
 
