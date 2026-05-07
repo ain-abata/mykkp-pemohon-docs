@@ -222,6 +222,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Lain-lain',
+      items: [
+        'lain-lain/dashboard-pemohon',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Bantuan',
       items: [
         {

@@ -1,0 +1,54 @@
+---
+title: Panduan Dashboard Pengguna
+description: Panduan lengkap Dashboard Pengguna
+hide_table_of_contents: true
+sidebar_label: 'Dashboard Pengguna'
+---
+
+import Admonition from '@site/src/components/admonition';
+import React from 'react';
+
+# 📝 Panduan Dashboard Pengguna
+import LoginStep from '@site/src/components/login-step';
+
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP" />
+
+<div className="step-card">
+import LangkahMenuUtama from '@site/src/components/lain-lain/dashboard-pemohon/langkah-menu-utama';
+
+import imgDashboard from '@site/assets/images/lain-lain/dashboard-pemohon/dashboard_pemohon.png';
+import imgTukarMenu from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_menu.png';
+import imgTempatKerja from '@site/assets/images/lain-lain/dashboard-pemohon/menu_tempat_kerja_kilang.png';
+import imgOrangKompeten from '@site/assets/images/lain-lain/dashboard-pemohon/menu_orang_kompeten.png';
+
+<LangkahMenuUtama
+  stepNumber={2}
+  dashboardImgSrc={imgDashboard}
+  tukarMenuImgSrc={imgTukarMenu}
+  tempatKerjaImgSrc={imgTempatKerja}
+  orangKompetenImgSrc={imgOrangKompeten}
+/>
+---
+
+import LangkahProfilSaya from '@site/src/components/lain-lain/dashboard-pemohon/langkah-profil-saya';
+
+import imgMenuProfil from '@site/assets/images/lain-lain/dashboard-pemohon/menu_profil_saya.png';
+import imgMaklumatAm from '@site/assets/images/lain-lain/dashboard-pemohon/maklumat_am.png';
+import imgMaklumatOyk from '@site/assets/images/lain-lain/dashboard-pemohon/maklumat_oyk.png';
+import imgJadualCep from '@site/assets/images/lain-lain/dashboard-pemohon/jadual_cep.png';
+import imgMaklumatEmel from '@site/assets/images/lain-lain/dashboard-pemohon/maklumat_emel.png';
+import imgTukarKataLaluan from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_kata_laluan.png';
+
+<LangkahProfilSaya
+  stepNumber={3}
+  menuProfilImgSrc={imgMenuProfil}
+  maklumatAmImgSrc={imgMaklumatAm}
+  maklumatOykImgSrc={imgMaklumatOyk}
+  jadualCepImgSrc={imgJadualCep}
+  maklumatEmelImgSrc={imgMaklumatEmel}
+  tukarKataLaluanImgSrc={imgTukarKataLaluan}
+/>
+
+</div>
