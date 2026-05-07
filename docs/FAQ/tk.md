@@ -2,7 +2,7 @@
 title: FAQ Tempat Kerja (TK)
 description: Soalan lazim berkaitan modul Tempat Kerja
 sidebar_label: Tempat Kerja
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
