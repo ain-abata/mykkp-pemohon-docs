@@ -96,9 +96,6 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    metadata: [
-      { name: 'algolia-site-verification', content: '4FAC9A54E16E5C6F' },
-    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -106,7 +103,7 @@ const config: Config = {
   algolia: {
     appId: 'P14KWFGPWB',
     apiKey: '877953df5cf2bdd57f792442f023df7b',
-    indexName: 'mykkp',
+    indexName: 'MyKKP Doc',
     contextualSearch: true,
   },
     navbar: {
