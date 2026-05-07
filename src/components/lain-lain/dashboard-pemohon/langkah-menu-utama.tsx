@@ -21,7 +21,7 @@ export default function LangkahMenuUtama({
 
   return (
     <div>
-      <h3>Langkah {stepNumber}: Laman Menu Utama</h3>
+      <h3>{stepNumber}. Laman Menu Utama</h3>
 
       <ol>
         <li>Skrin <b>Dashboard Pemohon</b> akan dipaparkan.</li>

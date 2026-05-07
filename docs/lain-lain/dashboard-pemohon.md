@@ -50,5 +50,75 @@ import imgTukarKataLaluan from '@site/assets/images/lain-lain/dashboard-pemohon/
   maklumatEmelImgSrc={imgMaklumatEmel}
   tukarKataLaluanImgSrc={imgTukarKataLaluan}
 />
+---
 
+import LangkahProfilTempatKerja from '@site/src/components/lain-lain/dashboard-pemohon/langkah-profil-tempat-kerja';
+
+import imgMenuProfilTempatKerja from '@site/assets/images/lain-lain/dashboard-pemohon/menu_profil_tempat_kerja.png';
+import imgPengaktifan from '@site/assets/images/lain-lain/dashboard-pemohon/pengaktifan_tempat_kerja.png';
+import imgCarian from '@site/assets/images/lain-lain/dashboard-pemohon/carian_tempat_kerja.png';
+import imgKemaskini from '@site/assets/images/lain-lain/dashboard-pemohon/kemaskini_tempat_kerja.png';
+import imgSenaraiJentera from '@site/assets/images/lain-lain/dashboard-pemohon/senarai_jentera_cf.png';
+import imgPenilaian from '@site/assets/images/lain-lain/dashboard-pemohon/penilaian_tempat_kerja.png';
+
+<LangkahProfilTempatKerja
+  stepNumber={4}
+  menuProfilTempatKerjaImgSrc={imgMenuProfilTempatKerja}
+  pengaktifanImgSrc={imgPengaktifan}
+  carianImgSrc={imgCarian}
+  kemaskiniImgSrc={imgKemaskini}
+  senaraiJenteraImgSrc={imgSenaraiJentera}
+  penilaianImgSrc={imgPenilaian}
+/>
+---
+
+import LangkahSenaraiPermohonan from '@site/src/components/lain-lain/dashboard-pemohon/langkah-senarai-permohonan';
+
+import imgMenuSenaraiPermohonan from '@site/assets/images/lain-lain/dashboard-pemohon/menu_senarai_permohonan.png';
+import imgSedangDiproses from '@site/assets/images/lain-lain/dashboard-pemohon/tab_sedang_diproses.png';
+import imgDeraf from '@site/assets/images/lain-lain/dashboard-pemohon/tab_deraf.png';
+import imgLulus from '@site/assets/images/lain-lain/dashboard-pemohon/tab_lulus.png';
+import imgBatalTolak from '@site/assets/images/lain-lain/dashboard-pemohon/tab_batal_tolak.png';
+import imgPengurusan from '@site/assets/images/lain-lain/dashboard-pemohon/tab_pengurusan_deraf.png';
+
+
+<LangkahSenaraiPermohonan
+  stepNumber={5}
+  menuSenaraiPermohonanImgSrc={imgMenuSenaraiPermohonan}
+  sedangDiprosesImgSrc={imgSedangDiproses}
+  derafImgSrc={imgDeraf}
+  lulusImgSrc={imgLulus}
+  batalTolakImgSrc={imgBatalTolak}
+  pengurusanDerafImgSrc={imgPengurusan}
+/>
+---
+
+import LangkahTemudugaVerifikasi from '@site/src/components/lain-lain/dashboard-pemohon/langkah-temuduga-verifikasi';
+
+import imgTemudugaVerifikasi from '@site/assets/images/lain-lain/dashboard-pemohon/menu_temuduga_verifikasi.png';
+
+<LangkahTemudugaVerifikasi
+  stepNumber={6}
+  temudugaVerifikasiImgSrc={imgTemudugaVerifikasi}
+/>
+---
+
+import LangkahPembayaran from '@site/src/components/lain-lain/dashboard-pemohon/langkah-pembayaran';
+
+import imgPembayaran from '@site/assets/images/lain-lain/dashboard-pemohon/pembayaran.png';
+
+<LangkahPembayaran
+  stepNumber={7}
+  pembayaranImgSrc={imgPembayaran}
+/>
+---
+
+import LangkahSuratMenyurat from '@site/src/components/lain-lain/dashboard-pemohon/langkah-surat-menyurat';
+
+import imgSuratMenyurat from '@site/assets/images/lain-lain/dashboard-pemohon/surat_menyurat.png';
+
+<LangkahSuratMenyurat
+  stepNumber={8}
+  suratMenyuratImgSrc={imgSuratMenyurat}
+/>
 </div>

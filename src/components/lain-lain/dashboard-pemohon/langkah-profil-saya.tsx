@@ -27,7 +27,7 @@ export default function LangkahProfilSaya({
 
   return (
     <div>
-      <h3>Langkah {stepNumber}: Laman Profil Saya</h3>
+      <h3>{stepNumber}. Laman Profil Saya</h3>
 
       <ol>
         <li>Klik menu <b>Profil Saya</b>.</li>
