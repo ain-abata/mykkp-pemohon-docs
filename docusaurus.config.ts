@@ -77,19 +77,14 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
       } satisfies Preset.Options,
     ],
   ],
 
-  plugins: [
-  [
-    '@docusaurus/plugin-sitemap',
-    {
-      changefreq: 'weekly',
-      priority: 0.5,
-    },
-  ],
- ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
