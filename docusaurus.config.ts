@@ -4,6 +4,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const branch = process.env.GITHUB_REF_NAME;
+
+const baseUrl =
+  branch === "main"
+    ? "/mykkp-pemohon-docs/"
+    : "";
+
 const config: Config = {
   title: 'MyKKP Pemohon Documentation',
   tagline: 'Dinosaurs are cool',
@@ -85,9 +92,13 @@ const config: Config = {
     ],
   ],
 
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      { name: 'algolia-site-verification', content: '4FAC9A54E16E5C6F' },
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },

@@ -1,7 +1,7 @@
 ---
 title: Pendaftaran Sijil Operator Dandang Stim (Gred 2)
 description: Panduan lengkap pendaftaran sijil operator dandang stim gred 2
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Operator Dandang Stim Gred 2'
 ---
 
