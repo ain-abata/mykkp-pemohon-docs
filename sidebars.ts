@@ -216,7 +216,8 @@ const sidebars: SidebarsConfig = {
       label: 'Kemalangan & Aduan',
       items: [
         'loji/aduan',
-        'loji/kemalangan-JKKP6'
+        'loji/kemalangan-JKKP6',
+        'loji/penyakit-JKKP7',
       ],
     },
     {

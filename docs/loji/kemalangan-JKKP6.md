@@ -98,8 +98,9 @@ import imgPerakuan from '@site/assets/images/kemalangan-aduan/jkkp6/tab6_perakua
 import imgMakluman from '@site/assets/images/kemalangan-aduan/jkkp6/popup_makluman.png';
 
 <TabPerakuan
-  tabNumber={5}
+  tabNumber={6}
   tabName="Perakuan"
+  moduleName="JKKP6"
   tabImgSrc={imgPerakuan}
   maklumanImgSrc={imgMakluman}
 />

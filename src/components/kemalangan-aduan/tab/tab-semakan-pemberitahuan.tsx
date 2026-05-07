@@ -24,7 +24,7 @@ export default function TabSemakanPemberitahuan({
             />
             <ol>
                 <li>Paparan <b>Semakan Pemberitahuan Terdahulu</b> akan dipaparkan.</li>
-                <li>Isi maklumat <b>No. Kad Pengenalan</b> dan pilih tarikh kejadian.</li>
+                <li>Isi maklumat pada ruang yang disediakan.</li>
                 <li>Klik butang <b>Semakan</b> untuk melakukan semakan.</li>
                 <Admonition type="info">
                     Pemberitahu boleh meneruskan pemberitahuan jika tiada semakan diperlukan.

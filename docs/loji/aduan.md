@@ -82,6 +82,7 @@ import imgMakluman from '@site/assets/images/kemalangan-aduan/aduan/popup_maklum
 <TabPerakuan
   tabNumber={5}
   tabName="Perakuan"
+  moduleName="SAD"
   tabImgSrc={imgPerakuan}
   maklumanImgSrc={imgMakluman}
 />
