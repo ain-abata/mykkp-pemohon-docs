@@ -104,7 +104,7 @@ const config: Config = {
     appId: 'P14KWFGPWB',
     apiKey: '877953df5cf2bdd57f792442f023df7b',
     indexName: 'MyKKP Doc',
-    contextualSearch: true,
+    contextualSearch: false,
   },
     navbar: {
       hideOnScroll: true,
