@@ -27,7 +27,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://f9e2dbbe.mykkp-pemohon-docs-stg.pages.dev',
+  url: 'https://fcbcc238.mykkp-pemohon-docs-stg.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
