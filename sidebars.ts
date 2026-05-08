@@ -91,15 +91,23 @@ const sidebars: SidebarsConfig = {
         'loji/psk',
         'loji/ambil-alih-tk',
         'loji/pekala',
+        {
+          type: 'category',
+          label: 'Kerja Pembinaan (JKKP12)',
+          items: [
+            'loji/jkkp12/klien',
+            'loji/jkkp12/klien-domestik',
+          ],
+        },
         'loji/pti',
         'loji/pemula',
         {
           type: 'category',
           label: 'Pemberitahuan Status Loji',
           items: [
-            'loji/psl-pelupusan',
-            'loji/psl-tidak-digunakan',
-            'loji/psl-pengecualian',
+            'loji/psl/pelupusan',
+            'loji/psl/tidak-digunakan',
+            'loji/psl/pengecualian',
           ],
         },
         {

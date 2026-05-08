@@ -53,6 +53,7 @@ interface MenuOkProps {
   moduleName: string;
   moduleType: string;
   hasDropdown: boolean;
+  headerId: string;
 }
 
 export default function MenuOk({
@@ -62,10 +63,11 @@ export default function MenuOk({
   hasDropdown,
   moduleName,
   moduleType,
+  headerId,
 }: MenuOkProps) {
   return (
     <div className="step-card">
-      <h3>Langkah {stepNumber}: Masuk Ke Halaman Pendaftaran {pageName}</h3>
+      <h3 id={headerId}>Langkah {stepNumber}: Masuk Ke Halaman Pendaftaran {pageName}</h3>
 
       
       <ExpandableImage

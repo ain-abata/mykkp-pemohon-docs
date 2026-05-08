@@ -64,6 +64,8 @@ import imgMaklumatAm from '@site/assets/images/loji/psk/tab_maklumat_am.png';
     hasPemunyaAsalSection={false}
     hasPemunyaSection={false} />
 
+---
+
 #### B. Tab 2: Perihal Permohonan
 
 import tabImgSrc from '@site/assets/images/loji/psk/tab_perihal_permohonan.png';
@@ -77,7 +79,9 @@ import tabImgSrc from '@site/assets/images/loji/psk/tab_perihal_permohonan.png';
 1. Pilih status kerajaan pada butang radio.
 2. Isi maklumat di medan **Ulasan / Perihal Permohonan**.
 3. Klik butang **Seterusnya**.
-    
+
+---
+
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
 
 import imgDokumenSokongan from '@site/assets/images/loji/psk/tab_dokumen_sokongan.png';
@@ -87,6 +91,8 @@ import imgDokumenSokongan from '@site/assets/images/loji/psk/tab_dokumen_sokonga
     tabNumber={3}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgDokumenSokongan} />
+
+---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 

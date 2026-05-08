@@ -28,6 +28,7 @@ interface PerakuanProps {
     mesejBerjayaImgSrc?: string;
     noRujukan: string;
     hasPayment?: boolean;
+    headerId: string;
 }
 
 export default function Perakuan({
@@ -38,10 +39,11 @@ export default function Perakuan({
     mesejBerjayaImgSrc,
     noRujukan,
     hasPayment,
+    headerId,
 }: PerakuanProps) {
     return (
         <div>
-            <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
+            <h4 id={headerId}>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
             <ExpandableImage
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}
