@@ -43,7 +43,7 @@ import Link from '@docusaurus/Link';
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya telah terlupa kata laluan?</summary>
+  <summary><h4>Saya telah terlupa kata laluan?</h4></summary>
   <div className="faq-answer">
 
 1. Sila klik pautan **“Lupa Kata Laluan?”** pada paparan [Log Masuk MyKKP](https://mykkp.dosh.gov.my/myKKP/#/home/log-masuk). 
@@ -57,7 +57,7 @@ import Link from '@docusaurus/Link';
 </details>
 
 <details className="faq-item">
-  <summary>Saya telah mendaftar. Tetapi ketika log masuk, sistem memaklumkan bahawa login ID dan Kata Laluan tidak tepat.</summary>
+  <summary><h4>Saya telah mendaftar. Tetapi ketika log masuk, sistem memaklumkan bahawa login ID dan Kata Laluan tidak tepat.</h4></summary>
   <div className="faq-answer">
 
 1. Sila semak sama ada pengaktifan akaun MyKKP telah dibuat menerusi verifikasi akaun MyKKP.
@@ -67,14 +67,14 @@ import Link from '@docusaurus/Link';
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin menggunakan No. Kad Pengenalan saya untuk mendaftar 2 ID pengguna MyKKP.</summary>
+  <summary><h4>Saya ingin menggunakan No. Kad Pengenalan saya untuk mendaftar 2 ID pengguna MyKKP.</h4></summary>
   <div className="faq-answer">
     Satu No. Kad Pengenalan hanya boleh digunakan untuk mendaftar **1 ID pengguna MyKKP**.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>No. Kad Pengenalan saya telah didaftarkan oleh pengguna lain.</summary>
+  <summary><h4>No. Kad Pengenalan saya telah didaftarkan oleh pengguna lain.</h4></summary>
   <div className="faq-answer">
     Mohon hubungi pasukan teknikal menerusi e-mel **mykkp@mohr.gov.my** beserta bukti pengenalan diri seperti salinan MyKad untuk semakan pihak teknikal selanjutnya.
   </div>
@@ -87,7 +87,7 @@ import Link from '@docusaurus/Link';
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya tidak menerima e-mel pengaktifan.</summary>
+  <summary><h4>Saya tidak menerima e-mel pengaktifan.</h4></summary>
   <div className="faq-answer">
 
 1. E-mel pengaktifan akan dihantar secara *automatik* ke *inbox* e-mel yang telah didaftarkan dengan sistem MyKKP selepas pendaftaran akaun berjaya dilakukan.
@@ -99,14 +99,14 @@ Sila pastikan e-mel peribadi yang didaftarkan adalah e-mel yang sah dan masih ak
 </details>
 
 <details className="faq-item">
-  <summary>Saya tidak menerima sebarang e-mel pemakluman Aktiviti MyKKP.</summary>
+  <summary><h4>Saya tidak menerima sebarang e-mel pemakluman Aktiviti MyKKP.</h4></summary>
   <div className="faq-answer">
     Pengguna dikehendaki menyemak ruangan e-mel *Spam* atau *Junk Mail* di dalam e-mel peribadi. Rekod aktiviti semasa MyKKP masih boleh disemak dalam akaun MyKKP pengguna.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin menukar alamat e-mel.</summary>
+  <summary><h4>Saya ingin menukar alamat e-mel.</h4></summary>
   <div className="faq-answer">
 
 1. Log masuk ke akaun MyKKP.
@@ -126,7 +126,7 @@ Sila pastikan e-mel peribadi yang didaftarkan adalah e-mel yang sah dan masih ak
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Perlukah saya muat naik gambar pada Profil Saya?</summary>
+  <summary><h4>Perlukah saya muat naik gambar pada Profil Saya?</h4></summary>
   <div className="faq-answer">
     Gambar berukuran passport dengan spesifikasi yang telah ditetapkan **WAJIB** dimuat naik di Profil Saya sekiranya pengguna merupakan **Orang Kompeten (OYK)**.
   </div>
@@ -139,7 +139,7 @@ Sila pastikan e-mel peribadi yang didaftarkan adalah e-mel yang sah dan masih ak
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya tidak dapat menghubungi talian terus MyKKP 03-6419 2525</summary>
+  <summary><h4>Saya tidak dapat menghubungi talian terus MyKKP 03-6419 2525</h4></summary>
   <div className="faq-answer">
     Talian tersebut hanya boleh dihubungi pada waktu berikut (kecuali pada Hari Kelepasan Am):
 
@@ -151,14 +151,14 @@ Untuk negeri yang bekerja pada hari Ahad, sila hubungi pejabat JKKP Negeri terse
 </details>
 
 <details className="faq-item">
-  <summary>Apakah browser yang paling sesuai untuk melayari portal MyKKP?</summary>
+  <summary><h4>Apakah browser yang paling sesuai untuk melayari portal MyKKP?</h4></summary>
   <div className="faq-answer">
     Paparan terbaik portal MyKKP adalah dengan menggunakan browser **Chrome**.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Saya menghadapi masalah untuk mencari butang Tutup pada paparan.</summary>
+  <summary><h4>Saya menghadapi masalah untuk mencari butang Tutup pada paparan.</h4></summary>
   <div className="faq-answer">
     Sila ubah suai saiz paparan skrin pada browser menggunakan tool *Zoom*.
   </div>
@@ -171,7 +171,7 @@ Untuk negeri yang bekerja pada hari Ahad, sila hubungi pejabat JKKP Negeri terse
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya telah membuat pembayaran secara atas talian, tetapi status masih “pembayaran”.</summary>
+  <summary><h4>Saya telah membuat pembayaran secara atas talian, tetapi status masih “pembayaran”.</h4></summary>
   <div className="faq-answer">
     
 1. Perkara ini adalah disebabkan oleh pengguna tidak menunggu sehingga resit MyKKP dipaparkan.
