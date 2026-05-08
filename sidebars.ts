@@ -25,7 +25,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'pendaftaran/pendaftaran',
         'pemtk/pemtk',
-        'orang-kompeten/orang-kompeten'
+        'orang-kompeten/orang-kompeten',
+        'orang-kompeten/kemaskini-tempat-kerja',
       ],
     },
     {
@@ -182,7 +183,8 @@ const sidebars: SidebarsConfig = {
             'orang-kompeten/osh-coordinator/osh-daftar',
           ],
         },
-
+        'orang-kompeten/pelaporan-OYK',
+        'orang-kompeten/bosh',
         'orang-kompeten/pembatalan-permohonan',
         'orang-kompeten/pembayaran-fi',
         'orang-kompeten/kelulusan-permohonan',
