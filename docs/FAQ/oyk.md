@@ -18,13 +18,13 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
 <Tabs>
   <TabItem value="OYK" label="Orang Kompeten" default>
     <details className="faq-item">
-      <summary>Nama saya tiada dalam semakan OK.</summary>
+      <summary><h4>Nama saya tiada dalam semakan OK.</h4></summary>
         <div className="faq-answer">
            Sila e-melkan sijil kompetensi kepada pegawai **IT JKKP Negeri** berkaitan untuk dikemaskini.
         </div>
     </details>
   <details className="faq-item">
-    <summary>Bagaimanakah cara untuk menyemak status permohonan OK saya?</summary>
+    <summary><h4>Bagaimanakah cara untuk menyemak status permohonan OK saya?</h4></summary>
       <div className="faq-answer">
           Untuk menyemak status permohonan OYK anda, sila ikuti langkah-langkah berikut:  
           1. Log masuk akaun MyKKP.  
@@ -47,7 +47,7 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
   </details>
 
 <details className="faq-item">
-  <summary>Permohonan OYK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</summary>
+  <summary><h4>Permohonan OYK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</h4></summary>
   <div className="faq-answer">
   Untuk mendapatkan slip ringkas, sila ikuti langkah-langkah berikut:  
 
@@ -60,21 +60,21 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
 </details>
 
 <details className="faq-item">
-  <summary>Saya tersalah isi maklumat semasa permohonan. Adakah saya boleh mengemaskini maklumat permohonan yang telah dihantar jika ianya sedang diproses oleh pegawai?</summary>
+  <summary><h4>Saya tersalah isi maklumat semasa permohonan. Adakah saya boleh mengemaskini maklumat permohonan yang telah dihantar jika ianya sedang diproses oleh pegawai?</h4></summary>
   <div className="faq-answer">
     Sila rujuk dengan pegawai JKKP yang melakukan semakan permohonan tersebut.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Bolehkah saya mengemaskini permohonan OYK yang sudah ditolak?</summary>
+  <summary><h4>Bolehkah saya mengemaskini permohonan OYK yang sudah ditolak?</h4></summary>
   <div className="faq-answer">
     Tidak. Permohonan yang sudah ditolak tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MyKKP.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Permohonan OYK saya telah ditolak. Bagaimanakah cara untuk dapatkan sebab penolakan?</summary>
+  <summary><h4>Permohonan OYK saya telah ditolak. Bagaimanakah cara untuk dapatkan sebab penolakan?</h4></summary>
   <div className="faq-answer">
     Anda boleh dapatkan sebab penolakan pada halaman Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
     1. Log masuk akaun MyKKP
@@ -100,32 +100,32 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
 
   <TabItem value="OYT" label="Orang Terlatih">
     <details className="faq-item">
-       <summary>Bagaimanakah untuk mendapatkan Sijil atau Slip Ringkas bagi permohonan OSH-C yang telah diluluskan?</summary>
+       <summary><h4>Bagaimanakah untuk mendapatkan Sijil atau Slip Ringkas bagi permohonan OSH-C yang telah diluluskan?</h4></summary>
          <div className="faq-answer">
            Untuk makluman, sijil dan Slip Ringkas tidak lagi dipaparkan oleh pihak JKKP. Pemohon hanya akan diberikan  No. Daftar Sijil sahaja.
          </div>
     </details>
     <details className="faq-item">
-       <summary>Saya telah menghadiri kursus  latihan OSH-Coordinator, adakah saya  telah selesai didaftarkan sebagai OSH-Coordinator?</summary>
+       <summary><h4>Saya telah menghadiri kursus  latihan OSH-Coordinator, adakah saya  telah selesai didaftarkan sebagai OSH-Coordinator?</h4></summary>
          <div className="faq-answer">
            Tidak. Menghadiri kursus latihan sahaja tidak bermakna anda telah didaftarkan sebagai OSH-Coordinator.  
            <br  />Anda perlu membuat pendaftaran rasmi melalui sistem MYKKP dan mendapatkan kelulusan daripada pihak JKKP terlebih dahulu.<br  />
          </div>
     </details>
     <details className="faq-item">
-       <summary>Adakah wajib bagi sesuatu tempat kerja melantik OSH-Coordinator?</summary>
+       <summary><h4>Adakah wajib bagi sesuatu tempat kerja melantik OSH-Coordinator?</h4></summary>
          <div className="faq-answer">
            Mengikut Sekyen 29A Akta Keselamatan dan Kesihatan Pekerjaan, adalah menjadi tanggungjawab/kewajipan majikan yang mempunyai 5 atau lebih pekerja untuk melantik salah seorang daripada pekerja mereka sebagai OSH-Coordinator.
          </div>
     </details>
     <details className="faq-item">
-       <summary>Bolehkah sesuatu tempat kerja melantik lebih dari satu pekerja sebagai OSH-Coordinator</summary>
+       <summary><h4>Bolehkah sesuatu tempat kerja melantik lebih dari satu pekerja sebagai OSH-Coordinator</h4></summary>
          <div className="faq-answer">
            Ya, boleh. Majikan boleh melantik lebih dari satu pekerja sebagai OSH-Coordinator.
          </div>
     </details>
         <details className="faq-item">
-       <summary>Saya telah bertukar majikan, adakah saya perlu mendaftarkan semula OSH-Coordinator untuk majikan baharu?</summary>
+       <summary><h4>Saya telah bertukar majikan, adakah saya perlu mendaftarkan semula OSH-Coordinator untuk majikan baharu?</h4></summary>
          <div className="faq-answer">
            Tidak perlu. Anda hanya perlu mengemaskini maklumat majikan dalam sistem MYKKP seperti berikut:  
            1. Log masuk ke MYKKP
@@ -139,14 +139,14 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
          </div>
     </details>
     <details className="faq-item">
-       <summary>Antara dokumen sokongan yang wajib dimuat naik semasa permohonan pendaftaran OSH-C adalah Surat Lantikan, Apakah itu Surat Lantikan?</summary>
+       <summary><h4>Antara dokumen sokongan yang wajib dimuat naik semasa permohonan pendaftaran OSH-C adalah Surat Lantikan, Apakah itu Surat Lantikan?</h4></summary>
          <div className="faq-answer">
            Surat Lantikan ialah dokumen rasmi yang dikeluarkan oleh majikan atau syarikat untuk melantik seseorang pekerja sebagai Penyelaras Keselamatan dan Kesihatan Pekerjaan (OSH-Coordinator) bagi sesebuah tempat kerja.  
            <br  />Surat ini berfungsi sebagai bukti pelantikan rasmi bahawa individu tersebut telah diberi tanggungjawab untuk mengurus dan menyelaras aspek keselamatan dan kesihatan pekerjaan di tempat kerja yang ditetapkan.<br />
          </div>
     </details>
     <details className="faq-item">
-       <summary>Apakah prosedur atau langkah yang perlu dilaksanakan sebelum membuat pendaftaran OSH-Coordinator dalam MYKKP?</summary>
+       <summary><h4>Apakah prosedur atau langkah yang perlu dilaksanakan sebelum membuat pendaftaran OSH-Coordinator dalam MYKKP?</h4></summary>
          <div className="faq-answer">
            Berikut merupakan langkah-langkah yang perlu dilaksanakan sebelum membuat pendaftaran sebagai OSH-Coordinator:
            1. **Pendaftaran Akaun MYKKP**  

@@ -16,21 +16,21 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya telah berjaya membuat carian tempat kerja tetapi apabila saya klik butang daftar, tiada sebarang perubahan paparan.</summary>
+  <summary><h4>Saya telah berjaya membuat carian tempat kerja tetapi apabila saya klik butang daftar, tiada sebarang perubahan paparan.</h4></summary>
   <div className="faq-answer">
     Sila pastikan tetapan browser *“Allow Pop-up Blocker”* telah diaktifkan. Sila rujuk Manual Pengguna Konfigurasi Tetingkap Pop-up.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin melantik lebih daripada seorang kakitangan untuk mengurus tempat kerja dan loji di MyKKP.</summary>
+  <summary><h4>Saya ingin melantik lebih daripada seorang kakitangan untuk mengurus tempat kerja dan loji di MyKKP.</h4></summary>
   <div className="faq-answer">
     Setiap kakitangan yang dilantik perlu membuat pengaktifan tempat kerja terlebih dahulu **(PATK)**.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin mengaktifkan lebih daripada satu tempat kerja dalam akaun MyKKP saya.</summary>
+  <summary><h4>Saya ingin mengaktifkan lebih daripada satu tempat kerja dalam akaun MyKKP saya.</h4></summary>
   <div className="faq-answer">
 
 1. Dalam satu masa hanya satu tempat kerja yang boleh diaktifkan untuk urusan permohonan dan semakan.
@@ -40,14 +40,14 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 </details>
 
 <details className="faq-item">
-  <summary>Nama firma saya tiada dalam semakan FYK.</summary>
+  <summary><h4>Nama firma saya tiada dalam semakan FYK.</h4></summary>
   <div className="faq-answer">
     Sila e-melkan surat kelulusan pendaftaran firma beserta No. Daftar Tempat Kerja kepada **mykkp@mohr.gov.my**.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Bagaimanakah cara untuk menyemak status permohonan tempat kerja saya?</summary>
+  <summary><h4>Bagaimanakah cara untuk menyemak status permohonan tempat kerja saya?</h4></summary>
       <div className="faq-answer">
           Untuk menyemak status permohonan tempat kerja anda, sila ikuti langkah-langkah berikut:  
           1. Log masuk akaun MyKKP.  
@@ -70,7 +70,7 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 </details>
 
 <details className="faq-item">
-  <summary>Permohonan saya telah ditolak. Bagaimanakah cara dapatkan sebab penolakan?</summary>
+  <summary><h4>Permohonan saya telah ditolak. Bagaimanakah cara dapatkan sebab penolakan?</h4></summary>
   <div className="faq-answer">
     Anda boleh dapatkan sebab penolakan pada Surat Tolak di Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
     1. Log masuk akaun MyKKP
@@ -92,14 +92,14 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 </details>
 
 <details className="faq-item">
-  <summary>Bolehkah saya  mengemaskini sahaja permohonan yang sudah ditolak?</summary>
+  <summary><h4>Bolehkah saya  mengemaskini sahaja permohonan yang sudah ditolak?</h4></summary>
   <div className="faq-answer">
     Tidak. Permohonan yang telah ditolak tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MyKKP.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Apakah perbezaan PEMTK dan PATK?</summary>
+  <summary><h4>Apakah perbezaan PEMTK dan PATK?</h4></summary>
   <div className="faq-answer">
     Berikut merupakan perbezaan antara PEMTK dan PATK.
 
@@ -113,7 +113,7 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 </details>
 
 <details className="faq-item">
-  <summary>Bagaimanakah cara untuk mengetahui tempat kerja saya telah didaftarkan dalam sistem MyKKP?</summary>
+  <summary><h4>Bagaimanakah cara untuk mengetahui tempat kerja saya telah didaftarkan dalam sistem MyKKP?</h4></summary>
   <div className="faq-answer">
     Untuk mengetahui sama ada tempat kerja anda telah didaftarkan dalam sistem MYKKP, sila ikuti langkah berikut:  
     1. Log masuk akaun MyKKP  
@@ -136,21 +136,21 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 </details>
 
 <details className="faq-item">
-  <summary>Syarikat kami mempunyai beberapa cawangan. Bolehkah saya mendaftarkan cawangan tersebut di dalam akaun MyKKP yang sama?</summary>
+  <summary><h4>Syarikat kami mempunyai beberapa cawangan. Bolehkah saya mendaftarkan cawangan tersebut di dalam akaun MyKKP yang sama?</h4></summary>
   <div className="faq-answer">
     Ya, boleh. Anda boleh mendaftarkan lebih daripada satu entiti atau cawangan dalam satu (1) akaun MyKKP.                                       
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Adakah No. Daftar Tempat Kerja boleh diaktifkan oleh lebih dari satu individu?</summary>
+  <summary><h4>Adakah No. Daftar Tempat Kerja boleh diaktifkan oleh lebih dari satu individu?</h4></summary>
   <div className="faq-answer">
     Ya, boleh. Satu tempat kerja boleh diaktifkan oleh lebih daripada satu (1) individu.                                      
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Bagaimanakah cara mengemaskini maklumat OSH-C pada tempat kerja?</summary>
+  <summary><h4>Bagaimanakah cara mengemaskini maklumat OSH-C pada tempat kerja?</h4></summary>
   <div className="faq-answer">
     Untuk mengetahui sama ada tempat kerja anda telah didaftarkan dalam sistem MYKKP, sila ikuti langkah berikut:  
     1. Log masuk akaun MyKKP.  
