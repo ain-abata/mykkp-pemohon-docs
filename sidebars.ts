@@ -227,6 +227,7 @@ const sidebars: SidebarsConfig = {
       label: 'Lain-lain',
       items: [
         'lain-lain/dashboard-pemohon',
+        'lain-lain/pemberitahuan-aktiviti-loji-jkkp5'
       ],
     },
     {

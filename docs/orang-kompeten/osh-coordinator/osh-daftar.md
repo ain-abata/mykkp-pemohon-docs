@@ -124,8 +124,8 @@ import imgOkPerakuan from '@site/assets/images/orang-kompeten/osh/daftar/tab_per
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
-    alphabetNumbering="I"
-    tabNumber={9}
+    alphabetNumbering="H"
+    tabNumber={8}
     tabName="Perakuan"
     tabImgSrc={imgOkPerakuan}
     mesejBerjayaImgSrc={imgOkMesejBerjaya} />

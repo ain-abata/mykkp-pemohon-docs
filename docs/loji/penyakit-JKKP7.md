@@ -7,7 +7,7 @@ sidebar_label: 'Penyakit - JKKP7'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pemberitahuan Pemberitahuan Keracunan dan Penyakit Pekerjaan - JKKP7
+# 📝 Pemberitahuan Keracunan dan Penyakit Pekerjaan - JKKP7
 
 import LoginStep from '@site/src/components/login-step';
 

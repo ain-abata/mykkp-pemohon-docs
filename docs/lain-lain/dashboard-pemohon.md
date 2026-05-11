@@ -9,11 +9,6 @@ import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
 # 📝 Panduan Dashboard Pengguna
-import LoginStep from '@site/src/components/login-step';
-
-<LoginStep 
-  stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
 
 <div className="step-card">
 import LangkahMenuUtama from '@site/src/components/lain-lain/dashboard-pemohon/langkah-menu-utama';
@@ -24,7 +19,7 @@ import imgTempatKerja from '@site/assets/images/lain-lain/dashboard-pemohon/menu
 import imgOrangKompeten from '@site/assets/images/lain-lain/dashboard-pemohon/menu_orang_kompeten.png';
 
 <LangkahMenuUtama
-  stepNumber={2}
+  stepNumber={1}
   dashboardImgSrc={imgDashboard}
   tukarMenuImgSrc={imgTukarMenu}
   tempatKerjaImgSrc={imgTempatKerja}
@@ -42,7 +37,7 @@ import imgMaklumatEmel from '@site/assets/images/lain-lain/dashboard-pemohon/mak
 import imgTukarKataLaluan from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_kata_laluan.png';
 
 <LangkahProfilSaya
-  stepNumber={3}
+  stepNumber={2}
   menuProfilImgSrc={imgMenuProfil}
   maklumatAmImgSrc={imgMaklumatAm}
   maklumatOykImgSrc={imgMaklumatOyk}
@@ -62,7 +57,7 @@ import imgSenaraiJentera from '@site/assets/images/lain-lain/dashboard-pemohon/s
 import imgPenilaian from '@site/assets/images/lain-lain/dashboard-pemohon/penilaian_tempat_kerja.png';
 
 <LangkahProfilTempatKerja
-  stepNumber={4}
+  stepNumber={3}
   menuProfilTempatKerjaImgSrc={imgMenuProfilTempatKerja}
   pengaktifanImgSrc={imgPengaktifan}
   carianImgSrc={imgCarian}
@@ -83,7 +78,7 @@ import imgPengurusan from '@site/assets/images/lain-lain/dashboard-pemohon/tab_p
 
 
 <LangkahSenaraiPermohonan
-  stepNumber={5}
+  stepNumber={4}
   menuSenaraiPermohonanImgSrc={imgMenuSenaraiPermohonan}
   sedangDiprosesImgSrc={imgSedangDiproses}
   derafImgSrc={imgDeraf}
@@ -98,7 +93,7 @@ import LangkahTemudugaVerifikasi from '@site/src/components/lain-lain/dashboard-
 import imgTemudugaVerifikasi from '@site/assets/images/lain-lain/dashboard-pemohon/menu_temuduga_verifikasi.png';
 
 <LangkahTemudugaVerifikasi
-  stepNumber={6}
+  stepNumber={5}
   temudugaVerifikasiImgSrc={imgTemudugaVerifikasi}
 />
 ---
@@ -108,7 +103,7 @@ import LangkahPembayaran from '@site/src/components/lain-lain/dashboard-pemohon/
 import imgPembayaran from '@site/assets/images/lain-lain/dashboard-pemohon/pembayaran.png';
 
 <LangkahPembayaran
-  stepNumber={7}
+  stepNumber={6}
   pembayaranImgSrc={imgPembayaran}
 />
 ---
@@ -118,7 +113,7 @@ import LangkahSuratMenyurat from '@site/src/components/lain-lain/dashboard-pemoh
 import imgSuratMenyurat from '@site/assets/images/lain-lain/dashboard-pemohon/surat_menyurat.png';
 
 <LangkahSuratMenyurat
-  stepNumber={8}
+  stepNumber={7}
   suratMenyuratImgSrc={imgSuratMenyurat}
 />
 </div>
