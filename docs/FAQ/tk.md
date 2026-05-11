@@ -162,12 +162,13 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
                 caption="Dashboard Tempat Kerja/Kilang"
                 width={450} 
         />
-    4. Klik menu **Kemaskini Tempat Kerja** pada sebelah kiri anda.  
+    4. Klik menu **Profil Tempat Kerja** pada sebelah kiri anda.  
+    5. Klik menu **Kemaskini Tempat Kerja**.  
         {Admonition({
        type: "important",
        children: "Pastikan anda telah mengaktifkan tempat kerja sebelum melakukan pengemaskinian bagi tempat kerja tersebut."
         })}
-    5. Klik butang **Kemaskini** pada bahagian **Maklumat Pegawai OSH-Coordinator**.                            
+    6. Klik butang **Kemaskini** pada bahagian **Maklumat Pegawai OSH-Coordinator**.                            
   </div>
 </details>
 
