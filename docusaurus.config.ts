@@ -16,26 +16,33 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
+    //meta tag
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '93EEBA4F8450F083',
+      },
+    },
+  ],
+
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://faq-tk-ok.mykkp-pemohon-docs-stg.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-
-  // for Github, set to this
-  // baseUrl: '/mykkp-pemohon-docs',
-
-  // for Cloudfare, set to this
-  baseUrl: baseUrl,
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ain-abata', // Usually your GitHub org/user name.
+  projectName: 'mykkp-pemohon-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   markdown: { hooks: { onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn' } },
@@ -77,6 +84,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
       } satisfies Preset.Options,
     ],
   ],
@@ -85,12 +96,16 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    metadata: [
-      { name: 'algolia-site-verification', content: '4FAC9A54E16E5C6F' },
-    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
+     // 👇 ADD THIS
+  algolia: {
+    appId: 'P14KWFGPWB',
+    apiKey: '877953df5cf2bdd57f792442f023df7b',
+    indexName: 'MyKKP Doc',
+    contextualSearch: false,
+  },
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -106,6 +121,14 @@ const config: Config = {
           label: 'Manual Penggunaan',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        
+        // 👇 ADD THIS
+       {
+          type: 'search',
+          position: 'right',
+       },
+        
+        
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
