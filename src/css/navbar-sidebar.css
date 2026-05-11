@@ -35,6 +35,11 @@
   margin-top: 10px;
 }
 
+/* menu caret on left */
+.menu__link--sublist {
+  flex-direction: row-reverse;
+}
+
 /* scrollbar styling */
 .theme-doc-sidebar-container {
   scrollbar-width: thin;

@@ -1,3 +1,18 @@
+/**
+ * Copy below 👇:
+
+import PengesahanSpesifikasi from '@site/src/components/loji/tab/pengesahan-spesifikasi';
+
+<PengesahanSpesifikasi
+    alphabetNumbering="E"
+    tabNumber={5}
+    tabName="Pengesahan Spesifikasi"
+    tabImgSrc={imgPengesahanSpesifikasi}
+    hasBoilerType={true/false}              // Only 'true' (certain module only) to select Superheater/Economizer for Boiler.
+    />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
@@ -10,6 +25,7 @@ interface PengesahanSpesifikasiProps {
     tabNumber: number;
     tabName: string;
     tabImgSrc?: string;
+    hasBoilerType: boolean;
 }
 
 export default function PengesahanSpesifikasi({
@@ -17,6 +33,7 @@ export default function PengesahanSpesifikasi({
     tabNumber,
     tabName,
     tabImgSrc,
+    hasBoilerType,
 }: PengesahanSpesifikasiProps) {
     return (
         <div>
@@ -28,16 +45,20 @@ export default function PengesahanSpesifikasi({
                 width={450} />
             <ol>
                 <li>Klik butang <b>Lihat Loji</b> dan <i>pop-up</i> <b>Pengesahan Spesifikasi</b> akan dipaparkan.</li>
-            </ol>            
-            <Admonition type="tip">
-                Bagi loji <b>Dandang Stim (Sub Jenis - Boiler):</b> <br/>
-                Sila klik butang <i>checkbox</i> untuk memilih <b>Superheater/Economizer</b> pada tab <b>Maklumat Teknikal</b>.
-                <ExpandableImage
-                    src={boileterSpecImg}
-                    alt="Medan Dandang dilengkapi dengan Superheater / Economizer"
-                    caption="Medan Pilihan Superheater / Economizer"
-                    width={300} />
-            </Admonition>
+            </ol>
+            {hasBoilerType && (
+              <>
+                <Admonition type="tip">
+                    Bagi loji <b>Dandang Stim (Sub Jenis - Boiler):</b> <br/>
+                    Sila klik butang <i>checkbox</i> untuk memilih <b>Superheater/Economizer</b> pada tab <b>Maklumat Teknikal</b>.
+                    <ExpandableImage
+                        src={boileterSpecImg}
+                        alt="Medan Dandang dilengkapi dengan Superheater / Economizer"
+                        caption="Medan Pilihan Superheater / Economizer"
+                        width={300} />
+                </Admonition>
+                </>
+            )}
             <ol>
                 <ol style={{ paddingLeft: '20px' }} >
                     <li>Klik butang <b>Simpan</b> selepas membuat semakan.</li>

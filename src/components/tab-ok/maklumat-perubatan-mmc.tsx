@@ -32,7 +32,6 @@ Explanation of tabImgSrc:
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
-import ExpandableImage from '../common/ExpandableImage';
 
 import EmptyFieldWarning from '@site/src/components/admonitions/empty-field-warning';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';

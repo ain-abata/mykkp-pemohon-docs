@@ -1,0 +1,275 @@
+---
+title: Permohonan Pemberitahuan JKKP12 (Klien Domestik)
+description: Panduan lengkap permohonan pemberitahuan berkenaan ambil alih tempat kerja
+hide_table_of_contents: false
+sidebar_label: 'Klien Domestik'
+---
+
+import Admonition from '@site/src/components/admonition';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import React from 'react';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Admonition type="tip">
+    **Klien domestik** adalah klien yang baginya suatu projek sedang dibina atau dijalankan, yang projek tersebut bukan dalam perjalanan atau pengembangan suatu perniagaan klien itu. **Contoh:** Membuat rumah persendirian.
+</Admonition>
+
+## Glosari
+
+Berikut merupakan kata kunci peranan yang terlibat dalam **Pemberitahuan Projek dan Tapak Pembinaan** sebagai rujukan.
+| Bil | Kata Kunci  | Keterangan                    |
+|-----|-------------|-------------------------------|
+| 1.  | Klien       | Klien                         |
+| 2.  | Pemberitahu | Wakil Klien Domestik          |
+| 3.  | PC          | Kontraktor Prinsipal          |
+| 4.  | CC          | Kontraktor Kerja Pembinaan    |
+| 5.  | PD          | Pereka Bentuk Prinsipal       |
+| 6.  | CD          | Pereka Bentuk Kerja Pembinaan |
+
+
+## Syarat Pemberitahu
+
+Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan JKKP 12 adalah seperti berikut:
+- Klien yang telah berdaftar sebagai **PATK Tahap 1** pada sistem MyKKP.
+
+## 🧭 Langkah-langkah Permohonan
+
+import LoginStep from '@site/src/components/login-step';
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
+
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep" />
+
+import MenuLoji from '@site/src/components/loji/menu-loji';
+
+<div className="toc-only">
+### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
+</div>
+
+<MenuLoji
+    stepNumber={2}
+    pageName="Pemberitahuan Projek"
+    kategoriPermohonan="Pemberitahuan Projek Pembinaan"
+    moduleType="Pemberitahuan JKKP12 (Klien Domestik/Orang Perseorangan/Individu)"
+    headerId="toMenuStep" />
+
+
+<div className="step-card">
+
+### Langkah 3: Pengisian Borang Permohonan Pemberitahuan JKKP12 (Klien Domestik)
+
+import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
+
+import imgMaklumatAm from '@site/assets/images/loji/jkkp12/tab_maklumat_am_klien_domestik.png';
+
+<MaklumatAm
+    alphabetNumbering="A"
+    tabNumber={1}
+    tabName="Pemberitahuan Projek"
+    hasRujukan={false}
+    tabImgSrc={imgMaklumatAm}
+    hasPemunyaAsalSection={false}
+    hasPemunyaSection={false} />
+
+---
+
+#### B. Tab 2: Maklumat Projek
+
+import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/tab_maklumat_projek_klien_domestik.png';
+
+<ExpandableImage
+    src={imgMaklumatProjek}
+    alt="Tab 2: Maklumat Projek"
+    caption="Tab 2: Maklumat Projek"
+    width={450} />
+
+1. Isi maklumat mandatori pada bahagian **Maklumat Projek**.
+2. Pilih jenis butang radio Maklumat **Alamat Surat-Menyurat Projek**.
+
+<Admonition type="tip">
+    - Jika Alamat Surat-Menyurat Projek tidak sama seperti Alamat Surat-Menyurat Klien, klik pada butang radio **Alamat Surat-Menyurat tidak sama seperti Alamat Surat-Menyurat Klien**.  
+    - Jika sama, pilih butang radio **Alamat Surat-Menyurat sama seperti Alamat Surat-Menyurat Klien** dan isi maklumat pada medan yang disediakan.
+</Admonition>
+
+3. Isi maklumat pada bahagian **Maklumat Pegawai Yang Bertanggungjawab (Klien)**.
+4. Klik butang **Seterusnya**.
+
+---
+
+#### C. Tab 3: Maklumat Tapak
+
+import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak.png';
+
+<ExpandableImage
+    src={imgMaklumatTapak}
+    alt="Tab 3: Maklumat Tapak"
+    caption="Tab 3: Maklumat Tapak"
+    width={450} />
+
+1. Klik pada butang **Tambah Tapak** untuk menambah Tapak Pembinaan.
+
+<Admonition type="tip">
+    Sila rujuk pada [Cara Pemberitahuan Tapak Pembinaan](#langkah-4-pemberitahuan-tapak-pembinaan) untuk aktiviti penambahan tapak pembinaan.
+</Admonition>
+
+2. Klik butang **Refresh Senarai Tapak** untuk muat semula (reload) maklumat tapak yang baru diisi.
+
+---
+
+import Perakuan from '@site/src/components/loji/tab/perakuan';
+
+import imgPerakuan from '@site/assets/images/loji/pekala/tab_perakuan.png';
+
+<Perakuan
+    alphabetNumbering="D"
+    tabNumber={4}
+    tabName="Perakuan"
+    tabImgSrc={imgPerakuan}
+    noRujukan="XX/JKKP12/XX/XXXXX"
+    headerId="tabPerakuan" />
+</div>
+
+<Admonition type="info">
+    Langkah **Permohonan Pemberitahuan JKKP12 (Klien Domestik)** tamat disini.
+</Admonition>
+
+<div className="step-card">
+
+### Langkah 4: Pemberitahuan Tapak Pembinaan
+
+#### A. Tab 1: Maklumat Projek
+
+import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_am_tapak_bina.png';
+
+<ExpandableImage
+    src={imgTab1TapakBina}
+    alt="Tab 1: Maklumat Am"
+    caption="Tab 1: Maklumat Am"
+    width={450} />
+
+1. Semak **Maklumat Klien**, **Maklumat Projek** dan **Maklumat Pegawai Yang Bertanggungjawab (Klien)** yang dipaparkan.
+2. Klik butang **Seterusnya**.
+
+---
+
+#### B. Tab 2: Maklumat Tapak
+
+import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak.png';
+
+<ExpandableImage
+    src={imgTab2TapakBina}
+    alt="Tab 2: Maklumat Projek"
+    caption="Tab 2: Maklumat Projek"
+    width={450} />
+
+1. Isi maklumat mandatori pada bahagian **Maklumat Tapak** dan medan **Maklumat Alamat Tapak Pembinaan**.
+2. Untuk menambah **Kategori Kerja Pembinaan**, klik pada butang **Tambah** pada jadual **Kategori Kerja Pembinaan**.  
+   i. Pop-up modal Kategori Kerja Pembinaan akan terpapar.  
+   ii. Pilih **Kategori Kerja Pembinaan** dan **Sub Kategori Kerja Pembinaan**.  
+   iii. Klik butang **Pilih**.
+3. Isi maklumat pada medan **Maklumat Pengurus Projek**.
+4. Klik butang **Seterusnya**.
+
+---
+
+#### C. Tab 3: Maklumat Kemajuan
+
+1. Isi maklumat mandatori pada medan.
+2. Klik butang **Seterusnya**.
+
+---
+
+#### D. Tab 4: Maklumat Kontraktor
+
+1.  Klik pada pilihan butang radio **Tapak dikawal selia oleh**.
+2.  Jika pilihan butang radio **Maklumat Tapak Kerja Pembinaan** adalah **Klien**, medan **Maklumat Klien** akan terpapar.
+3.  Tambah Maklumat Kontraktor Kerja Pembinaan.
+  - Klik butang **Tambah**, pada jadual **Maklumat Kontraktor Kerja Pembinaan**.
+  - Pop-up modal Maklumat Kontraktor Kerja Pembinaan akan terpapar.
+  - Pilih Kategori dan isi carian pada medan ruangan Carian. Klik butang **Carian**.
+  - Klik butang radio untuk memilih kontraktor dan klik butang **Pilih**.
+  - Maklumat tempat kerja yang dipilih akan terpapar dalam senarai **Maklumat Kontraktor Kerja Pembinaan**.
+
+import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
+
+<HapusMaklumat />
+
+4. Tambah Maklumat Kontraktor Prinsipal Kerja Pembinaan (Jika terdapat lebih dari satu kontraktor kerja pembinaan)
+  - Klik butang **Pilihan Senarai Kontraktor Prinsipal Kerja Pembinaan**.
+  - Klik butang radio pada Tempat Kerja yang dikehendaki dan klik butang **Pilih** untuk memilih kontraktor.
+  - Maklumat tempat kerja yang dipilih akan terpapar dalam senarai **Maklumat Kontraktor Prinsipal Kerja Pembinaan**.
+
+<HapusMaklumat />
+
+  - Pilih **Gred  Pendaftaran CIDB Kontraktor Prinsipal Kerja Pembinaan**.
+  - Klik butang **Seterusnya**.
+<Admonition type="warning">
+    Gred Pendaftaran CIDB Kontraktor Prinsipal Kerja Pembinaan perlu dipilih sekiranya terdapat maklumat Kontraktor Prinsipal Kerja Pembinaan.
+</Admonition>
+
+5. Klik butang **Seterusnya**.
+
+---
+
+#### E. Tab 5: Maklumat Pereka Bentuk
+
+1. Tambah Maklumat Pereka Bentuk Kerja Pembinaan 
+  - Klik butang **Tambah**, pada jadual **Maklumat Pereka Bentuk Kerja Pembinaan**.
+  - Pilih **Kategori** dan isi carian pada medan ruangan **Carian**. Klik butang **Carian**.
+  - Klik butang radio untuk memilih Pereka Bentuk Kerja Pembinaan yang dikehendaki dan klik butang **Pilih**.
+
+<HapusMaklumat />
+
+2. Tambah Maklumat Pereka Bentuk Prinsipal Kerja Pembinaan (Jika terdapat lebih dari satu kontraktor kerja pembinaan)
+  - Klik butang **Pilihan Senarai Pereka Bentuk Prinsipal Kerja Pembinaan**.
+  - Klik butang radio pada Tempat Kerja yang dikehendaki dan klik butang **Pilih** untuk memilih pereka bentuk.
+  - Maklumat tempat kerja yang dipilih akan terpapar dalam senarai **Maklumat Pereka Bentuk Prinsipal Kerja Pembinaan**.
+
+<HapusMaklumat />
+
+5. Klik butang **Seterusnya**.
+
+---
+
+#### F. Tab 6: Bilangan Pekerja Tapak Pembinaan
+
+1. Isi maklumat pada medan ruangan yang berkaitan.
+2. Klik butang **Seterusnya**.
+
+---
+#### G. Tab 7: Maklumat Orang Kompeten
+
+1. Tambah Pegawai Keselamatan dan Kesihatan (SHO) 
+  - Pilih **Kategori** dan isi maklumat pada medan ruangan **Carian**.
+  - Klik butang **Pilih**.
+  - Klik butang radio OYKSHO yang dikehendaki dan klik butang **Pilih**.
+  - Maklumat OYK yang dipilih akan terpapar dalam senarai **Pegawai Keselamatan dan Kesihatan (SHO)**.
+
+<HapusMaklumat />
+
+2. Tambah Penyelia Keselamatan Tapak Bina (SSS)
+  - Pilih **Kategori** dan isi maklumat pada medan ruangan **Carian**. Klik butang **Carian**.
+  - Klik butang radio OYKSSS yang dikehendaki dan klik butang **Pilih**.
+  - Maklumat OYK yang dipilih akan terpapar dalam senarai **Penyelia Keselamatan Tapak Bina (SSS)** 
+
+<HapusMaklumat />
+
+3. Tambah Maklumat Senarai Orang Kompeten Lain-Lain
+  - Pilih **Jenis Orang Kompeten**.
+  - Pilih **Kategori** dan isi maklumat pada medan ruangan **Carian**. Klik butang **Carian**.
+  - Klik pada butang radio OYK yang dikehendaki dan klik butang **Pilih**.
+  - Maklumat OYK yang dipilih akan terpapar dalam senarai **Orang Kompeten Lain-Lain**.
+
+<HapusMaklumat />
+
+4. Klik butang **Seterusnya**.
+
+---
+
+</div>

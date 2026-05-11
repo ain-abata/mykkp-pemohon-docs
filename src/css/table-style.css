@@ -3,9 +3,10 @@
 ========================= */
 table {
   width: 100%;
+  max-width: 800px;
+  table-layout: fixed;
   border-collapse: separate;
   border-spacing: 0;
-  width: fit-content;
   margin: 1.5rem auto;
   font-size: 0.95rem;
   background: #ffffff;
@@ -28,8 +29,8 @@ td {
   padding: 10px 14px;
   border-bottom: 1px solid #f1f5f9;
 }
-
-td:nth-child(1) {
+th:first-child,
+td:first-child {
   text-align: center;
 }
 
@@ -61,11 +62,21 @@ tr:last-child td:last-child {
 @media print {
   table {
     background: white !important;
-    color: black !important;
+    color: black !important;    
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    width: auto;
   }
 
   th {
-    background: white !important;
+    background: #BDD6EE !important;
     color: black !important;
+    border: 2px solid white !important;
+  }
+
+  td {
+    background: #F2F2F2 !important;
+    color: black !important;
+    border: 2px solid white !important;
   }
 }

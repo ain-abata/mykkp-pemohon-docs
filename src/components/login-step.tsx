@@ -1,13 +1,24 @@
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import Link from '@docusaurus/Link';
 
 import imgLogin from '@site/assets/images/log_masuk.png';
 
-export default function LoginStep({ stepNumber, title }: { stepNumber: number; title: string }) {
+interface LoginStepProps {
+    stepNumber: number;
+    title: string;
+    headerId: string;
+}
+
+export default function LoginStep({ 
+  stepNumber,
+  title,
+  headerId,
+}: LoginStepProps ) {
   return (
     <div className="step-card">
-      <h3>Langkah {stepNumber}: {title}</h3>
+      <h3 id={headerId}>Langkah {stepNumber}: {title}</h3>
 
       <p>
         Klik pautan berikut: 👉{' '}
@@ -30,7 +41,7 @@ export default function LoginStep({ stepNumber, title }: { stepNumber: number; t
       <Admonition type="info">
         <ul>
           <li>
-            Jika terlupa ID Pengguna, sila emel kepada MyKKP: mykkp@mohr.gov.my
+            Jika terlupa ID Pengguna, sila emel kepada MyKKP: <Link href="mailto:mykkp@mohr.gov.my">mykkp@mohr.gov.my</Link>
           </li>
           <li>
             Jika terlupa Kata Laluan, sila klik <b>Lupa Kata Laluan?</b>
