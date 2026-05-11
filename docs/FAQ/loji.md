@@ -2,7 +2,7 @@
 title: FAQ Loji
 description: Soalan lazim berkaitan modul Loji
 sidebar_label: Loji
-hide_table_of_contents: false
+hide_table_of_contents: true
 ---
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
@@ -12,19 +12,26 @@ import Link from '@docusaurus/Link';
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary><h4>Saya tidak dapat membuat permohonan berkaitan loji (Pendaftaran Baru dan Pemeriksaan Ulangan).</h4></summary>
+  <summary><h4>Saya tidak dapat membuat permohonan berkaitan loji (Pendaftaran Loji Baru dan Pemeriksaan Berkala Loji Berperakuan).</h4></summary>
   <div className="faq-answer">
 Pengguna perlu membuat permohonan pengaktifan tempat kerja terlebih dahulu sebelum membuat permohonan berkaitan loji. Sila rujuk Manual Pengguna **(PATK)**.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary><h4>Loji ada di Senarai Loji tetapi apabila ingin membuat permohonan pemeriksaan ulangan loji berkenaan tidak wujud.</h4></summary>
+  <summary><h4>Saya ingin lakukan permohonan Pemeriksaan Berkala Loji Berperakuan tetapi loji tiada pada halaman tab 2 jadual Senarai Loji.</h4></summary>
   <div className="faq-answer">
 
-1. Sila semak doket loji dan pastikan No. Tempat Kerja wujud pada Nama Pemunya. Contoh: *Syarikat (SL1234)*.
-2. Sila semak pada Senarai Permohonan sama ada permohonan pemeriksaan ulangan untuk loji berkenaan telah dibuat/tidak.
-3. Sila semak JKKP Negeri berkaitan, berkemungkinan loji berkenaan telah diagihkan secara dalaman oleh pegawai JKKP Negeri berkenaan.
+1. **Kes 1 - Tidak aktifkan tempat kerja yang betul.**  
+Sila semak tempat kerja pemunya dan penghuni pada doket loji dan aktifkan tempat kerja yang betul.  
+2. **Kes 2 - Kesalahan pemilihan permohonan pemunya/penghuni apabila pemunya dan penghuni berbeza.**  
+Contoh: Tempat Kerja  yang diaktifkan adalah tempat kerja pemunya tetapi permohonan yang dipilih adalah permohonan Pemeriksaan Berkala - Penghuni.  
+Sila pilih permohonan Pemeriksaan Berkala - Penghuni jika anda aktifkan Tempat Kerja Penghuni dan sila pilih permohonan Pemeriksaan Berkala - Pemunya jika anda aktifkan tempat kerja Pemunya.
+
+{Admonition({
+  type: "tip",
+  children: "Sila hapuskan deraf permohonan pada tab Deraf halaman Senarai Permohonan setiap kali anda tukar pemilihan permohonan."
+})}
   </div>
 </details>
 

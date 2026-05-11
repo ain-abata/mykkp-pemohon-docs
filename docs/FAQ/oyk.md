@@ -16,7 +16,7 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
 <div className="faq-list">
 
 <Tabs>
-  <TabItem value="OYK" label="Orang Kompeten" default>
+  <TabItem value="OK" label="Orang Kompeten" default>
     <details className="faq-item">
       <summary><h4>Nama saya tiada dalam semakan OK.</h4></summary>
         <div className="faq-answer">
@@ -26,55 +26,87 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
   <details className="faq-item">
     <summary><h4>Bagaimanakah cara untuk menyemak status permohonan OK saya?</h4></summary>
       <div className="faq-answer">
-          Untuk menyemak status permohonan OYK anda, sila ikuti langkah-langkah berikut:  
+          Untuk menyemak status permohonan OK anda, sila ikuti langkah-langkah berikut:  
           1. Log masuk akaun MyKKP.  
           2. Pastikan anda berada pada dashboard **Orang Kompeten**. 
     
     <ExpandableImage
                 src={menu}
-                alt="dashboard OK"
-                caption="Dashboard OK"
+                alt="Dashboard Orang Kompeten"
+                caption="Dashboard Orang Kompeten"
                 width={450} 
     />
           
           3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon.  
           4. Cari nombor rujukan permohonan anda untuk menyemak status permohonan dan nama pegawai yang mengendalikan permohonan tersebut.  
   <p>
-      Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:
+      Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk direktori JKKP di pautan berikut:
       👉https://staff.dosh.gov.my/  dan lakukan carian nama pegawai tersebut.
   </p>
     </div>
   </details>
 
 <details className="faq-item">
-  <summary><h4>Permohonan OYK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</h4></summary>
+  <summary><h4>Saya tersalah isi maklumat semasa permohonan OK. Apakah yang boleh saya lakukan jika permohonan sudah dihantar?</h4></summary>
+  <div className="faq-answer">
+    Kes 1: Bil belum dibayar – Anda boleh membatalkan sendiri permohonan tersebut dengan cara berikut:  
+    1. Log masuk akaun MyKKP.
+    2. Pastikan anda berada pada dashboard **Orang Kompeten**.  
+    
+          <ExpandableImage
+                src={menu}
+                alt="Dashboard Orang Kompeten"
+                caption="Dashboard Orang Kompeten"
+                width={450} 
+          />
+    3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon..  
+    4. Klik butang **Tindakan**.
+    5. Klik butang **Batal Permohonan Oleh Pemohon**  
+    6. Klik **Ya, Sila Batalkan** untuk membuat pembatalan permohonan.  
+
+   Kes 2: Permohonan sedang diproses oleh Pegawai - Anda boleh merujuk dengan pegawai JKKP yang sedang melakukan semakan permohonan tersebut.  
+    1. Log masuk akaun MyKKP.  
+    2. Pastikan anda berada pada dashboard **Orang Kompeten**. 
+    
+    <ExpandableImage
+                src={menu}
+                alt="Dashboard Orang Kompeten"
+                caption="Dashboard Orang Kompeten"
+                width={450} 
+    />
+          
+    3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon.  
+    4. Cari nombor rujukan permohonan anda untuk menyemak status permohonan dan nama pegawai yang mengendalikan permohonan tersebut.  
+  <p>
+      Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk direktori JKKP di pautan berikut:
+      👉https://staff.dosh.gov.my/  dan lakukan carian nama pegawai tersebut.
+  </p>
+
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Permohonan OK saya telah diluluskan, dimanakah saya boleh mendapatkan Slip Ringkas?</h4></summary>
   <div className="faq-answer">
   Untuk mendapatkan slip ringkas, sila ikuti langkah-langkah berikut:  
 
     1. Log masuk akaun MyKKP.  
-    2. Pergi ke **Profil Saya**.  
+    2. Pergi ke **Profil Saya** pada sebelah kiri pemohon.  
     3. Pergi ke **Maklumat OK**.  
     4. Lihat pada **Senarai Kompetensi Yang Diluluskan**.  
-    5. Tekan butang **Lihat Slip**.
+    5. Klik butang **Lihat Slip**.  
   </div>
 </details>
 
 <details className="faq-item">
-  <summary><h4>Saya tersalah isi maklumat semasa permohonan. Adakah saya boleh mengemaskini maklumat permohonan yang telah dihantar jika ianya sedang diproses oleh pegawai?</h4></summary>
+  <summary><h4>Bolehkah saya mengemaskini permohonan OK yang sudah ditolak?</h4></summary>
   <div className="faq-answer">
-    Sila rujuk dengan pegawai JKKP yang melakukan semakan permohonan tersebut.
+    Tidak. Permohonan yang sudah ditolak tidak boleh dikemaskini. Pemohon perlu menghantar permohonan baharu melalui sistem MyKKP.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary><h4>Bolehkah saya mengemaskini permohonan OYK yang sudah ditolak?</h4></summary>
-  <div className="faq-answer">
-    Tidak. Permohonan yang sudah ditolak tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MyKKP.
-  </div>
-</details>
-
-<details className="faq-item">
-  <summary><h4>Permohonan OYK saya telah ditolak. Bagaimanakah cara untuk dapatkan sebab penolakan?</h4></summary>
+  <summary><h4>Permohonan OK saya telah ditolak. Bagaimanakah cara untuk dapatkan sebab penolakan?</h4></summary>
   <div className="faq-answer">
     Anda boleh dapatkan sebab penolakan pada halaman Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
     1. Log masuk akaun MyKKP
@@ -87,12 +119,27 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
                 width={450} 
     />
 
-    3. Klik menu **Senarai Permohonan**.
+    3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon..
     4. Pergi ke tab **Batal/Tolak**.
     5. Tekan butang **Tindakan**.
     6. Tekan butang  **Lihat Ulasan Pegawai**.  
 
-    Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:  👉 https://staff.dosh.gov.my/ dan lakukan carian nama pegawai tersebut.
+    Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk direktori JKKP di pautan berikut:
+    👉https://staff.dosh.gov.my/  dan lakukan carian nama pegawai tersebut.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Bagaimanakah cara untuk melakukan permohonan Green Book?</h4></summary>
+  <div className="faq-answer">
+    Untuk melakukan permohonan Green Book, anda boleh melakukan permohonan SHO di dalam sistem MYKKP.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Bagaimanakah cara untuk melakukan permohonan Yellow Book?</h4></summary>
+  <div className="faq-answer">
+    Untuk melakukan permohonan Yellow Book, anda boleh melakukan permohonan OYKSSS di dalam sistem MYKKP.
   </div>
 </details>
 
@@ -102,14 +149,14 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
     <details className="faq-item">
        <summary><h4>Bagaimanakah untuk mendapatkan Sijil atau Slip Ringkas bagi permohonan OSH-C yang telah diluluskan?</h4></summary>
          <div className="faq-answer">
-           Untuk makluman, sijil dan Slip Ringkas tidak lagi dipaparkan oleh pihak JKKP. Pemohon hanya akan diberikan  No. Daftar Sijil sahaja.
+           Untuk makluman, Sijil/Slip Ringkas tidak lagi dikeluarkan oleh pihak JKKP. Pemohon hanya akan diberikan  No. Daftar Sijil sahaja.
          </div>
     </details>
     <details className="faq-item">
        <summary><h4>Saya telah menghadiri kursus  latihan OSH-Coordinator, adakah saya  telah selesai didaftarkan sebagai OSH-Coordinator?</h4></summary>
          <div className="faq-answer">
-           Tidak. Menghadiri kursus latihan sahaja tidak bermakna anda telah didaftarkan sebagai OSH-Coordinator.  
-           <br  />Anda perlu membuat pendaftaran rasmi melalui sistem MYKKP dan mendapatkan kelulusan daripada pihak JKKP terlebih dahulu.<br  />
+           Tidak. Menghadiri kursus latihan sahaja tidak bermakna anda telah didaftarkan sebagai OSH-Coordinator.
+           Anda perlu membuat pendaftaran rasmi melalui sistem MYKKP dan mendapatkan kelulusan daripada pihak JKKP terlebih dahulu.
          </div>
     </details>
     <details className="faq-item">
@@ -139,7 +186,7 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
          </div>
     </details>
     <details className="faq-item">
-       <summary><h4>Antara dokumen sokongan yang wajib dimuat naik semasa permohonan pendaftaran OSH-C adalah Surat Lantikan, Apakah itu Surat Lantikan?</h4></summary>
+       <summary><h4>Antara dokumen sokongan yang wajib dimuat naik semasa permohonan pendaftaran OSH-C adalah Surat Lantikan, apakah itu Surat Lantikan?</h4></summary>
          <div className="faq-answer">
            Surat Lantikan ialah dokumen rasmi yang dikeluarkan oleh majikan atau syarikat untuk melantik seseorang pekerja sebagai Penyelaras Keselamatan dan Kesihatan Pekerjaan (OSH-Coordinator) bagi sesebuah tempat kerja.  
            <br  />Surat ini berfungsi sebagai bukti pelantikan rasmi bahawa individu tersebut telah diberi tanggungjawab untuk mengurus dan menyelaras aspek keselamatan dan kesihatan pekerjaan di tempat kerja yang ditetapkan.<br />
@@ -149,12 +196,16 @@ import menu from '@site/assets/images/orang-kompeten/faq-ok/dashboard-ok.png';
        <summary><h4>Apakah prosedur atau langkah yang perlu dilaksanakan sebelum membuat pendaftaran OSH-Coordinator dalam MYKKP?</h4></summary>
          <div className="faq-answer">
            Berikut merupakan langkah-langkah yang perlu dilaksanakan sebelum membuat pendaftaran sebagai OSH-Coordinator:
-           1. **Pendaftaran Akaun MYKKP**  
-           Peserta hendaklah mendaftar akaun MYKKP menggunakan maklumat peribadi (No. Kad pengenalan sendiri).
-           2. **Menghadiri Kursus OSH-Coordinator**  
+           1. **Menghadiri Kursus OSH-Coordinator**  
            Peserta diwajibkan menghadiri dan lulus kursus OSH-Coordinator di mana-mana pusat latihan yang berdaftar di bawah JKKP.  
-           3. **Pendaftaran Organisasi/Tempat Kerja/Syarikat**  
-           Majikan tempat peserta bekerja hendaklah mendaftar tempat kerja terlebih dahulu dengan JKKP melalui sistem MYKKP.
+           2. **Peserta melakukan pendaftaran Akaun MyKKP**  
+           Peserta hendaklah mendaftar akaun MYKKP menggunakan maklumat peribadi (No. Kad pengenalan sendiri).  
+           3. **Pusat pengajar daftar peserta sebagai peserta OSH-C**  
+           Pusat pengajar perlu mendaftarkan peserta sebagai peserta yang hadiri kursus OSH-C terlebih dahulu. Jika belum sila hubungi pusat pengajar yang anda hadiri kursus.
+           4. **Pendaftaran Organisasi/Tempat Kerja/Syarikat**  
+           Majikan tempat peserta bekerja hendaklah mendaftar tempat kerja terlebih dahulu dengan JKKP melalui sistem MyKKP.   
+           4. **Pendaftaran OSH-C dalam MyKKP**  
+           Setelah langkah-langkah di atas dilakukan, sila hantar permohonan OSH-C di dalam sistem MyKKP dan tunggu kelulusan dari JKKP.
          </div>
     </details>
   </TabItem>
