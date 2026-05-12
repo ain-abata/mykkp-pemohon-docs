@@ -40,7 +40,9 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kren-menara/daft
     tabImgSrc={imgOkMaklumatAm}/>
 
 {/* Step B. Tab 2: Maklumat Majikan */}
+
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
+
 import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_maklumat_majikan.png';
 
 <OkMaklumatMajikan
@@ -48,6 +50,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kren-menara
     tabImgSrc={imgOkMaklumatMajikan} />
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
+
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
 import imgJadualKelayakanAkademik from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_maklumat_kelayakan_akademik.png';
@@ -61,11 +64,12 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kren-
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
 
+{/* Step D. Tab 4: Pengalaman Kerja */}
+
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_pengalaman_kerja.png';
 
 import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kren-menara/daftar/tambah_pengalaman_kerja.png';
 
-{/* Step D. Tab 4: Pengalaman Kerja */}
 <OkMaklumatJadual
     alphabetNumbering="D"
     tabNumber={4}
@@ -73,11 +77,12 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kren-me
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
 
+{/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
+
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_kursus_berkaitan.png';
 
 import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tambah_kursus_berkaitan.png';
 
-{/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 <OkMaklumatJadual
     alphabetNumbering="E"
     tabNumber={5}
@@ -86,6 +91,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-me
     tambahImgSrc={imgTambahKursusBerkaitan} />
 
 {/* Step F. Tab 6: Sijil Kompetensi */}
+
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
 
 import imgOkSijil from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_sijil_kompetensi.png';
@@ -97,6 +103,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/kren-menara/daftar/ta
     tabImgSrc={imgOkSijil} />
 
 {/* Step G. Tab 7: Maklumat Perubatan */}
+
 import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan-mmc';
 
 import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_maklumat_perubatan.png';
@@ -108,6 +115,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/kren-mena
     tabImgSrc={imgOkMaklumatPerubatan} />
 
 {/* Step H. Tab 8: Dokumen Sokongan */}
+
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
 
 import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_dokumen_sokongan.png';
@@ -119,9 +127,11 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-menara
     tabImgSrc={imgOkDokumenSokongan} />
 
 {/* Step I. Tab 9: Perakuan */}
+
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 
 import imgOkPerakuan from '@site/assets/images/orang-kompeten/kren-menara/daftar/tab_perakuan.png';
+
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
