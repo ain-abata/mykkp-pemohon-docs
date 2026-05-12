@@ -158,30 +158,25 @@ import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghanta
 
 <div className="step-card">
 
-## Pemberitahuan Aktiviti Industri - JKKP5 Selepas Dihantar
+## Laporan yang perlu dihantar - JKKP5 Selepas Dihantar (MHI)
 
-import PemberitahuanSelepasDihantar from '@site/src/components/lain-lain/jkkp5/pemberitahuan-selepas-dihantar';
-
-import imgSenaraiJkkp5 from '@site/assets/images/lain-lain/jkkp5/senarai_jkkp5_dihantar.png';
-import imgButangLaporan from '@site/assets/images/lain-lain/jkkp5/butang_pemberitahuan_laporan.png';
-import imgPopupLaporan from '@site/assets/images/lain-lain/jkkp5/popup_laporan_perlu_dihantar.png';
-
-<PemberitahuanSelepasDihantar
-  senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
-  butangLaporanImgSrc={imgButangLaporan}
-  popupLaporanImgSrc={imgPopupLaporan}
-/>
 <Tabs>
   <TabItem value="lai" label="LAI" default> 
   
 import LaporanJkkp5 from '@site/src/components/lain-lain/jkkp5/laporan-jkkp5';
 
-import imgLai from '@site/assets/images/lain-lain/jkkp5/lai.png';
-import imgLaiDokumen from '@site/assets/images/lain-lain/jkkp5/popup_dokumen.png';
-import imgLaiCarianOykmh from '@site/assets/images/lain-lain/jkkp5/popup_carian_oykmh.png';
-import imgLaiMesej from '@site/assets/images/lain-lain/jkkp5/lai_mesej_hantar.png';
+import imgSenaraiJkkp5 from '@site/assets/images/lain-lain/jkkp5/laporan/senarai_jkkp5_dihantar.png';
+import imgButangLaporan from '@site/assets/images/lain-lain/jkkp5/laporan/butang_pemberitahuan_laporan.png';
+import imgPopupLaporan from '@site/assets/images/lain-lain/jkkp5/laporan/popup_laporan_perlu_dihantar.png';
+import imgLai from '@site/assets/images/lain-lain/jkkp5/laporan/lai.png';
+import imgLaiDokumen from '@site/assets/images/lain-lain/jkkp5/laporan/popup_dokumen.png';
+import imgLaiCarianOykmh from '@site/assets/images/lain-lain/jkkp5/laporan/popup_carian_oykmh.png';
+import imgLaiMesej from '@site/assets/images/lain-lain/jkkp5/laporan/lai_mesej_hantar.png';
 
 <LaporanJkkp5
+  senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
+  butangLaporanImgSrc={imgButangLaporan}
+  popupLaporanImgSrc={imgPopupLaporan}
   reportName="Laporan Aktiviti Industri"
   reportShortName="LAI"
   tabImgSrc={imgLai}
@@ -195,10 +190,13 @@ import imgLaiMesej from '@site/assets/images/lain-lain/jkkp5/lai_mesej_hantar.pn
 
 <TabItem value="erp" label="ERP">
 
-import imgERP from '@site/assets/images/lain-lain/jkkp5/erp.png';
-import imgErpMesej from '@site/assets/images/lain-lain/jkkp5/erp_mesej_hantar.png';
+import imgERP from '@site/assets/images/lain-lain/jkkp5/laporan/erp.png';
+import imgErpMesej from '@site/assets/images/lain-lain/jkkp5/laporan/erp_mesej_hantar.png';
 
 <LaporanJkkp5
+  senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
+  butangLaporanImgSrc={imgButangLaporan}
+    popupLaporanImgSrc={imgPopupLaporan}
   reportName="Pelan Kecemasan Tapak"
   reportShortName="ERP"
   tabImgSrc={imgERP}
@@ -213,10 +211,13 @@ import imgErpMesej from '@site/assets/images/lain-lain/jkkp5/erp_mesej_hantar.pn
 
   <TabItem value="itp" label="ITP">
 
-import imgItp from '@site/assets/images/lain-lain/jkkp5/itp.png';
-import imgItpMesej from '@site/assets/images/lain-lain/jkkp5/itp_mesej_hantar.png';
+import imgItp from '@site/assets/images/lain-lain/jkkp5/laporan/itp.png';
+import imgItpMesej from '@site/assets/images/lain-lain/jkkp5/laporan/itp_mesej_hantar.png';
 
 <LaporanJkkp5
+  senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
+  butangLaporanImgSrc={imgButangLaporan}
+    popupLaporanImgSrc={imgPopupLaporan}
   reportName="Maklumat Untuk Awam"
   reportShortName="ITP"
   tabImgSrc={imgItp}
@@ -225,6 +226,31 @@ import imgItpMesej from '@site/assets/images/lain-lain/jkkp5/itp_mesej_hantar.pn
   mesejHantarImgSrc={imgItpMesej}
   hasCarianOykmh = {false}/>
 </TabItem>
+
+<TabItem value="ca" label="Consequences Analysis">
+
+import LaporanCAJkkp5 from '@site/src/components/lain-lain/jkkp5/laporan-CA-jkkp5';
+
+import butangConsAnalysisImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/butang-cons-analysis.png';
+import tabConsAnalysisImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/tab-cons-analysis.png';
+import popupPilihanBahanBerbahayaImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/popup-pilihan-bahan-berbahaya.png';
+import senaraiBahanBerbahayaImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/senarai-bahan-berbahaya.png';
+import popupMaklumatImpakImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/popup-maklumat-impak.png';
+import gambarJadualConsequencesAnalysisImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/jadual-consequences-analysis.png';
+
+  <LaporanCAJkkp5
+    senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
+    butangConsAnalysisImgSrc={butangConsAnalysisImg}
+    tabConsAnalysisImgSrc={tabConsAnalysisImg}
+    popupPilihanBahanBerbahayaImgSrc={popupPilihanBahanBerbahayaImg}
+    senaraiBahanBerbahayaImgSrc={senaraiBahanBerbahayaImg}
+    popupMaklumatImpakImgSrc={popupMaklumatImpakImg}
+    gambarJadualConsequencesAnalysisImgSrc={gambarJadualConsequencesAnalysisImg}
+    mesejHantarImgSrc={imgMesejBerjaya}
+  />
+  
+</TabItem>
+
 </Tabs>
 
 </div>
