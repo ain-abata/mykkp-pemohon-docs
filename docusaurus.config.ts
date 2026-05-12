@@ -110,7 +110,7 @@ const config: Config = {
     askAi: {
     assistantId: 'f6f425ac-7c90-4fe7-823b-2a0865f57222',
     },
-    
+
   },
 
   
