@@ -208,7 +208,6 @@ const sidebars: SidebarsConfig = {
         },
         'loji/pti',
         'loji/pemula',
-        'loji/psl',
         'loji/pbuka',
         'loji/pbaik',
         {
