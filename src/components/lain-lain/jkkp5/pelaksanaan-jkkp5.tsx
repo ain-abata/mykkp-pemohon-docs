@@ -5,151 +5,175 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
 
 interface PelaksanaanJkkp5Props {
-  tabName: string;
-  isErp?: boolean;
+    tabName: string;
+    isErp?: boolean;
 
-  senaraiPelaksanaanJkkp5ImgSrc?: string;
-  butangPelaksanaanImgSrc?: string;
-  popupPelaksanaanImgSrc?: string;
-  tabPelaksanaanImgSrc?: string;
+    senaraiPelaksanaanJkkp5ImgSrc?: string;
+    butangPelaksanaanImgSrc?: string;
+    popupPelaksanaanImgSrc?: string;
+    tabPelaksanaanImgSrc?: string;
 
-  popupPilihanBahanBerbahayaImgSrc?: string;
-  senaraiBahanBerbahayaImgSrc?: string;
+    popupPilihanBahanBerbahayaImgSrc?: string;
+    senaraiBahanBerbahayaImgSrc?: string;
 
-  mesejHantarImgSrc?: string;
+    mesejHantarImgSrc?: string;
 }
 
 export default function PelaksanaanJkkp5({
-  tabName,
-  isErp = false,
+    tabName,
+    isErp = false,
 
-  senaraiPelaksanaanJkkp5ImgSrc,
-  butangPelaksanaanImgSrc,
-  popupPelaksanaanImgSrc,
-  tabPelaksanaanImgSrc,
+    senaraiPelaksanaanJkkp5ImgSrc,
+    butangPelaksanaanImgSrc,
+    popupPelaksanaanImgSrc,
+    tabPelaksanaanImgSrc,
 
-  popupPilihanBahanBerbahayaImgSrc,
-  senaraiBahanBerbahayaImgSrc,
+    popupPilihanBahanBerbahayaImgSrc,
+    senaraiBahanBerbahayaImgSrc,
 
-  mesejHantarImgSrc,
+    mesejHantarImgSrc,
 }: PelaksanaanJkkp5Props) {
-  return (
-    <div>
-      <ol>
-        <li>
-          Halaman <b>Pemberitahuan Aktiviti Industri - JKKP5</b> akan terpapar seperti di bawah.
-          {senaraiPelaksanaanJkkp5ImgSrc && (
-            <ExpandableImage
-              src={senaraiPelaksanaanJkkp5ImgSrc}
-              alt="Senarai Pemberitahuan Aktiviti Industri - JKKP5"
-            />
-          )}
-        </li>
+    return (
+        <div>
+            <ol>
+                <li>
+                    Halaman <b>Pemberitahuan Aktiviti Industri - JKKP5</b> akan terpapar seperti di bawah.
+                    {senaraiPelaksanaanJkkp5ImgSrc && (
+                        <ExpandableImage
+                            src={senaraiPelaksanaanJkkp5ImgSrc}
+                            alt="Senarai Pemberitahuan Aktiviti Industri - JKKP5"
+                            caption="Senarai Pemberitahuan Aktiviti Industri - JKKP5"
+                            width={650}
+                        />
+                    )}
+                </li>
 
-        <li>
-          Klik butang <b>Pelaksanaan</b>.
-          {butangPelaksanaanImgSrc && (
-            <ExpandableImage
-              src={butangPelaksanaanImgSrc}
-              alt="Butang Pelaksanaan"
-            />
-          )}
-        </li>
+                <li>
+                    Klik butang <b>Pelaksanaan</b>.
+                    {butangPelaksanaanImgSrc && (
+                        <ExpandableImage
+                            src={butangPelaksanaanImgSrc}
+                            alt="Butang Pelaksanaan"
+                            caption="Butang Pelaksanaan"
+                            width={650}
 
-        <li>
-          Pop-up <b>Pelaksanaan</b> akan terpapar seperti di bawah.
-          {popupPelaksanaanImgSrc && (
-            <ExpandableImage
-              src={popupPelaksanaanImgSrc}
-              alt="Pop-up Pelaksanaan"
-            />
-          )}
-        </li>
+                        />
+                    )}
+                </li>
 
-        <li>
-          Klik <b>{tabName}</b>.
-        </li>
+                <li>
+                    <i>Pop-up</i> <b>Pelaksanaan</b> akan terpapar seperti di bawah.
+                    {popupPelaksanaanImgSrc && (
+                        <ExpandableImage
+                            src={popupPelaksanaanImgSrc}
+                            alt="Pop-up Pelaksanaan"
+                            caption={
+                                <>
+                                    <i>Pop-up</i> Pelaksanaan
+                                </>
+                            }
+                            width={400}
 
-        <li>
-          Halaman <b>{tabName}</b> akan terpapar pada tab baru.
-          {tabPelaksanaanImgSrc && (
-            <ExpandableImage
-              src={tabPelaksanaanImgSrc}
-              alt={`Tab ${tabName}`}
-            />
-          )}
-        </li>
+                        />
+                    )}
+                </li>
 
-        {isErp && (
-          <>
-            <li>
-              Klik butang <b>+ Tambah Bahan</b>.
-            </li>
+                <li>
+                    Klik <b>{tabName}</b>.
+                </li>
 
-            <li>
-              Pop-up <b>Pilihan Bahan Berbahaya</b> akan terpapar seperti di bawah.
-              {popupPilihanBahanBerbahayaImgSrc && (
-                <ExpandableImage
-                  src={popupPilihanBahanBerbahayaImgSrc}
-                  alt="Pop-up Pilihan Bahan Berbahaya"
-                />
-              )}
-            </li>
+                <li>
+                    Halaman <b>{tabName}</b> akan terpapar pada tab baru.
+                    {tabPelaksanaanImgSrc && (
+                        <ExpandableImage
+                            src={tabPelaksanaanImgSrc}
+                            alt={`Tab ${tabName}`}
+                            caption={`Tab ${tabName}`}
+                            width={650}
+                        />
+                    )}
+                </li>
 
-            <li>
-              Klik butang <b>Carian</b> jika terdapat banyak senarai bahan berbahaya bagi memudahkan penambahan bahan berbahaya.
+                {isErp && (
+                    <>
+                        <li>
+                            Klik butang <b>+ Tambah Bahan</b>.
+                        </li>
 
-              <Admonition type="info">
-                Butang <b>Carian</b> boleh digunakan untuk mencari bahan berbahaya dengan lebih mudah sekiranya senarai bahan yang dipaparkan adalah banyak.
-              </Admonition>
-            </li>
+                        <li>
+                            <i>Pop-up</i> <b>Pilihan Bahan Berbahaya</b> akan terpapar seperti di bawah.
+                            {popupPilihanBahanBerbahayaImgSrc && (
+                                <ExpandableImage
+                                    src={popupPilihanBahanBerbahayaImgSrc}
+                                    alt="Pop-up Pilihan Bahan Berbahaya"
+                                    caption={
+                                        <>
+                                            <i>Pop-up</i> Pilihan Bahan Berbahaya
+                                        </>
+                                    }
+                                    width={400}
+                                />
+                            )}
+                        </li>
 
-            <li>
-              Klik butang <b>checkbox</b> pada pilihan senarai bahan.
-            </li>
+                        <li>
+                            Klik butang <b>Carian</b> jika terdapat banyak senarai bahan berbahaya bagi memudahkan penambahan bahan berbahaya.
 
-            <li>
-              Klik butang <b>Pilih</b>.
-            </li>
+                            <Admonition type="info">
+                                Butang <b>Carian</b> boleh digunakan untuk mencari bahan berbahaya dengan lebih mudah sekiranya senarai bahan yang dipaparkan adalah banyak.
+                            </Admonition>
+                        </li>
 
-            <li>
-              Jadual <b>Senarai Bahan Berbahaya</b> akan terpapar seperti di bawah.
-              {senaraiBahanBerbahayaImgSrc && (
-                <ExpandableImage
-                  src={senaraiBahanBerbahayaImgSrc}
-                  alt="Jadual Senarai Bahan Berbahaya"
-                />
-              )}
-            </li>
-          </>
-        )}
+                        <li>
+                            Klik butang <b>checkbox</b> pada pilihan senarai bahan.
+                        </li>
 
-        <li>
-          Sila pastikan maklumat seperti <b>Tarikh Pelaksanaan</b>, <b>Jenis Latihan</b>, <b>Jenis Scenario</b> dan <b>Penerangan Scenario Latihan</b> telah diisi sebelum klik butang <b>Simpan</b>.
-        </li>
+                        <li>
+                            Klik butang <b>Pilih</b>.
+                        </li>
 
-        <li>
-          Klik butang <b>Simpan</b>.
-        </li>
+                        <li>
+                            Jadual <b>Senarai Bahan Berbahaya</b> akan terpapar seperti di bawah.
+                            {senaraiBahanBerbahayaImgSrc && (
+                                <ExpandableImage
+                                    src={senaraiBahanBerbahayaImgSrc}
+                                    alt="Jadual Senarai Bahan Berbahaya"
+                                    caption="Jadual Senarai Bahan Berbahaya"
+                                    width={650}
+                                />
+                            )}
+                        </li>
+                    </>
+                )}
 
-        <li>
-          Klik butang <b>Hantar</b>.
-        </li>
+                <li>
+                    Sila pastikan maklumat seperti <b>Tarikh Pelaksanaan</b>, <b>Jenis Latihan</b>, <b>Jenis Scenario</b> dan <b>Penerangan Scenario Latihan</b> telah diisi sebelum klik butang <b>Simpan</b>.
+                </li>
 
-        <li>
-          Pop-up makluman akan terpapar seperti di bawah.
-          {mesejHantarImgSrc && (
-            <ExpandableImage
-              src={mesejHantarImgSrc}
-              alt={`Mesej Hantar ${tabName}`}
-            />
-          )}
-        </li>
+                <li>
+                    Klik butang <b>Simpan</b>.
+                </li>
 
-        <li>
-          Klik butang <b>Tutup</b>.
-        </li>
-      </ol>
-    </div>
-  );
+                <li>
+                    Klik butang <b>Hantar</b>.
+                </li>
+
+                <li>
+                    Pop-up makluman akan terpapar seperti di bawah.
+                    {mesejHantarImgSrc && (
+                        <ExpandableImage
+                            src={mesejHantarImgSrc}
+                            alt={`Mesej Hantar ${tabName}`}
+                            caption={`Mesej Hantar ${tabName}`}
+                            width={400}
+                        />
+                    )}
+                </li>
+
+                <li>
+                    Klik butang <b>Tutup</b>.
+                </li>
+            </ol>
+        </div>
+    );
 }

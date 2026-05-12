@@ -158,7 +158,7 @@ import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghanta
 
 <div className="step-card">
 
-## Laporan yang perlu dihantar - JKKP5 Selepas Dihantar (MHI)
+## Laporan yang perlu dihantar
 
 <Tabs>
   <TabItem value="lai" label="LAI" default> 
@@ -196,14 +196,14 @@ import imgErpMesej from '@site/assets/images/lain-lain/jkkp5/laporan/erp_mesej_h
 <LaporanJkkp5
   senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
   butangLaporanImgSrc={imgButangLaporan}
-    popupLaporanImgSrc={imgPopupLaporan}
+  popupLaporanImgSrc={imgPopupLaporan}
   reportName="Pelan Kecemasan Tapak"
   reportShortName="ERP"
   tabImgSrc={imgERP}
   popupDokumenImgSrc={imgLaiDokumen}
   popupCarianOykmhImgSrc={imgLaiCarianOykmh}
   mesejHantarImgSrc={imgErpMesej}
-    hasCarianOykmh = {true}
+  hasCarianOykmh = {true}
 
 />
 
@@ -237,6 +237,8 @@ import popupPilihanBahanBerbahayaImg from '@site/assets/images/lain-lain/jkkp5/c
 import senaraiBahanBerbahayaImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/senarai-bahan-berbahaya.png';
 import popupMaklumatImpakImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/popup-maklumat-impak.png';
 import gambarJadualConsequencesAnalysisImg from '@site/assets/images/lain-lain/jkkp5/cons-analysis/jadual-consequences-analysis.png';
+import imgcaMesej from '@site/assets/images/lain-lain/jkkp5/cons-analysis/ca_mesej_hantar.png';
+
 
   <LaporanCAJkkp5
     senaraiJkkp5ImgSrc={imgSenaraiJkkp5}
@@ -246,11 +248,103 @@ import gambarJadualConsequencesAnalysisImg from '@site/assets/images/lain-lain/j
     senaraiBahanBerbahayaImgSrc={senaraiBahanBerbahayaImg}
     popupMaklumatImpakImgSrc={popupMaklumatImpakImg}
     gambarJadualConsequencesAnalysisImgSrc={gambarJadualConsequencesAnalysisImg}
-    mesejHantarImgSrc={imgMesejBerjaya}
+    mesejHantarImgSrc={imgcaMesej}
   />
   
 </TabItem>
 
+<TabItem value="DOSO" label="DOSO">
+import LaporanDOSOJkkp5 from '@site/src/components/lain-lain/jkkp5/laporan-DOSO';
+
+import senaraiLaporanDOSOJkkp5Img from '@site/assets/images/lain-lain/jkkp5/DOSO/senarai-laporanDoso.png';
+import butangDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/butang-doso.png';
+import popupDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/popup-doso.png';
+import tabDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/tab-doso.png';
+import pemberitahuanDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/pemberitahuan-doso.png';
+import mesejHantarDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/mesej-hantar-doso.png';
+
+  <LaporanDOSOJkkp5
+    tabName="DOSO"
+    senaraiPelaksanaanJkkp5ImgSrc={senaraiLaporanDOSOJkkp5Img}
+    butangDosoImgSrc={butangDosoImg}
+    popupDosoImgSrc={popupDosoImg}
+    tabDosoImgSrc={tabDosoImg}
+    pemberitahuanImgSrc={pemberitahuanDosoImg}
+    mesejHantarImgSrc={mesejHantarDosoImg}
+  />
+
+</TabItem>
 </Tabs>
 
+</div>
+
+<div className="step-card">
+
+## Pelaksanaan yang perlu dihantar
+
+<Tabs>
+<TabItem value="erpdalamtapak" label="ERP (DalamTapak)" default> 
+  
+import PelaksanaanJkkp5 from '@site/src/components/lain-lain/jkkp5/pelaksanaan-jkkp5';
+
+import senaraiPelaksanaanJkkp5Img from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/senarai-pelaksanaan-jkkp5.png';
+
+import butangPelaksanaanImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/butang-pelaksanaan.png';
+
+import popupPelaksanaanImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/popup-pelaksanaan.png';
+
+import tabErpDalamTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/tab-erp-dalam-tapak.png';
+
+import senaraiBahanBerbahayaERPImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/senarai_bahan_berbahaya.png';
+
+import mesejHantarErpDalamTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/mesej-hantar-erp.png';
+
+  <PelaksanaanJkkp5
+    tabName="ERP Dalam Tapak"
+    isErp={true}
+    senaraiPelaksanaanJkkp5ImgSrc={senaraiPelaksanaanJkkp5Img}
+    butangPelaksanaanImgSrc={butangPelaksanaanImg}
+    popupPelaksanaanImgSrc={popupPelaksanaanImg}
+    tabPelaksanaanImgSrc={tabErpDalamTapakImg}
+    popupPilihanBahanBerbahayaImgSrc={popupPilihanBahanBerbahayaImg}
+    senaraiBahanBerbahayaImgSrc={senaraiBahanBerbahayaERPImg}
+    mesejHantarImgSrc={mesejHantarErpDalamTapakImg}
+  />
+
+</TabItem>
+
+<TabItem value="erpluartapak" label="ERP (Luar Tapak)">
+
+import tabErpLuarTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/tab-erp-luar-tapak.png';
+
+
+<PelaksanaanJkkp5
+    tabName="ERP Luar Tapak"
+    isErp={true}
+    senaraiPelaksanaanJkkp5ImgSrc={senaraiPelaksanaanJkkp5Img}
+    butangPelaksanaanImgSrc={butangPelaksanaanImg}
+    popupPelaksanaanImgSrc={popupPelaksanaanImg}
+    tabPelaksanaanImgSrc={tabErpLuarTapakImg}
+    popupPilihanBahanBerbahayaImgSrc={popupPilihanBahanBerbahayaImg}
+    senaraiBahanBerbahayaImgSrc={senaraiBahanBerbahayaERPImg}
+    mesejHantarImgSrc={mesejHantarErpDalamTapakImg}
+  />
+</TabItem>
+
+<TabItem value="itp" label="ITP">
+import tabITPImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/tab-itp.png';
+
+<PelaksanaanJkkp5
+    tabName="Maklumat Kepada Umum ITP"
+    isErp={false}
+    senaraiPelaksanaanJkkp5ImgSrc={senaraiPelaksanaanJkkp5Img}
+    butangPelaksanaanImgSrc={butangPelaksanaanImg}
+    popupPelaksanaanImgSrc={popupPelaksanaanImg}
+    tabPelaksanaanImgSrc={tabITPImg}
+    popupPilihanBahanBerbahayaImgSrc={popupPilihanBahanBerbahayaImg}
+    senaraiBahanBerbahayaImgSrc={senaraiBahanBerbahayaERPImg}
+    mesejHantarImgSrc={mesejHantarErpDalamTapakImg}
+  />
+</TabItem>
+</Tabs>
 </div>
