@@ -1,3 +1,16 @@
+/**
+ * Copy below 👇:
+
+import SenaraiCaj from '@site/src/components/loji/tab/senarai-caj';
+
+<SenaraiCaj
+    alphabetNumbering="D"
+    tabNumber={4}
+    tabName="Senarai Caj"
+    tabImgSrc={imgSenaraiCaj} />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

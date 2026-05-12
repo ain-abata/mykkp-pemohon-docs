@@ -1,7 +1,7 @@
 ---
 title: PEMBAHARUAN OPERATOR KREN MENARA (OKren)
-description: Panduan lengkap pembaharuan sijil operator kren menara
-hide_table_of_contents: true
+description: Panduan lengkap penmbaharuan sijil operator kren menara
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 

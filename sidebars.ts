@@ -195,12 +195,31 @@ const sidebars: SidebarsConfig = {
       label: 'Kilang & Loji',
       items: [
         'loji/intro',
+        'loji/psk',
+        'loji/ambil-alih-tk',
         'loji/pekala',
+        {
+          type: 'category',
+          label: 'Kerja Pembinaan (JKKP12)',
+          items: [
+            'loji/jkkp12/klien',
+            'loji/jkkp12/klien-domestik',
+          ],
+        },
         'loji/pti',
         'loji/pemula',
         'loji/psl',
         'loji/pbuka',
         'loji/pbaik',
+        {
+          type: 'category',
+          label: 'Pemberitahuan Status Loji',
+          items: [
+            'loji/psl/pelupusan',
+            'loji/psl/tidak-digunakan',
+            'loji/psl/pengecualian',
+          ],
+        },
         {
           type: 'category',
           label: 'Pemindahan Loji',
@@ -233,20 +252,17 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Bantuan',
+      label: 'FAQ',
+      link: {
+        type: 'doc',
+        id: 'FAQ/faq'
+      },
+
       items: [
-        {
-          type: 'category',
-          label: 'FAQ',
-          link: {
-            type: 'doc',
-            id: 'FAQ/faq',
-          },
-          items: [
-            'FAQ/tk',
-            'FAQ/loji',
-            'FAQ/oyk',
-          ],
-        },
+        'FAQ/tk',
+        'FAQ/loji',
+        'FAQ/oyk',
+        'FAQ/chat'
       ],
     },
   ],

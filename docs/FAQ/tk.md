@@ -6,27 +6,31 @@ hide_table_of_contents: true
 ---
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import menu from '@site/assets/images/orang-kompeten/faq-tk/dashboard-tk.png';
+import menu1 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-cariantk.png';
+import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskinitk.png';
 
 # FAQ Tempat Kerja (TK)
 
 <div className="faq-list">
 
 <details className="faq-item">
-  <summary>Saya telah berjaya membuat carian tempat kerja tetapi apabila saya klik butang daftar, tiada sebarang perubahan paparan.</summary>
+  <summary><h4>Saya telah berjaya membuat carian tempat kerja tetapi apabila saya klik butang daftar, tiada sebarang perubahan paparan.</h4></summary>
   <div className="faq-answer">
     Sila pastikan tetapan browser *“Allow Pop-up Blocker”* telah diaktifkan. Sila rujuk Manual Pengguna Konfigurasi Tetingkap Pop-up.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin melantik lebih daripada seorang kakitangan untuk mengurus tempat kerja dan loji di MyKKP.</summary>
+  <summary><h4>Saya ingin melantik lebih daripada seorang kakitangan untuk mengurus tempat kerja dan loji di MyKKP.</h4></summary>
   <div className="faq-answer">
     Setiap kakitangan yang dilantik perlu membuat pengaktifan tempat kerja terlebih dahulu **(PATK)**.
   </div>
 </details>
 
 <details className="faq-item">
-  <summary>Saya ingin mengaktifkan lebih daripada satu tempat kerja dalam akaun MyKKP saya.</summary>
+  <summary><h4>Saya ingin mengaktifkan lebih daripada satu tempat kerja dalam akaun MyKKP saya.</h4></summary>
   <div className="faq-answer">
 
 1. Dalam satu masa hanya satu tempat kerja yang boleh diaktifkan untuk urusan permohonan dan semakan.
@@ -36,9 +40,135 @@ import Link from '@docusaurus/Link';
 </details>
 
 <details className="faq-item">
-  <summary>Nama firma saya tiada dalam semakan FYK.</summary>
+  <summary><h4>Nama firma saya tiada dalam semakan FYK.</h4></summary>
   <div className="faq-answer">
     Sila e-melkan surat kelulusan pendaftaran firma beserta No. Daftar Tempat Kerja kepada **mykkp@mohr.gov.my**.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Bagaimanakah cara untuk menyemak status permohonan tempat kerja saya?</h4></summary>
+      <div className="faq-answer">
+          Untuk menyemak status permohonan tempat kerja anda, sila ikuti langkah-langkah berikut:  
+          1. Log masuk akaun MyKKP.  
+          2. Pastikan anda berada pada dashboard **Tempat Kerja/Kilang**. 
+    
+    <ExpandableImage
+                src={menu}
+                alt="dashboard Tempat Kerja/Kilang"
+                caption="Dashboard Tempat Kerja/Kilang"
+                width={450} 
+    />
+          
+          3. Klik menu **Senarai Permohonan** pada sebelah kiri pemohon.  
+          4. Cari nombor rujukan permohonan anda untuk meyemak status permohonan dan nama pegawai yang mengendalikan permohonan tersebut.  
+  <p>
+      Sekiranya anda ingin mendapatkan maklumat pegawai untuk dihubungi, sila rujuk Direktori Pegawai JKKP di pautan berikut:
+      👉https://staff.dosh.gov.my/
+  </p>
+      </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Permohonan saya telah ditolak. Bagaimanakah cara dapatkan sebab penolakan?</h4></summary>
+  <div className="faq-answer">
+    Anda boleh dapatkan sebab penolakan pada Surat Tolak di Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
+    1. Log masuk akaun MyKKP
+    2. Pastikan anda berada pada dashboard **Tempat Kerja/Kilang**.
+    
+    <ExpandableImage
+                src={menu}
+                alt="dashboard Tempat Kerja/Kilang"
+                caption="Dashboard Tempat Kerja/Kilang"
+                width={450} 
+    />
+
+    3. Klik menu **Senarai Permohonan**.
+    4. Pergi ke tab **Batal/Tolak**.
+    5. Tekan butang **Tindakan**.
+    6. Tekan butang  **Lihat Maklumat**.
+    7. Lihat pada jadual Senarai Surat untuk dapatkan **Surat Tolak**.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Bolehkah saya  mengemaskini sahaja permohonan yang sudah ditolak?</h4></summary>
+  <div className="faq-answer">
+    Tidak. Permohonan yang telah ditolak tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MyKKP.
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Apakah perbezaan PEMTK dan PATK?</h4></summary>
+  <div className="faq-answer">
+    Berikut merupakan perbezaan antara PEMTK dan PATK.
+
+| Perkara | PEMTK (Pemberitahuan Tempat Kerja) | PATK (Pengaktifan Tempat Kerja) |
+|--------|------------------------------------|----------------------------------|
+| **Status tempat kerja** | Tempat kerja belum pernah didaftarkan dalam MyKKP oleh mana-mana pihak | Tempat kerja telah wujud dan telah didaftarkan dalam MyKKP |
+| **Tujuan** | Mendaftarkan tempat kerja yang belum berdaftar dengan JKKP | Mengaktifkan tempat kerja yang telah wujud supaya boleh digunakan dalam akaun |
+| **Bila digunakan** | Digunakan semasa pendaftaran tempat kerja kali pertama | Digunakan apabila tempat kerja telah wujud dalam sistem MyKKP dan ingin lakukan permohonan bagi tempat kerja tersebut. |
+| **Fungsi** | Mewujudkan rekod baharu tempat kerja dalam sistem | Membolehkan pengguna membuat permohonan bagi tempat kerja tersebut |                    
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Bagaimanakah cara untuk mengetahui tempat kerja saya telah didaftarkan dalam sistem MyKKP?</h4></summary>
+  <div className="faq-answer">
+    Untuk mengetahui sama ada tempat kerja anda telah didaftarkan dalam sistem MYKKP, sila ikuti langkah berikut:  
+    1. Log masuk akaun MyKKP  
+    2. Pastikan anda berada pada dashboard **Tempat Kerja/Kilang**.  
+   
+       <ExpandableImage
+                src={menu1}
+                alt="dashboard Tempat Kerja/Kilang"
+                caption="Dashboard Tempat Kerja/Kilang"
+                width={450} 
+        />
+      
+    3. Klik menu **Profil Tempat Kerja** pada sebelah kiri anda.
+    4. Klik submenu **Carian Tempat Kerja**.
+    5. Tukar **Kategori** kepada **Nama Organisasi**.  
+    6. Klik butang **OK**. 
+    7. Isi nama tempat kerja pada medan carian.  
+    8. Klik butang **Carian**.                                           
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Syarikat kami mempunyai beberapa cawangan. Bolehkah saya mendaftarkan cawangan tersebut di dalam akaun MyKKP yang sama?</h4></summary>
+  <div className="faq-answer">
+    Ya, boleh. Anda boleh mendaftarkan lebih daripada satu entiti atau cawangan dalam satu (1) akaun MyKKP.                                       
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Adakah No. Daftar Tempat Kerja boleh diaktifkan oleh lebih dari satu individu?</h4></summary>
+  <div className="faq-answer">
+    Ya, boleh. Satu tempat kerja boleh diaktifkan oleh lebih daripada satu (1) individu.                                      
+  </div>
+</details>
+
+<details className="faq-item">
+  <summary><h4>Bagaimanakah cara mengemaskini maklumat OSH-C pada tempat kerja?</h4></summary>
+  <div className="faq-answer">
+    Untuk mengetahui sama ada tempat kerja anda telah didaftarkan dalam sistem MYKKP, sila ikuti langkah berikut:  
+    1. Log masuk akaun MyKKP.  
+    2. Pastikan anda berada pada dashboard **Tempat Kerja/Kilang**.  
+   
+       <ExpandableImage
+                src={menu2}
+                alt="dashboard Tempat Kerja/Kilang"
+                caption="Dashboard Tempat Kerja/Kilang"
+                width={450} 
+        />
+    4. Klik menu **Profil Tempat Kerja** pada sebelah kiri anda.  
+    5. Klik menu **Kemaskini Tempat Kerja**.  
+        {Admonition({
+       type: "important",
+       children: "Pastikan anda telah mengaktifkan tempat kerja sebelum melakukan pengemaskinian bagi tempat kerja tersebut."
+        })}
+    6. Klik butang **Kemaskini** pada bahagian **Maklumat Pegawai OSH-Coordinator**.                            
   </div>
 </details>
 

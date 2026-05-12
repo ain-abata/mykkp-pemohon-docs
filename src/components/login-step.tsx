@@ -5,10 +5,20 @@ import Link from '@docusaurus/Link';
 
 import imgLogin from '@site/assets/images/log_masuk.png';
 
-export default function LoginStep({ stepNumber, title }: { stepNumber: number; title: string }) {
+interface LoginStepProps {
+    stepNumber: number;
+    title: string;
+    headerId: string;
+}
+
+export default function LoginStep({ 
+  stepNumber,
+  title,
+  headerId,
+}: LoginStepProps ) {
   return (
     <div className="step-card">
-      <h3>Langkah {stepNumber}: {title}</h3>
+      <h3 id={headerId}>Langkah {stepNumber}: {title}</h3>
 
       <p>
         Klik pautan berikut: 👉{' '}

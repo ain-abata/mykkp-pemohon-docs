@@ -1,7 +1,7 @@
 ---
 title: PENDAFTARAN OPERATOR KREN BERGERAK BERODA (OKren)
-description: Panduan lengkap pendaftaran sijil operator kren bergerak beroda
-hide_table_of_contents: true
+description: Panduan lengkap pendaftaran sijil operator kren menara
+hide_table_of_contents: false
 sidebar_label: 'Pendaftaran'
 ---
 
