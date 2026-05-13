@@ -1,6 +1,6 @@
 import React from 'react';
 import { DocSearch } from '@docsearch/react';
-import '@docsearch/css';
+//import '@docsearch/css';
 
 export default function SearchBar() {
   return (

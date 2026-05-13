@@ -249,7 +249,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Bantuan',
       label: 'FAQ',
       link: {
         type: 'doc',
