@@ -2,7 +2,7 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
-import imgMenu from '@site/assets/images/orang-kompeten/bosh/menu_bosh.png';
+import imgMenu from '@site/assets/images/orang-kompeten/bohs/menu_bohs.png';
 
 interface MenuBoshProps {
   stepNumber: number;

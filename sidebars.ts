@@ -184,7 +184,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'orang-kompeten/pelaporan-OYK',
-        'orang-kompeten/bosh',
+        'orang-kompeten/bohs',
         'orang-kompeten/pembatalan-permohonan',
         'orang-kompeten/pembayaran-fi',
         'orang-kompeten/kelulusan-permohonan',
