@@ -15,21 +15,21 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
 
 <div className="faq-list">
 
-<details className="faq-item">
+<details className="faq-item" id="popup-daftar-tiada-paparan">
   <summary><h4>Saya telah berjaya membuat carian tempat kerja tetapi apabila saya klik butang daftar, tiada sebarang perubahan paparan.</h4></summary>
   <div className="faq-answer">
     Sila pastikan tetapan browser *“Allow Pop-up Blocker”* telah diaktifkan. Sila rujuk Manual Pengguna Konfigurasi Tetingkap Pop-up.
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="lantik-lebih-seorang-kakitangan">
   <summary><h4>Saya ingin melantik lebih daripada seorang kakitangan untuk mengurus tempat kerja dan loji di MyKKP.</h4></summary>
   <div className="faq-answer">
     Setiap kakitangan yang dilantik perlu membuat pengaktifan tempat kerja terlebih dahulu **(PATK)**.
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="aktif-lebih-satu-tempat-kerja">
   <summary><h4>Saya ingin mengaktifkan lebih daripada satu tempat kerja dalam akaun MyKKP saya.</h4></summary>
   <div className="faq-answer">
 
@@ -46,7 +46,7 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="semak-status-permohonan-tempat-kerja">
   <summary><h4>Bagaimanakah cara untuk menyemak status permohonan tempat kerja saya?</h4></summary>
       <div className="faq-answer">
           Untuk menyemak status permohonan tempat kerja anda, sila ikuti langkah-langkah berikut:  
@@ -69,7 +69,7 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
       </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="sebab-penolakan-permohonan">
   <summary><h4>Permohonan saya telah ditolak. Bagaimanakah cara dapatkan sebab penolakan?</h4></summary>
   <div className="faq-answer">
     Anda boleh dapatkan sebab penolakan pada Surat Tolak di Senarai Permohonan. Sila rujuk langkah-langkah berikut:  
@@ -91,14 +91,14 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="kemaskini-permohonan-ditolak">
   <summary><h4>Bolehkah saya  mengemaskini sahaja permohonan yang sudah ditolak?</h4></summary>
   <div className="faq-answer">
     Tidak. Permohonan yang telah ditolak tidak boleh dikemaskini. Pemohon perlu melakukan permohonan baharu melalui sistem MyKKP.
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="perbezaan-pemtk-dan-patk">
   <summary><h4>Apakah perbezaan PEMTK dan PATK?</h4></summary>
   <div className="faq-answer">
     Berikut merupakan perbezaan antara PEMTK dan PATK.
@@ -112,7 +112,7 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="semak-tempat-kerja-berdaftar">
   <summary><h4>Bagaimanakah cara untuk mengetahui tempat kerja saya telah didaftarkan dalam sistem MyKKP?</h4></summary>
   <div className="faq-answer">
     Untuk mengetahui sama ada tempat kerja anda telah didaftarkan dalam sistem MYKKP, sila ikuti langkah berikut:  
@@ -135,21 +135,21 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="daftar-cawangan-dalam-akaun-sama">
   <summary><h4>Syarikat kami mempunyai beberapa cawangan. Bolehkah saya mendaftarkan cawangan tersebut di dalam akaun MyKKP yang sama?</h4></summary>
   <div className="faq-answer">
     Ya, boleh. Anda boleh mendaftarkan lebih daripada satu entiti atau cawangan dalam satu (1) akaun MyKKP.                                       
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="tempat-kerja-diaktifkan-lebih-satu-individu">
   <summary><h4>Adakah No. Daftar Tempat Kerja boleh diaktifkan oleh lebih dari satu individu?</h4></summary>
   <div className="faq-answer">
     Ya, boleh. Satu tempat kerja boleh diaktifkan oleh lebih daripada satu (1) individu.                                      
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="kemaskini-maklumat-oshc">
   <summary><h4>Bagaimanakah cara mengemaskini maklumat OSH-C pada tempat kerja?</h4></summary>
   <div className="faq-answer">
     Untuk mengetahui sama ada tempat kerja anda telah didaftarkan dalam sistem MYKKP, sila ikuti langkah berikut:  
