@@ -16,7 +16,7 @@ import LoginStep from '@site/src/components/login-step';
   title="Akses Halaman Log Masuk MyKKP" />
 
 
-
+import MenuBohs from '@site/src/components/BOHS/menu-bohs';
 <MenuBohs
     stepNumber={2}
     pageName="Pemberitahuan Basic Occupational Health Services"
@@ -28,20 +28,20 @@ import LoginStep from '@site/src/components/login-step';
 ### Langkah 3: Pengisian Pemberitahuan Basic Occupational Health Services
 
 
-
+import TabMaklumatKerja from '@site/src/components/BOHS/tab-maklumat-tempat-kerja';
 <TabMaklumatKerja
 tabNumber={1}
     tabName="Maklumat Tempat Kerja"
     tabImgSrc={imgMaklumatKemalangan}/>
 ---
-
+import TabPendedahanTK from '@site/src/components/BOHS/tab-pendedahan-tempat-kerja';
 <TabPendedahanTK
   tabNumber={2}
   tabName="Pendedahan Tempat Kerja"
   tabImgSrc={imgPendedahanTK}
 />
 ---
-
+import TabPerakuan from '@site/src/components/BOHS/tab-perakuan';
 <TabPerakuan
     tabNumber={3}
     tabName="Perakuan"
