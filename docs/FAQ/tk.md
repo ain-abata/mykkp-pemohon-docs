@@ -39,7 +39,7 @@ import menu2 from '@site/assets/images/orang-kompeten/faq-tk/dashboard-kemaskini
   </div>
 </details>
 
-<details className="faq-item">
+<details className="faq-item" id="nama-firma-tiada-semak-fyk">
   <summary><h4>Nama firma saya tiada dalam semakan FYK.</h4></summary>
   <div className="faq-answer">
     Sila e-melkan surat kelulusan pendaftaran firma beserta No. Daftar Tempat Kerja kepada **mykkp@mohr.gov.my**.
