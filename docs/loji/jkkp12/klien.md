@@ -65,7 +65,7 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 
-import imgMaklumatAm from '@site/assets/images/loji/jkkp12/tab_maklumat_am.png';
+import imgMaklumatAm from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_am.png';
 
 <MaklumatAm
     alphabetNumbering="A"
@@ -80,7 +80,7 @@ import imgMaklumatAm from '@site/assets/images/loji/jkkp12/tab_maklumat_am.png';
 
 #### B. Tab 2: Maklumat Projek
 
-import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/tab_maklumat_projek.png';
+import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_projek.png';
 
 <ExpandableImage
     src={imgMaklumatProjek}
@@ -103,7 +103,7 @@ import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/tab_maklumat_proj
 
 #### C. Tab 3: Maklumat Tapak
 
-import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak.png';
+import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_tapak.png';
 
 <ExpandableImage
     src={imgMaklumatTapak}
@@ -123,7 +123,7 @@ import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 
-import imgPerakuan from '@site/assets/images/loji/pekala/tab_perakuan.png';
+import imgPerakuan from '@site/assets/images/loji/jkkp12/tab_perakuan.png';
 
 <Perakuan
     alphabetNumbering="D"
@@ -144,7 +144,7 @@ import imgPerakuan from '@site/assets/images/loji/pekala/tab_perakuan.png';
 
 #### A. Tab 1: Maklumat Projek
 
-import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_am_tapak_bina.png';
+import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_am_tapak_bina.png';
 
 <ExpandableImage
     src={imgTab1TapakBina}
@@ -159,7 +159,7 @@ import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_am_ta
 
 #### B. Tab 2: Maklumat Tapak
 
-import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak.png';
+import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_tapak_pembinaan.png';
 
 <ExpandableImage
     src={imgTab2TapakBina}
@@ -179,6 +179,14 @@ import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak
 
 #### C. Tab 3: Maklumat Kemajuan
 
+import imgTab3MaklumatKemajuan from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_kemajuan.png';
+
+<ExpandableImage
+    src={imgTab3MaklumatKemajuan}
+    alt="Tab 3: Maklumat Kemajuan"
+    caption="Tab 3: Maklumat Kemajuan"
+    width={450} />
+
 1. Isi maklumat mandatori pada medan.
 2. Klik butang **Seterusnya**.
 
@@ -186,9 +194,15 @@ import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak
 
 #### D. Tab 4: Maklumat Kontraktor
 
-1.  Klik pada pilihan butang radio **Tapak dikawal selia oleh**.
-2.  Jika pilihan butang radio **Maklumat Tapak Kerja Pembinaan** adalah **Klien**, medan **Maklumat Klien** akan terpapar.
-3.  Tambah Maklumat Kontraktor Kerja Pembinaan.
+import imgTab4MaklumatKontraktor from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_kontraktor.png';
+
+<ExpandableImage
+    src={imgTab4MaklumatKontraktor}
+    alt="Tab 4: Maklumat Kontraktor"
+    caption="Tab 4: Maklumat Kontraktor"
+    width={450} />
+
+1.  Tambah Maklumat Kontraktor Kerja Pembinaan.
   - Klik butang **Tambah**, pada jadual **Maklumat Kontraktor Kerja Pembinaan**.
   - Pop-up modal Maklumat Kontraktor Kerja Pembinaan akan terpapar.
   - Pilih Kategori dan isi carian pada medan ruangan Carian. Klik butang **Carian**.
@@ -199,7 +213,7 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 <HapusMaklumat />
 
-4. Tambah Maklumat Kontraktor Prinsipal Kerja Pembinaan (Jika terdapat lebih dari satu kontraktor kerja pembinaan)
+2. Tambah Maklumat Kontraktor Prinsipal Kerja Pembinaan **(Jika terdapat lebih dari satu kontraktor kerja pembinaan)**
   - Klik butang **Pilihan Senarai Kontraktor Prinsipal Kerja Pembinaan**.
   - Klik butang radio pada Tempat Kerja yang dikehendaki dan klik butang **Pilih** untuk memilih kontraktor.
   - Maklumat tempat kerja yang dipilih akan terpapar dalam senarai **Maklumat Kontraktor Prinsipal Kerja Pembinaan**.
@@ -212,11 +226,19 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
     Gred Pendaftaran CIDB Kontraktor Prinsipal Kerja Pembinaan perlu dipilih sekiranya terdapat maklumat Kontraktor Prinsipal Kerja Pembinaan.
 </Admonition>
 
-5. Klik butang **Seterusnya**.
+3. Klik butang **Seterusnya**.
 
 ---
 
 #### E. Tab 5: Maklumat Pereka Bentuk
+
+import imgTab5MaklumatPerekaBentuk from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_pereka_bentuk.png';
+
+<ExpandableImage
+    src={imgTab5MaklumatPerekaBentuk}
+    alt="Tab 5: Maklumat Pereka Bentuk"
+    caption="Tab 5: Maklumat Pereka Bentuk"
+    width={450} />
 
 1. Tambah Maklumat Pereka Bentuk Kerja Pembinaan 
   - Klik butang **Tambah**, pada jadual **Maklumat Pereka Bentuk Kerja Pembinaan**.
@@ -238,12 +260,28 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 #### F. Tab 6: Bilangan Pekerja Tapak Pembinaan
 
+import imgTab6BilanganPekerja from '@site/assets/images/loji/jkkp12/klien/tab_bilangan_pekerja.png';
+
+<ExpandableImage
+    src={imgTab6BilanganPekerja}
+    alt="Tab 6: Bilangan Pekerja Tapak Pembinaan"
+    caption="Tab 6: Bilangan Pekerja Tapak Pembinaan"
+    width={450} />
+
 1. Isi maklumat pada medan ruangan yang berkaitan.
 2. Klik butang **Seterusnya**.
 
 ---
 
 #### G. Tab 7: Maklumat Orang Kompeten
+
+import imgTab7MaklumatOrangKompeten from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_orang_kompeten.png';
+
+<ExpandableImage
+    src={imgTab7MaklumatOrangKompeten}
+    alt="Tab 7: Maklumat Orang Kompeten"
+    caption="Tab 7: Maklumat Orang Kompeten"
+    width={450} />
 
 1. Tambah Pegawai Keselamatan dan Kesihatan (SHO) 
   - Pilih **Kategori** dan isi maklumat pada medan ruangan **Carian**.
@@ -273,6 +311,14 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 ---
 
 #### H. Tab 8: Maklumat Orang Yang Terlibat
+
+import imgTab8MaklumatOrangTerlibat from '@site/assets/images/loji/jkkp12/klien/tab_maklumat_orang _yang_terlibat.png';
+
+<ExpandableImage
+    src={imgTab8MaklumatOrangTerlibat}
+    alt="Tab 8: Maklumat Orang Yang Terlibat"
+    caption="Tab 8: Maklumat Orang Yang Terlibat"
+    width={450} />
 
 1. Tambah Maklumat Senarai Orang Yang Ditetapkan
   - Klik pada butang **Tambah** pada jadual **Senarai Orang Yang Ditetapkan**.
@@ -319,6 +365,14 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 ---
 
 #### i. Tab 9: Dokumen Sokongan
+
+import imgTab9DokumenSokongan from '@site/assets/images/loji/jkkp12/klien/tab_dokumen_sokongan.png';
+
+<ExpandableImage
+    src={imgTab9DokumenSokongan}
+    alt="Tab 9: Dokumen Sokongan"
+    caption="Tab 9: Dokumen Sokongan"
+    width={450} />
 
 import uploadIcon from '@site/assets/images/ikon_muat_naik.png';
 

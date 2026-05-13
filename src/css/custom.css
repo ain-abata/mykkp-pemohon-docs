@@ -15,32 +15,67 @@
 @import './tabs-style.css';
 @import './toc-style.css';
 @import './faq-style.css';
+@import './print-only.css';
 
 
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #0d9488;         /* Teal600 */
+  --ifm-color-primary-dark: #0f766e;    /* Teal700 */
+  --ifm-color-primary-darker: #115e59;  /* Teal800 */
+  --ifm-color-primary-darkest: #134e4a; /* Teal900 */
+  --ifm-color-primary-light: #14b8a6;   /* Teal500 */
+  --ifm-color-primary-lighter: #2dd4bf; /* Teal400 */
+  --ifm-color-primary-lightest: #5eead4;/* Teal300 */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --background: #ffffff;
+  --background-hover: #F5F9FF;        /* blue-50 */
+  --background-active: #E9F2FE;       /* blue-100 */
+
+  --text-color: #1C2B42;        /* base text (your blue1000 tone) */
+  --text-color-dark: #123263;   /* headings / stronger emphasis */
+  --text-color-darker: #0F2440; /* bold emphasis / important UI */
+  --text-color-darkest: #0B1A2E;/* highest contrast text */
+  --text-color-light: #5B6B82;  /* secondary text */
+  --text-color-lighter: #8A97AB;/* muted labels */
+  --text-color-lightest: #B3BDCD;/* placeholders / disabled */
+
+  --link-color: #2563eb;
+  --link-hover-color: #0ea5e9;
+  --link-active-color: #357DE8;
+
+  --border-solid-color: 1px solid #d7d7d7;
+
+  --docusaurus-highlighted-code-line-bg: rgba(13, 148, 136, 0.12);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
+  --ifm-color-primary: #2dd4bf;         /* Teal400 */
+  --ifm-color-primary-dark: #14b8a6;    /* Teal500 */
+  --ifm-color-primary-darker: #0d9488;  /* Teal600 */
+  --ifm-color-primary-darkest: #0f766e; /* Teal700 */
+  --ifm-color-primary-light: #5eead4;   /* Teal300 */
+  --ifm-color-primary-lighter: #99f6e4; /* Teal200 */
+  --ifm-color-primary-lightest: #ccfbf1;/* Teal100 */
 
+  --background: #CFE1FD14;
+  --background-hover: #1558BC14;
+  --background-active: #1558BC26;
+
+  --text-color: #E6EEF8;        /* main readable text */
+  --text-color-dark: #F5F9FF;   /* headings */
+  --text-color-darker: #FFFFFF; /* strongest emphasis */
+  --text-color-darkest: #FFFFFF;/* max contrast */
+  --text-color-light: #d0d7e1;  /* secondary text */
+  --text-color-lighter: #7F8DA3;/* muted text */
+  --text-color-lightest: #5C6B80;/* disabled / placeholder */
+
+  --link-color:#2563eb;
+  --link-hover-color: #60a5fa; /* keep blue accent for contrast */
+
+  --docusaurus-highlighted-code-line-bg: rgba(45, 212, 191, 0.18);
+}
 
 /* =========================
    Documentation Container
@@ -48,7 +83,6 @@
 .theme-doc-markdown {
   font-size: 16px;
   line-height: 1.7;
-  color: #2d2d2d;
 }
 
 /* Headings */
@@ -84,7 +118,7 @@ li {
    Links styling
 ========================= */
 a {
-  color: #2563eb;
+  color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
 }

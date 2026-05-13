@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
     **Klien domestik** adalah klien yang baginya suatu projek sedang dibina atau dijalankan, yang projek tersebut bukan dalam perjalanan atau pengembangan suatu perniagaan klien itu. **Contoh:** Membuat rumah persendirian.
 </Admonition>
 
-## Glosari
+## 📖 Glosari
 
 Berikut merupakan kata kunci peranan yang terlibat dalam **Pemberitahuan Projek dan Tapak Pembinaan** sebagai rujukan.
 | Bil | Kata Kunci  | Keterangan                    |
@@ -28,7 +28,7 @@ Berikut merupakan kata kunci peranan yang terlibat dalam **Pemberitahuan Projek 
 | 6.  | CD          | Pereka Bentuk Kerja Pembinaan |
 
 
-## Syarat Pemberitahu
+## 📋 Syarat Pemberitahu
 
 Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan JKKP 12 adalah seperti berikut:
 - Klien yang telah berdaftar sebagai **PATK Tahap 1** pada sistem MyKKP.
@@ -66,7 +66,7 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 
-import imgMaklumatAm from '@site/assets/images/loji/jkkp12/tab_maklumat_am_klien_domestik.png';
+import imgMaklumatAm from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_am.png';
 
 <MaklumatAm
     alphabetNumbering="A"
@@ -81,7 +81,7 @@ import imgMaklumatAm from '@site/assets/images/loji/jkkp12/tab_maklumat_am_klien
 
 #### B. Tab 2: Maklumat Projek
 
-import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/tab_maklumat_projek_klien_domestik.png';
+import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_projek.png';
 
 <ExpandableImage
     src={imgMaklumatProjek}
@@ -104,7 +104,7 @@ import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/tab_maklumat_proj
 
 #### C. Tab 3: Maklumat Tapak
 
-import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak.png';
+import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_tapak.png';
 
 <ExpandableImage
     src={imgMaklumatTapak}
@@ -124,7 +124,7 @@ import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 
-import imgPerakuan from '@site/assets/images/loji/pekala/tab_perakuan.png';
+import imgPerakuan from '@site/assets/images/loji/jkkp12/tab_perakuan.png';
 
 <Perakuan
     alphabetNumbering="D"
@@ -145,7 +145,7 @@ import imgPerakuan from '@site/assets/images/loji/pekala/tab_perakuan.png';
 
 #### A. Tab 1: Maklumat Projek
 
-import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_am_tapak_bina.png';
+import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_am_tapak_bina.png';
 
 <ExpandableImage
     src={imgTab1TapakBina}
@@ -160,7 +160,7 @@ import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_am_ta
 
 #### B. Tab 2: Maklumat Tapak
 
-import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak.png';
+import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_tapak_pembinaan.png';
 
 <ExpandableImage
     src={imgTab2TapakBina}
@@ -180,12 +180,28 @@ import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/tab_maklumat_tapak
 
 #### C. Tab 3: Maklumat Kemajuan
 
+import imgTab3MaklumatKemajuan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_kemajuan.png';
+
+<ExpandableImage
+    src={imgTab3MaklumatKemajuan}
+    alt="Tab 3: Maklumat Kemajuan"
+    caption="Tab 3: Maklumat Kemajuan"
+    width={450} />
+
 1. Isi maklumat mandatori pada medan.
 2. Klik butang **Seterusnya**.
 
 ---
 
 #### D. Tab 4: Maklumat Kontraktor
+
+import imgTab4MaklumatKontraktor from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_kontraktor.png';
+
+<ExpandableImage
+    src={imgTab4MaklumatKontraktor}
+    alt="Tab 4: Maklumat Kontraktor"
+    caption="Tab 4: Maklumat Kontraktor"
+    width={450} />
 
 1.  Klik pada pilihan butang radio **Tapak dikawal selia oleh**.
 2.  Jika pilihan butang radio **Maklumat Tapak Kerja Pembinaan** adalah **Klien**, medan **Maklumat Klien** akan terpapar.
@@ -219,6 +235,14 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 #### E. Tab 5: Maklumat Pereka Bentuk
 
+import imgTab5MaklumatPerekaBentuk from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_pereka_bentuk.png';
+
+<ExpandableImage
+    src={imgTab5MaklumatPerekaBentuk}
+    alt="Tab 5: Maklumat Pereka Bentuk"
+    caption="Tab 5: Maklumat Pereka Bentuk"
+    width={450} />
+
 1. Tambah Maklumat Pereka Bentuk Kerja Pembinaan 
   - Klik butang **Tambah**, pada jadual **Maklumat Pereka Bentuk Kerja Pembinaan**.
   - Pilih **Kategori** dan isi carian pada medan ruangan **Carian**. Klik butang **Carian**.
@@ -239,11 +263,27 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 #### F. Tab 6: Bilangan Pekerja Tapak Pembinaan
 
+import imgTab6BilanganPekerja from '@site/assets/images/loji/jkkp12/klien-domestik/tab_bilangan_pekerja.png';
+
+<ExpandableImage
+    src={imgTab6BilanganPekerja}
+    alt="Tab 6: Bilangan Pekerja Tapak Pembinaan"
+    caption="Tab 6: Bilangan Pekerja Tapak Pembinaan"
+    width={450} />
+
 1. Isi maklumat pada medan ruangan yang berkaitan.
 2. Klik butang **Seterusnya**.
 
 ---
 #### G. Tab 7: Maklumat Orang Kompeten
+
+import imgTab7MaklumatOrangKompeten from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_orang_kompeten.png';
+
+<ExpandableImage
+    src={imgTab7MaklumatOrangKompeten}
+    alt="Tab 7: Maklumat Orang Kompeten"
+    caption="Tab 7: Maklumat Orang Kompeten"
+    width={450} />
 
 1. Tambah Pegawai Keselamatan dan Kesihatan (SHO) 
   - Pilih **Kategori** dan isi maklumat pada medan ruangan **Carian**.
@@ -271,5 +311,93 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 4. Klik butang **Seterusnya**.
 
 ---
+
+#### H. Tab 8: Maklumat Orang Yang Terlibat
+
+import imgTab8MaklumatOrangTerlibat from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_orang _yang_terlibat.png';
+
+<ExpandableImage
+    src={imgTab8MaklumatOrangTerlibat}
+    alt="Tab 8: Maklumat Orang Yang Terlibat"
+    caption="Tab 8: Maklumat Orang Yang Terlibat"
+    width={450} />
+
+1. Tambah Maklumat Senarai Orang Yang Ditetapkan
+  - Klik pada butang **Tambah** pada jadual **Senarai Orang Yang Ditetapkan**.
+  - Isi maklumat pada medan ruangan yang berkaitan dan klik butang **Tambah**.
+  - Maklumat yang baru ditambah akan terpapar dalam **Senarai Orang Yang Ditetapkan**.
+
+<Admonition type="info">
+    Bagi mengemaskini Maklumat Senarai Orang Yang Ditetapkan
+    <ol style={{ listStyleType: 'lower-roman' }}>
+        <li>Klik pada butang **Tindakan**. *Pop-up* akan dipaparkan dan klik butang **Kemaskini**.</li>
+        <li>Kemaskini maklumat Orang Yang Ditetapkan.</li>
+        <li>Klik pada butang **Kemaskini** untuk menyimpan maklumat yang terkini.</li>
+    </ol>
+</Admonition>
+<Admonition type="tip">
+    Bagi menghapuskan Maklumat Orang Yang Ditetapkan
+    <ol style={{ listStyleType: 'lower-roman' }}>
+        <li>Klik butang **Tindakan**. *Pop-up* akan dipaparkan dan klik butang **Hapus**.</li>
+        <li>Klik pada butang **Ya** untuk meneruskan tindakan hapus maklumat atau **Tidak** untuk batal tindakan hapus maklumat.</li>
+    </ol>
+</Admonition>
+
+2. Tambah Maklumat Senarai Pembantu Keselamatan Dan Kesihatan
+  - Klik pada butang **Tambah** pada jadual **Senarai Pembantu Keselamatan Dan Kesihatan**.
+  - Isi maklumat pada medan ruangan yang berkaitan dan klik butang **Tambah**.
+  - Maklumat yang baru ditambah akan terpapar dalam **Senarai Pembantu Keselamatan Dan Kesihatan**.
+
+<Admonition type="info">
+    Bagi mengemaskini Maklumat Senarai Pembantu Keselamatan Dan Kesihatan
+    <ol style={{ listStyleType: 'lower-roman' }}>
+        <li>Klik pada butang **Tindakan**. *Pop-up* akan dipaparkan dan klik butang **Kemaskini**.</li>
+        <li>Kemaskini maklumat Orang Yang Ditetapkan.</li>
+        <li>Klik pada butang **Kemaskini** untuk menyimpan maklumat yang terkini.</li>
+    </ol>
+</Admonition>
+<Admonition type="tip">
+    Bagi menghapuskan Maklumat Senarai Pembantu Keselamatan Dan Kesihatan
+    <ol style={{ listStyleType: 'lower-roman' }}>
+        <li>Klik butang **Tindakan**. *Pop-up* akan dipaparkan dan klik butang **Hapus**.</li>
+        <li>Klik pada butang **Ya** untuk meneruskan tindakan hapus maklumat atau **Tidak** untuk batal tindakan hapus maklumat.</li>
+    </ol>
+</Admonition>
+
+---
+
+#### i. Tab 9: Dokumen Sokongan
+
+import imgTab9DokumenSokongan from '@site/assets/images/loji/jkkp12/klien/tab_dokumen_sokongan.png';
+
+<ExpandableImage
+    src={imgTab9DokumenSokongan}
+    alt="Tab 9: Dokumen Sokongan"
+    caption="Tab 9: Dokumen Sokongan"
+    width={450} />
+
+import uploadIcon from '@site/assets/images/ikon_muat_naik.png';
+
+1. Klik butang <img src={uploadIcon} style={{width: 15}} /> untuk memuat naik dokumen yang berkenaan pada medan bersyarat **Wajib**.
+2. Isi medan **Diskripsi** dan klik butang ***Choose File*** untuk memilih dokumen.
+<Admonition type="warning">
+   1. Pastikan dokumen yang dimuat naik adalah mengikut format yang ditetapkan.
+   2. Pastikan saiz dokumen tidak melebihi 20MB.
+   3. Sila pastikan nama lampiran tidak mengandungi simbol. **[Contoh: ! @ # $ % ^ & * ( ) - + dll...]**
+</Admonition>
+
+3. Klik butang **Simpan**. *Pop-up* mesej berjaya akan dipaparkan dan klik butang **OK**.
+4. Dokumen yang berjaya dimuat naik akan dipaparkan dalam jadual **Senarai Dokumen**.
+
+<Admonition type="info">
+    Bagi **menghapuskan dokumen** yang telah dimuat naik 👉 Klik butang **Hapus Fail** pada **Jadual Senarai Dokumen**.
+</Admonition>
+
+5. Klik butang **Tutup**. Pada kolum **Bil. Fail** akan menunjukkan jumlah bilangan fail yang telah dimuat naik.
+6. Klik pada butang **Simpan** untuk menyimpan maklumat yang telah diisi. Skrin akan memaparkan kembali halaman **Pemberitahuan Projek**.
+
+<Admonition type="tip">
+    Sila teruskan 👉 [Permohonan Pemberitahuan JKKP12](#tabPerakuan) untuk aktiviti penambahan tapak pembinaan.
+</Admonition>
 
 </div>
