@@ -4,7 +4,7 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 import imgMenu from '@site/assets/images/orang-kompeten/bohs/menu_bohs.png';
 
-interface MenuBoshProps {
+interface MenuBohsProps {
   stepNumber: number;
   pageName: string;
   kategoriPermohonan: string;
@@ -13,12 +13,12 @@ interface MenuBoshProps {
   hasDropdown: boolean;
 }
 
-export default function MenuBosh({
+export default function MenuBohs({
   stepNumber,
   pageName,
   kategoriPermohonan,
   moduleType,
-}: MenuBoshProps) {
+}: MenuBohsProps) {
   return (
     <div className="step-card">
       <h3>Langkah {stepNumber}: Masuk Ke Halaman {pageName}</h3>

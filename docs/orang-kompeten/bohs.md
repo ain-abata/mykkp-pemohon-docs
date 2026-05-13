@@ -17,7 +17,7 @@ import LoginStep from '@site/src/components/login-step';
 
 
 
-<MenuBosh
+<MenuBohs
     stepNumber={2}
     pageName="Pemberitahuan Basic Occupational Health Services"
     kategoriPermohonan="Pemberitahuan Basic Occupational Health Services"
