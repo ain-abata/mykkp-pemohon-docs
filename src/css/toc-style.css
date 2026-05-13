@@ -1,0 +1,41 @@
+/* =====================
+    Table of Content
+===================== */
+/* Change the width of the TOC sidebar */
+.theme-doc-toc-desktop {
+  min-width: 250px;
+  max-width: 400px;
+}
+
+.table-of-contents {
+  padding-left: 8px !important;
+}
+
+/* Change link colors and font size */
+.table-of-contents__link {
+  color: #555;
+  font-size: 0.86rem;
+}
+
+/* Highlight the active link */
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Display header with id="headerId" only in TOC */
+.toc-only {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+/* The link for Pemunya and Penghuni */
+.table-of-contents__link[href="#pemunya"],
+.table-of-contents__link[href="#penghuni"] {
+  margin-left: 35px !important;
+  pointer-events: none;
+  cursor: default;
+  color: #000;
+  text-decoration: none;
+}

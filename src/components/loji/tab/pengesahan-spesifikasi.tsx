@@ -1,3 +1,18 @@
+/**
+ * Copy below 👇:
+
+import PengesahanSpesifikasi from '@site/src/components/loji/tab/pengesahan-spesifikasi';
+
+<PengesahanSpesifikasi
+    alphabetNumbering="E"
+    tabNumber={5}
+    tabName="Pengesahan Spesifikasi"
+    tabImgSrc={imgPengesahanSpesifikasi}
+    hasBoilerType={true/false}              // Only 'true' (certain module only) to select Superheater/Economizer for Boiler.
+    />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

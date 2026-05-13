@@ -4,10 +4,29 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const branch = process.env.GITHUB_REF_NAME;
+
+const baseUrl =
+  branch === "main"
+    ? "/mykkp-pemohon-docs/"
+    : "";
+
 const config: Config = {
   title: 'MyKKP Pemohon Documentation',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+
+    //meta tag
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '93EEBA4F8450F083',
+      },
+    },
+  ],
+
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,15 +34,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://mykkp-pemohon-docs-stg.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mykkp-pemohon-docs',
+  baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ain-abata', // Usually your GitHub org/user name.
+  projectName: 'mykkp-pemohon-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   markdown: { hooks: { onBrokenMarkdownLinks: 'warn', onBrokenMarkdownImages: 'warn' } },
@@ -65,9 +85,14 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
       } satisfies Preset.Options,
     ],
   ],
+
 
   themeConfig: {
     // Replace with your project's social card
@@ -75,6 +100,21 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+     // 👇 ADD THIS
+  algolia: {
+    appId: 'P14KWFGPWB',
+    apiKey: '877953df5cf2bdd57f792442f023df7b',
+    indexName: 'MyKKP DOC',
+    contextualSearch: false,
+    
+    askAi: {
+    assistantId: 'f6f425ac-7c90-4fe7-823b-2a0865f57222',
+    indexName: 'Documentation assistant',
+    },
+
+  },
+
+  
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -90,6 +130,14 @@ const config: Config = {
           label: 'Manual Penggunaan',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        
+        // 👇 ADD THIS
+       {
+          type: 'search',
+          position: 'right',
+       },
+        
+        
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

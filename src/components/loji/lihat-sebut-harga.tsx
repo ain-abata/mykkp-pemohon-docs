@@ -1,3 +1,16 @@
+/**
+ * Copy below 👇:
+
+import SemakSebutHarga from '@site/src/components/loji/lihat-sebut-harga';
+
+<SemakSebutHarga 
+    stepNumber={5}
+    imgPermohonanProses={imgPermohonanProses}
+    imgBtnLihat={imgPembayaran}                 // Import image of Pembayaran page that highlight 'Lihat' button
+    />
+    
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

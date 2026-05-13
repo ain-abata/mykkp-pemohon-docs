@@ -1,3 +1,16 @@
+/**
+ * Copy below 👇:
+
+import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
+
+<DokumenSokongan
+    alphabetNumbering="D"
+    tabNumber={4}
+    tabName="Dokumen Sokongan"
+    tabImgSrc={imgDokumenSokongan} />
+
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
@@ -25,7 +38,7 @@ export default function DokumenSokongan({
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}
                 caption={`Tab ${tabNumber}: ${tabName}`}
-                width={450} />
+                width={650} />
                 
             <ol>
                 <li>Klik butang <img src={uploadIcon} style={{width: 15}} /> untuk memuat naik dokumen yang berkenaan pada medan bersyarat <b>Wajib</b>.</li>

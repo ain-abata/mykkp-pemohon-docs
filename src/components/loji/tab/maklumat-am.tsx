@@ -1,3 +1,20 @@
+/**
+ * Copy below 👇:
+
+import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
+
+<MaklumatAm
+    alphabetNumbering="A"
+    tabNumber={2}
+    tabName="Maklumat Am"
+    hasRujukan={true/false}             // If have 'Rujukan' button pada interface
+    tabImgSrc={imgMaklumatAm}           // Display image based on viarable
+    hasPemunyaAsalSection={true/false}  // If have Pemunya Asal section = true to display step
+    hasPemunyaSection={true/false}      // If have Pemunya section = true to display step
+    carianImgSrc={imgMaklumatAmCarian}  // If have 'Carian' button pada interface
+    />
+ */
+
 import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';

@@ -1,7 +1,7 @@
 ---
 title: Penyemakan Slip Ringkas Orang Kompeten
 description: Panduan lengkap penyemakan slip ringkas orang Kompeten
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Penyemakan Slip Ringkas'
 ---
 

@@ -1,3 +1,20 @@
+/**
+ * Copy below 👇:
+
+import Perakuan from '@site/src/components/loji/tab/perakuan';
+
+<Perakuan
+    alphabetNumbering="E"
+    tabNumber={5}
+    tabName="Perakuan"
+    tabImgSrc={imgPerakuan}
+    hasPayment={true/false}                 // 'true' only if have to make payment after submission (Certain module)
+    mesejBerjayaImgSrc={imgMesejBerjaya}    // Only if 'hasPayment' = true
+    noRujukan="XX/PEKALA/XX/XXXXX"          // Depends on No. Rujukan Module
+    />
+
+ */
+
 import React from 'react';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
@@ -11,6 +28,7 @@ interface PerakuanProps {
     mesejBerjayaImgSrc?: string;
     noRujukan: string;
     hasPayment?: boolean;
+    headerId: string;
 }
 
 export default function Perakuan({
@@ -21,15 +39,16 @@ export default function Perakuan({
     mesejBerjayaImgSrc,
     noRujukan,
     hasPayment,
+    headerId,
 }: PerakuanProps) {
     return (
         <div>
-            <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
+            <h4 id={headerId}>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
             <ExpandableImage
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}
                 caption={`Tab ${tabNumber}: ${tabName}`}
-                width={450} />
+                width={650} />
             <ol>
                 <li>Klik pada butang <i>checkbox</i> <b>Perakuan</b>.</li>
                 <li>Isi maklumat pada medan ruangan yang berkaitan.</li>

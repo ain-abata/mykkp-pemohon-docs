@@ -1,7 +1,7 @@
 ---
 title: Permohonan Pemeriksaan Permulaan (PEMULA)
 description: Panduan lengkap permohonan pemeriksaan pemulaan
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pemeriksaan Pemulaan Loji'
 ---
 
@@ -171,7 +171,7 @@ import imgPerakuan from '@site/assets/images/loji/pemula/tab_perakuan.png';
     noRujukan="XX/PEMULA/XX/XXXXX"
     hasPayment={false} />
 
-import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon'
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
 
 <BatalOlehPemohon />
 
@@ -179,9 +179,9 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 
 import SemakStatus from '@site/src/components/loji/semak-status';
 
-import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png'
+import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png';
 
-import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png'
+import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
     stepNumber={4}

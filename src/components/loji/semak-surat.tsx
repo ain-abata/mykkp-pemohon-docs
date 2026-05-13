@@ -1,3 +1,12 @@
+/**
+ * Copy below 👇:
+import SemakSurat from '@site/src/components/loji/semak-surat';
+
+<SemakSurat
+    stepNumber={5} />
+
+ */
+
 import React from 'react';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
