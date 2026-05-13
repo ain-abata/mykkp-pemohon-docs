@@ -194,7 +194,6 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Kilang & Loji',
       items: [
-        'loji/intro',
         'loji/psk',
         'loji/ambil-alih-tk',
         'loji/pekala',
