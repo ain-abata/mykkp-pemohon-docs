@@ -8,7 +8,7 @@ sidebar_label: 'Pendaftaran'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pendaftaran Sijil Pegawai Keselamatan & Kesihatan
+# 📝 Pendaftaran Sijil Pegawai Keselamatan & Kesihatan (SHO) 
 
 import LoginStep from '../../../src/components/login-step';
 

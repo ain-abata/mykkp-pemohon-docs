@@ -12,9 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # 📝 Pembayaran Fi Pemprosesan dan Fi Pendaftaran
 
-
-<Tabs>
-  <TabItem value="fiProses" label="Fi Pemprosesan" default>
+## Fi Pemprosesan
 
     <h2 className="print-only">Pembayaran Fi Pemprosesan</h2>
 
@@ -92,9 +90,8 @@ import imgStatusBayarProses from '@site/assets/images/orang-kompeten/pembayaran-
       })}
 
     </div>
-  </TabItem>
 
-  <TabItem value="fiDaftar" label="Fi Pendaftaran">
+## Fi Pendaftaran
     <h2 className="print-only">Pembayaran Fi Pendaftaran</h2>
 
     <div className="step-card">
@@ -171,6 +168,3 @@ import imgStatusBayarDaftar from '@site/assets/images/orang-kompeten/pembayaran-
       })}
 
     </div>
-
-  </TabItem>
-</Tabs>
