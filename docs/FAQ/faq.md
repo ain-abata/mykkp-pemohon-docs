@@ -11,7 +11,7 @@ import Link from '@docusaurus/Link';
 # FAQ
 
 <div className="faq-top-cards">
-  <Link to="./tk" className="faq-card-link">
+  <Link to="/docs/FAQ/tk" className="faq-card-link">
     <div className="faq-module-card">
       <div className="faq-module-icon">🏭</div>
       <h3>Tempat Kerja (TK)</h3>
@@ -19,7 +19,7 @@ import Link from '@docusaurus/Link';
     </div>
   </Link>
 
-  <Link to="./loji" className="faq-card-link">
+  <Link to="/docs/FAQ/loji" className="faq-card-link">
     <div className="faq-module-card">
       <div className="faq-module-icon">⚙️</div>
       <h3>Loji</h3>
@@ -27,7 +27,7 @@ import Link from '@docusaurus/Link';
     </div>
   </Link>
 
-  <Link to="./oyk" className="faq-card-link">
+  <Link to="/docs/FAQ/oyk" className="faq-card-link">
     <div className="faq-module-card">
       <div className="faq-module-icon">👷</div>
       <h3>Orang Kompeten (OK)</h3>
