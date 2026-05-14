@@ -34,10 +34,11 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://faq-tk-ok.mykkp-pemohon-docs-stg.pages.dev/',
+  url: 'https://mykkp-pemohon-docs-stg.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -103,9 +104,17 @@ const config: Config = {
   algolia: {
     appId: 'P14KWFGPWB',
     apiKey: '877953df5cf2bdd57f792442f023df7b',
-    indexName: 'MyKKP Doc',
+    indexName: 'MyKKP DOC',
     contextualSearch: false,
+    
+    askAi: {
+    assistantId: 'f6f425ac-7c90-4fe7-823b-2a0865f57222',
+    indexName: 'Documentation assistant',
+    },
+
   },
+
+  
     navbar: {
       hideOnScroll: true,
       logo: {

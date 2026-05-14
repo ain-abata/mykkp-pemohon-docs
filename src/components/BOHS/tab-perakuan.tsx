@@ -29,7 +29,7 @@ export default function TabPerakuan({
         <li>Klik pada butang <i>checkbox</i> <b>Perakuan</b>.</li>
         <li>Isi maklumat pada medan ruangan yang berkaitan.</li>
         <li>Klik butang <b>Hantar</b>.</li>
-        <li>Pop-up mesej <b>“Permohonan Anda Telah Berjaya Dihantar! No. Rujukan Permohonan anda adalah XX/BOSHM/XX/XXXXX”</b> akan terpapar.</li>
+        <li>Pop-up mesej <b>“Permohonan Anda Telah Berjaya Dihantar! No. Rujukan Permohonan anda adalah XX/BOHSM/XX/XXXXX”</b> akan terpapar.</li>
         <ExpandableImage
           src={maklumanImgSrc}
           alt="Makluman Aduan Berjaya Dihantar"
