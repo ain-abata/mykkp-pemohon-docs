@@ -8,7 +8,7 @@ sidebar_label: 'Penyemakan Slip Ringkas'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Semak Slip Ringkas Selepas Lulus Permohonan TEST 1
+# 📝 Semak Slip Ringkas Selepas Lulus Permohonan
 
 <div className="step-card">
 
