@@ -241,12 +241,19 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'JKKP 12',
+      items: [
+        'JKKP12/jkkp12-klien'
+      ],
+    },
+    {
+      type: 'category',
       label: 'Lain-lain',
       items: [
         'lain-lain/dashboard-pemohon',
-        'lain-lain/pemberitahuan-aktiviti-loji-jkkp5'
+        'lain-lain/pemberitahuan-aktiviti-loji-jkkp5',
       ],
-    },
+    },   
     {
       type: 'category',
       label: 'FAQ',
