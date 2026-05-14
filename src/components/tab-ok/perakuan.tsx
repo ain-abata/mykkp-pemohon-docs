@@ -31,9 +31,10 @@ Explanation of tabImgSrc & mesejBerjayaImgSrc:
 */
 
 import React from 'react';
-import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
+import ExpandableImage from '../common/ExpandableImage';
+
 
 interface OkPerakuanProps {
   alphabetNumbering: string;

@@ -25,7 +25,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'pendaftaran/pendaftaran',
         'pemtk/pemtk',
-        'orang-kompeten/orang-kompeten'
+        'orang-kompeten/orang-kompeten',
+        'orang-kompeten/kemaskini-tempat-kerja',
       ],
     },
     {
@@ -36,8 +37,14 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Keselamatan',
           items: [
-            'orang-kompeten/ods/ods-gred2',
-            'orang-kompeten/ods/ods-gred1',
+            {
+              type: 'category',
+              label: 'Operator Dandang Stim',
+              items: [
+                'orang-kompeten/ods/ods-gred1',
+                'orang-kompeten/ods/ods-gred2',
+              ],
+            },
             {
               type: 'category',
               label: 'Operator Kren Menara',
@@ -62,6 +69,30 @@ const sidebars: SidebarsConfig = {
                 'orang-kompeten/kren/kren-bergerakberantai-renewal',
               ],
             },
+            {
+              type: 'category',
+              label: 'Major Hazard',
+              items: [
+                'orang-kompeten/major-hazard/major-hazard-daftar',
+                'orang-kompeten/major-hazard/major-hazard-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Keselamatan Kesihatan',
+              items: [
+                'orang-kompeten/keselamatan-kesihatan/keselamatan-kesihatan-daftar',
+                'orang-kompeten/keselamatan-kesihatan/keselamatan-kesihatan-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Keselamatan Tapak',
+              items: [
+                'orang-kompeten/keselamatan-tapak/keselamatan-tapak-daftar',
+                'orang-kompeten/keselamatan-tapak/keselamatan-tapak-renewal',
+              ],
+            },
           ],
         },
         {
@@ -76,8 +107,84 @@ const sidebars: SidebarsConfig = {
                 'orang-kompeten/agtes/agtes-renewal',
               ],
             },
+            {
+              type: 'category',
+              label: 'Juruteknik Higien 2',
+              items: [
+                'orang-kompeten/higien-2/higien-2-daftar',
+                'orang-kompeten/higien-2/higien-2-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Penaksir Risiko Bising',
+              items: [
+                'orang-kompeten/risiko-bising/risiko-bising-daftar',
+                'orang-kompeten/risiko-bising/risiko-bising-renewal',
+              ],
+            },
           ],
         },
+        {
+          type: 'category',
+          label: 'Pengurusan Kimia',
+          items: [
+            {
+              type: 'category',
+              label: 'Juruteknik Higien 1',
+              items: [
+                'orang-kompeten/higien-1/higien-1-daftar',
+                'orang-kompeten/higien-1/higien-1-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Penaksir Kualiti Udara Dalaman',
+              items: [
+                'orang-kompeten/kualiti-udara/kualiti-udara-daftar',
+                'orang-kompeten/kualiti-udara/kualiti-udara-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Pengapit',
+              items: [
+                'orang-kompeten/pengapit/pengapit-daftar',
+                'orang-kompeten/pengapit/pengapit-renewal',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Kesihatan Pekerjaan',
+          items: [
+            {
+              type: 'category',
+              label: 'Doktor Kesihatan',
+              items: [
+                'orang-kompeten/doktor-kesihatan/doktor-kesihatan-daftar',
+                'orang-kompeten/doktor-kesihatan/doktor-kesihatan-renewal',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Medical Surveillance',
+              items: [
+                'orang-kompeten/medical-surveillance/medical-surveillance-daftar',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'OSH-Coordinator',
+          items: [
+            'orang-kompeten/osh-coordinator/osh-daftar',
+          ],
+        },
+        'orang-kompeten/pelaporan-OYK',
+        'orang-kompeten/bohs',
         'orang-kompeten/pembatalan-permohonan',
         'orang-kompeten/pembayaran-fi',
         'orang-kompeten/kelulusan-permohonan',
@@ -87,7 +194,6 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Kilang & Loji',
       items: [
-        'loji/intro',
         'loji/psk',
         'loji/ambil-alih-tk',
         'loji/pekala',
@@ -102,6 +208,8 @@ const sidebars: SidebarsConfig = {
         },
         'loji/pti',
         'loji/pemula',
+        'loji/pbuka',
+        'loji/pbaik',
         {
           type: 'category',
           label: 'Pemberitahuan Status Loji',
@@ -119,26 +227,47 @@ const sidebars: SidebarsConfig = {
             'loji/pplhm',
           ],
         },
+        'loji/muat-turun-cf',
         'loji/pembatalan-permohonan',
       ],
     },
     {
       type: 'category',
-      label: 'Bantuan',
+      label: 'Kemalangan & Aduan',
       items: [
-        {
-          type: 'category',
-          label: 'FAQ',
-          link: {
-            type: 'doc',
-            id: 'FAQ/faq',
-          },
-          items: [
-            'FAQ/tk',
-            'FAQ/loji',
-            'FAQ/oyk',
-          ],
-        },
+        'loji/aduan',
+        'loji/kemalangan-JKKP6',
+        'loji/penyakit-JKKP7',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'JKKP 12',
+      items: [
+        'JKKP12/jkkp12-klien'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Lain-lain',
+      items: [
+        'lain-lain/dashboard-pemohon',
+        'lain-lain/pemberitahuan-aktiviti-loji-jkkp5',
+      ],
+    },   
+    {
+      type: 'category',
+      label: 'FAQ',
+      link: {
+        type: 'doc',
+        id: 'FAQ/faq'
+      },
+
+      items: [
+        'FAQ/tk',
+        'FAQ/loji',
+        'FAQ/oyk',
+        'FAQ/chat'
       ],
     },
   ],
