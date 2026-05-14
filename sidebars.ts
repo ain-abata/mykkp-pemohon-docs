@@ -184,7 +184,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         'orang-kompeten/pelaporan-OYK',
-        'orang-kompeten/bosh',
+        'orang-kompeten/bohs',
         'orang-kompeten/pembatalan-permohonan',
         'orang-kompeten/pembayaran-fi',
         'orang-kompeten/kelulusan-permohonan',
@@ -194,7 +194,6 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Kilang & Loji',
       items: [
-        'loji/intro',
         'loji/psk',
         'loji/ambil-alih-tk',
         'loji/pekala',
@@ -250,7 +249,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Bantuan',
       label: 'FAQ',
       link: {
         type: 'doc',
