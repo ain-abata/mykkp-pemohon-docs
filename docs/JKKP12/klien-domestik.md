@@ -1,6 +1,6 @@
 ---
-title: Permohonan Pemberitahuan JKKP12 (Klien Domestik)
-description: Panduan lengkap permohonan pemberitahuan berkenaan ambil alih tempat kerja
+title: Pemberitahuan Projek dan Tapak Pembinaan (JKKP12) Sebagai Klien Domestik
+description: Panduan lengkap permohonan pemberitahuan berkenaan JKKP12 klien domestik
 hide_table_of_contents: false
 sidebar_label: 'Klien Domestik'
 ---
@@ -11,6 +11,12 @@ import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Link from '@docusaurus/Link';
+
+## 📌 Ringkasan Modul
+
+**Pemberitahuan Projek dan Tapak Pembinaan (JKKP12)** adalah modul yang digunakan untuk membuat pemberitahuan berkaitan projek dan tapak pembinaan kepada pihak JKKP.
+
+Modul ini melibatkan beberapa peranan penting seperti klien, pemberitahu, kontraktor prinsipal, kontraktor kerja pembinaan, pereka bentuk prinsipal dan pereka bentuk kerja pembinaan.
 
 <Admonition type="tip">
     **Klien domestik** adalah klien yang baginya suatu projek sedang dibina atau dijalankan, yang projek tersebut bukan dalam perjalanan atau pengembangan suatu perniagaan klien itu. **Contoh:** Membuat rumah persendirian.
@@ -60,29 +66,25 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
     moduleType="Pemberitahuan JKKP12 (Klien Domestik/Orang Perseorangan/Individu)"
     headerId="toMenuStep" />
 
-
 <div className="step-card">
 
 ### Langkah 3: Pengisian Borang Permohonan Pemberitahuan JKKP12 (Klien Domestik)
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 
-import imgMaklumatAm from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_am.png';
+import imgMaklumatAm from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_am.png';
 
 <MaklumatAm
-    alphabetNumbering="A"
     tabNumber={1}
-    tabName="Pemberitahuan Projek"
-    hasRujukan={false}
     tabImgSrc={imgMaklumatAm}
-    hasPemunyaAsalSection={false}
-    hasPemunyaSection={false} />
+    maklumatHubunganImgSrc={imgMaklumatAm}
+     />
 
 ---
 
 #### B. Tab 2: Maklumat Projek
 
-import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_projek.png';
+import imgMaklumatProjek from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_projek.png';
 
 <ExpandableImage
     src={imgMaklumatProjek}
@@ -101,11 +103,18 @@ import imgMaklumatProjek from '@site/assets/images/loji/jkkp12/klien-domestik/ta
 3. Isi maklumat pada bahagian **Maklumat Pegawai Yang Bertanggungjawab (Klien)**.
 4. Klik butang **Seterusnya**.
 
+import MaklumatProjek from '@site/src/components/jkkp12/maklumat-projek';
+
+  <MaklumatProjek
+    tabNumber={2}
+    tabImgSrc={imgMaklumatProjek}
+    id="toMenuStep" />
+
 ---
 
 #### C. Tab 3: Maklumat Tapak
 
-import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_tapak.png';
+import imgMaklumatTapak from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_tapak.png';
 
 <ExpandableImage
     src={imgMaklumatTapak}
@@ -125,7 +134,7 @@ import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/klien-domestik/tab
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 
-import imgPerakuan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_perakuan.png';
+import imgPerakuan from '@site/assets/images/jkkp12/klien-domestik/tab_perakuan.png';
 
 <Perakuan
     alphabetNumbering="D"
@@ -146,7 +155,7 @@ import imgPerakuan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_pera
 
 #### A. Tab 1: Maklumat Projek
 
-import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_am_tapak_bina.png';
+import imgTab1TapakBina from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_am_tapak_bina.png';
 
 <ExpandableImage
     src={imgTab1TapakBina}
@@ -161,7 +170,7 @@ import imgTab1TapakBina from '@site/assets/images/loji/jkkp12/klien-domestik/tab
 
 #### B. Tab 2: Maklumat Tapak
 
-import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_tapak_pembinaan.png';
+import imgTab2TapakBina from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_tapak_pembinaan.png';
 
 <ExpandableImage
     src={imgTab2TapakBina}
@@ -181,7 +190,7 @@ import imgTab2TapakBina from '@site/assets/images/loji/jkkp12/klien-domestik/tab
 
 #### C. Tab 3: Maklumat Kemajuan
 
-import imgTab3MaklumatKemajuan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_kemajuan.png';
+import imgTab3MaklumatKemajuan from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_kemajuan.png';
 
 <ExpandableImage
     src={imgTab3MaklumatKemajuan}
@@ -196,7 +205,7 @@ import imgTab3MaklumatKemajuan from '@site/assets/images/loji/jkkp12/klien-domes
 
 #### D. Tab 4: Maklumat Kontraktor
 
-import imgTab4MaklumatKontraktor from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_kontraktor.png';
+import imgTab4MaklumatKontraktor from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_kontraktor.png';
 
 <ExpandableImage
     src={imgTab4MaklumatKontraktor}
@@ -236,7 +245,7 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 #### E. Tab 5: Maklumat Pereka Bentuk
 
-import imgTab5MaklumatPerekaBentuk from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_pereka_bentuk.png';
+import imgTab5MaklumatPerekaBentuk from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_pereka_bentuk.png';
 
 <ExpandableImage
     src={imgTab5MaklumatPerekaBentuk}
@@ -264,7 +273,7 @@ import imgTab5MaklumatPerekaBentuk from '@site/assets/images/loji/jkkp12/klien-d
 
 #### F. Tab 6: Bilangan Pekerja Tapak Pembinaan
 
-import imgTab6BilanganPekerja from '@site/assets/images/loji/jkkp12/klien-domestik/tab_bilangan_pekerja.png';
+import imgTab6BilanganPekerja from '@site/assets/images/jkkp12/klien-domestik/tab_bilangan_pekerja.png';
 
 <ExpandableImage
     src={imgTab6BilanganPekerja}
@@ -278,7 +287,7 @@ import imgTab6BilanganPekerja from '@site/assets/images/loji/jkkp12/klien-domest
 ---
 #### G. Tab 7: Maklumat Orang Kompeten
 
-import imgTab7MaklumatOrangKompeten from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_orang_kompeten.png';
+import imgTab7MaklumatOrangKompeten from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_orang_kompeten.png';
 
 <ExpandableImage
     src={imgTab7MaklumatOrangKompeten}
@@ -315,7 +324,7 @@ import imgTab7MaklumatOrangKompeten from '@site/assets/images/loji/jkkp12/klien-
 
 #### H. Tab 8: Maklumat Orang Yang Terlibat
 
-import imgTab8MaklumatOrangTerlibat from '@site/assets/images/loji/jkkp12/klien-domestik/tab_maklumat_orang _yang_terlibat.png';
+import imgTab8MaklumatOrangTerlibat from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_orang _yang_terlibat.png';
 
 <ExpandableImage
     src={imgTab8MaklumatOrangTerlibat}
@@ -369,7 +378,7 @@ import imgTab8MaklumatOrangTerlibat from '@site/assets/images/loji/jkkp12/klien-
 
 #### i. Tab 9: Dokumen Sokongan
 
-import imgTab9DokumenSokongan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_dokumen_sokongan.png';
+import imgTab9DokumenSokongan from '@site/assets/images/jkkp12/klien-domestik/tab_dokumen_sokongan.png';
 
 <ExpandableImage
     src={imgTab9DokumenSokongan}

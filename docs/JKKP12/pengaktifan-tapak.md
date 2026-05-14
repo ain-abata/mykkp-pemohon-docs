@@ -31,7 +31,7 @@ import LoginStep from '@site/src/components/login-step';
 <div className="step-card">
   ### Langkah 2: Masuk Ke Halaman Profil Tempat Kerja
 
-import imgProfilTK from '@site/assets/images/loji/jkkp12/halaman_profil_tk.png';
+import imgProfilTK from '@site/assets/images/jkkp12/halaman_profil_tk.png';
 
 <ExpandableImage
     src={imgProfilTK}
@@ -46,7 +46,7 @@ import imgProfilTK from '@site/assets/images/loji/jkkp12/halaman_profil_tk.png';
 <div className="step-card">
   ### Langkah 3: Masuk ke Halaman Pemberitahuan Tapak Pembinaan
 
-import imgJKKP12 from '@site/assets/images/loji/jkkp12/halaman_jkkp12.png';
+import imgJKKP12 from '@site/assets/images/jkkp12/halaman_jkkp12.png';
 
 <ExpandableImage
   src={imgJKKP12}
