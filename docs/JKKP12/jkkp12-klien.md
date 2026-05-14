@@ -1,7 +1,7 @@
 ---
 title: Pemberitahuan Projek dan Tapak Pembinaan (JKKP12) 
 description: Panduan lengkap Pemberitahuan Projek dan Tapak Pembinaan (JKKP12) 
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'JKKP12-Klien'
 ---
 
@@ -21,14 +21,14 @@ Modul ini melibatkan beberapa peranan penting seperti klien, pemberitahu, kontra
 
 Berikut merupakan kata kunci peranan yang terlibat dalam **Pemberitahuan Projek dan Tapak Pembinaan** sebagai rujukan.
 
-| Bil. | Kata Kunci | Keterangan |
-|------|------------|------------|
-| 1.   | Klien | Klien |
-| 2.   | Pemberitahu | Wakil Klien Domestik |
-| 3.   | PC | Kontraktor Prinsipal |
-| 4.   | CC | Kontraktor Kerja Pembinaan |
-| 5.   | PD | Pereka Bentuk Prinsipal |
-| 6.   | CD | Pereka Bentuk Kerja Pembinaan |
+| Bil. | Kata Kunci  | Keterangan                    |
+|------|------------ |-------------------------------|
+| 1.   | Klien       | Klien                         |
+| 2.   | Pemberitahu | Wakil Klien Domestik          |
+| 3.   | PC          | Kontraktor Prinsipal          |
+| 4.   | CC          | Kontraktor Kerja Pembinaan    |
+| 5.   | PD          | Pereka Bentuk Prinsipal       |
+| 6.   | CD          | Pereka Bentuk Kerja Pembinaan |
 
 ## 📋 Syarat Pemberitahu
 
@@ -40,13 +40,18 @@ Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan **JKKP12** a
 | Tahap PATK: Tahap 1 | Tahap PATK: Tahap 1 |
 
 ## Langkah-langkah Pemberitahuan dan Tapak Pembinaan Projek (JKKP12) - Klien
-
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
+<div className="toc-only">
+### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
+</div>
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
 <MenuLoji

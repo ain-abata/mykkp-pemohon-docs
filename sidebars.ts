@@ -244,7 +244,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'JKKP 12',
       items: [
-        'JKKP12/jkkp12-klien'
+        'JKKP12/jkkp12-klien',
+'JKKP12/penilaian-kendiri'
       ],
     },
     {
@@ -257,7 +258,6 @@ const sidebars: SidebarsConfig = {
     },   
     {
       type: 'category',
-      label: 'Bantuan',
       label: 'FAQ',
       link: {
         type: 'doc',
