@@ -1,0 +1,82 @@
+/* =========================
+   Table
+========================= */
+table {
+  width: 100%;
+  max-width: 800px;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5rem auto;
+  font-size: 0.95rem;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header */
+th {
+  background: linear-gradient(135deg, #538DD3, #6a9fe1);
+  color: #fff;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Cells */
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #f1f5f9;
+}
+th:first-child,
+td:first-child {
+  text-align: center;
+}
+
+/* Zebra striping */
+tr:nth-child(even) td {
+  background: #f9fafb;
+}
+
+/* Hover effect */
+tr:hover td {
+  background: #eef2ff;
+  transition: 0.2s ease;
+}
+
+/* Rounded corners */
+th:first-child {
+  border-top-left-radius: 12px;
+}
+th:last-child {
+  border-top-right-radius: 12px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+@media print {
+  table {
+    background: white !important;
+    color: black !important;    
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    width: auto;
+  }
+
+  th {
+    background: #BDD6EE !important;
+    color: black !important;
+    border: 2px solid white !important;
+  }
+
+  td {
+    background: #F2F2F2 !important;
+    color: black !important;
+    border: 2px solid white !important;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-type AdmonitionType = 'tip' | 'warning' | 'info' | 'do' | 'dont';
+type AdmonitionType = 'tip' | 'warning' | 'info' | 'important' | 'do' | 'dont';
 
 interface AdmonitionProps {
   type?: AdmonitionType;
@@ -20,6 +20,10 @@ export default function Admonition({ type = "info", children }: AdmonitionProps)
     info: {
       title: "ℹ️ INFO",
       className: "info",
+    },
+    important: {
+      title: "❗ PENTING",
+      className: "important",
     },
     do: {
       title: "✅ DO",
