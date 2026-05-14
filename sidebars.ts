@@ -97,6 +97,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'loji/jkkp12/klien',
             'loji/jkkp12/klien-domestik',
+            'loji/jkkp12/pengaktifan-tapak',
           ],
         },
         'loji/pti',

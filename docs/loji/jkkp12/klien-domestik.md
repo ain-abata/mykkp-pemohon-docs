@@ -10,6 +10,7 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Link from '@docusaurus/Link';
 
 <Admonition type="tip">
     **Klien domestik** adalah klien yang baginya suatu projek sedang dibina atau dijalankan, yang projek tersebut bukan dalam perjalanan atau pengembangan suatu perniagaan klien itu. **Contoh:** Membuat rumah persendirian.
@@ -124,7 +125,7 @@ import imgMaklumatTapak from '@site/assets/images/loji/jkkp12/klien-domestik/tab
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
 
-import imgPerakuan from '@site/assets/images/loji/jkkp12/tab_perakuan.png';
+import imgPerakuan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_perakuan.png';
 
 <Perakuan
     alphabetNumbering="D"
@@ -368,7 +369,7 @@ import imgTab8MaklumatOrangTerlibat from '@site/assets/images/loji/jkkp12/klien-
 
 #### i. Tab 9: Dokumen Sokongan
 
-import imgTab9DokumenSokongan from '@site/assets/images/loji/jkkp12/klien/tab_dokumen_sokongan.png';
+import imgTab9DokumenSokongan from '@site/assets/images/loji/jkkp12/klien-domestik/tab_dokumen_sokongan.png';
 
 <ExpandableImage
     src={imgTab9DokumenSokongan}
@@ -400,4 +401,11 @@ import uploadIcon from '@site/assets/images/ikon_muat_naik.png';
     Sila teruskan 👉 [Permohonan Pemberitahuan JKKP12](#tabPerakuan) untuk aktiviti penambahan tapak pembinaan.
 </Admonition>
 
+</div>
+
+<div className="step-card">
+  <h3>Apa yang boleh anda lakukan seterusnya</h3>
+  <ul>
+    <li><Link to="pengaktifan-tapak">Bagaimana ingin mengaktifkan tapak?</Link></li>
+  </ul>
 </div>
