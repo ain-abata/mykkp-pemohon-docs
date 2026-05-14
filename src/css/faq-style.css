@@ -104,6 +104,17 @@ height: 100%;
   padding: 1rem 3rem 1rem 1.25rem;
 }
 
+/* standardize FAQ heading styling inside summary */
+
+.faq-item summary h4{
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
 
 .faq-item summary::-webkit-details-marker {
   display: none;

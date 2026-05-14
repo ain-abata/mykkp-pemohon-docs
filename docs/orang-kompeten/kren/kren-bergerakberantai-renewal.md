@@ -1,7 +1,7 @@
 ---
-title: PEMBAHARUAN OPERATOR KREN BERGERAK BERANTAI (OKren)
-description: Panduan lengkap pembaharuan sijil operator kren bergerak berantai
-hide_table_of_contents: true
+title: PENDAFTARAN OPERATOR KREN BERGERAK BERANTAI (OKren)
+description: Panduan lengkap pendaftaran sijil operator kren menara
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 

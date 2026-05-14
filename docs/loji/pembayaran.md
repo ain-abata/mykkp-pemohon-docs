@@ -1,7 +1,7 @@
 ---
 title: Bayaran Pemulaan & Bayaran Akhir
 description: Panduan lengkap pembayaran Bil
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembayaran'
 ---
 
