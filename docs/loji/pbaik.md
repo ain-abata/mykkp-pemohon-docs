@@ -1,7 +1,7 @@
 ---
 title: Pemberitahuan Pembaikkan Loji (PBAIK)
 description: Panduan lengkap pemberitahuan pembaikkan loji
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pemberitahuan Pembaikkan Loji'
 ---
 
@@ -62,12 +62,18 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan 
 
 import LoginStep from '@site/src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Pemberitahuan Pembaikkan Loji](#toLoginStep)
+</div>
 <MenuLoji
     stepNumber={2}
     pageName="Pemberitahuan Pembukaan Loji"

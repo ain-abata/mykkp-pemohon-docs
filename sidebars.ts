@@ -239,6 +239,7 @@ const sidebars: SidebarsConfig = {
         'JKKP12/jkkp12-klien',
         'JKKP12/klien-domestik',
         'JKKP12/pengaktifan-tapak',
+        'JKKP12/penilaian-kendiri',
       ],
     },
     {
