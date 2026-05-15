@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'pendaftaran/pendaftaran',
         'pemtk/pemtk',
+        'pemtk/patk',
         'orang-kompeten/orang-kompeten',
         'orang-kompeten/kemaskini-tempat-kerja',
       ],

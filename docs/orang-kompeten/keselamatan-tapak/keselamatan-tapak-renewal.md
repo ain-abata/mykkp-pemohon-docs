@@ -1,7 +1,7 @@
 ---
 title: PEMBAHARUAN PENYELIA KESELAMATAN TAPAK (SSS)
 description: Panduan lengkap pendaftaran penyelia keselamatan tapak
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 
@@ -10,6 +10,10 @@ import React from 'react';
 
 # 📝 Pembaharuan Sijil Penyelia Keselamatan Tapak
 import LoginStep from '../../../src/components/login-step';
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 
 <LoginStep 
   stepNumber={1}
@@ -20,6 +24,10 @@ import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 import imgMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tapak/pembaharuan/menu-kiri.png';
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tapak/pembaharuan/butang-pembaharuan.png';
+
+<div className="toc-only">
+### [Langkah 2: Halaman Pendaftaran Penyelia Keselamatan Tapak](#toLoginStep)
+</div>
 
 <PembaharuanOk
   stepNumber={2}

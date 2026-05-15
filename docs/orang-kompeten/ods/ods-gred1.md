@@ -12,12 +12,18 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
 import MenuOk from '@site/src/components/menu-ok';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Pendaftaran Sijil Operator Dandang Stim (Gred 1)](#toLoginStep)
+</div>
 <MenuOk
   stepNumber={2}
   pageName="Operator Dandang Stim (Gred 1)"

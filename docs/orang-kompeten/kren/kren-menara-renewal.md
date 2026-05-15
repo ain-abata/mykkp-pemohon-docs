@@ -12,6 +12,11 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
+
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
@@ -22,6 +27,9 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/kren-menara/pembah
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/kren-menara/pembaharuan/butang-pembaharuan.png';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Pembaharuan Sijil Operator Kren Menara](#toLoginStep)
+</div>
 <PembaharuanOk
   stepNumber={2}
   pageName="Operator Kren Menara"
