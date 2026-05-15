@@ -1,7 +1,7 @@
 ---
 title: PEMBAHARUAN DOKTOR KESIHATAN PEKERJAAN (OHD)
 description: Panduan lengkap pembaharuan sijil Doktor Kesihatan Pekerjaan
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 
@@ -12,6 +12,10 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
@@ -21,6 +25,10 @@ import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 import imgMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/menu-kiri.png';
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/butang-pembaharuan.png';
+
+<div className="toc-only">
+### [Langkah 2: Halaman Pembaharuan Doktor Kesihatan Pekerjaan](#toLoginStep)
+</div>
 
 <PembaharuanOk
   stepNumber={2}

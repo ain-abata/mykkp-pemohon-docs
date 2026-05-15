@@ -1,7 +1,7 @@
 ---
 title: PEMBAHARUAN PEGAWAI KESELAMATAN & KESIHATAN (SHO)
 description: Panduan lengkap pendaftaran pegawai keselamatan & kesihatan
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 
@@ -10,6 +10,10 @@ import React from 'react';
 
 # 📝 Pembaharuan Sijil Pegawai Keselamatan & Kesihatan
 import LoginStep from '../../../src/components/login-step';
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 
 <LoginStep 
   stepNumber={1}
@@ -20,6 +24,10 @@ import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 import imgMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-kesihatan/pembaharuan/menu-kiri.png';
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-kesihatan/pembaharuan/butang-pembaharuan.png';
+
+<div className="toc-only">
+### [Langkah 2: Halaman Pembaharuan Keselamatan & Kesihatan](#toLoginStep)
+</div>
 
 <PembaharuanOk
   stepNumber={2}

@@ -1,7 +1,7 @@
 ---
 title: Panduan Dashboard Pengguna
 description: Panduan lengkap Dashboard Pengguna
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Dashboard Pengguna'
 ---
 
@@ -17,6 +17,10 @@ import imgDashboard from '@site/assets/images/lain-lain/dashboard-pemohon/dashbo
 import imgTukarMenu from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_menu.png';
 import imgTempatKerja from '@site/assets/images/lain-lain/dashboard-pemohon/menu_tempat_kerja_kilang.png';
 import imgOrangKompeten from '@site/assets/images/lain-lain/dashboard-pemohon/menu_orang_kompeten.png';
+
+<div className="toc-only">
+### [Laman Menu Utama](#toLoginStep)
+</div>
 
 <LangkahMenuUtama
   stepNumber={1}
@@ -35,6 +39,10 @@ import imgMaklumatOyk from '@site/assets/images/lain-lain/dashboard-pemohon/makl
 import imgJadualCep from '@site/assets/images/lain-lain/dashboard-pemohon/jadual_cep.png';
 import imgMaklumatEmel from '@site/assets/images/lain-lain/dashboard-pemohon/maklumat_emel.png';
 import imgTukarKataLaluan from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_kata_laluan.png';
+
+<div className="toc-only">
+### [Laman Profil Saya](#toLoginStep)
+</div>
 
 <LangkahProfilSaya
   stepNumber={2}
@@ -56,6 +64,9 @@ import imgKemaskini from '@site/assets/images/lain-lain/dashboard-pemohon/kemask
 import imgSenaraiJentera from '@site/assets/images/lain-lain/dashboard-pemohon/senarai_jentera_cf.png';
 import imgPenilaian from '@site/assets/images/lain-lain/dashboard-pemohon/penilaian_tempat_kerja.png';
 
+<div className="toc-only">
+### [Laman Profil Tempat Kerja](#toLoginStep)
+</div>
 <LangkahProfilTempatKerja
   stepNumber={3}
   menuProfilTempatKerjaImgSrc={imgMenuProfilTempatKerja}
@@ -76,7 +87,9 @@ import imgLulus from '@site/assets/images/lain-lain/dashboard-pemohon/tab_lulus.
 import imgBatalTolak from '@site/assets/images/lain-lain/dashboard-pemohon/tab_batal_tolak.png';
 import imgPengurusan from '@site/assets/images/lain-lain/dashboard-pemohon/tab_pengurusan_deraf.png';
 
-
+<div className="toc-only">
+### [Laman Senarai Permohonan](#toLoginStep)
+</div>
 <LangkahSenaraiPermohonan
   stepNumber={4}
   menuSenaraiPermohonanImgSrc={imgMenuSenaraiPermohonan}
@@ -92,6 +105,10 @@ import LangkahTemudugaVerifikasi from '@site/src/components/lain-lain/dashboard-
 
 import imgTemudugaVerifikasi from '@site/assets/images/lain-lain/dashboard-pemohon/menu_temuduga_verifikasi.png';
 
+<div className="toc-only">
+### [Laman Temu Duga Verifikasi](#toLoginStep)
+</div>
+
 <LangkahTemudugaVerifikasi
   stepNumber={5}
   temudugaVerifikasiImgSrc={imgTemudugaVerifikasi}
@@ -102,6 +119,10 @@ import LangkahPembayaran from '@site/src/components/lain-lain/dashboard-pemohon/
 
 import imgPembayaran from '@site/assets/images/lain-lain/dashboard-pemohon/pembayaran.png';
 
+<div className="toc-only">
+### [Laman Pembayaran](#toLoginStep)
+</div>
+
 <LangkahPembayaran
   stepNumber={6}
   pembayaranImgSrc={imgPembayaran}
@@ -111,6 +132,10 @@ import imgPembayaran from '@site/assets/images/lain-lain/dashboard-pemohon/pemba
 import LangkahSuratMenyurat from '@site/src/components/lain-lain/dashboard-pemohon/langkah-surat-menyurat';
 
 import imgSuratMenyurat from '@site/assets/images/lain-lain/dashboard-pemohon/surat_menyurat.png';
+
+<div className="toc-only">
+### [Laman Surat Menyurat](#toLoginStep)
+</div>
 
 <LangkahSuratMenyurat
   stepNumber={7}

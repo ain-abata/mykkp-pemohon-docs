@@ -22,7 +22,7 @@ export default function LoginStep({
 
       <p>
         Klik pautan berikut: 👉{' '}
-        <a href="https://mykkpstg.dosh.gov.my/#/home/log-masuk">
+        <a href="https://mykkp.dosh.gov.my/#/home/log-masuk">
           Log Masuk MyKKP
         </a>
       </p>

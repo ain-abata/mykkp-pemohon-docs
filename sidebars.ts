@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'pendaftaran/pendaftaran',
         'pemtk/pemtk',
+        'pemtk/patk',
         'orang-kompeten/orang-kompeten',
         'orang-kompeten/kemaskini-tempat-kerja',
       ],
@@ -197,14 +198,6 @@ const sidebars: SidebarsConfig = {
         'loji/psk',
         'loji/ambil-alih-tk',
         'loji/pekala',
-        {
-          type: 'category',
-          label: 'Kerja Pembinaan (JKKP12)',
-          items: [
-            'loji/jkkp12/klien',
-            'loji/jkkp12/klien-domestik',
-          ],
-        },
         'loji/pti',
         'loji/pemula',
         'loji/pbuka',
@@ -241,21 +234,27 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Lain-lain',
+      label: 'JKKP 12',
       items: [
-        'lain-lain/dashboard-pemohon',
-        'lain-lain/pemberitahuan-aktiviti-loji-jkkp5'
+        'JKKP12/jkkp12-klien',
+        'JKKP12/klien-domestik',
+        'JKKP12/pengaktifan-tapak',
+        'JKKP12/penilaian-kendiri',
       ],
     },
     {
       type: 'category',
-      label: 'FAQ',
-      link: {
-        type: 'doc',
-        id: 'FAQ/faq'
-      },
-
+      label: 'Lain-lain',
       items: [
+        'lain-lain/dashboard-pemohon',
+        'lain-lain/pemberitahuan-aktiviti-loji-jkkp5',
+      ],
+    },   
+    {
+      type: 'category',
+      label: 'Bantuan',
+      items: [
+        'FAQ/faq',
         'FAQ/tk',
         'FAQ/loji',
         'FAQ/oyk',

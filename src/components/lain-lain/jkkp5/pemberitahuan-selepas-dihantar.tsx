@@ -2,13 +2,13 @@ import React from 'react';
 import ExpandableImage from '../../common/ExpandableImage';
 
 interface PemberitahuanSelepasDihantarProps {
-  senaraiJkkp5ImgSrc?: string;
+  senaraiJkkpImgSrc?: string;
   butangLaporanImgSrc?: string;
   popupLaporanImgSrc?: string;
 }
 
 export default function PemberitahuanSelepasDihantar({
-  senaraiJkkp5ImgSrc,
+  senaraiJkkpImgSrc,
   butangLaporanImgSrc,
   popupLaporanImgSrc,
 }: PemberitahuanSelepasDihantarProps) {
@@ -21,7 +21,7 @@ export default function PemberitahuanSelepasDihantar({
       </ol>
 
       <ExpandableImage
-        src={senaraiJkkp5ImgSrc}
+        src={senaraiJkkpImgSrc}
         alt="Halaman Pemberitahuan Aktiviti Industri JKKP5"
         caption="Halaman Pemberitahuan Aktiviti Industri - JKKP5"
         width={650}

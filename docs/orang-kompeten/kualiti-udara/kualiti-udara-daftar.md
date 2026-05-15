@@ -1,7 +1,7 @@
 ---
 title: PENDAFTARAN PENAKSIR KUALITI UDARA DALAM (OYKIAQ)
 description: Panduan lengkap pendaftaran sijil Penaksir Kualiti Udara Dalaman
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pendaftaran'
 ---
 
@@ -12,12 +12,18 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
   
 import MenuOk from '../../../src/components/menu-ok';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Pendaftaran Sijil Penaksir Kualiti Udara Dalaman](#toLoginStep)
+</div>
 <MenuOk
   stepNumber={2}
   pageName="Kualiti Udara Dalam"

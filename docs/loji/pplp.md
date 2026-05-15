@@ -43,12 +43,18 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi **Permohonan Pemindahan L
 
 import LoginStep from '@site/src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Permohonan Pemindahan Loji Pemunya](#toLoginStep)
+</div>
 <MenuLoji
     stepNumber={2}
     pageName="Pemindahan Loji Pemunya (PPLP)"
