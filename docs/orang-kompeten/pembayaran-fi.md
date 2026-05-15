@@ -1,6 +1,6 @@
 ---
 title: Pembayaran Fi Pemprosesan dan Fi Pendaftaran
-description: Panduan lengkap pembayaran fi
+description: Panduan lengkap pembayaran fi OYK
 hide_table_of_contents: false
 sidebar_label: 'Pembayaran Fi'
 ---
@@ -12,11 +12,7 @@ import TabItem from '@theme/TabItem';
 
 # 📝 Pembayaran Fi Pemprosesan dan Fi Pendaftaran
 Halaman ini menerangkan:
-- cara bayar fi proses
-- fi pemprosesan
-- pembayaran fi
-- semakan bayaran
-- sebut harga pemprosesan
+- cara bayar fi proses dan fi daftar OYK
 
 ## Fi Pemprosesan
 
