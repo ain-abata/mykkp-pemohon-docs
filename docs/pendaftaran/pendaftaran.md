@@ -28,7 +28,7 @@ Pendaftaran akaun diperlukan untuk membolehkan pengguna mengakses sistem MyKKP d
 
 ### Langkah 1: Akses Halaman Pendaftaran
 
-Klik pautan berikut:  👉 [Daftar Akaun MyKKP](https://mykkpstg.dosh.gov.my/#/home/pendaftaran)
+Klik pautan berikut:  👉 [Daftar Akaun MyKKP](https://mykkp.dosh.gov.my/#/home/pendaftaran)
 
 {Admonition({
   type: "tip",
@@ -63,7 +63,7 @@ import step1 from '../../assets/images/pendaftaran/halaman_maklumat_peribadi.png
 
 {Admonition({
   type: "info",
-  children: "Kod pengesahan akan dihantar ke emel ini."
+  children: "Kod pengesahan akan dihantar ke emel yang dinyatakan di atas."
 })}
 
 5. Isi **No. Telefon Bimbit** yang aktif.
@@ -97,7 +97,7 @@ import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
   children: "Poskod, Bandar dan Negeri tidak perlu diisi di medan ini."
 })}
 
-2. Isi **Poskod** yang tepat dan semak medan **Negeri** dan **Bandar**.
+2. Isi **Poskod** yang tepat dan semak medan **Negeri** dan **Bandar** yang dipaparkan adalah berdasarkan maklumat Poskod yang diisi.
 
 {React.createElement(
   'div',

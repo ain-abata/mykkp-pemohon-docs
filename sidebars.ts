@@ -197,14 +197,6 @@ const sidebars: SidebarsConfig = {
         'loji/psk',
         'loji/ambil-alih-tk',
         'loji/pekala',
-        {
-          type: 'category',
-          label: 'Kerja Pembinaan (JKKP12)',
-          items: [
-            'loji/jkkp12/klien',
-            'loji/jkkp12/klien-domestik',
-          ],
-        },
         'loji/pti',
         'loji/pemula',
         'loji/pbuka',
@@ -244,7 +236,8 @@ const sidebars: SidebarsConfig = {
       label: 'JKKP 12',
       items: [
         'JKKP12/jkkp12-klien',
-'JKKP12/penilaian-kendiri'
+        'JKKP12/klien-domestik',
+        'JKKP12/pengaktifan-tapak',
       ],
     },
     {

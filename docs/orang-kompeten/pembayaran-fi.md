@@ -11,6 +11,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # 📝 Pembayaran Fi Pemprosesan dan Fi Pendaftaran
+Halaman ini menerangkan:
+- cara bayar fi proses
+- fi pemprosesan
+- pembayaran fi
+- semakan bayaran
+- sebut harga pemprosesan
 
 ## Fi Pemprosesan
 
