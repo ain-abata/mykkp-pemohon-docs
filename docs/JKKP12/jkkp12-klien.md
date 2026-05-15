@@ -26,14 +26,14 @@ Modul ini melibatkan beberapa peranan penting seperti klien, pemberitahu, kontra
 
 Berikut merupakan kata kunci peranan yang terlibat dalam **Pemberitahuan Projek dan Tapak Pembinaan** sebagai rujukan.
 
-| Bil. | Kata Kunci | Keterangan |
-|------|------------|------------|
-| 1.   | Klien | Klien |
-| 2.   | Pemberitahu | Wakil Klien Domestik |
-| 3.   | PC | Kontraktor Prinsipal |
-| 4.   | CC | Kontraktor Kerja Pembinaan |
-| 5.   | PD | Pereka Bentuk Prinsipal |
-| 6.   | CD | Pereka Bentuk Kerja Pembinaan |
+| Bil. | Kata Kunci  | Keterangan                    |
+|------|------------ |-------------------------------|
+| 1.   | Klien       | Klien                         |
+| 2.   | Pemberitahu | Wakil Klien Domestik          |
+| 3.   | PC          | Kontraktor Prinsipal          |
+| 4.   | CC          | Kontraktor Kerja Pembinaan    |
+| 5.   | PD          | Pereka Bentuk Prinsipal       |
+| 6.   | CD          | Pereka Bentuk Kerja Pembinaan |
 
 ## 📋 Syarat Pemberitahu
 
@@ -53,6 +53,9 @@ import LoginStep from '@site/src/components/login-step';
   title="Akses Halaman Log Masuk MyKKP"
   id="toLoginStep" />
 
+<div className="toc-only">
+### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
+</div>
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
 <MenuLoji
