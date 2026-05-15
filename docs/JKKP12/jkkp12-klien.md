@@ -1,8 +1,8 @@
 ---
-title: Pemberitahuan Projek dan Tapak Pembinaan (JKKP12) 
-description: Panduan lengkap Pemberitahuan Projek dan Tapak Pembinaan (JKKP12) 
+title: Pemberitahuan Projek dan Tapak Pembinaan (JKKP12) Sebagai Klien
+description: Panduan lengkap permohonan pemberitahuan berkenaan JKKP12 klien 
 hide_table_of_contents: false
-sidebar_label: 'JKKP12-Klien'
+sidebar_label: 'Klien'
 ---
 
 import Admonition from '@site/src/components/admonition';
@@ -10,12 +10,17 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Link from '@docusaurus/Link';
 
 ## 📌 Ringkasan Modul
 
 **Pemberitahuan Projek dan Tapak Pembinaan (JKKP12)** adalah modul yang digunakan untuk membuat pemberitahuan berkaitan projek dan tapak pembinaan kepada pihak JKKP.
 
 Modul ini melibatkan beberapa peranan penting seperti klien, pemberitahu, kontraktor prinsipal, kontraktor kerja pembinaan, pereka bentuk prinsipal dan pereka bentuk kerja pembinaan.
+
+<Admonition type="tip">
+    **Klien** adalah mana-mana prinsipal atau mana-mana orang yang baginya suatu projek dijalankan.
+</Admonition>
 
 ## 📘 Glosari
 
@@ -32,22 +37,21 @@ Berikut merupakan kata kunci peranan yang terlibat dalam **Pemberitahuan Projek 
 
 ## 📋 Syarat Pemberitahu
 
-Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan **JKKP12** adalah seperti berikut:
+Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan JKKP 12 adalah seperti berikut:
+- Klien yang telah berdaftar sebagai **PATK Tahap 1** pada sistem MyKKP.
 
-| Klien | Klien Domestik |
-|-------|----------------|
-| Klien adalah mana-mana prinsipal atau mana-mana orang yang baginya suatu projek dijalankan. | Klien domestik adalah klien yang baginya suatu projek sedang dibina atau dijalankan, yang projek tersebut bukan dalam perjalanan atau pengembangan suatu perniagaan klien itu. Contoh: Membuat rumah persendirian |
-| Tahap PATK: Tahap 1 | Tahap PATK: Tahap 1 |
+## 🧭 Langkah-langkah Pemberitahuan dan Tapak Pembinaan Projek (JKKP12) - Klien
 
-## Langkah-langkah Pemberitahuan dan Tapak Pembinaan Projek (JKKP12) - Klien
+import LoginStep from '@site/src/components/login-step';
+
 <div className="toc-only">
 ### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
 </div>
-import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+  title="Akses Halaman Log Masuk MyKKP"
+  id="toLoginStep" />
 
 <div className="toc-only">
 ### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
@@ -81,11 +85,16 @@ import MaklumatProjek from '@site/src/components/jkkp12/maklumat-projek';
 import maklumatProjekTabImg from '@site/assets/images/jkkp12/klien/maklumat-projek.png';
 import maklumatPegawaiKlienImg from '@site/assets/images/jkkp12/klien/maklumat-pegawai-klien.png';
 
+<div className="toc-only">
+### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
+</div>
+
   <MaklumatProjek
     tabNumber={2}
     tabImgSrc={maklumatProjekTabImg}
     maklumatPegawaiImgSrc={maklumatPegawaiKlienImg}
-  />
+    id="toMenuStep" />
+    
 ---
  
 import MaklumatTapak from '@site/src/components/jkkp12/maklumat-tapak';
@@ -268,4 +277,11 @@ import imgOkDokumenSokongan from '@site/assets/images/jkkp12/klien/dokumen-sokon
     tabImgSrc={imgOkDokumenSokongan} />
 
 6. Klik pada butang Simpan untuk menyimpan Maklumat Pemberitahuan Tapak Pembinaan yang telah diisi. Skrin akan memaparkan kembali halaman Pemberitahuan Projek. 
+</div>
+
+<div className="step-card">
+  <h3>Apa yang boleh anda lakukan seterusnya</h3>
+  <ul>
+    <li><Link to="pengaktifan-tapak">Bagaimana ingin mengaktifkan tapak?</Link></li>
+  </ul>
 </div>

@@ -1,28 +1,61 @@
-/* =====================
-    Table of Content
-===================== */
+/* ==========================================================
+   Table of Contents Color Tokens (Light Theme)
+   ========================================================== */
+:root {
+  /* Section labels such as Pemunya / Penghuni */
+  --toc-section-text: #111827;
+}
+
+/* ==========================================================
+   Table of Contents Color Tokens (Dark Theme)
+   ========================================================== */
+[data-theme='dark'] {
+  /* Section labels such as Pemunya / Penghuni */
+  --toc-section-text: #ffffff;
+}
+
+/* ==========================================================
+   Table of Contents Layout
+   ========================================================== */
+
 /* Change the width of the TOC sidebar */
 .theme-doc-toc-desktop {
   min-width: 250px;
   max-width: 400px;
 }
 
+/* Reduce default left padding */
 .table-of-contents {
   padding-left: 8px !important;
 }
 
-/* Change link colors and font size */
+/* ==========================================================
+   TOC Links
+   ========================================================== */
+
+/* Normal TOC links */
 .table-of-contents__link {
-  color: #555;
+  color: var(--text-color-light);
   font-size: 0.86rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
 
-/* Highlight the active link */
+/* Hover state */
+.table-of-contents__link:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+/* Active link */
 .table-of-contents__link--active {
-  color: var(--ifm-color-primary-light);
+  color: var(--link-active-color) !important;
+  font-weight: 600;
 }
 
-/* Display header with id="headerId" only in TOC */
+/* ==========================================================
+   Hidden headings that appear only in the TOC
+   ========================================================== */
 .toc-only {
   position: absolute;
   opacity: 0;
@@ -30,12 +63,23 @@
   overflow: hidden;
   pointer-events: none;
 }
-/* The link for Pemunya and Penghuni */
+
+/* ==========================================================
+   TOC Section Labels (Pemunya / Penghuni)
+   Visible in TOC but not clickable
+   ========================================================== */
 .table-of-contents__link[href="#pemunya"],
 .table-of-contents__link[href="#penghuni"] {
   margin-left: 35px !important;
   pointer-events: none;
   cursor: default;
-  color: #000;
+  color: var(--toc-section-text) !important;
+  font-weight: 600;
   text-decoration: none;
+}
+
+/* Prevent hover color changes for section labels */
+.table-of-contents__link[href="#pemunya"]:hover,
+.table-of-contents__link[href="#penghuni"]:hover {
+  color: var(--toc-section-text) !important;
 }
