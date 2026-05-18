@@ -11,8 +11,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 # 📝 Pembayaran Fi Pemprosesan dan Fi Pendaftaran
-Halaman ini menerangkan:
-- cara bayar fi proses dan fi daftar OYK
 
 ## Fi Pemprosesan
 
