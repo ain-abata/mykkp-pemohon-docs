@@ -256,42 +256,7 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    //Pengendalian Tempat kerja dan Loji
-    // {
-    //   type: 'category',
-    //   label: 'Pengendalian Tempat Kerja & Loji',
-    //   items: [
-    //     'loji/psk',
-    //     'loji/ambil-alih-tk',
-    //     'loji/pekala',
-    //     'loji/pti',
-    //     'loji/pemula',
-    //     'loji/pbuka',
-    //     'loji/pbaik',
-    //     {
-    //       type: 'category',
-    //       label: 'Pemberitahuan Status Loji',
-    //       items: [
-    //         'loji/psl/pelupusan',
-    //         'loji/psl/tidak-digunakan',
-    //         'loji/psl/pengecualian',
-    //       ],
-    //     },
-    //     {
-    //       type: 'category',
-    //       label: 'Pemindahan Loji',
-    //       items: [
-    //         'loji/pplp',
-    //         'loji/pplhm',
-    //       ],
-    //     },
-    //     'loji/muat-turun-cf',
-    //     'loji/pembatalan-permohonan',
-    //     'tempat-kerja/SOHELP',
-    //     'lain-lain/pemberitahuan-aktiviti-loji-jkkp5',
-    //   ],
-    // },
-    //test tk n loji
+    //Pengendalian tk n loji
     {
       type: 'category',
       label: 'Pengendalian Tempat Kerja dan Loji',
@@ -457,6 +422,18 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'lain-lain/dashboard-pemohon',
           label: 'Dashboard Pemohon',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'orang-kompeten/bohs',
+          label: 'BOHS',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/SOHELP',
+          label: 'SOHELP',
           className: 'hideItem',
         },
       ]

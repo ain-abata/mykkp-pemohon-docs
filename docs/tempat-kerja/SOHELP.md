@@ -7,6 +7,7 @@ sidebar_label: 'SOHELP'
 
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import iconMuatNaik from '@site/assets/images/orang-kompeten/ikon_muat_naik.png';
 
 import lamanPemohonImg from '@site/assets/images/tempat-kerja/sohelp/laman-pemohon.png';
 import halamanSohelpImg from '@site/assets/images/tempat-kerja/sohelp/halaman-sohelp.png';
@@ -20,16 +21,9 @@ import popupPicTempatKerjaImg from '@site/assets/images/tempat-kerja/sohelp/popu
 import tabPerakuanImg from '@site/assets/images/tempat-kerja/sohelp/tab-perakuan.png';
 
 import profilEsohelpImg from '@site/assets/images/tempat-kerja/sohelp/profil-esohelp.png';
-import tabElemenSohelpImg from '@site/assets/images/tempat-kerja/sohelp/tab-elemen-sohelp.png';
-import deklarasiPertamaImg from '@site/assets/images/tempat-kerja/sohelp/deklarasi-pertama.png';
 import halamanDeklarasiPertamaImg from '@site/assets/images/tempat-kerja/sohelp/halaman-deklarasi-pertama.png';
-import checkpointImg from '@site/assets/images/tempat-kerja/sohelp/checkpoint.png';
-import arasPencapaianImg from '@site/assets/images/tempat-kerja/sohelp/aras-pencapaian.png';
-import simpanCheckpointImg from '@site/assets/images/tempat-kerja/sohelp/simpan-checkpoint.png';
 import popupSimpanCheckpointImg from '@site/assets/images/tempat-kerja/sohelp/popup-simpan-checkpoint.png';
 import dokumenSokonganImg from '@site/assets/images/tempat-kerja/sohelp/dokumen-sokongan.png';
-import muatNaikDokumenImg from '@site/assets/images/tempat-kerja/sohelp/muat-naik-dokumen.png';
-import dokumenDimuatNaikImg from '@site/assets/images/tempat-kerja/sohelp/dokumen-dimuat-naik.png';
 import hantarDeklarasiImg from '@site/assets/images/tempat-kerja/sohelp/hantar-deklarasi.png';
 
 ## 📌 Ringkasan Modul
@@ -43,24 +37,23 @@ Modul ini terbahagi kepada tiga bahagian utama iaitu:
 3. **Verifikasi SOHELP**
 
 ---
-#### test
+
 ## Penyertaan SOHELP
-
-
-1. dsdasd
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 <div className="step-card">
 
-### Langkah 2: Halaman Permohonan Penyertaan SOHELP
+### Halaman Permohonan Penyertaan SOHELP
 
 <ol>
   <ExpandableImage
@@ -90,7 +83,7 @@ import LoginStep from '@site/src/components/login-step';
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Penyertaan SOHELP
+### Pengisian Borang Penyertaan SOHELP
 
 #### Tab 1: Maklumat Tempat Kerja
 
@@ -106,7 +99,7 @@ import LoginStep from '@site/src/components/login-step';
 />
 <li>
     Pada bahagian <b>Maklumat Individu Bertanggungjawab (PIC) SOHELP</b>, isi maklumat yang berkaitan pada ruangan yang disediakan.
-  </li>
+</li>
 <ExpandableImage
   src={picSohelpImg}
   alt="Maklumat Individu Bertanggungjawab PIC SOHELP"
@@ -261,231 +254,277 @@ import LoginStep from '@site/src/components/login-step';
 
 ## Deklarasi SOHELP
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 <div className="step-card">
 
-### Langkah 2: Halaman Permohonan Deklarasi SOHELP
-
-<ExpandableImage
-  src={lamanPemohonImg}
-  alt="Laman Pemohon"
-  caption="Laman Pemohon"
-  width={650}
-/>
+### Halaman Permohonan Deklarasi SOHELP
 
 <ol>
   <li>
     Skrin <b>Pemohon</b> akan terpapar seperti di bawah.
   </li>
+  <ExpandableImage
+  src={lamanPemohonImg}
+  alt="Laman Pemohon"
+  caption="Laman Pemohon"
+  width={650}
+ />
   <li>
     Pada menu sebelah kiri dashboard <b>Pemohon</b>, klik <b>SOHELP</b>.
   </li>
-</ol>
-
-</div>
-
-<div className="step-card">
-
-### Langkah 3: Halaman Profil ESOHELP 2022
-
-<ExpandableImage
+ <ExpandableImage
   src={profilEsohelpImg}
   alt="Halaman Profil ESOHELP 2022"
   caption="Halaman Profil ESOHELP 2022"
   width={650}
-/>
-
-<ol>
+ />
   <li>
     Halaman <b>Profil ESOHELP 2022</b> akan dipaparkan.
   </li>
   <li>
     Pemohon boleh klik pada mana-mana tab elemen SOHELP yang dilaksanakan untuk membuat deklarasi. Setiap tab elemen wajib dilengkapkan untuk setiap tahap deklarasi.
-  </li>
-</ol>
-
-<ExpandableImage
-  src={tabElemenSohelpImg}
-  alt="Tab Elemen SOHELP"
-  caption="Tab Elemen SOHELP"
-  width={650}
-/>
-
-<ol start={3}>
+</li>
   <li>
     Klik pada butang <b>Deklarasi Pertama</b> untuk melengkapkan proses deklarasi SOHELP.
   </li>
   <li>
     Deklarasi perlu dilengkapkan pada setiap tahap iaitu <b>Deklarasi Pertama</b>, <b>Deklarasi Kedua</b> dan <b>Deklarasi Ketiga</b>.
-  </li>
-</ol>
+    </li>
+  </ol>
+</div>
 
-<ExpandableImage
-  src={deklarasiPertamaImg}
-  alt="Butang Deklarasi Pertama"
-  caption="Butang Deklarasi Pertama"
-  width={650}
-/>
+<div className="step-card">
 
-<ol start={5}>
-  <li>
-    Halaman <b>Deklarasi Pertama</b> akan dipaparkan.
-  </li>
-  <li>
-    Terdapat dua tab iaitu <b>Tab 1: Checkpoint</b> dan <b>Tab 2: Dokumen Sokongan</b>.
-  </li>
+### Pengisian Borang Deklarasi SOHELP
+
+#### Tab 1: Checkpoint
+
+<ol>
   <li>
     <b>Tab 1: Checkpoint</b> akan dipaparkan.
   </li>
+  <ExpandableImage
+  src={halamanDeklarasiPertamaImg}
+  alt="Halaman Deklarasi Pertama"
+  caption="Halaman Deklarasi Pertama"
+  width={650}
+  />
   <li>
     Jawab pada checkpoint yang berkaitan.
   </li>
   <li>
     <b>Level Achieved</b> akan dipaparkan mengikut checkpoint yang dijawab.
-  </li>
-</ol>
-
-<ExpandableImage
-  src={halamanDeklarasiPertamaImg}
-  alt="Halaman Deklarasi Pertama"
-  caption="Halaman Deklarasi Pertama"
-  width={650}
-/>
-
-<ol start={10}>
+</li>
   <li>
     <b>Aras Pencapaian</b> akan dipaparkan.
-  </li>
-</ol>
-
-<ExpandableImage
-  src={checkpointImg}
-  alt="Checkpoint Deklarasi"
-  caption="Checkpoint Deklarasi"
-  width={650}
-/>
-
-<ExpandableImage
-  src={arasPencapaianImg}
-  alt="Aras Pencapaian"
-  caption="Aras Pencapaian"
-  width={650}
-/>
-
-<ol start={11}>
+</li>
   <li>
     Klik butang <b>Simpan</b>.
-  </li>
-</ol>
-
-<ExpandableImage
-  src={simpanCheckpointImg}
-  alt="Butang Simpan Checkpoint"
-  caption="Butang Simpan Checkpoint"
-  width={650}
-/>
-
-<ol start={12}>
+</li>
   <li>
     Pop-up makluman akan dipaparkan. Klik butang <b>Tutup</b>.
   </li>
-</ol>
+
 
 <ExpandableImage
   src={popupSimpanCheckpointImg}
   alt="Pop-up Simpan Checkpoint"
   caption="Pop-up Simpan Checkpoint"
-  width={650}
+  width={450}
 />
-
-<ol start={13}>
-  <li>
+<li>
     Klik butang <b>Seterusnya</b>.
   </li>
 </ol>
+---
 
-</div>
+#### Tab 2: Dokumen Sokongan
 
-<div className="step-card">
-
-### Tab 2: Dokumen Sokongan
-
-<ExpandableImage
+<ol>
+  <li>
+    <b>Tab 2: Dokumen Sokongan</b> akan dipaparkan.
+  </li>
+  <ExpandableImage
   src={dokumenSokonganImg}
   alt="Tab Dokumen Sokongan"
   caption="Tab 2: Dokumen Sokongan"
   width={650}
 />
-
-<ol start={14}>
-  <li>
-    <b>Tab 2: Dokumen Sokongan</b> akan dipaparkan.
-  </li>
-  <li>
+<li>
     Dokumen yang perlu dimuat naik ke dalam dokumen sokongan adalah berdasarkan checkpoint yang dijawab pada tab 1.
   </li>
-  <li>
-    Klik pada ikon <b>Muat Naik Dokumen</b>.
-  </li>
-  <li>
-    Isi <b>Deskripsi File</b>.
-  </li>
-  <li>
-    Klik butang <b>Choose File</b> untuk memilih dokumen.
-  </li>
-  <li>
-    Klik butang <b>Simpan</b>.
-  </li>
-</ol>
+  
+  <li>Klik butang <img src={iconMuatNaik} style={{ width: 15 }} /> untuk memuat naik dokumen <b>PDF</b> yang berkenaan pada medan bersyarat <b>Wajib</b>.</li>
+  <li>Isi medan <b>Diskripsi</b> dan klik butang <b><i>Choose File</i></b> untuk memilih dokumen.</li>
+  <li>Klik butang <b>Simpan</b>. <i>Pop-up</i> mesej berjaya akan dipaparkan dan klik butang <b>OK</b>.</li>
+  <li>Dokumen yang berjaya dimuat naik akan dipaparkan dalam <b>Jadual Senarai Dokumen</b></li>
+  <li>Klik butang <b>Tutup</b>. Pada kolum <b> Bil. Fail</b> akan menunjukkan jumlah bilangan fail yang telah dimuat naik.</li>
+            <Admonition type="warning">
+                <ol>
+                  <li>Pastikan dokumen yang dimuat naik adalah mengikut format yang ditetapkan.</li>
+                  <li>Pastikan saiz dokumen tidak melebihi 20MB.</li>
+                  <li>Sila pastikan nama lampiran tidak mengandungi simbol. <b>[Contoh: ! @ # $ % ^ & * ( ) - + dll...]</b></li>
+                </ol>
+            </Admonition>
+            <Admonition type="info">
+                Bagi <b>menghapuskan dokumen</b> yang telah dimuat naik 👉 Klik butang <b>Hapus Fail</b> pada <b>Jadual Senarai Dokumen</b>.
+            </Admonition>
 
-<ExpandableImage
-  src={muatNaikDokumenImg}
-  alt="Muat Naik Dokumen Sokongan"
-  caption="Muat Naik Dokumen Sokongan"
-  width={650}
-/>
-
-<ol start={20}>
   <li>
     Fail yang telah dimuat naik akan dipaparkan dalam jadual dokumen sokongan.
   </li>
   <li>
     Klik butang <b>Tutup</b>.
-  </li>
-</ol>
-
-<ExpandableImage
-  src={dokumenDimuatNaikImg}
-  alt="Dokumen Sokongan Dimuat Naik"
-  caption="Dokumen Sokongan Dimuat Naik"
-  width={650}
-/>
-
-<ol start={22}>
+</li>
   <li>
     Jika selesai memuat naik semua dokumen bersyarat wajib, klik butang <b>Hantar</b>.
   </li>
   <li>
     Pop-up berjaya dihantar akan dipaparkan.
   </li>
-</ol>
+
 
 <ExpandableImage
   src={hantarDeklarasiImg}
   alt="Hantar Deklarasi SOHELP"
   caption="Hantar Deklarasi SOHELP"
-  width={650}
+  width={450}
 />
 
 <Admonition type="info" title="Nota">
   Pemohon perlu menyelesaikan deklarasi untuk semua elemen.
+</Admonition>
+</ol>
+</div>
+
+---
+
+## Verifikasi SOHELP
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
+
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP" />
+</div>
+
+<div className="step-card">
+
+### Halaman Permohonan Penyertaan SOHELP
+
+<ol>
+  <li>
+    Skrin <b>Verifier</b> akan terpapar.
+  </li>
+  <ExpandableImage
+  src={lamanPemohonImg}
+  alt="Laman Pemohon"
+  caption="Laman Pemohon"
+  width={650}
+ />
+  <li>
+    Pada menu sebelah kiri dashboard <b>Pemohon</b>, klik <b>SOHELP</b>.
+  </li>
+  <li>
+    Halaman <b>Profil SOHELP</b> akan terpapar.
+  </li>
+  <li>
+    Pada halaman ini, verifier boleh menyemak makluman berkenaan sesi verifikasi.
+  </li>
+  <li>
+    Klik butang <b>Verifikasi</b> untuk melakukan aktiviti verifikasi.
+  </li>
+  <li>
+    Halaman <b>Verifikasi</b> akan terpapar.
+  </li>
+  <li>
+    Semak semua maklumat.
+  </li>
+  <li>
+    Klik butang <b>Maklumat Penyertaan</b> untuk melihat maklumat penyertaan.
+  </li>
+  </ol>
+  </div>
+
+<div className="step-card">
+
+### Pengisian Borang Deklarasi SOHELP
+
+#### Tab 1: Checkpoint
+  <ol>
+  <li>
+    <b>Tab 1: Checkpoint</b> akan dipaparkan.
+  </li>
+  <li>
+    Klik butang <b>Maklumat Deklarasi</b> untuk melihat maklumat deklarasi.
+  </li>
+  <li>
+    Pilih sama ada <b>Agree</b> atau <b>Disagree</b> pada medan <b>Verifier Agreement</b>.
+  </li>
+  <li>
+    Aras keseluruhan akan terpapar di bawah.
+  </li>
+  <li>
+    Klik butang <b>Simpan</b> untuk menyimpan checkpoint.
+  </li>
+  <li>
+    Klik butang <b>Seterusnya</b> untuk ke tab <b>Dokumen Sokongan</b>.
+  </li>
+</ol>
+
+---
+#### Tab 2: Dokumen Sokongan
+<ol>
+  <li>
+    <b>Tab 2: Dokumen Sokongan</b> akan dipaparkan.
+  </li>
+  <li>
+    Semak semua maklumat.
+  </li>
+  <li>
+    Klik butang <b>Seterusnya</b> untuk ke <b>Tab 3</b>.
+  </li>
+</ol>
+
+---
+#### Tab 3: Ulasan Verifier
+
+<ol>
+  <li>
+    Pada bahagian <b>Komen Penambahbaikan</b>, klik checkbox pada checkpoint yang memerlukan penambahbaikan.
+  </li>
+  <li>
+    Isi <b>Ulasan Verifier</b>.
+  </li>
+  <li>
+    Klik butang <b>Hantar</b> untuk menghantar permohonan.
+  </li>
+</ol>
+
+
+<ol start={4}>
+  <li>
+    Pop-up makluman akan terpapar.
+  </li>
+  <li>
+    Klik butang <b>Tutup</b>.
+  </li>
+</ol>
+
+
+
+<Admonition type="info" title="Nota">
+  Sila ulangi langkah yang sama bagi <b>Verifikasi Kedua</b> dan <b>Verifikasi Ketiga</b>.
 </Admonition>
 
 </div>
