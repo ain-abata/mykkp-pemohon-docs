@@ -1,7 +1,7 @@
 ---
-title: Pemberitahuan Aktiviti Loji (JKKP5)
-description: Panduan lengkap pemberitahuan Aktiviti Loji
-hide_table_of_contents: true
+title: Pemberitahuan Aktiviti Industri (JKKP5)
+description: Panduan lengkap pemberitahuan Aktiviti Industri
+hide_table_of_contents: false
 sidebar_label: 'JKKP5'
 ---
 

@@ -2,7 +2,7 @@
    Document Card Style
 ========================= */
 .doc-card {
-  padding: 15px 15px 0;
+  padding: 15px 15px ;
   border-radius: 8px;
   background: var(--background);
   border: var(--border-solid-color);
@@ -14,11 +14,59 @@
 
 .doc-card-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+
+.step-card .doc-card-row + .doc-card-row {
+  margin-top: 30px;
+}
+.doc-card-row.two-items {
+  grid-template-columns: repeat(2, minmax(220px, 300px));
+  justify-content: center;
+}
+
 
 .doc-card:hover {
   transform: scale(1.03);
   color: var(--link-hover-color);
+}
+/* 
+.doc-card h4 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.doc-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.doc-card-action {
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.doc-card-action:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+} */
+ .doc-card-actions .doc-card-action {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.doc-card-actions .doc-card-action:hover {
+  text-decoration: none;
 }

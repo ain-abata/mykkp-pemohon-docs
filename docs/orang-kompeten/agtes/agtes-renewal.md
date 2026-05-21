@@ -12,6 +12,11 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
@@ -22,6 +27,10 @@ import PembaharuanOk from '@site/src/components/menu-renewal-ok';
 import imgMenuOk from '@site/assets/images/orang-kompeten/agtes/pembaharuan/menu_utama.png';
 
 import imgMenuRenewal from '@site/assets/images/orang-kompeten/agtes/pembaharuan/halaman_senarai_kompetensi.png';
+
+<div className="toc-only">
+### [Langkah 2: Halaman Pembaharuan Penguji Gas Bertauliah dan Penyelia Kemasukan](#toLoginStep)
+</div>
 
 <PembaharuanOk 
     stepNumber={2}

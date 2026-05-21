@@ -1,21 +1,29 @@
 ---
 title: Pemberitahuan Kemalangan - JKKP6
 description: Panduan lengkap Pemberitahuan Kemalangan - JKKP6
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Kemalangan - JKKP6'
 ---
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pemberitahuan Pemberitahuan Kemalangan - JKKP6
+# 📝 Pemberitahuan Kemalangan - JKKP6
 
 import LoginStep from '@site/src/components/login-step';
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
 import MenuAduan from '@site/src/components/kemalangan-aduan/menu-aduan';
+
+<div className="toc-only">
+### [Langkah 2: Pemberitahuan Kemalangan](#toLoginStep)
+</div>
 
 <MenuAduan
     stepNumber={2}

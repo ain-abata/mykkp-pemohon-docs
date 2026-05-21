@@ -1,7 +1,7 @@
 ---
 title: PEMBAHARUAN ORANG KOMPETEN PENGAPIT (OYKCHRA(R))
 description: Panduan lengkap pembaharuan sijil orang kompeten Pengapit
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 import Admonition from '@site/src/components/admonition';
@@ -11,6 +11,10 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
@@ -21,6 +25,9 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharu
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/butang-pembaharuan.png';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Pembaharuan Sijil Orang Kompeten Pengapit](#toLoginStep)
+</div>
 <PembaharuanOk
   stepNumber={2}
   pageName="Orang Kompeten Pengapit"

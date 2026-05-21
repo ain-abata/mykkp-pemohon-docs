@@ -1,6 +1,6 @@
 ---
-title: Permohonan Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
-description: Panduan lengkap permohonan pemberitahuan berkenaan ambil alih tempat kerja
+title: Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+description: Panduan lengkap pemberitahuan berkenaan ambil alih tempat kerja
 hide_table_of_contents: false
 sidebar_label: 'Pemberitahuan Berkenaan Ambil Alih Tempat Kerja'
 ---
@@ -11,16 +11,23 @@ import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## 🧭 Langkah-langkah Permohonan
+## 🧭 Langkah-langkah Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
 
 import LoginStep from '@site/src/components/login-step';
 
+
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Pemberitahuan Berkenaan Ambil Alih Tempat Kerja](#toLoginStep)
+</div>
 <MenuLoji
     stepNumber={2}
     pageName="Proses Ambil Alih"

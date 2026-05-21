@@ -39,6 +39,8 @@
   font-size: 0.86rem;
   font-weight: 500;
   transition: color 0.2s ease;
+
+  text-transform: capitalize;
 }
 
 /* Hover state */
