@@ -7,7 +7,7 @@ sidebar_label: 'Kemalangan - JKKP6'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pemberitahuan Pemberitahuan Kemalangan - JKKP6
+# 📝 Pemberitahuan Kemalangan - JKKP6
 
 import LoginStep from '@site/src/components/login-step';
 

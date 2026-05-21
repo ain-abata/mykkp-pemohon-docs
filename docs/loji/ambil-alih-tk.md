@@ -1,6 +1,6 @@
 ---
-title: Permohonan Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
-description: Panduan lengkap permohonan pemberitahuan berkenaan ambil alih tempat kerja
+title: Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+description: Panduan lengkap pemberitahuan berkenaan ambil alih tempat kerja
 hide_table_of_contents: false
 sidebar_label: 'Pemberitahuan Berkenaan Ambil Alih Tempat Kerja'
 ---
@@ -11,7 +11,7 @@ import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## 🧭 Langkah-langkah Permohonan Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+## 🧭 Langkah-langkah Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
 
 import LoginStep from '@site/src/components/login-step';
 
