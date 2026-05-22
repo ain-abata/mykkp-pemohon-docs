@@ -28,11 +28,17 @@ Jenis jentera yang terlibat bagi **Pemeriksaan Berkala** adalah seperti berikut:
 3. PMD
 4. PMT
 
+
+<div className="page-break"></div>
+
 ## 🧭 Langkah-langkah Permohonan
 
 <Tabs>
   <TabItem value="pemunya" label="Pemunya" default>
     <h2 className="print-only">Permohonan Pemeriksaan Berkala - Pemunya</h2>
+        <div className="toc-only" style={{ marginLeft: "35px"}}>    
+        ## Pemunya
+    </div>
 
 
 <div className="step-card">
@@ -72,7 +78,6 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
 ### Pengisian Borang Permohonan Pemeriksaan Berkala Loji
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
-
 import imgMaklumatAm from '@site/assets/images/loji/pekala/tab_maklumat_am.png';
 
 <MaklumatAm
@@ -86,7 +91,6 @@ import imgMaklumatAm from '@site/assets/images/loji/pekala/tab_maklumat_am.png';
 ---
 
 import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
-
 import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_loji_pemunya.png';
 
 <SenaraiLoji
@@ -101,7 +105,6 @@ import imgSenaraiLojiPemunya from '@site/assets/images/loji/pekala/tab_senarai_l
 ---
 
 import PengesahanSpesifikasi from '@site/src/components/loji/tab/pengesahan-spesifikasi';
-
 import imgPengesahanSpesifikasi from '@site/assets/images/loji/pekala/tab_pengesahan_spesifikasi.png';
 
 <PengesahanSpesifikasi
@@ -115,7 +118,6 @@ import imgPengesahanSpesifikasi from '@site/assets/images/loji/pekala/tab_penges
 ---
 
 import SenaraiCaj from '@site/src/components/loji/tab/senarai-caj';
-
 import imgSenaraiCaj from '@site/assets/images/loji/pekala/tab_senarai_caj.png';
 
 <SenaraiCaj
@@ -128,9 +130,7 @@ import imgSenaraiCaj from '@site/assets/images/loji/pekala/tab_senarai_caj.png';
 ---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-
 import imgPerakuan from '@site/assets/images/loji/pekala/tab_perakuan.png';
-
 import imgMesejBerjaya from '@site/assets/images/loji/pekala/mesej_penghantaran_berjaya.png';
 
 <Perakuan 
@@ -144,54 +144,76 @@ import imgMesejBerjaya from '@site/assets/images/loji/pekala/mesej_penghantaran_
 />
 
  </div>
+
+
 </TabItem>
 
 
-  <TabItem value="penghuni" label="Penghuni">
+<TabItem value="penghuni" label="Penghuni">
+<div className="page-break"></div>
     <h2 className="print-only">Permohonan Pemeriksaan Berkala - Penghuni</h2>
     <div className="toc-only" style={{ marginLeft: "35px" }} >
         ## Penghuni
     </div>
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP   
+
 <LoginStep 
-    stepNumber={1}
-    title="Akses Halaman Log Masuk MyKKP" />
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Pemeriksaan Berkala Loji
 
 <MenuLoji
     stepNumber={2}
     pageName="Pemeriksaan Berkala Loji"
     kategoriPermohonan="Pemeriksaan Berkala Loji Berperakuan"
-    moduleType="Pemeriksaan Berkala - Penghuni" />
+    moduleType="Pemeriksaan Berkala - Penghuni" 
+/>
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemeriksaan Berkala Loji
+### Pengisian Borang Permohonan Pemeriksaan Berkala Loji
+
+import imgSenaraiLojiPenghuni from '@site/assets/images/loji/pekala/tab_senarai_loji_penghuni.png';
 
 <MaklumatAm
     alphabetNumbering="A"
     tabNumber={1}
     tabName="Maklumat Am"
     hasRujukan={true}
-    tabImgSrc={imgMaklumatAm} />
-
-import imgSenaraiLojiPenghuni from '@site/assets/images/loji/pekala/tab_senarai_loji_penghuni.png';
+    tabImgSrc={imgMaklumatAm} 
+/>
 
 <SenaraiLoji
     alphabetNumbering="B"
     tabNumber={2}
     tabName="Senarai Loji"
-    tabImgSrc={imgSenaraiLojiPenghuni} />
+    tabImgSrc={imgSenaraiLojiPenghuni} 
+/>
 
 <PengesahanSpesifikasi
     alphabetNumbering="C"
     tabNumber={3}
     tabName="Pengesahan Spesifikasi"
-    tabImgSrc={imgPengesahanSpesifikasi} />
+    tabImgSrc={imgPengesahanSpesifikasi} 
+/>
 
 <SenaraiCaj
     alphabetNumbering="D"
     tabNumber={4}
     tabName="Senarai Caj"
-    tabImgSrc={imgSenaraiCaj} />
+    tabImgSrc={imgSenaraiCaj} 
+/>
 
 <Perakuan 
     alphabetNumbering="E"
@@ -200,7 +222,8 @@ import imgSenaraiLojiPenghuni from '@site/assets/images/loji/pekala/tab_senarai_
     tabImgSrc={imgPerakuan}
     mesejBerjayaImgSrc={imgMesejBerjaya}
     noRujukan="XX/PEKALA/XX/XXXXX"
-    hasPayment={true} />
+    hasPayment={true} 
+/>
 
 </div>
 
@@ -208,9 +231,11 @@ import imgSenaraiLojiPenghuni from '@site/assets/images/loji/pekala/tab_senarai_
 </Tabs>
 
 
-<div className="step-card">
+<div className="page-break"></div>
 
-### Penyemakan Status Permohonan PEKALA
+## 🔍 Semak Status Permohonan PEKALA
+
+<div className="step-card">
 
 import SemakStatus from '@site/src/components/loji/semak-status';
 import imgSedangProses from '@site/assets/images/loji/pekala/halaman_permohonan_sedang_diproses.png';
@@ -226,10 +251,14 @@ import imgSelesaiProses from '@site/assets/images/loji/pekala/halaman_permohonan
 
 </div>
 
+
+<div className="page-break"></div>
+
+## 📄 Lihat Sebut Harga Perkhidmatan
+Terdapat **DUA (2)** cara untuk menyemak dokumen Sebut Harga Perkhidmatan:
+
 <div className="step-card">
    
-### Langkah 5: Lihat Sebut Harga Perkhidmatan
-
 import SemakSebutHarga from '@site/src/components/loji/lihat-sebut-harga';
 import imgPermohonanProses from '@site/assets/images/loji/pembayaran/halaman_senarai_permohonan.png';
 import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_butang_lihat.png';
@@ -242,8 +271,12 @@ import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_
 
 </div>
 
+
+<div className="page-break"></div>
+
+## 💳 Bayaran Permulaan & Bayaran Akhir
+
 <div className="step-card">
-### Langkah 6: Bayaran Permulaan & Bayaran Akhir
 
 import Pembayaran from '@site/src/components/loji/pembayaran';
 import imgPembayaran from '@site/assets/images/loji/pekala/halaman_pembayaran.png';
@@ -253,7 +286,8 @@ import imgLihatResit from '@site/assets/images/loji/pembayaran/lihat_resit.png';
     stepNumber={6}
     paymentType="Bayaran Permulaan & Bayaran Akhir"
     imgBayar={imgPembayaran}
-    imgResit={imgLihatResit} />
+    imgResit={imgLihatResit} 
+/>
 
 import WhatNext from '@site/src/components/loji/what-next';
 
