@@ -26,7 +26,7 @@ Pendaftaran akaun diperlukan untuk membolehkan pengguna mengakses sistem MyKKP d
 
 <div className="step-card">
 
-### Langkah 1: Akses Halaman Pendaftaran
+### Akses Halaman Pendaftaran
 
 Klik pautan berikut:  👉 [Daftar Akaun MyKKP](https://mykkp.dosh.gov.my/#/home/pendaftaran)
 
@@ -39,7 +39,7 @@ Klik pautan berikut:  👉 [Daftar Akaun MyKKP](https://mykkp.dosh.gov.my/#/home
 
 <div className="step-card">
 
-### Langkah 2: Isi Maklumat Peribadi
+### Isi Maklumat Peribadi
 
 #### A. Maklumat Diri
 
@@ -81,7 +81,7 @@ import step1 from '../../assets/images/pendaftaran/halaman_maklumat_peribadi.png
 
 <div className="step-card">
 
-### Langkah 3: Isi Maklumat Alamat
+### Isi Maklumat Alamat
 
 import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
 
@@ -127,7 +127,7 @@ import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
 
 <div className="step-card">
 
-### Langkah 4: Tetapkan Kata Laluan
+### Tetapkan Kata Laluan
 
 import halaman_kata_laluan from '../../assets/images/pendaftaran/halaman_kata_laluan.png'
 
@@ -168,7 +168,7 @@ import halaman_kata_laluan from '../../assets/images/pendaftaran/halaman_kata_la
 
 <div className="step-card">
 
-### Langkah 5: Selesai
+### Pengesahan Akaun MyKKP
 
 1. Klik butang **Daftar**, dan mesej berjaya akan dipaparkan.
 
