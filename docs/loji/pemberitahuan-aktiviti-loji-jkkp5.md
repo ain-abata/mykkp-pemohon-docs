@@ -155,16 +155,15 @@ import imgBahanBerbahayaTidak from '@site/assets/images/lain-lain/jkkp5/tidak_ba
 ---
 
 import OkPerakuan from '@site/src/components/lain-lain/jkkp5/tab-perakuan';
-
 import imgPerakuan from '@site/assets/images/lain-lain/jkkp5/tab_perakuan.png';
-
 import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
     tabNumber={4}
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
-    mesejBerjayaImgSrc={imgMesejBerjaya} />
+    mesejBerjayaImgSrc={imgMesejBerjaya} 
+/>
 </div>
 
 <div className="step-card">
@@ -175,7 +174,6 @@ import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghanta
   <TabItem value="lai" label="LAI" default> 
   
 import LaporanJkkp5 from '@site/src/components/lain-lain/jkkp5/laporan-jkkp5';
-
 import imgSenaraiJkkp5 from '@site/assets/images/lain-lain/jkkp5/laporan/senarai_jkkp5_dihantar.png';
 import imgButangLaporan from '@site/assets/images/lain-lain/jkkp5/laporan/butang_pemberitahuan_laporan.png';
 import imgPopupLaporan from '@site/assets/images/lain-lain/jkkp5/laporan/popup_laporan_perlu_dihantar.png';
@@ -297,17 +295,11 @@ import mesejHantarDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/mesej-h
 <TabItem value="erpdalamtapak" label="ERP (DalamTapak)" default> 
   
 import PelaksanaanJkkp5 from '@site/src/components/lain-lain/jkkp5/pelaksanaan-jkkp5';
-
 import senaraiPelaksanaanJkkp5Img from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/senarai-pelaksanaan-jkkp5.png';
-
 import butangPelaksanaanImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/butang-pelaksanaan.png';
-
 import popupPelaksanaanImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/popup-pelaksanaan.png';
-
 import tabErpDalamTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/tab-erp-dalam-tapak.png';
-
 import senaraiBahanBerbahayaERPImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/senarai_bahan_berbahaya.png';
-
 import mesejHantarErpDalamTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/mesej-hantar-erp.png';
 
   <PelaksanaanJkkp5
