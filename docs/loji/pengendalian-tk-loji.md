@@ -134,6 +134,7 @@ Setiap fungsi mempunyai:
                 </Link>
             </div>
         </div>
+        
 </div>
 </div>
 <div className="toc-only">
@@ -155,7 +156,7 @@ Setiap fungsi mempunyai:
         <div className="doc-card">
             <div className="doc-card-actions">
                 <Link to="/docs/loji/pplhm" className="doc-card-action">
-                Loji Pemunya
+                Loji Hak Milik
                 </Link>
             </div>
         </div>

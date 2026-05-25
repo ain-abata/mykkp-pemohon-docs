@@ -11,12 +11,15 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -24,9 +27,10 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharu
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Sijil Penaksir Kualiti Udara Dalaman](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pembaharuan Sijil Penaksir Kualiti Udara Dalaman
+
 <PembaharuanOk
   stepNumber={2}
   pageName="Penaksir Kualiti Udara Dalaman"
@@ -35,9 +39,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembah
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Penaksir Kualiti Udara Dalaman
+### Pengisian Borang Pembaharuan Penaksir Kualiti Udara Dalaman
 
 {/* Step A. Tab 1: Maklumat Am */}
 
@@ -48,6 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kualiti-udara/pe
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -58,6 +65,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kualiti-uda
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Pengalaman Kerja */}
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -72,6 +80,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kualiti
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step D. Tab 4: Maklumat CEP */}
 
@@ -90,6 +99,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/kualiti-uda
   tabImgSrc={imgMaklumatCep}
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}/>
+---
 
 
 {/* Step E. Tab 5: Sijil Kompetensi */}
@@ -103,6 +113,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/kualiti-udara/pembaha
     tabNumber={5}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step F. Tab 6: Dokumen Sokongan */}
 
@@ -115,6 +126,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kualiti-uda
     tabNumber={6}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step G. Tab 7: Perakuan */}
 

@@ -12,18 +12,21 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 import MenuOk from '@site/src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil Operator Dandang Stim (Gred 2)](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Operator Dandang Stim (Gred 2)
+
 <MenuOk
   stepNumber={2}
   pageName="Operator Dandang Stim (Gred 2)"
@@ -31,10 +34,11 @@ import MenuOk from '@site/src/components/menu-ok';
   hasDropdown={true}
   moduleName="[DES] - Operator Dandang Stim"
   moduleType="Gred 2" />
+</div>
 
 <div className="step-card">
-test
-### Langkah 3: Pengisian Borang Pendaftaran Operator Dandang Stim Gred 2
+
+### Pengisian Borang Pendaftaran Operator Dandang Stim Gred 2
 
 {/* Step A. Tab 1: Maklumat Am */}
 import OkMaklumatAm from '@site/src/components/tab-ok/maklumat-am';
@@ -44,7 +48,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/ods-gred2/tab_ma
 <OkMaklumatAm
     hasPanduan={true}
     tabImgSrc={imgOkMaklumatAm} />
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 import OkMaklumatMajikan from '@site/src/components/tab-ok/maklumat-majikan';
 
@@ -53,7 +57,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/ods-gred2/t
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 import OkMaklumatJadual from '@site/src/components/tab-ok/maklumat-jadual';
 
@@ -67,7 +71,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/ods-g
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gred2/tab_pengalaman_kerja.png';
 
 import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gred2/tambah_pengalaman_kerja.png';
@@ -79,7 +83,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/ods-gre
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/ods-gred2/tab_kursus_berkaitan.png';
 
 import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/ods-gred2/tambah_kursus_berkaitan.png';
@@ -91,7 +95,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/ods-gre
     tabName="Kursus Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 import imgJadualPeperiksaan from '@site/assets/images/orang-kompeten/ods-gred2/tab_maklumat_peperiksaan.png';
 
 import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/ods-gred2/tambah_maklumat_peperiksaan.png';
@@ -103,7 +107,7 @@ import imgTambahPeperiksaan from '@site/assets/images/orang-kompeten/ods-gred2/t
     tabName="Maklumat Peperiksaan"
     tabImgSrc={imgJadualPeperiksaan}
     tambahImgSrc={imgTambahPeperiksaan} />
-
+---
 {/* Step G. Tab 7: Sijil Kompetensi */}
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
 
@@ -114,7 +118,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/ods-gred2/tab_sijil_k
     tabNumber={7}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step H. Tab 8: Maklumat Perubatan */}
 import OkMaklumatPerubatanOHD from '@site/src/components/tab-ok/maklumat-perubatan-ohd';
 
@@ -125,7 +129,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/ods-gred2
     tabNumber={8}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
-
+---
 {/* Step I. Tab 9: Dokumen Sokongan */}
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
 
@@ -136,7 +140,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/ods-gred2/t
     tabNumber={9}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step J. Tab 10: Perakuan Kebolehan */}
 import OkPerakuanKebolehan from '@site/src/components/tab-ok/perakuan-kebolehan';
 
@@ -147,7 +151,7 @@ import imgOkPerakuanKebolehan from '@site/assets/images/orang-kompeten/ods-gred2
     tabNumber={9}
     tabName="Perakuan Kebolehan"
     tabImgSrc={imgOkPerakuanKebolehan} />
-
+---
 {/* Step K. Tab 11: Perakuan */}
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 

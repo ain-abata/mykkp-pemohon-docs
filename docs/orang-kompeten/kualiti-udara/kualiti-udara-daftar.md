@@ -12,29 +12,35 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
   
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil Penaksir Kualiti Udara Dalaman](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Penaksir Kualiti Udara Dalaman
+
 <MenuOk
   stepNumber={2}
   pageName="Kualiti Udara Dalam"
   okType="Pengurusan Kimia"
   hasDropdown={false}
   moduleName="[IAQ] - Penaksir Kualiti Udara Dalaman"
- />
+/>
+
+</div>
 
  <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Penaksir Kualiti Udara Dalaman
+### Pengisian Borang Pendaftaran Penaksir Kualiti Udara Dalaman
 
 {/* Step A. Tab 1: Maklumat Am */}
 
@@ -45,6 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kualiti-udara/da
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -55,6 +62,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kualiti-uda
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
@@ -71,6 +79,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kuali
     tabImgSrc={imgJadualKelayakanAkademik}
     hasDropdown={true}
     tambahImgSrc={imgTambahKelayakanAkademik} />
+---
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
@@ -84,6 +93,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kualiti
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
@@ -97,6 +107,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-h
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
+---
 
 {/* Step F. Tab 6: Sijil Kompetensi */}
 
@@ -109,6 +120,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/kualiti-udara/daftar/
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step G. Tab 7: Dokumen Sokongan */}
 
@@ -121,6 +133,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kualiti-uda
     tabNumber={7}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step H. Tab 8: Perakuan */}
 

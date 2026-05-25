@@ -11,12 +11,15 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -24,9 +27,10 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/major-hazard/pemba
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/major-hazard/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Sijil Oarang Kompeten Major Hazard](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pembaharuan Sijil Orang Kompeten Major Hazard
+
 <PembaharuanOk
   stepNumber={2}
   pageName="Orang Kompeten Major Hazard"
@@ -35,9 +39,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/major-hazard/pe
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Orang Kompeten Major Hazard
+### Pengisian Borang Pembaharuan Orang Kompeten Major Hazard
 
 {/* Step A. Tab 1: Maklumat Am */}
 
@@ -48,6 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/major-hazard/pem
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -58,6 +65,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/major-hazar
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
@@ -73,6 +81,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/major
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />   
+---
 
 {/* Step D. Tab 4: Kursus/Peperiksaan Berkaitan */}
 
@@ -86,6 +95,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-h
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
+---
 
 {/* Step E. Tab 5: Makluumat CEP */}
 
@@ -105,6 +115,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/major-hazar
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}
 />
+---
 
 {/* Step F. Tab 6: Pengalaman Kerja */}
 
@@ -118,6 +129,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/major-h
     tabName="Pengalaman Kerja"
     tabImgSrc={imgPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step G. Tab 7: Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar  */}
 
@@ -131,6 +143,7 @@ import imgTambahPengalamanKawalan from '@site/assets/images/orang-kompeten/major
     tabName="Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar"
     tabImgSrc={imgPengalamanKawalan}
     tambahImgSrc={imgTambahPengalamanKawalan} />
+---
 
 {/* Step H. Tab 8: Senarai Laporan Aktiviti Industri atau Pelan Kecemasan Tapak (Terkini)  */}
 
@@ -144,6 +157,7 @@ import imgTambahLaporanAktiviti from '@site/assets/images/orang-kompeten/major-h
     tabName="Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar"
     tabImgSrc={imgLaporanAktiviti}
     tambahImgSrc={imgTambahLaporanAktiviti} />
+---
 
 {/* Step I. Tab 9: Sijil Kompetensi */}
 
@@ -156,6 +170,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/major-hazard/pembahar
     tabNumber={9}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step J. Tab 10: Dokumen Sokongan */}
 
@@ -168,6 +183,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/major-hazar
     tabNumber={10}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step L. Tab 11: Perakuan */}
 
