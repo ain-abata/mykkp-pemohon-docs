@@ -36,9 +36,9 @@ Jenis jentera yang terlibat bagi **Pemeriksaan Berkala** adalah seperti berikut:
 <Tabs>
   <TabItem value="pemunya" label="Pemunya" default>
     <h2 className="print-only">Permohonan Pemeriksaan Berkala - Pemunya</h2>
-        <div className="toc-only" style={{ marginLeft: "35px"}}>    
+      <div className="toc-only" style={{ marginLeft: "35px"}}>    
         ## Pemunya
-    </div>
+      </div>
 
 
 <div className="step-card">
