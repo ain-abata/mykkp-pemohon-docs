@@ -67,11 +67,13 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
 
 <div className="step-card">
 
-### Akses Halaman Log Masuk 
+### Akses Halaman Log Masuk MyKKP
 
 <LoginStep 
     stepNumber={1}
-    title="Akses Halaman Log Masuk MyKKP" />
+    title="Akses Halaman Log Masuk MyKKP" 
+/>
+
 </div>
 
 <div className="step-card">
@@ -94,56 +96,82 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
 </div>
 
 <div className="step-card">
-    ### Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
-    <MaklumatAm
+
+### Pengisian Borang Permohonan Pemberitahuan Status Loji - Pengecualian
+
+<MaklumatAm
         alphabetNumbering="A"
         tabNumber={1}
         tabName="Maklumat Am"
-        tabImgSrc={imgMaklumatAm} />
+        tabImgSrc={imgMaklumatAm} 
+/>
 ---
-    <SenaraiLoji
+<SenaraiLoji
         alphabetNumbering="B"
         tabNumber={2}
         tabName="Senarai Loji"
         tabImgSrc={imgSenaraiLojiDikecualikan}
         leftTableName="Senarai Loji Pemunya Yang Asal"
-        rightTableName="Senarai Loji Untuk Pemberitahuan Dikecualikan/Tidak Digunakan" />
+        rightTableName="Senarai Loji Untuk Pemberitahuan Dikecualikan/Tidak Digunakan" 
+/>
 ---
-    #### C. Tab 3: Perihal Pemberitahuan
-    <ExpandableImage
+
+#### C. Tab 3: Perihal Pemberitahuan
+
+<ExpandableImage
         src={imgPerihal}
         alt="Tab 3: Perihal Pemberitahuan"
         caption="Tab 3: Perihal Pemberitahuan"
-        width={450} />
+        width={450} 
+/>
     1. Klik butang **Isi Ulasan**. *Pop-up* **Perihal Pemberitahuan** akan dipaparkan.
     2. Isi maklumat di medan **Ulasan Pemberitahuan** dan klik butang **Simpan**.
     3. Klik butang **Ok** pada halaman *pop-up* Makluman yang memaparkan “Ulasan berjaya disimpan”.
     4. Klik butang **Seterusnya**.
-    <Admonition>
+
+<Admonition>
         Permohonan tidak boleh diteruskan jika terdapat butang <b>Isi Ulasan</b> yang masih berwarna oren.
-    </Admonition>
+</Admonition>
 ---
-    <DokumenSokongan
+<DokumenSokongan
         alphabetNumbering="D"
         tabNumber={4}
         tabName="Dokumen Sokongan"
-        tabImgSrc={imgDokumenSokongan} />
+        tabImgSrc={imgDokumenSokongan} 
+/>
 ---
-    <Perakuan
+<Perakuan
         alphabetNumbering="E"
         tabNumber={5}
         tabName="Perakuan"
         tabImgSrc={imgPerakuan}
         noRujukan="XX/PSL/XX/XXXXX"
-        hasPayment={false} />
-    <BatalOlehPemohon />
+        hasPayment={false} 
+/>
+
 </div>
+
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PSL
+
+<div className="step-card">
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PSL"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>
+
+## 📩 Semak Surat Menyurat
+
+<div className="step-card">
 
 <SemakSurat
-    stepNumber={5} />
+    stepNumber={5} 
+/>
+
+</div>

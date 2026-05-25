@@ -1,8 +1,8 @@
 ---
-title: Pemberitahuan Pembaikkan Loji (PBAIK)
-description: Panduan lengkap pemberitahuan pembaikkan loji
+title: Pemberitahuan Pembaikan Loji (PBAIK)
+description: Panduan lengkap pemberitahuan pembaikan loji
 hide_table_of_contents: false
-sidebar_label: 'Pemberitahuan Pembaikkan Loji'
+sidebar_label: 'Pemberitahuan Pembaikan Loji'
 ---
 
 import Admonition from '@site/src/components/admonition';
@@ -12,7 +12,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 ## 📌 Ringkasan Modul
-Pemohon membuat **Pemberitahuan Pembaikkan Loji (PBAIK)**  dalam sistem adalah proses yang membolehkan pemohon untuk membuat permohonan bagi pemohon yang ingin menjalankan pembaikan loji bagi tujuan tertentu. Proses permohonan ini melibatkan beberapa langkah penting iaitu: 
+Pemohon membuat **Pemberitahuan Pembaikan Loji (PBAIK)**  dalam sistem adalah proses yang membolehkan pemohon untuk membuat permohonan bagi pemohon yang ingin menjalankan pembaikan loji bagi tujuan tertentu. Proses permohonan ini melibatkan beberapa langkah penting iaitu: 
 
 <ul>
 <li>Pemohon perlu memilih loji yang hendak dibaiki dari senarai loji yang terdapat dalam sistem</li> 
@@ -20,24 +20,24 @@ Pemohon membuat **Pemberitahuan Pembaikkan Loji (PBAIK)**  dalam sistem adalah p
  </ul>
 
 ## 👤 Peranan Terlibat & Syarat Permohonan
-Kriteria pemohon yang dibenarkan untuk menghantar **Pemberitahuan Pembaikkan Loji** adalah seperti berikut:
+Kriteria pemohon yang dibenarkan untuk menghantar **Pemberitahuan Pembaikan Loji** adalah seperti berikut:
 1. Penghuni (Tempat Kerja) yang telah berdaftar sebagai **PATK Tahap 1** dan **Tahap 2** pada sistem MyKKP 
 2. Pemunya loji yang telah berdaftar sebagai **PATK Tahap 1** dan **Tahap 2** pada sistem MyKKP 
 
-Syarat-syarat bagi status loji yang dibenarkan untuk **Pemberitahuan Pembukaan Loji** adalah seperti berikut:
+Syarat-syarat bagi status loji yang dibenarkan untuk **Pemberitahuan Pembaikan Loji** adalah seperti berikut:
 1. Aktif.   
 2. Tidak Digunakan.
 3. Dilupuskan.
 
 
-Jenis jentera yang terlibat bagi **Pemberitahuan Pembukaan Loji** adalah seperti berikut:
+Jenis jentera yang terlibat bagi **Pemberitahuan Pembaikan Loji** adalah seperti berikut:
 1. PMA (Lif / Eskalator / Laluan Gerak)
 2. PMD
 3. PMT 
 
 
 ## 📂 Dokumen Sokongan
-Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan Permulaan** seperti:
+Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pembaikan Loji** seperti:
 
 <Admonition type="important">
     Dokumen yang bertanda ** wajib dimuat naik
@@ -59,33 +59,45 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan 
 <Tabs>
   <TabItem value="pemunya" label="Pemunya" default>
     <h2 className="print-only">Pemberitahuan Pembukaan Loji - Pemunya</h2>
+      <div className="toc-only" style={{ marginLeft: "35px"}}>    
+        ## Pemunya
+      </div>  
 
-import LoginStep from '@site/src/components/login-step';
-
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
-<LoginStep 
-  stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
-
-import MenuLoji from '@site/src/components/loji/menu-loji';
-
-<div className="toc-only">
-### [Langkah 2: Halaman Pemberitahuan Pembaikkan Loji](#toLoginStep)
-</div>
-<MenuLoji
-    stepNumber={2}
-    pageName="Pemberitahuan Pembukaan Loji"
-    kategoriPermohonan="Pemberitahuan Berkaitan Loji"
-    moduleType="Pemberitahuan Pembukaan Loji oleh Pemunya Loji" />
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemberitahuan Pembukaan Loji
+### Akses Halaman Log Masuk MyKKP
+
+import LoginStep from '@site/src/components/login-step';
+
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Pembaikan Loji
+
+import MenuLoji from '@site/src/components/loji/menu-loji';
+
+<MenuLoji
+    stepNumber={2}
+    pageName="Pemberitahuan Pembaikan Loji"
+    kategoriPermohonan="Pemberitahuan Berkaitan Loji"
+    moduleType="Pemberitahuan Pembaikan Loji oleh Pemunya Loji" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Pengisian Borang Permohonan Pemberitahuan Pembaikan Loji
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
-
 import imgMaklumatAm from '@site/assets/images/loji/pbaik/tab_maklumat_am.png';
 
 <MaklumatAm
@@ -93,13 +105,12 @@ import imgMaklumatAm from '@site/assets/images/loji/pbaik/tab_maklumat_am.png';
     tabNumber={1}
     tabName="Maklumat Am"
     hasRujukan={false}
-    tabImgSrc={imgMaklumatAm} />
+    tabImgSrc={imgMaklumatAm} 
+/>
 ---
 
 import TabSenaraiLoji from '@site/src/components/loji/tab/senarai-loji-pbuka';
-
 import imgTab2 from '@site/assets/images/loji/pbaik/tab2_senarai_loji.png';
-
 import imgPopupLoji from '@site/assets/images/loji/pbaik/popup_carian_loji.png';
 
 <TabSenaraiLoji
@@ -112,7 +123,6 @@ import imgPopupLoji from '@site/assets/images/loji/pbaik/popup_carian_loji.png';
 ---
 
 import TabPerihalPemberitahuan from '@site/src/components/loji/tab/perihal-pemberitahuan-pbuka';
-
 import imgTab3 from '@site/assets/images/loji/pbaik/tab3_perihal.png';
 
 <TabPerihalPemberitahuan
@@ -124,9 +134,7 @@ import imgTab3 from '@site/assets/images/loji/pbaik/tab3_perihal.png';
 ---
 
 import TabMaklumatFyk from '@site/src/components/loji/tab/maklumat-fyk-pbuka';
-
 import imgTab4 from '@site/assets/images/loji/pbaik/tab4_fyk.png';
-
 import imgPopupFYK from '@site/assets/images/loji/pbaik/popup_carian_fyk.png';
 
 <TabMaklumatFyk
@@ -139,20 +147,18 @@ import imgPopupFYK from '@site/assets/images/loji/pbaik/popup_carian_fyk.png';
 ---
 
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
-
 import imgDokSokongan from '@site/assets/images/loji/pbaik/tab_dokumen_sokongan.png';
 
 <DokumenSokongan
     alphabetNumbering="E"
     tabNumber={5}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokSokongan} />
+    tabImgSrc={imgDokSokongan} 
+/>
 
 ---
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-
 import imgPerakuan from '@site/assets/images/loji/pbaik/tab_perakuan.png';
-
 import imgMesejBerjaya from '@site/assets/images/loji/pbaik/mesej_penghantaran_berjaya.png';
 
 <Perakuan 
@@ -162,26 +168,45 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbaik/mesej_penghantaran_b
     tabImgSrc={imgPerakuan}
     mesejBerjayaImgSrc={imgMesejBerjaya}
     noRujukan="XX/PBAIK/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+  />
 </div>
 
 </TabItem>
   <TabItem value="penghuni" label="Penghuni">
-    <h2 className="print-only">Permohonan Pemeriksaan Berkala - Penghuni</h2>
-
-<LoginStep 
-    stepNumber={1}
-    title="Akses Halaman Log Masuk MyKKP" />
-
-<MenuLoji
-    stepNumber={2}
-    pageName="Pemeriksaan Berkala Loji"
-    kategoriPermohonan="Pemeriksaan Berkala Loji Berperakuan"
-    moduleType="Pemeriksaan Berkala - Penghuni" />
+    <h2 className="print-only">Permohonan Pemberitahuan Pembaikan Loji - Penghuni</h2>
+    <div className="toc-only" style={{ marginLeft: "35px"}}>    
+        ## Penghuni
+    </div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemeriksaan Berkala Loji
+### Akses Halaman Log Masuk MyKKP
+
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Pembaikan Loji
+
+<MenuLoji
+    stepNumber={2}
+    pageName="Pemberitahuan Pembaikan Loji"
+    kategoriPermohonan="Pemberitahuan Berkaitan Loji"
+    moduleType="Pemberitahuan Pembaikan Loji oleh penghuni Loji" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Pengisian Borang Permohonan Pemberitahuan Pembaikan Loji
 
 <MaklumatAm
     alphabetNumbering="A"
@@ -221,7 +246,8 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbaik/mesej_penghantaran_b
     alphabetNumbering="E"
     tabNumber={5}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokSokongan} />
+    tabImgSrc={imgDokSokongan} 
+/>
 
 ---
 
@@ -232,15 +258,20 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbaik/mesej_penghantaran_b
     tabImgSrc={imgPerakuan}
     mesejBerjayaImgSrc={imgMesejBerjaya}
     noRujukan="XX/PBAIK/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+/>
 </div>
 </TabItem>
 </Tabs>
 
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PBAIK
+
+<div className="step-card">
+
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/pbaik/halaman_permohonan_sedang_diproses.png'
-
 import imgSelesaiProses from '@site/assets/images/loji/pbaik/halaman_permohonan_selesai_diproses.png'
 
 <SemakStatus 
@@ -249,8 +280,10 @@ import imgSelesaiProses from '@site/assets/images/loji/pbaik/halaman_permohonan_
     imgTabSedangDiproses={imgSedangProses}
     imgTabSelesaiDiproses={imgSelesaiProses} />
 
+</div>
 import WhatNext from '@site/src/components/loji/what-next';
 
 <WhatNext
   canBatalPermohonan={true}
-  linkPembatalan="pembatalan-permohonan" />
+  linkPembatalan="pembatalan-permohonan" 
+/>

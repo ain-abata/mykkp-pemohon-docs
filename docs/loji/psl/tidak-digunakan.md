@@ -67,16 +67,20 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
 
 <div className="step-card">
 
-### Akses Halaman Log Masuk 
+### Akses Halaman Log Masuk MyKKP
 
 <LoginStep 
     stepNumber={1}
-    title="Akses Halaman Log Masuk MyKKP" />
+    title="Akses Halaman Log Masuk MyKKP" 
+/>
+
 </div>
+
 
 <div className="step-card">
 
-### Halaman Pemberitahuan Status Loji - Tidak Digunakan
+### Langkah 2: Halaman Pemberitahuan Status Loji - Tidak Digunakan
+
 <MenuLoji
     stepNumber={2}
     pageName="Pemberitahuan Status Loji"
@@ -90,32 +94,38 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
       </>
     }
 />
-</div>
 
+</div>
 
 <div className="step-card">
 
-    ### Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
-    <MaklumatAm
+### Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
+
+<MaklumatAm
         alphabetNumbering="A"
         tabNumber={1}
         tabName="Maklumat Am"
-        tabImgSrc={imgMaklumatAm} />
+        tabImgSrc={imgMaklumatAm} 
+/>
 ---
-    <SenaraiLoji
+<SenaraiLoji
         alphabetNumbering="B"
         tabNumber={2}
         tabName="Senarai Loji"
         tabImgSrc={imgSenaraiLojiDikecualikan}
         leftTableName="Senarai Loji Pemunya Yang Asal"
-        rightTableName="Senarai Loji Untuk Pemberitahuan Dikecualikan/Tidak Digunakan" />
+        rightTableName="Senarai Loji Untuk Pemberitahuan Dikecualikan/Tidak Digunakan"
+/>
 ---
-    #### C. Tab 3: Perihal Pemberitahuan
-    <ExpandableImage
+
+#### C. Tab 3: Perihal Pemberitahuan
+
+<ExpandableImage
         src={imgPerihal}
         alt="Tab 3: Perihal Pemberitahuan"
         caption="Tab 3: Perihal Pemberitahuan"
-        width={450} />
+        width={450} 
+/>
     1. Klik butang **Isi Ulasan**. *Pop-up* **Perihal Pemberitahuan** akan dipaparkan.
     2. Isi maklumat di medan **Ulasan Pemberitahuan** dan klik butang **Simpan**.
     3. Klik butang **Ok** pada halaman *pop-up* Makluman yang memaparkan “Ulasan berjaya disimpan”.
@@ -128,7 +138,8 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
         alphabetNumbering="D"
         tabNumber={4}
         tabName="Dokumen Sokongan"
-        tabImgSrc={imgDokumenSokongan} />
+        tabImgSrc={imgDokumenSokongan} 
+    />
 ---
     <Perakuan
         alphabetNumbering="E"
@@ -136,15 +147,31 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
         tabName="Perakuan"
         tabImgSrc={imgPerakuan}
         noRujukan="XX/PSL/XX/XXXXX"
-        hasPayment={false} />
-    <BatalOlehPemohon />
+        hasPayment={false} 
+    />
 </div>
+
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PSL
+
+<div className="step-card">
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PSL"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>
+
+## 📩 Semak Surat Menyurat
+
+<div className="step-card">
 
 <SemakSurat
-    stepNumber={5} />
+    stepNumber={5} 
+/>
+
+</div>

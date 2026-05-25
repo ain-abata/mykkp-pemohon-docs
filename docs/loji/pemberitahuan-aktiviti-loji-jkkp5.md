@@ -79,14 +79,24 @@ import TabItem from '@theme/TabItem';
 
 ## Langkah-langkah Pemberitahuan
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
-  stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+    stepNumber={1}
+    title="Akses Halaman Log Masuk MyKKP" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Halaman Pemberitahuan Aktiviti Industri
 
 import LangkahMenuUtama from '@site/src/components/lain-lain/jkkp5/menu-jkkp5';
-
 import imgMenuUtama from '@site/assets/images/lain-lain/jkkp5/menu_utama.png';
 import imgJkkp5 from '@site/assets/images/lain-lain/jkkp5/jkkp5_baru.png';
 import imgPopupMakluman from '@site/assets/images/lain-lain/jkkp5/popup_makluman.png';
@@ -98,12 +108,13 @@ import imgPopupMakluman from '@site/assets/images/lain-lain/jkkp5/popup_makluman
   popupMaklumanImgSrc={imgPopupMakluman}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Aktiviti Loji
+### Pengisian Borang Pemberitahuan Aktiviti Loji
 
 import TabButiranPepasangan from '@site/src/components/lain-lain/jkkp5/tab-butiran-pepasangan';
-
 import imgTabButiranPepasangan from '@site/assets/images/lain-lain/jkkp5/tab_butiran_pepasangan.png';
 import imgMaklumatPepasangan from '@site/assets/images/lain-lain/jkkp5/maklumat_pepasangan.png';
 
@@ -144,16 +155,15 @@ import imgBahanBerbahayaTidak from '@site/assets/images/lain-lain/jkkp5/tidak_ba
 ---
 
 import OkPerakuan from '@site/src/components/lain-lain/jkkp5/tab-perakuan';
-
 import imgPerakuan from '@site/assets/images/lain-lain/jkkp5/tab_perakuan.png';
-
 import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan
     tabNumber={4}
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
-    mesejBerjayaImgSrc={imgMesejBerjaya} />
+    mesejBerjayaImgSrc={imgMesejBerjaya} 
+/>
 </div>
 
 <div className="step-card">
@@ -164,7 +174,6 @@ import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghanta
   <TabItem value="lai" label="LAI" default> 
   
 import LaporanJkkp5 from '@site/src/components/lain-lain/jkkp5/laporan-jkkp5';
-
 import imgSenaraiJkkp5 from '@site/assets/images/lain-lain/jkkp5/laporan/senarai_jkkp5_dihantar.png';
 import imgButangLaporan from '@site/assets/images/lain-lain/jkkp5/laporan/butang_pemberitahuan_laporan.png';
 import imgPopupLaporan from '@site/assets/images/lain-lain/jkkp5/laporan/popup_laporan_perlu_dihantar.png';
@@ -286,17 +295,11 @@ import mesejHantarDosoImg from '@site/assets/images/lain-lain/jkkp5/DOSO/mesej-h
 <TabItem value="erpdalamtapak" label="ERP (DalamTapak)" default> 
   
 import PelaksanaanJkkp5 from '@site/src/components/lain-lain/jkkp5/pelaksanaan-jkkp5';
-
 import senaraiPelaksanaanJkkp5Img from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/senarai-pelaksanaan-jkkp5.png';
-
 import butangPelaksanaanImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/butang-pelaksanaan.png';
-
 import popupPelaksanaanImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/popup-pelaksanaan.png';
-
 import tabErpDalamTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/tab-erp-dalam-tapak.png';
-
 import senaraiBahanBerbahayaERPImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/senarai_bahan_berbahaya.png';
-
 import mesejHantarErpDalamTapakImg from '@site/assets/images/lain-lain/jkkp5/pelaksanaan/mesej-hantar-erp.png';
 
   <PelaksanaanJkkp5
