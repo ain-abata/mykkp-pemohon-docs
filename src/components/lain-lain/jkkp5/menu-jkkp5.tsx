@@ -15,9 +15,7 @@ export default function LangkahMenuUtama({
   popupMaklumanImgSrc,
 }: LangkahMenuUtamaProps) {
   return (
-    <div className="step-card">
-      <h3>Langkah {stepNumber}: Laman Menu Utama</h3>
-
+    <div>
       <ol>
         <li>Laman <b>Menu Utama</b> akan dipaparkan seperti di bawah.</li>
       </ol>

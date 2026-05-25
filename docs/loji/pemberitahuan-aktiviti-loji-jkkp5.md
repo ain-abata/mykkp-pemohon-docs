@@ -79,14 +79,24 @@ import TabItem from '@theme/TabItem';
 
 ## Langkah-langkah Pemberitahuan
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
-  stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+    stepNumber={1}
+    title="Akses Halaman Log Masuk MyKKP" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Halaman Pemberitahuan Aktiviti Industri
 
 import LangkahMenuUtama from '@site/src/components/lain-lain/jkkp5/menu-jkkp5';
-
 import imgMenuUtama from '@site/assets/images/lain-lain/jkkp5/menu_utama.png';
 import imgJkkp5 from '@site/assets/images/lain-lain/jkkp5/jkkp5_baru.png';
 import imgPopupMakluman from '@site/assets/images/lain-lain/jkkp5/popup_makluman.png';
@@ -98,12 +108,13 @@ import imgPopupMakluman from '@site/assets/images/lain-lain/jkkp5/popup_makluman
   popupMaklumanImgSrc={imgPopupMakluman}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Aktiviti Loji
+### Pengisian Borang Pemberitahuan Aktiviti Loji
 
 import TabButiranPepasangan from '@site/src/components/lain-lain/jkkp5/tab-butiran-pepasangan';
-
 import imgTabButiranPepasangan from '@site/assets/images/lain-lain/jkkp5/tab_butiran_pepasangan.png';
 import imgMaklumatPepasangan from '@site/assets/images/lain-lain/jkkp5/maklumat_pepasangan.png';
 

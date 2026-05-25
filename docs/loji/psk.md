@@ -33,11 +33,23 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Penarafan St
 
 ## 🧭 Langkah-langkah Permohonan
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Penarafan Status Kerajaan
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
@@ -45,14 +57,16 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
     stepNumber={2}
     pageName="Penarafan Status Kerajaan"
     kategoriPermohonan="Pemberitahuan Tempat Kerja"
-    moduleType="Permohonan Penarafan Status Kerajaan" />
+    moduleType="Permohonan Penarafan Status Kerajaan" 
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Penarafan Status Kerajaan
+### Pengisian Borang Permohonan Penarafan Status Kerajaan
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
-
 import imgMaklumatAm from '@site/assets/images/loji/psk/tab_maklumat_am.png';
 
 <MaklumatAm
@@ -62,7 +76,8 @@ import imgMaklumatAm from '@site/assets/images/loji/psk/tab_maklumat_am.png';
     hasRujukan={false}
     tabImgSrc={imgMaklumatAm}
     hasPemunyaAsalSection={false}
-    hasPemunyaSection={false} />
+    hasPemunyaSection={false} 
+/>
 
 ---
 
@@ -74,7 +89,8 @@ import tabImgSrc from '@site/assets/images/loji/psk/tab_perihal_permohonan.png';
     src={tabImgSrc}
     alt="Tab 2: Perihal Permohonan"
     caption="Tab 2: Perihal Permohonan"
-    width={450} />
+    width={450} 
+/>
 
 1. Pilih status kerajaan pada butang radio.
 2. Isi maklumat di medan **Ulasan / Perihal Permohonan**.
@@ -83,19 +99,18 @@ import tabImgSrc from '@site/assets/images/loji/psk/tab_perihal_permohonan.png';
 ---
 
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
-
 import imgDokumenSokongan from '@site/assets/images/loji/psk/tab_dokumen_sokongan.png';
 
 <DokumenSokongan
     alphabetNumbering="C"
     tabNumber={3}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokumenSokongan} />
+    tabImgSrc={imgDokumenSokongan} 
+/>
 
 ---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-
 import imgPerakuan from '@site/assets/images/loji/psk/tab_perakuan.png';
 
 <Perakuan
@@ -104,7 +119,8 @@ import imgPerakuan from '@site/assets/images/loji/psk/tab_perakuan.png';
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
     hasPayment={false}
-    noRujukan="XX/PSK/XX/XXXXX" />
+    noRujukan="XX/PSK/XX/XXXXX" 
+/>
     
 import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
 
@@ -113,19 +129,32 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 </div>
 
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/psk/halaman_permohonan_sedang_diproses.png';
-
 import imgSelesaiProses from '@site/assets/images/loji/psk/halaman_permohonan_selesai_diproses.png';
+
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PSL
+
+<div className="step-card">
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PSK"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
 
+</div>
+
+## 📩 Semak Surat Menyurat
+
+<div className="step-card">
 
 import SemakSurat from '@site/src/components/loji/semak-surat';
 
 <SemakSurat
-  stepNumber={5} />
+  stepNumber={5} 
+/>
+
+</div>
