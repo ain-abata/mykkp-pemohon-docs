@@ -53,7 +53,7 @@ import LoginStep from '@site/src/components/login-step';
   title="Akses Halaman Log Masuk MyKKP" />
 </div>
 
-import MenuLoji from '@site/src/components/JKKP12/menu-jkkp12';
+import MenuLoji from '@site/src/components/jkkp12/menu-jkkp12';
 
 <div className="step-card">
 

@@ -57,7 +57,7 @@ import LoginStep from '@site/src/components/login-step';
 
 ### Halaman Permohonan Pemberitahuan Projek
 
-import MenuLoji from '@site/src/components/JKKP12/menu-jkkp12';
+import MenuLoji from '@site/src/components/jkkp12/menu-jkkp12';
 
 <MenuLoji
     stepNumber={2}
