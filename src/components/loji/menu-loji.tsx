@@ -49,7 +49,6 @@ export default function MenuLoji({
 }: MenuLojiProps) {
   return (
     <div>
-
       <ExpandableImage
         src={imgMenu}
         alt={`Halaman Menu Utama`}

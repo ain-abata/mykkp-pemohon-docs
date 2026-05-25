@@ -33,9 +33,7 @@ export default function Pembayaran({
     imgResit,
 }: PembayaranProps) {
     return (
-        <div className="step-card">
-            <h3>Langkah {stepNumber}: {paymentType}</h3>
-
+        <div>
             <ExpandableImage
                 src={imgBayar}
                 alt="Senarai Pembayaran"
@@ -58,3 +56,4 @@ export default function Pembayaran({
         </div>
     );
 }
+

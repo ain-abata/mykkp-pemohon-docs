@@ -32,8 +32,7 @@ export default function SemakStatus({
     imgTabSelesaiDiproses,
 }: SemakStatusProps) {
     return (
-        <div className="step-card">
-            <h3>Langkah {stepNumber}: Penyemakan Status Permohonan {moduleName}</h3>
+        <div>
             <Tabs>
                 <TabItem value="sedangDiproses" label="Permohonan Sedang Diproses" default>
                     <h4 className="print-only">A. Semak Status - Permohonan Sedang Diproses</h4>

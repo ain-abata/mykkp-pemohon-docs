@@ -2,7 +2,6 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Link from '@docusaurus/Link';
-import ReactMarkdown from 'react-markdown';
 import imgLogin from '@site/assets/images/log_masuk.png';
 
 interface LoginStepProps {
