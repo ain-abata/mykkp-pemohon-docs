@@ -274,7 +274,10 @@ import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_
 
 <div className="page-break"></div>
 
-## 💳 Bayaran Permulaan & Bayaran Akhir
+## 💳 Bayaran Permulaan & Bayaran Akhir  
+Terdapat **DUA (2)** pembayaran bagi permohonan PEKALA iaitu:  
+1. Bayaran Permulaan - Bayaran selepas penghantaran permohonan.  
+2. Bayaran Akhir - Bayaran selepas permohonan selesai diproses pegawai.
 
 <div className="step-card">
 
