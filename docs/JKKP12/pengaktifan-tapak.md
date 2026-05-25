@@ -19,17 +19,18 @@ Pengaktifan Tapak Pembinaan hanya dibenarkan untuk **Kontraktor Prinsipal Kerja 
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP"
-  headerId="toLoginStep" />
+  title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 <div className="step-card">
-  ### Langkah 2: Masuk Ke Halaman Profil Tempat Kerja
+  
+### Masuk Ke Halaman Profil Tempat Kerja
 
 import imgProfilTK from '@site/assets/images/jkkp12/halaman_profil_tk.png';
 
@@ -44,7 +45,8 @@ import imgProfilTK from '@site/assets/images/jkkp12/halaman_profil_tk.png';
 </div>
 
 <div className="step-card">
-  ### Langkah 3: Masuk ke Halaman Pemberitahuan Tapak Pembinaan
+
+### Masuk ke Halaman Pemberitahuan Tapak Pembinaan
 
 import imgJKKP12 from '@site/assets/images/jkkp12/halaman_jkkp12.png';
 
@@ -64,7 +66,8 @@ import imgJKKP12 from '@site/assets/images/jkkp12/halaman_jkkp12.png';
 </div>
 
 <div className="step-card">
-  ### Langkah 4: Pengaktifan Tapak Pembinaan
+
+### Pengaktifan Tapak Pembinaan
 
   1. Semak maklumat **Pemberitahuan Tapak Pembinaan**.
   2. Untuk mengaktifkan tapak pembinaan, klik pada butang **Aktifkan Tapak**.

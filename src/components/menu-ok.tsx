@@ -66,9 +66,7 @@ export default function MenuOk({
   headerId,
 }: MenuOkProps) {
   return (
-    <div className="step-card">
-      <h3 id={headerId}>Langkah {stepNumber}: Masuk Ke Halaman Pendaftaran {pageName}</h3>
-
+    <div>
       
       <ExpandableImage
         src={imgMenu}

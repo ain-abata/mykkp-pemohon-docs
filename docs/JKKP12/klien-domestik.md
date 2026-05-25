@@ -44,20 +44,20 @@ Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan JKKP 12 adal
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP"
-  headerId="toLoginStep" />
-
-import MenuLoji from '@site/src/components/loji/menu-loji';
-
-<div className="toc-only">
-### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
+  title="Akses Halaman Log Masuk MyKKP" />
 </div>
+
+import MenuLoji from '@site/src/components/jkkp12/menu-jkkp12';
+
+<div className="step-card">
+
+### Halaman Permohonan Pemberitahuan Projek
 
 <MenuLoji
     stepNumber={2}
@@ -65,10 +65,11 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
     kategoriPermohonan="Pemberitahuan Projek Pembinaan"
     moduleType="Pemberitahuan JKKP12 (Klien Domestik/Orang Perseorangan/Individu)"
     headerId="toMenuStep" />
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemberitahuan JKKP12 (Klien Domestik)
+### Pemberitahuan Projek- Klien Domestik
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 
@@ -76,32 +77,15 @@ import imgMaklumatAm from '@site/assets/images/jkkp12/klien-domestik/tab_makluma
 
 <MaklumatAm
     tabNumber={1}
+    tabName="Maklumat am"
     tabImgSrc={imgMaklumatAm}
     maklumatHubunganImgSrc={imgMaklumatAm}
      />
 
 ---
 
-#### B. Tab 2: Maklumat Projek
-
 import imgMaklumatProjek from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_projek.png';
 
-<ExpandableImage
-    src={imgMaklumatProjek}
-    alt="Tab 2: Maklumat Projek"
-    caption="Tab 2: Maklumat Projek"
-    width={450} />
-
-1. Isi maklumat mandatori pada bahagian **Maklumat Projek**.
-2. Pilih jenis butang radio Maklumat **Alamat Surat-Menyurat Projek**.
-
-<Admonition type="tip">
-    - Jika Alamat Surat-Menyurat Projek tidak sama seperti Alamat Surat-Menyurat Klien, klik pada butang radio **Alamat Surat-Menyurat tidak sama seperti Alamat Surat-Menyurat Klien**.  
-    - Jika sama, pilih butang radio **Alamat Surat-Menyurat sama seperti Alamat Surat-Menyurat Klien** dan isi maklumat pada medan yang disediakan.
-</Admonition>
-
-3. Isi maklumat pada bahagian **Maklumat Pegawai Yang Bertanggungjawab (Klien)**.
-4. Klik butang **Seterusnya**.
 
 import MaklumatProjek from '@site/src/components/jkkp12/maklumat-projek';
 
@@ -112,7 +96,7 @@ import MaklumatProjek from '@site/src/components/jkkp12/maklumat-projek';
 
 ---
 
-#### C. Tab 3: Maklumat Tapak
+#### Tab 3: Maklumat Tapak
 
 import imgMaklumatTapak from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_tapak.png';
 
@@ -137,7 +121,6 @@ import Perakuan from '@site/src/components/loji/tab/perakuan';
 import imgPerakuan from '@site/assets/images/jkkp12/klien-domestik/tab_perakuan.png';
 
 <Perakuan
-    alphabetNumbering="D"
     tabNumber={4}
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
@@ -151,9 +134,9 @@ import imgPerakuan from '@site/assets/images/jkkp12/klien-domestik/tab_perakuan.
 
 <div className="step-card">
 
-### Langkah 4: Pemberitahuan Tapak Pembinaan
+### Pemberitahuan Tapak Pembinaan
 
-#### A. Tab 1: Maklumat Projek
+#### Tab 1: Maklumat Projek
 
 import imgTab1TapakBina from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_am_tapak_bina.png';
 
@@ -168,7 +151,7 @@ import imgTab1TapakBina from '@site/assets/images/jkkp12/klien-domestik/tab_makl
 
 ---
 
-#### B. Tab 2: Maklumat Tapak
+#### Tab 2: Maklumat Tapak
 
 import imgTab2TapakBina from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_tapak_pembinaan.png';
 
@@ -188,7 +171,7 @@ import imgTab2TapakBina from '@site/assets/images/jkkp12/klien-domestik/tab_makl
 
 ---
 
-#### C. Tab 3: Maklumat Kemajuan
+#### Tab 3: Maklumat Kemajuan
 
 import imgTab3MaklumatKemajuan from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_kemajuan.png';
 
@@ -203,7 +186,7 @@ import imgTab3MaklumatKemajuan from '@site/assets/images/jkkp12/klien-domestik/t
 
 ---
 
-#### D. Tab 4: Maklumat Kontraktor
+#### Tab 4: Maklumat Kontraktor
 
 import imgTab4MaklumatKontraktor from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_kontraktor.png';
 
@@ -243,7 +226,7 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 ---
 
-#### E. Tab 5: Maklumat Pereka Bentuk
+#### Tab 5: Maklumat Pereka Bentuk
 
 import imgTab5MaklumatPerekaBentuk from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_pereka_bentuk.png';
 
@@ -271,7 +254,7 @@ import imgTab5MaklumatPerekaBentuk from '@site/assets/images/jkkp12/klien-domest
 
 ---
 
-#### F. Tab 6: Bilangan Pekerja Tapak Pembinaan
+#### Tab 6: Bilangan Pekerja Tapak Pembinaan
 
 import imgTab6BilanganPekerja from '@site/assets/images/jkkp12/klien-domestik/tab_bilangan_pekerja.png';
 
@@ -285,7 +268,7 @@ import imgTab6BilanganPekerja from '@site/assets/images/jkkp12/klien-domestik/ta
 2. Klik butang **Seterusnya**.
 
 ---
-#### G. Tab 7: Maklumat Orang Kompeten
+#### Tab 7: Maklumat Orang Kompeten
 
 import imgTab7MaklumatOrangKompeten from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_orang_kompeten.png';
 
@@ -322,7 +305,7 @@ import imgTab7MaklumatOrangKompeten from '@site/assets/images/jkkp12/klien-domes
 
 ---
 
-#### H. Tab 8: Maklumat Orang Yang Terlibat
+#### Tab 8: Maklumat Orang Yang Terlibat
 
 import imgTab8MaklumatOrangTerlibat from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_orang _yang_terlibat.png';
 
@@ -376,7 +359,7 @@ import imgTab8MaklumatOrangTerlibat from '@site/assets/images/jkkp12/klien-domes
 
 ---
 
-#### i. Tab 9: Dokumen Sokongan
+#### Tab 9: Dokumen Sokongan
 
 import imgTab9DokumenSokongan from '@site/assets/images/jkkp12/klien-domestik/tab_dokumen_sokongan.png';
 

@@ -12,29 +12,35 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
+</div>
+
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil OSH-Coordinator](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil OSH-Coordinator
+
 <MenuOk
   stepNumber={2}
   pageName="Operator Kren Menara"
   okType="Orang Yang terlatih"
   hasDropdown={false}
   moduleName="[OSH-C] - OSH-Coordinator"
-   />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran OSH-Coordinator
+### Pengisian Borang Pendaftaran OSH-Coordinator
 
 {/* Step A. Tab 1: Maklumat Am */}
 import OkMaklumatAm from '../../../src/components/tab-ok/maklumat-am';
@@ -44,7 +50,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/osh/daftar/tab_m
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -54,7 +60,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/osh/daftar/
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -69,7 +75,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/osh/d
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/osh/daftar/tab_pengalaman_kerja.png';
@@ -82,7 +88,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/osh/daf
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import OkMaklumatKursusBerkaitan from '../../../src/components/tab-ok/maklumat-jadual';
@@ -94,7 +100,7 @@ import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/osh/daf
     tabName="Kursus OSH-C"
     tabImgSrc={imgJadualKursusBerkaitan}
      />
-
+---
 
 
 {/* Step F. Tab 6: Sijil Kompetensi */}
@@ -108,7 +114,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/osh/daftar/tab_sijil_
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step G. Tab 7: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -120,7 +126,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/osh/daftar/
     tabNumber={7}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step I. Tab 9: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

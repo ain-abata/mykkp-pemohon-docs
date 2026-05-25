@@ -12,19 +12,21 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
+</div>
+
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Penyelia Keselamatan Tapak](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Penyelia Keselamatan Tapak
 
 <MenuOk
   stepNumber={2}
@@ -32,11 +34,13 @@ import MenuOk from '../../../src/components/menu-ok';
   okType="Tapak"
   hasDropdown={true}
   moduleName="[SSS] - Penyelia Keselamatan Tapak"
- />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Penyelia Keselamatan Tapak
+### Pengisian Borang Pendaftaran Penyelia Keselamatan Tapak
 
 {/* Step A. Tab 1: Maklumat Am */}
 
@@ -47,7 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/keselamatan-tapa
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -57,7 +61,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/keselamatan
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={false}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -72,7 +76,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kesel
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/keselamatan-tapak/daftar/tab_pengalaman_kerja.png';
@@ -85,7 +89,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/keselam
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/keselamatan-tapak/daftar/tab_kursus_berkaitan.png';
@@ -98,7 +102,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/keselam
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -110,7 +114,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/keselamatan-tapak/daf
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step G. Tab 7: Maklumat Perubatan */}
 
 import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan-mmc';
@@ -122,7 +126,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/keselamat
     tabNumber={7}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
-
+---
 {/* Step H. Tab 8: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -134,7 +138,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/keselamatan
     tabNumber={8}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step I. Tab 9: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

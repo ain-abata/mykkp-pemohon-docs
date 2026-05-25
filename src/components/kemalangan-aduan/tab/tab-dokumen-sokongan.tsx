@@ -16,7 +16,7 @@ export default function TabDokumenSokongan({
 }: TabDokumenSokonganProps) {
   return (
     <div>
-      <h4>D. Tab {tabNumber}: {tabName}</h4>
+      <h4>Tab {tabNumber}: {tabName}</h4>
       <ExpandableImage
         src={tabImgSrc}
         alt={`Tab ${tabNumber}: ${tabName}`}

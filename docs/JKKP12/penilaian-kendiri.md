@@ -62,18 +62,20 @@ Berikut merupakan kata kunci peranan yang terlibat dalam **Penilaian Kendiri OSH
 
 ## Penilaian Kendiri
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 import LoginStep from '@site/src/components/login-step';
+
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 <div className="step-card">
 
-### Langkah 2: Laman Menu Utama
+### Laman Menu Utama
 
 <ol>
   <li>
@@ -132,7 +134,7 @@ import LoginStep from '@site/src/components/login-step';
 
 <div className="step-card">
 
-### Langkah 3: Laman Ruangan-Kerja Tapak Pembinaan
+### Laman Ruangan-Kerja Tapak Pembinaan
 
 <ol>
   <li>
@@ -166,7 +168,7 @@ import LoginStep from '@site/src/components/login-step';
 
 <div className="step-card">
 
-### Langkah 4: Laman Penilaian Kendiri OSHPA
+### Laman Penilaian Kendiri OSHPA
 
 <ol>
   <li>

@@ -25,7 +25,7 @@ export default function TabMaklumatPemberitahu({
 
     return (
         <div>
-            <h4>B. Tab {tabNumber}: {tabName}</h4>
+            <h4>Tab {tabNumber}: {tabName}</h4>
             <ol>
                 <li>
                     Pada bahagian <b>Jenis Pemberitahuan</b>, pilih salah satu pilihan berikut:

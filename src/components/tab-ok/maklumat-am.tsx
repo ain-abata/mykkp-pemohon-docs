@@ -34,7 +34,7 @@ export default function OkMaklumatAm({
 }: OkMaklumatAmProps) {
     return (
         <div>
-            <h4>A. Tab 1: Maklumat Am</h4>
+            <h4>Tab 1: Maklumat Am</h4>
             <ExpandableImage
                 src={tabImgSrc}
                 alt="Tab 1 Maklumat Am"

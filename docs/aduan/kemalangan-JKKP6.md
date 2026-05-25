@@ -11,19 +11,20 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 import MenuAduan from '@site/src/components/kemalangan-aduan/menu-aduan';
 
-<div className="toc-only">
-### [Langkah 2: Pemberitahuan Kemalangan](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pemberitahuan Kemalangan
 
 <MenuAduan
     stepNumber={2}
@@ -31,9 +32,11 @@ import MenuAduan from '@site/src/components/kemalangan-aduan/menu-aduan';
     kategoriPermohonan="Pemberitahuan Kemalangan"
     moduleType="Pemberitahuan Kemalangan(JKKP6) (Hanya boleh diisi oleh pihak majikan atau PIC yang dilantik oleh majikan sendiri)" />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Aduan
+### Pengisian Borang Pemberitahuan Aduan
 
 import TabSemakanPemberitahuan from '@site/src/components/kemalangan-aduan/tab/tab-semakan-pemberitahuan';
 
