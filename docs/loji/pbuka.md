@@ -191,7 +191,7 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_b
 
 <MenuLoji
     stepNumber={2}
-    pageName="Pemeriksaan Berkala Loji"
+    pageName="Pemberitahuan Pembaikan Loji"
     kategoriPermohonan="Pemeriksaan Berkala Loji Berperakuan"
     moduleType="Pemeriksaan Berkala - Penghuni" 
 />
