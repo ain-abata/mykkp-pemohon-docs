@@ -54,6 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kualiti-udara/pe
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -64,6 +65,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kualiti-uda
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Pengalaman Kerja */}
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -78,6 +80,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kualiti
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step D. Tab 4: Maklumat CEP */}
 
@@ -96,6 +99,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/kualiti-uda
   tabImgSrc={imgMaklumatCep}
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}/>
+---
 
 
 {/* Step E. Tab 5: Sijil Kompetensi */}
@@ -109,6 +113,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/kualiti-udara/pembaha
     tabNumber={5}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step F. Tab 6: Dokumen Sokongan */}
 
@@ -121,6 +126,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kualiti-uda
     tabNumber={6}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step G. Tab 7: Perakuan */}
 

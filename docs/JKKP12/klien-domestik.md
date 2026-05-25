@@ -77,6 +77,7 @@ import imgMaklumatAm from '@site/assets/images/jkkp12/klien-domestik/tab_makluma
 
 <MaklumatAm
     tabNumber={1}
+    tabName="Maklumat am"
     tabImgSrc={imgMaklumatAm}
     maklumatHubunganImgSrc={imgMaklumatAm}
      />
@@ -120,7 +121,6 @@ import Perakuan from '@site/src/components/loji/tab/perakuan';
 import imgPerakuan from '@site/assets/images/jkkp12/klien-domestik/tab_perakuan.png';
 
 <Perakuan
-    alphabetNumbering="D"
     tabNumber={4}
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
@@ -226,7 +226,7 @@ import HapusMaklumat from '@site/src/components/admonitions/hapus-maklumat';
 
 ---
 
-#### E. Tab 5: Maklumat Pereka Bentuk
+#### Tab 5: Maklumat Pereka Bentuk
 
 import imgTab5MaklumatPerekaBentuk from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_pereka_bentuk.png';
 
@@ -254,7 +254,7 @@ import imgTab5MaklumatPerekaBentuk from '@site/assets/images/jkkp12/klien-domest
 
 ---
 
-#### F. Tab 6: Bilangan Pekerja Tapak Pembinaan
+#### Tab 6: Bilangan Pekerja Tapak Pembinaan
 
 import imgTab6BilanganPekerja from '@site/assets/images/jkkp12/klien-domestik/tab_bilangan_pekerja.png';
 
@@ -268,7 +268,7 @@ import imgTab6BilanganPekerja from '@site/assets/images/jkkp12/klien-domestik/ta
 2. Klik butang **Seterusnya**.
 
 ---
-#### G. Tab 7: Maklumat Orang Kompeten
+#### Tab 7: Maklumat Orang Kompeten
 
 import imgTab7MaklumatOrangKompeten from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_orang_kompeten.png';
 
@@ -305,7 +305,7 @@ import imgTab7MaklumatOrangKompeten from '@site/assets/images/jkkp12/klien-domes
 
 ---
 
-#### H. Tab 8: Maklumat Orang Yang Terlibat
+#### Tab 8: Maklumat Orang Yang Terlibat
 
 import imgTab8MaklumatOrangTerlibat from '@site/assets/images/jkkp12/klien-domestik/tab_maklumat_orang _yang_terlibat.png';
 
@@ -359,7 +359,7 @@ import imgTab8MaklumatOrangTerlibat from '@site/assets/images/jkkp12/klien-domes
 
 ---
 
-#### i. Tab 9: Dokumen Sokongan
+#### Tab 9: Dokumen Sokongan
 
 import imgTab9DokumenSokongan from '@site/assets/images/jkkp12/klien-domestik/tab_dokumen_sokongan.png';
 

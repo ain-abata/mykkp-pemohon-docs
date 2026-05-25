@@ -51,7 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/pengapit/daftar/
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -61,7 +61,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/pengapit/da
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -77,7 +77,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/penga
     tabImgSrc={imgJadualKelayakanAkademik}
     hasDropdown={true}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/pengapit/daftar/tab_pengalaman_kerja.png';
@@ -90,7 +90,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/pengapi
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_kursus_berkaitan.png';
@@ -103,7 +103,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-h
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Pengalaman Penaksiran Risiko Kimia */}
 
 import imgPengalamanRisiko from '@site/assets/images/orang-kompeten/pengapit/daftar/tab_pengalaman_risiko.png';
@@ -116,7 +116,7 @@ import imgTambahPengalamanRisiko from '@site/assets/images/orang-kompeten/pengap
     tabName="Pengalaman Penaksiran Risiko Kimia"
     tabImgSrc={imgPengalamanRisiko}
     tambahImgSrc={imgTambahPengalamanRisiko} />
-
+---
 {/* Step G. Tab 7: Maklumat Keahlian */}
 
 import imgMaklumatKeahlian from '@site/assets/images/orang-kompeten/pengapit/daftar/tab_maklumat _keahlian.png';
@@ -129,7 +129,7 @@ import imgTambahMaklumatKeahlian from '@site/assets/images/orang-kompeten/pengap
     tabName="Pengalaman Penaksiran Risiko Kimia"
     tabImgSrc={imgMaklumatKeahlian}
     tambahImgSrc={imgTambahMaklumatKeahlian} />
-
+---
 {/* Step H. Tab 8: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -141,7 +141,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/pengapit/daftar/tab_s
     tabNumber={8}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step I. Tab 9: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -153,7 +153,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/pengapit/da
     tabNumber={9}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step J. Tab 10: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

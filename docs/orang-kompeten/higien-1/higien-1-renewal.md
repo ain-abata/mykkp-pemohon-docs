@@ -51,7 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/higien-1/pembaha
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -61,7 +61,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/higien-1/pe
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={false}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Pengalaman Kerja */}
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
@@ -75,7 +75,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/higien-
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step D. Tab 4: Maklumat CEP */}
 
 import OkMaklumatCep from '../../../src/components/tab-ok/maklumat-cep';
@@ -94,7 +94,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/higien-1/pe
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}/>
 
-
+---
 {/* Step E. Tab 5: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -106,7 +106,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/higien-1/pembaharuan/
     tabNumber={5}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step F. Tab 6: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -118,7 +118,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/higien-1/pe
     tabNumber={6}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step G. Tab 7: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

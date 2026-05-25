@@ -51,6 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/kren-menara/daft
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -61,6 +62,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/kren-menara
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
@@ -76,6 +78,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kren-
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
+---
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
@@ -89,6 +92,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/kren-me
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
@@ -102,6 +106,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/kren-me
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
+---
 
 {/* Step F. Tab 6: Sijil Kompetensi */}
 
@@ -114,6 +119,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/kren-menara/daftar/ta
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step G. Tab 7: Maklumat Perubatan */}
 
@@ -126,6 +132,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/kren-mena
     tabNumber={7}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
+---
 
 {/* Step H. Tab 8: Dokumen Sokongan */}
 
@@ -138,6 +145,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/kren-menara
     tabNumber={8}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step I. Tab 9: Perakuan */}
 

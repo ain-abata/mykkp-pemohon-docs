@@ -50,7 +50,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/osh/daftar/tab_m
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -60,7 +60,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/osh/daftar/
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -75,7 +75,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/osh/d
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/osh/daftar/tab_pengalaman_kerja.png';
@@ -88,7 +88,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/osh/daf
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import OkMaklumatKursusBerkaitan from '../../../src/components/tab-ok/maklumat-jadual';
@@ -100,7 +100,7 @@ import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/osh/daf
     tabName="Kursus OSH-C"
     tabImgSrc={imgJadualKursusBerkaitan}
      />
-
+---
 
 
 {/* Step F. Tab 6: Sijil Kompetensi */}
@@ -114,7 +114,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/osh/daftar/tab_sijil_
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step G. Tab 7: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -126,7 +126,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/osh/daftar/
     tabNumber={7}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step I. Tab 9: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

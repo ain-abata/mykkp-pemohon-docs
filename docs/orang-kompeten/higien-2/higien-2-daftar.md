@@ -51,7 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/higien-2/daftar/
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -61,7 +61,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/higien-2/da
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -77,7 +77,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/higie
     tabImgSrc={imgJadualKelayakanAkademik}
     hasDropdown={true}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/higien-2/daftar/tab_pengalaman_kerja.png';
@@ -90,7 +90,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/higien-
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/higien-2/daftar/tab_kursus_berkaitan.png';
@@ -103,7 +103,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/higien-
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -115,7 +115,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/higien-2/daftar/tab_s
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step G. Tab 7: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -127,7 +127,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/higien-2/da
     tabNumber={7}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step H. Tab 8: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

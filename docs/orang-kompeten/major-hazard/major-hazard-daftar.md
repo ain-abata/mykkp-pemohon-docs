@@ -52,6 +52,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/major-hazard/daf
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -62,6 +63,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/major-hazar
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
@@ -77,6 +79,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/major
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
+---
 
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
@@ -90,6 +93,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/major-h
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
@@ -103,6 +107,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-h
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
+---
 
 {/* Step F. Tab 6: Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar  */}
 
@@ -116,6 +121,7 @@ import imgTambahPengalamanKawalan from '@site/assets/images/orang-kompeten/major
     tabName="Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar"
     tabImgSrc={imgPengalamanKawalan}
     tambahImgSrc={imgTambahPengalamanKawalan} />
+---
 
 {/* Step G. Tab 7: Sijil Kompetensi */}
 
@@ -128,6 +134,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/major-hazard/daftar/t
     tabNumber={7}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step H. Tab 8: Dokumen Sokongan */}
 
@@ -140,6 +147,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/major-hazar
     tabNumber={8}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step I. Tab 9: Perakuan */}
 

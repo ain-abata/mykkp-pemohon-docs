@@ -54,7 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/keselamatan-tapa
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -64,7 +64,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/keselamatan
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat CEP */}
 
 import OkMaklumatCep from '../../../src/components/tab-ok/maklumat-cep';
@@ -82,7 +82,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/keselamatan
   tabImgSrc={imgMaklumatCep}
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}/>
-
+---
 
 {/* Step D. Tab 4: Sijil Kompetensi */}
 
@@ -95,7 +95,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/keselamatan-tapak/pem
     tabNumber={4}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step E. Tab 5: Maklumat Perubatan */}
 
 import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan-mmc';
@@ -107,7 +107,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/keselamat
     tabNumber={5}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
-
+---
 {/* Step F. Tab 6: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -119,6 +119,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/keselamatan
     tabNumber={6}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step G. Tab 7: Perakuan */}
 

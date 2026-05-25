@@ -54,6 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/major-hazard/pem
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
+---
 
 {/* Step B. Tab 2: Maklumat Majikan */}
 
@@ -64,6 +65,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/major-hazar
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
+---
 
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
@@ -79,6 +81,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/major
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />   
+---
 
 {/* Step D. Tab 4: Kursus/Peperiksaan Berkaitan */}
 
@@ -92,6 +95,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-h
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
+---
 
 {/* Step E. Tab 5: Makluumat CEP */}
 
@@ -111,6 +115,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/major-hazar
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}
 />
+---
 
 {/* Step F. Tab 6: Pengalaman Kerja */}
 
@@ -124,6 +129,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/major-h
     tabName="Pengalaman Kerja"
     tabImgSrc={imgPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
+---
 
 {/* Step G. Tab 7: Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar  */}
 
@@ -137,6 +143,7 @@ import imgTambahPengalamanKawalan from '@site/assets/images/orang-kompeten/major
     tabName="Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar"
     tabImgSrc={imgPengalamanKawalan}
     tambahImgSrc={imgTambahPengalamanKawalan} />
+---
 
 {/* Step H. Tab 8: Senarai Laporan Aktiviti Industri atau Pelan Kecemasan Tapak (Terkini)  */}
 
@@ -150,6 +157,7 @@ import imgTambahLaporanAktiviti from '@site/assets/images/orang-kompeten/major-h
     tabName="Pengalaman Berkaitan Kawalan Terhadap Bahaya Kemalangan Besar"
     tabImgSrc={imgLaporanAktiviti}
     tambahImgSrc={imgTambahLaporanAktiviti} />
+---
 
 {/* Step I. Tab 9: Sijil Kompetensi */}
 
@@ -162,6 +170,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/major-hazard/pembahar
     tabNumber={9}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
+---
 
 {/* Step J. Tab 10: Dokumen Sokongan */}
 
@@ -174,6 +183,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/major-hazar
     tabNumber={10}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step L. Tab 11: Perakuan */}
 

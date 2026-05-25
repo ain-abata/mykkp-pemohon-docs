@@ -38,7 +38,7 @@ export default function SenaraiLoji({
 }: SenaraiLojiProps) {
     return (
         <>
-            <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
+            <h4>Tab {tabNumber}: {tabName}</h4>
             <ExpandableImage
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}

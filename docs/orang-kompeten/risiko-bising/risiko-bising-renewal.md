@@ -54,7 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/risiko-bising/pe
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -65,7 +65,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/risiko-bisi
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
 
-
+---
 {/* Step C. Tab 3: Pengalaman Kerja */}
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
 
@@ -79,7 +79,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/risiko-
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step D. Tab 4: Maklumat CEP */}
 
 import OkMaklumatCep from '../../../src/components/tab-ok/maklumat-cep';
@@ -97,7 +97,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/risiko-bisi
   tabImgSrc={imgMaklumatCep}
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}/>
-
+---
   {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/risiko-bising/pembaharuan/tab_kursus_berkaitan.png';
@@ -110,7 +110,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/risiko-
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -122,7 +122,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/risiko-bising/pembaha
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step G. Tab 7: Maklumat Perubatan */}
 import OkMaklumatPerubatanOHD from '@site/src/components/tab-ok/maklumat-perubatan-ohd';
 
@@ -133,7 +133,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/risiko-bi
     tabNumber={7}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
-
+---
 {/* Step H. Tab 8: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -145,7 +145,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/risiko-bisi
     tabNumber={8}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step I. Tab 9: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

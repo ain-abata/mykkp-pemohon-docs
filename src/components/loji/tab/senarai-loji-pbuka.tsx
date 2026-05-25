@@ -19,7 +19,7 @@ export default function TabSenaraiLoji({
 }: TabSenaraiLojiProps) {
   return (
     <div>
-      <h4>{alphabetNumbering}. Tab {tabNumber}: {tabName}</h4>
+      <h4>Tab {tabNumber}: {tabName}</h4>
 
       <ExpandableImage
         src={tabImgSrc}

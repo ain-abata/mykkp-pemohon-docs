@@ -51,7 +51,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/agtes/pembaharua
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm} />
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 import OkMaklumatMajikan from '@site/src/components/tab-ok/maklumat-majikan';
 
@@ -60,7 +60,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/agtes/pemba
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={false}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Tempat Kerja */}
 import OkMaklumatTK from '@site/src/components/tab-ok/maklumat-tempat-kerja';
 
@@ -71,7 +71,7 @@ import imgOkMaklumatTK from '@site/assets/images/orang-kompeten/agtes/pembaharua
     tabNumber={3}
     tabName="Maklumat Tempat Kerja"
     tabImgSrc={imgOkMaklumatTK} />
-
+---
 {/* Step D. Tab 4: Maklumat Kelayakan Akademik */}
 import OkMaklumatJadual from '@site/src/components/tab-ok/maklumat-jadual';
 
@@ -85,7 +85,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/agtes
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step E. Tab 5: Maklumat Kursus Berkaitan */}
 import OkMaklumatKursusBerkaitan from '@site/src/components/tab-ok/maklumat-kursus-berkaitan';
 
@@ -96,7 +96,7 @@ import imgKursusBerkaitan from '@site/assets/images/orang-kompeten/agtes/pembaha
     tabNumber={5}
     tabName="Maklumat Kursus Berkaitan"
     tabImgSrc={imgKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Pengalaman Kerja */}
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/agtes/pembaharuan/tab_pengalaman_kerja.png';
 
@@ -108,7 +108,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/agtes/p
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step G. Tab 7: Sijil Kompetensi */}
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
 
@@ -119,7 +119,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/agtes/pembaharuan/tab
     tabNumber={7}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step H. Tab 8: Dokumen Sokongan */}
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
 
@@ -130,7 +130,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/agtes/pemba
     tabNumber={8}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step I. Tab 9: Perakuan */}
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
 

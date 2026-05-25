@@ -58,6 +58,7 @@ import imgCarianTempatKerja from '@site/assets/images/orang-kompeten/medical-sur
   tabImgSrc={imgTab1TempatKerja}
   carianImgSrc={imgCarianTempatKerja}
 />
+---
 
 {/* Step B. Tab 2: Maklumat Bahan Kimia */}
 import MaklumatBahanKimia from '../../../src/components/medical-surveillance/maklumat-bahan-kimia';
@@ -72,6 +73,7 @@ import imgPopupBahanKimia from '@site/assets/images/orang-kompeten/medical-surve
   tabImgSrc={imgTab2BahanKimia}
   popupImgSrc={imgPopupBahanKimia}
 />
+---
 
 {/* Step C. Tab 3: Maklumat Pekerja */}
 
@@ -85,6 +87,7 @@ import imgTab3MaklumatPekerja from '@site/assets/images/orang-kompeten/medical-s
   tabName="Maklumat Pekerja"
   tabImgSrc={imgTab3MaklumatPekerja}
 />
+---
 
 {/* Step D. Tab 4: Butiran Pemeriksaan Abnormal */}
 import ButiranPemeriksaanAbnormal from '../../../src/components/medical-surveillance/butiran-pemeriksaan-abnormal';
@@ -100,6 +103,7 @@ import imgPopupAbnormal from '@site/assets/images/orang-kompeten/medical-surveil
   tabImgSrc={imgTab4Abnormal}
   popupImgSrc={imgPopupAbnormal}
 />
+---
 
 {/* Step I. Tab 9: Dokumen Sokongan */}
 
@@ -112,6 +116,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/medical-sur
     tabNumber={5}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step F. Tab 6: Perakuan */}
 
