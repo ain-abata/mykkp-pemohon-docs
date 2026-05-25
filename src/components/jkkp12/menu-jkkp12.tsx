@@ -2,9 +2,9 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
-import imgMenu from '@site/assets/images/orang-kompeten/bohs/menu_bohs.png';
+import imgMenu from '@site/assets/images/loji/pekala/menu_utama.png';
 
-interface MenuBohsProps {
+interface MenuLojiProps {
   stepNumber: number;
   pageName: string;
   kategoriPermohonan: string;
@@ -13,13 +13,14 @@ interface MenuBohsProps {
   hasDropdown: boolean;
 }
 
-export default function MenuBohs({
+export default function MenuLoji({
   stepNumber,
   pageName,
   kategoriPermohonan,
   moduleType,
-}: MenuBohsProps) {
+}: MenuLojiProps) {
   return (
+
     <div >
       <ExpandableImage
         src={imgMenu}
@@ -27,9 +28,8 @@ export default function MenuBohs({
         caption={`Halaman Menu Utama`}
         width={650}
       />
-
       <ol>
-        <li>Klik pada butang <b>Lain-Lain Permohonan</b>.</li>
+        <li>Klik pada butang <b>Pendaftaran, Pemeriksaan, Pengujian Tempat Kerja/Loji/Projek Pembinaan</b>.</li>
         <li>Klik <b>{kategoriPermohonan}</b>.</li>
       </ol>
 
@@ -43,7 +43,7 @@ export default function MenuBohs({
       </ol>
 
       <Admonition type="info">
-        Halaman <b>{pageName}</b> akan dipaparkan pada tab baru.
+        Halaman <b>Permohonan {pageName}</b> akan dipaparkan pada tab baru.
       </Admonition>
     </div>
   );

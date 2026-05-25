@@ -12,18 +12,22 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
+</div>
+
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil Orang Kompeten Major Hazard](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Orang Kompeten Major Hazard
+
 <MenuOk
   stepNumber={2}
   pageName="Major Hazard"
@@ -31,11 +35,13 @@ import MenuOk from '../../../src/components/menu-ok';
   hasDropdown={true}
   moduleName="[OYKMH] - Orang Kompeten Major Hazard"
   moduleType="Major Hazard"
- />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Orang Kompeten Major Hazard
+### Pengisian Borang Pendaftaran Orang Kompeten Major Hazard
 
 {/* Step A. Tab 1: Maklumat Am */}
 

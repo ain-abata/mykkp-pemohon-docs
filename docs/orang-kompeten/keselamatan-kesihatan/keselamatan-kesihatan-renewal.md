@@ -11,13 +11,15 @@ import React from 'react';
 # 📝 Pembaharuan Sijil Pegawai Keselamatan & Kesihatan
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -25,10 +27,9 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-kesiha
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-kesihatan/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Keselamatan & Kesihatan](#toLoginStep)
-</div>
+<div className="step-card">
 
+### Halaman Pembaharuan Keselamatan & Kesihatan
 <PembaharuanOk
   stepNumber={2}
   pageName="Pegawai Keselamatan & Kesihatan"
@@ -36,10 +37,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-kes
   pageImgSrc={imgMaklumatOk}
   tambahImgSrc={tambahMaklumatOk}
 />
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Pegawai Keselamatan & Kesihatan
+### Pengisian Borang Pembaharuan Pegawai Keselamatan & Kesihatan
 
 {/* Step A. Tab 1: Maklumat Am */}
 

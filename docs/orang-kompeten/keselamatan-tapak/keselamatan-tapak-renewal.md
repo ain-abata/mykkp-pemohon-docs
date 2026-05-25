@@ -11,13 +11,15 @@ import React from 'react';
 # 📝 Pembaharuan Sijil Penyelia Keselamatan Tapak
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -25,9 +27,9 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tapak/
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tapak/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Penyelia Keselamatan Tapak](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Penyelia Keselamatan Tapak
 
 <PembaharuanOk
   stepNumber={2}
@@ -37,9 +39,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tap
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Penyelia Keselamatan Tapak
+### Pengisian Borang Pembaharuan Penyelia Keselamatan Tapak
 
 {/* Step A. Tab 1: Maklumat Am */}
 

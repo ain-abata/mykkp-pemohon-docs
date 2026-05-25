@@ -12,30 +12,35 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="step-card">
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
   
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil Orang Kompeten Pengapit](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Orang Kompeten Pengapit
+
 <MenuOk
   stepNumber={2}
   pageName="Pengapit"
   okType="Pengurusan Kimia"
   hasDropdown={false}
   moduleName="[CHRA(R)] - Orang Kompeten Pengapit"
- />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Orang Kompeten Pegawai Pengapit
+### Pengisian Borang Pendaftaran Orang Kompeten Pegawai Pengapit
 
 {/* Step A. Tab 1: Maklumat Am */}
 

@@ -44,29 +44,31 @@ Kriteria pemberitahu yang dibenarkan untuk menghantar pemberitahuan JKKP 12 adal
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP"
-  id="toLoginStep" />
-
-<div className="toc-only">
-### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
+  title="Akses Halaman Log Masuk MyKKP" />
 </div>
-import MenuLoji from '@site/src/components/loji/menu-loji';
+
+<div className="step-card">
+
+### Halaman Permohonan Pemberitahuan Projek
+
+import MenuLoji from '@site/src/components/JKKP12/menu-jkkp12';
 
 <MenuLoji
     stepNumber={2}
     pageName="Pemberitahuan Projek"
     kategoriPermohonan="Pemberitahuan Projek Pembinaan"
     moduleType="Pemberitahuan JKKP12- Klien" />
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pemberitahuan Projek - Klien
+### Pemberitahuan Projek- Klien
 
 import MaklumatAm from '@site/src/components/jkkp12/maklumat-am';
 import imgMaklumatAm from '@site/assets/images/jkkp12/klien/maklumat-am.png';
@@ -85,9 +87,6 @@ import MaklumatProjek from '@site/src/components/jkkp12/maklumat-projek';
 import maklumatProjekTabImg from '@site/assets/images/jkkp12/klien/maklumat-projek.png';
 import maklumatPegawaiKlienImg from '@site/assets/images/jkkp12/klien/maklumat-pegawai-klien.png';
 
-<div className="toc-only">
-### [Langkah 2: Masuk Ke Halaman Permohonan](#toMenuStep)
-</div>
 
   <MaklumatProjek
     tabNumber={2}
@@ -122,7 +121,7 @@ import mesejBerjayaImg from '@site/assets/images/jkkp12/klien/mesej-berjaya.png'
 <div className="step-card">
 <a id="pemberitahuan-tapak-pembinaan"></a>
 
-### Langkah 4 Pemberitahuan Tapak Pembinaan Projek
+### Pemberitahuan Tapak Pembinaan Projek
 
 import MaklumatProjekTapakPembinaan from '@site/src/components/jkkp12/maklumat-projek-tapak-pembinaan';
 

@@ -65,16 +65,18 @@ import imgPerakuan from '@site/assets/images/loji/psl/tab_perakuan.png';
 import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png';
 import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
+
 <LoginStep 
     stepNumber={1}
     title="Akses Halaman Log Masuk MyKKP" />
-
-<div className="toc-only">
-### [Langkah 2: Halaman Pemberitahuan Status Loji - Tidak Digunakan](#toLoginStep)
 </div>
+
+<div className="step-card">
+
+### Halaman Pemberitahuan Status Loji - Tidak Digunakan
 <MenuLoji
     stepNumber={2}
     pageName="Pemberitahuan Status Loji"
@@ -88,8 +90,12 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
       </>
     }
 />
+</div>
+
+
 <div className="step-card">
-    ### Langkah 3: Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
+
+    ### Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
     <MaklumatAm
         alphabetNumbering="A"
         tabNumber={1}

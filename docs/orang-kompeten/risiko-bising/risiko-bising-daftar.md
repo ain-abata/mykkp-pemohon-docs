@@ -12,30 +12,35 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="step-card">
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
   
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil Penaksir Risiko Bising](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Penaksir Risiko Bising
+
 <MenuOk
   stepNumber={2}
   pageName="Risiko Bising"
   okType="Higien"
   hasDropdown={false}
   moduleName="[PEB] - Penaksir Risiko Bising"
- />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Penaksir Risiko Bising
+### Pengisian Borang Pendaftaran Penaksir Risiko Bising
 
 {/* Step A. Tab 1: Maklumat Am */}
 

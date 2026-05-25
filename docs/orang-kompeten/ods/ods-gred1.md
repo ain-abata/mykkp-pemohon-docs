@@ -23,9 +23,10 @@ import LoginStep from '@site/src/components/login-step';
 
 import MenuOk from '@site/src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Sijil Operator Dandang Stim (Gred 1)](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Operator Dandang Stim (Gred 1)
+
 <MenuOk
   stepNumber={2}
   pageName="Operator Dandang Stim (Gred 1)"
@@ -33,6 +34,7 @@ import MenuOk from '@site/src/components/menu-ok';
   hasDropdown={true}
   moduleName="[DES] - Operator Dandang Stim"
   moduleType="Gred 1" />
+</div>
 
 <div className="step-card">
 

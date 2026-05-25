@@ -11,12 +11,15 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -24,9 +27,10 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/major-hazard/pemba
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/major-hazard/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Sijil Oarang Kompeten Major Hazard](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pembaharuan Sijil Orang Kompeten Major Hazard
+
 <PembaharuanOk
   stepNumber={2}
   pageName="Orang Kompeten Major Hazard"
@@ -35,9 +39,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/major-hazard/pe
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Orang Kompeten Major Hazard
+### Pengisian Borang Pembaharuan Orang Kompeten Major Hazard
 
 {/* Step A. Tab 1: Maklumat Am */}
 

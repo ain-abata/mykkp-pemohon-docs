@@ -12,19 +12,21 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
+</div>
+
 import MenuOk from '../../../src/components/menu-ok';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pendaftaran Penyelia Keselamatan Tapak](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pendaftaran Penyelia Keselamatan Tapak
 
 <MenuOk
   stepNumber={2}
@@ -32,11 +34,13 @@ import MenuOk from '../../../src/components/menu-ok';
   okType="Tapak"
   hasDropdown={true}
   moduleName="[SSS] - Penyelia Keselamatan Tapak"
- />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Penyelia Keselamatan Tapak
+### Pengisian Borang Pendaftaran Penyelia Keselamatan Tapak
 
 {/* Step A. Tab 1: Maklumat Am */}
 

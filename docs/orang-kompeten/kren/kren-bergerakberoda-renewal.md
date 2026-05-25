@@ -12,14 +12,15 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+<div className="step-card">
 
+### Akses Halaman Log Masuk MyKKP
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -27,9 +28,10 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/kren-bergerakberod
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/kren-bergerakberoda/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Sijil Operator Kren Bergerak Beroda](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pembaharuan Sijil Operator Kren Bergerak Beroda
+
 <PembaharuanOk
   stepNumber={2}
   pageName="Operator Kren Bergerak Beroda"
@@ -38,9 +40,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/kren-bergerakbe
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Operator Kren Bergerak Beroda
+### Pengisian Borang Pembaharuan Operator Kren Bergerak Beroda
 
 {/* Step A. Tab 1: Maklumat Am */}
 

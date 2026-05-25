@@ -11,13 +11,15 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="step-card">
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
@@ -25,9 +27,10 @@ import imgMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharu
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/butang-pembaharuan.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Sijil Orang Kompeten Pengapit](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pembaharuan Sijil Orang Kompeten Pengapit
+
 <PembaharuanOk
   stepNumber={2}
   pageName="Orang Kompeten Pengapit"
@@ -36,9 +39,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembah
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Orang Kompeten Pengapit
+### Pengisian Borang Pembaharuan Orang Kompeten Pengapit
 
 {/* Step A. Tab 1: Maklumat Am */}
 

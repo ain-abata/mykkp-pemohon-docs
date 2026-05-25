@@ -12,14 +12,14 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
+<div className="step-card">
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 {/* Langkah 2: Masuk ke Menu untuk melakukan Pembaharuan */}
 import PembaharuanOk from '@site/src/components/menu-renewal-ok';
@@ -28,20 +28,20 @@ import imgMenuOk from '@site/assets/images/orang-kompeten/agtes/pembaharuan/menu
 
 import imgMenuRenewal from '@site/assets/images/orang-kompeten/agtes/pembaharuan/halaman_senarai_kompetensi.png';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pembaharuan Penguji Gas Bertauliah dan Penyelia Kemasukan](#toLoginStep)
-</div>
+<div className="step-card">
 
+### Halaman Pembaharuan Penguji Gas Bertauliah dan Penyelia Kemasukan
 <PembaharuanOk 
     stepNumber={2}
     pageName="Penguji Gas Bertauliah dan Penyelia Kemasukan"
     registrationType="OYKAGTES"
     pageImgSrc={imgMenuOk}
     tambahImgSrc={imgMenuRenewal} />
+ </div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Penguji Gas Bertauliah dan Penyelia Kemasukan
+### Pengisian Borang Pembaharuan Penguji Gas Bertauliah dan Penyelia Kemasukan
 
 {/* Step A. Tab 1: Maklumat Am */}
 import OkMaklumatAm from '@site/src/components/tab-ok/maklumat-am';

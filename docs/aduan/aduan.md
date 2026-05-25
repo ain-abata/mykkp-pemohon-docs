@@ -9,31 +9,34 @@ import React from 'react';
 
 # 📝 Pemberitahuan Aduan berkaitan Keselamatan & Kesihatan Pekerjaan
 
+
+<div className="step-card">
+
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+### Akses Halaman Log Masuk 
 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 import MenuAduan from '@site/src/components/kemalangan-aduan/menu-aduan';
 
-<div className="toc-only">
-### [Langkah 2: Pemberitahuan Aduan](#toLoginStep)
-</div>
+<div className="step-card">
+
+### Halaman Pemberitahuan Aduan
 
 <MenuAduan
     stepNumber={2}
     pageName="Pemberitahuan Aduan"
     kategoriPermohonan="Pemberitahuan Aduan"
     moduleType="Pemberitahuan Aduan (Hanya berkaitan Keselamatan dan Kesihatan Pekerjaan di tempat kerja sahaja)" />
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Aduan
+### Pengisian Borang Pemberitahuan Aduan
 
 import TabButirPengadu from '@site/src/components/kemalangan-aduan/tab/tab-butir-pengadu';
 import imgButirPengadu from '@site/assets/images/kemalangan-aduan/aduan/tab1_butir_pengadu.png';
