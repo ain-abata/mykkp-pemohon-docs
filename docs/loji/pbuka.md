@@ -31,7 +31,7 @@ Jenis jentera yang terlibat bagi **Pemberitahuan Pembukaan Loji** adalah seperti
 
 
 ## 📂 Dokumen Sokongan
-Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan Permulaan** seperti:
+Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan Pembukaan Loji** seperti:
 
 <Admonition type="important">
     Dokumen yang bertanda ** wajib dimuat naik
@@ -164,6 +164,10 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_b
     noRujukan="XX/PBUKA/XX/XXXXX"
     hasPayment={false} 
 />
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
+
+<BatalOlehPemohon />
+
 </div>
 
 </TabItem>
@@ -255,6 +259,9 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_b
     noRujukan="XX/PBUKA/XX/XXXXX"
     hasPayment={false} 
 />
+
+<BatalOlehPemohon />
+
 </div>
 </TabItem>
 </Tabs>

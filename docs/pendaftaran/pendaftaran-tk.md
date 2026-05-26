@@ -15,8 +15,8 @@ Modul ini membolehkan pengguna membuat pendaftaran tempat kerja baharu serta men
 
 Terdapat dua fungsi utama dalam kategori ini, iaitu:
 
-**Daftar Tempat Kerja**  
-**Aktif Tempat Kerja**
+1. **Daftar Tempat Kerja**  
+2. **Aktif Tempat Kerja**
 
 Setiap fungsi mempunyai:
 

@@ -254,6 +254,10 @@ import imgPerakuan from '@site/assets/images/loji/pti/tab_perakuan.png';
     hasPayment={false} 
 />
 
+import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
+
+<BatalOlehPemohon />
+
 </div>
 
 ## 🔍 Semak Status Permohonan PTI

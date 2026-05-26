@@ -7,6 +7,7 @@ sidebar_label: 'Daftar Sebagai Pengguna MyKKP'
 
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 # 📝 Pendaftaran Akaun MyKKP
 
@@ -45,10 +46,12 @@ Klik pautan berikut:  👉 [Daftar Akaun MyKKP](https://mykkp.dosh.gov.my/#/home
 
 import step1 from '../../assets/images/pendaftaran/halaman_maklumat_peribadi.png';
 
-<div className="doc-image">
-  <img src={step1} />
-  <p>Halaman Utama Pendaftaran MyKKP</p>
-</div>
+<ExpandableImage
+        src={step1}
+        alt="Halaman Utama Pendaftaran MyKKP"
+        caption="Halaman Utama Pendaftaran MyKKP"
+        width={500} 
+/>
 
 1. Isi **Nama Penuh** seperti dalam kad pengenalan atau pasport.
 
@@ -85,10 +88,12 @@ import step1 from '../../assets/images/pendaftaran/halaman_maklumat_peribadi.png
 
 import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
 
-<div className="doc-image">
-  <img src={halaman_alamat} />
-  <p>Halaman Alamat</p>
-</div>
+<ExpandableImage
+        src={halaman_alamat}
+        alt="Halaman Alamat"
+        caption="Halaman Alamat"
+        width={500} 
+/>
 
 1. Isi **Alamat** kedudukan / surat-menyurat (nombor rumah, nama jalan, dan kawasan).
 
@@ -131,10 +136,12 @@ import halaman_alamat from '../../assets/images/pendaftaran/halaman_alamat.png';
 
 import halaman_kata_laluan from '../../assets/images/pendaftaran/halaman_kata_laluan.png'
 
-<div className="doc-image">
-  <img src={halaman_kata_laluan} />
-  <p>Halaman Kata Laluan</p>
-</div>
+<ExpandableImage
+        src={halaman_kata_laluan}
+        alt="Halaman Kata Laluan"
+        caption="Halaman Kata Laluan"
+        width={500} 
+/>
 
 1. Isi **ID Pengguna** mengikut tip dibawah 👇.
 
@@ -174,10 +181,12 @@ import halaman_kata_laluan from '../../assets/images/pendaftaran/halaman_kata_la
 
 import mesej_pendaftaran_berjaya from '../../assets/images/pendaftaran/mesej_pendaftaran_berjaya.png'
 
-<div className="doc-image">
-  <img src={mesej_pendaftaran_berjaya} />
-  <p>Mesej Pendataran Berjaya</p>
-</div>
+<ExpandableImage
+        src={mesej_pendaftaran_berjaya}
+        alt="Mesej Pendataran Berjaya"
+        caption="Mesej Pendataran Berjaya"
+        width={500} 
+/>
 
 2. Semak emel dan klik pada *link* "**Verifikasi Akaun MyKKP Saya**" bagi pengesahan akaun.
 

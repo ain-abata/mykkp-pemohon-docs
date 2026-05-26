@@ -113,7 +113,7 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
 
 <MenuLoji
     stepNumber={2}
-    pageName="Kebenaran Memasang Loji"
+    pageName="Pemeriksaan Permulaan Loji"
     kategoriPermohonan="Pendaftaran Loji Baru dan Pindah Loji"
     moduleType="Permohonan Pemeriksaan Permulaan Loji oleh Penghuni (Tempat Kerja)" 
 />
@@ -196,7 +196,7 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 
 <div className="page-break"></div>
 
-## 🔍 Semak Status Permohonan PEKALA
+## 🔍 Semak Status Permohonan PEMULA
 
 <div className="step-card">
 

@@ -134,7 +134,7 @@ import imgSelesaiProses from '@site/assets/images/loji/psk/halaman_permohonan_se
 
 <div className="page-break"></div>
 
-## 🔍 Semak Status Permohonan PSL
+## 🔍 Semak Status Permohonan PSK
 
 <div className="step-card">
 

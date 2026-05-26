@@ -15,7 +15,7 @@ import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 <div className="step-card">
 
-### Langkah 1: Lihat Sebut Harga Perkhidmatan
+### Lihat Sebut Harga Perkhidmatan
 
 Terdapat **DUA (2)** cara untuk menyemak dokumen **Sebut Harga Perkhidmatan**:
 <Tabs>
@@ -54,7 +54,7 @@ import imgBtnLihat from '@site/assets/images/loji/pembayaran/halaman_pembayaran_
 
 <div className="step-card">
 
-### Langkah 2: Bayaran Permulaan & Bayaran Akhir
+### Bayaran Permulaan & Bayaran Akhir
 
 <Admonition type="tip">
   Pemohon perlu membuat <b>Bayaran Permulaan</b> sebelum permohonan diproses.  

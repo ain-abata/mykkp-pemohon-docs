@@ -7,6 +7,7 @@ sidebar_label: 'Daftar Tempat Kerja'
 
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
+import ExpandableImage from '@site/src/components/common/ExpandableImage';
 
 # 📝 Pemberitahuan Tempat Kerja
 
@@ -29,17 +30,16 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan Pemberitahuan 
 
 ## 🧭 Langkah-langkah Pemberitahuan
 
-
-
-<div classname= "step-card">
+<div className="step-card">
 
 ### Akses Halaman Log Masuk MyKKP
 
-import LoginStep from '../../src/components/login-step';
+import LoginStep from '@site/src/components/login-step';
 
-<loginstep
+<LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" 
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
 />
 
 </div>
@@ -50,10 +50,12 @@ import LoginStep from '../../src/components/login-step';
 
 import step2 from '../../assets/images/pemtk/menu_utama.png';
 
-<div className="doc-image">
-  <img src={step2} />
-  <p>Halaman Menu Utama</p>
-</div>
+<ExpandableImage
+        src={step2}
+        alt="Halaman Menu Utama"
+        caption="Halaman Menu Utama"
+        width={500} 
+/>
 
 1. Klik menu **Pendaftaran, Pemeriksaan, Pengujian dan Pemberitahuan Tempat Kerja/Loji/Projek Pembinaan**.
 
@@ -84,20 +86,24 @@ import step2 from '../../assets/images/pemtk/menu_utama.png';
 
 import tab1 from '../../assets/images/pemtk/tab_maklumat_am.png';
 
-<div className="doc-image">
-  <img src={tab1} style={{width: 450}} />
-  <p>Tab 1: Maklumat Am</p>
-</div>
+<ExpandableImage
+        src={tab1}
+        alt="Tab 1: Maklumat Am"
+        caption="Tab 1: Maklumat Am"
+        width={450} 
+/>
 
 1. Isi maklumat yang dikehendaki pada ruangan **Maklumat Tempat Kerja**.
 -  Klik butang **Carian** dan *pop-up* **Carian Organisasi** akan dipaparkan.
 
 import tab1_2 from '../../assets/images/pemtk/carian_organisasi.png';
 
-<div className="doc-image">
-  <img src={tab1_2} style={{width: 400}} />
-  <p>*Pop-up* Carian Organisasi</p>
-</div>
+<ExpandableImage
+        src={tab1_2}
+        alt="*Pop-up* Carian Organisasi"
+        caption="*Pop-up* Carian Organisasi"
+        width={450} 
+/>
 
 - Isi nama organisasi pada medan carian dan klik butang **Cari**.
 - Klik butang radio pada pilihan nama organisasi dan klik butang **Pilih**.
@@ -122,10 +128,12 @@ import tab1_2 from '../../assets/images/pemtk/carian_organisasi.png';
 
 import tab2 from '../../assets/images/pemtk/tab_maklumat_sektor.png';
 
-<div className="doc-image">
-  <img src={tab2} style={{width: 400}} />
-  <p>Tab 2: Maklumat Sektor</p>
-</div>
+<ExpandableImage
+        src={tab2}
+        alt="Tab 2: Maklumat Sektor"
+        caption="Tab 2: Maklumat Sektor"
+        width={400} 
+/>
 
 1. Isi maklumat yang dikehendaki pada semua medan mandatori.
 2. Klik butang **Seterusnya** untuk meneruskan ke **Tab 3**.
@@ -135,10 +143,12 @@ import tab2 from '../../assets/images/pemtk/tab_maklumat_sektor.png';
 
 import tab3 from '../../assets/images/pemtk/tab_maklumat_keselamatan.png';
 
-<div className="doc-image">
-  <img src={tab3} style={{width: 400}} />
-  <p>Tab 3: Maklumat Keselamatan dan Kesihatan Pekerjaan</p>
-</div>
+<ExpandableImage
+        src={tab3}
+        alt="Tab 3: Maklumat Keselamatan dan Kesihatan Pekerjaan"
+        caption="Tab 3: Maklumat Keselamatan dan Kesihatan Pekerjaan"
+        width={450} 
+/>
 
 1. Isi maklumat yang dikehendaki pada semua medan mandatori.
 2. Klik butang **Carian** pada medan **Maklumat Kompetensi** untuk mengisi **Nama OSH Coordinator**.
@@ -149,10 +159,12 @@ import tab3 from '../../assets/images/pemtk/tab_maklumat_keselamatan.png';
 
 import tab4 from '../../assets/images/pemtk/tab_dokumen_sokongan.png';
 
-<div className="doc-image">
-  <img src={tab4} />
-  <p>Tab 4: Dokumen Sokongan</p>
-</div>
+<ExpandableImage
+        src={tab4}
+        alt="Tab 4: Dokumen Sokongan"
+        caption="Tab 4: Dokumen Sokongan"
+        width={450} 
+/>
 
 import tab4_2 from '../../assets/images/pemtk/ikon_muat_naik.png';
 
@@ -174,10 +186,12 @@ import tab4_2 from '../../assets/images/pemtk/ikon_muat_naik.png';
 
 import tab5 from '../../assets/images/pemtk/tab_perakuan.png';
 
-<div className="doc-image">
-  <img src={tab5} />
-  <p>Tab5: Perakuan</p>
-</div>
+<ExpandableImage
+        src={tab5}
+        alt="Tab 5: Perakuan"
+        caption="Tab 5: Perakuan"
+        width={450} 
+/>
 
 1. Klik *checkbox* **Perakuan** dan isi maklumat yang dikehendaki pada semua medan mandatori.
 2. Klik butang **Hantar** untuk menghantar tugasan yang telah selesai.
@@ -199,10 +213,12 @@ import tab5 from '../../assets/images/pemtk/tab_perakuan.png';
 
 import step4 from '../../assets/images/pemtk/halaman_senarai_permohonan.png';
 
-<div className="doc-image">
-  <img src={step4} />
-  <p>Halaman Senarai Permohonan</p>
-</div>
+<ExpandableImage
+        src={step4}
+        alt="Halaman Senarai Permohonan"
+        caption="Halaman Senarai Permohonan"
+        width={450} 
+/>
 
 1. Klik butang menu **Senarai Permohonan** pada *side-bar* disebelah kiri untuk memaparkan halaman **Senarai Permohonan**.
 2. Klik butang **Tindakan** pada status **Sedang Diproses** bagi jenis permohonan **PEMTK**.
@@ -213,10 +229,12 @@ import step4 from '../../assets/images/pemtk/halaman_senarai_permohonan.png';
 
 import step4_2 from '../../assets/images/pemtk/halaman_senarai_permohonan2.png';
 
-<div className="doc-image">
-  <img src={step4_2} />
-  <p>Halaman Senarai Permohonan</p>
-</div>
+<ExpandableImage
+        src={step4_2}
+        alt="Halaman Senarai Permohonan"
+        caption="Halaman Senarai Permohonan"
+        width={450} 
+/>
 
 1. Klik butang menu **Senarai Permohonan** pada *side-bar* disebelah kiri untuk memaparkan halaman **Senarai Permohonan**.
 2. Klik butang **Tindakan** pada status **Selesai Diproses – Diluluskan / Selesai Diproses - Dibatalkan** bagi jenis permohonan **PEMTK**.
@@ -240,10 +258,12 @@ import step4_2 from '../../assets/images/pemtk/halaman_senarai_permohonan2.png';
 
 import step5 from '../../assets/images/pemtk/halaman_surat_menyurat.png';
 
-<div className="doc-image">
-  <img src={step5} />
-  <p>Halaman Surat Menyurat</p>
-</div>
+<ExpandableImage
+        src={step5}
+        alt="Halaman Surat Menyurat"
+        caption="Halaman Surat Menyurat"
+        width={450} 
+/>
 
 1. Akses halaman **Surat Menyurat** dengan klik butang menu **Surat Menyurat** pada *side-bar* disebelah kiri.
 2. Klik butang *dropdown* **Jenis Surat/Sijil** pada medan **Senarai Dokumen Modul State** untuk memaparkan jenis surat/sijil.
@@ -251,10 +271,12 @@ import step5 from '../../assets/images/pemtk/halaman_surat_menyurat.png';
 
 import step5_2 from '../../assets/images/pemtk/pop_up_jenis_surat_sijil.png';
 
-<div className="doc-image">
-  <img src={step5_2} style={{width: 300}} />
-  <p>Pop-up Jenis Surat/Sijil</p>
-</div>
+<ExpandableImage
+        src={step5_2}
+        alt="Pop-up Jenis Surat/Sijil"
+        caption="Pop-up Jenis Surat/Sijil"
+        width={450} 
+/>
 
 4. Klik butang **OK** dan klik butang **Cari** yang berada di sebelah kanan medan *dropdown*.
 5. Klik butang **Lihat** berdasarkan **No. Rujukan Permohonan** yang telah dibuat untuk memaparkan surat yang dikehendaki.
