@@ -30,9 +30,8 @@ export default function SemakSebutHarga({
     imgBtnLihat,
 }: SemakSebutHargaProps) {
     return (
-        <div className="step-card">
-            <h3>Langkah {stepNumber}: Lihat Sebut Harga Perkhidmatan</h3>
-            Terdapat <b>DUA (2)</b> cara untuk menyemak dokumen <b>Sebut Harga Perkhidmatan</b>:
+        <div>
+            {/* Terdapat <b>DUA (2)</b> cara untuk menyemak dokumen <b>Sebut Harga Perkhidmatan</b>: */}
 
             <Tabs>
                 <TabItem value="pagePermohonan" label="Dari Halaman Senarai Permohonan" default>

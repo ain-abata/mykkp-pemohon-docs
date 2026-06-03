@@ -5,6 +5,9 @@ import Admonition from '@site/src/components/admonition';
 import iconMuatNaik from '@site/assets/images/orang-kompeten/ikon_muat_naik.png';
 
 interface LaporanJkkp5Props {
+  senaraiJkkp5ImgSrc?: string;
+  butangLaporanImgSrc?: string;
+  popupLaporanImgSrc?: string;
   reportName: string;
   reportShortName: string;
   tabImgSrc?: string;
@@ -15,6 +18,9 @@ interface LaporanJkkp5Props {
 }
 
 export default function LaporanJkkp5({
+  senaraiJkkp5ImgSrc,
+  butangLaporanImgSrc,
+  popupLaporanImgSrc,
   reportName,
   reportShortName,
   tabImgSrc,
@@ -25,6 +31,56 @@ export default function LaporanJkkp5({
 }: LaporanJkkp5Props) {
   return (
     <div>
+      <ol>
+        <li>
+          Halaman <b>Pemberitahuan Aktiviti Industri - JKKP5</b> akan dipaparkan seperti di bawah.
+        </li>
+      </ol>
+
+      <ExpandableImage
+        src={senaraiJkkp5ImgSrc}
+        alt="Halaman Pemberitahuan Aktiviti Industri JKKP5"
+        caption="Halaman Pemberitahuan Aktiviti Industri - JKKP5"
+        width={650}
+      />
+
+      <ol start={2}>
+        <li>Klik butang <b>Pemberitahuan Laporan</b>.</li>
+      </ol>
+
+      <ExpandableImage
+        src={butangLaporanImgSrc}
+        alt="Butang Pemberitahuan Laporan"
+        caption="Butang Pemberitahuan Laporan"
+        width={650}
+      />
+
+      <ol start={3}>
+        <li>
+          <i>Pop-up</i> <b>Laporan Perlu Dihantar</b> akan dipaparkan seperti di bawah.
+        </li>
+      </ol>
+
+      <ExpandableImage
+        src={popupLaporanImgSrc}
+        alt="Pop-up Laporan Perlu Dihantar"
+        caption={
+          <>
+            <i>Pop-up</i> Laporan Perlu Dihantar
+          </>
+        }
+        width={400}
+      />
+
+      <ol start={4}>
+        <li>
+          Pilih laporan <b>{reportName} ({reportShortName})</b>,
+        </li>
+        <li>
+          Halaman laporan yang dipilih akan dipaparkan pada tab baru.
+        </li>
+      </ol>
+
       <h4>{reportName} ({reportShortName})</h4>
 
       <ol>

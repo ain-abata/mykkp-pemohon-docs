@@ -42,7 +42,7 @@ export default function OkMaklumatMajikan({
 }: OkMaklumatMajikanProps) {
     return (
         <div>
-            <h4>B. Tab 2: Maklumat Majikan</h4>
+            <h4>Tab 2: Maklumat Majikan</h4>
             
             <ExpandableImage
                 src={tabImgSrc}

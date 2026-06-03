@@ -19,7 +19,7 @@ export default function TabMaklumatPemberitahu({
 }: TabMaklumatPemberitahuProps) {
   return (
     <div>
-      <h4>B. Tab {tabNumber}: {tabName}</h4>
+      <h4>Tab {tabNumber}: {tabName}</h4>
 
       <ExpandableImage
         src={tabImgSrc}

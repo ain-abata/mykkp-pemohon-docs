@@ -21,7 +21,7 @@ export default function TabOrangYangTerlibat({
 }: TabOrangYangTerlibatProps) {
     return (
         <div>
-            <h4>C. Tab {tabNumber}: {tabName}</h4>
+            <h4>Tab {tabNumber}: {tabName}</h4>
 
             <ExpandableImage
                 src={tabImgSrc}

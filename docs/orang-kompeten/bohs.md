@@ -1,7 +1,7 @@
 ---
 title: Pemberitahuan Basic Occupational Health Services (BOHS)
 description: Panduan lengkap Basic Occupational Health Services
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'BOHS'
 ---
 import Admonition from '@site/src/components/admonition';
@@ -20,11 +20,19 @@ import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/bohs/mesej_pen
 
 import LoginStep from '@site/src/components/login-step';
 
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 
+<div className="step-card">
+### Halaman Pemberitahuan Basic Occupatioal Health Services
 
 <MenuBohs
     stepNumber={2}
@@ -32,11 +40,10 @@ import LoginStep from '@site/src/components/login-step';
     kategoriPermohonan="Pemberitahuan Basic Occupational Health Services"
     moduleType="Basic Occupational Health Services" />
 
+</div>
 <div className="step-card">
 
-### Langkah 3: Pengisian Pemberitahuan Basic Occupational Health Services
-
-
+### Pengisian Pemberitahuan Basic Occupational Health Services
 
 <TabMaklumatKerja
 tabNumber={1}

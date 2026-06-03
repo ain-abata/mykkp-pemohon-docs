@@ -65,22 +65,40 @@ import imgPerakuan from '@site/assets/images/loji/psl/tab_perakuan.png';
 import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png';
 import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png';
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
     stepNumber={1}
-    title="Akses Halaman Log Masuk MyKKP" />
+    title="Akses Halaman Log Masuk MyKKP" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Halaman Pemberitahuan Status Loji - Pelupusan
+
 <MenuLoji
     stepNumber={2}
     pageName="Pemberitahuan Status Loji"
     kategoriPermohonan="Pemberitahuan Berkaitan Loji"
-    moduleType="Pemberitahuan Status Loji – Pelupusan oleh Penemuanya Loji" />
+    moduleType="Pemberitahuan Status Loji – Pelupusan oleh Penemuanya Loji" 
+/>
+
+</div>
 
 <div className="step-card">
-### Langkah 3: Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
+
+### Pengisian Borang Permohonan Pemberitahuan Status Loji - Pelupusan
+
 <MaklumatAm
     alphabetNumbering="A"
     tabNumber={1}
     tabName="Maklumat Am"
-    tabImgSrc={imgMaklumatAm} />
+    tabImgSrc={imgMaklumatAm} 
+/>
 ---
 <SenaraiLoji
     alphabetNumbering="B"
@@ -88,14 +106,18 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
     tabName="Senarai Loji"
     tabImgSrc={imgSenaraiLojiPelupusan}
     leftTableName="Senarai Loji Pemunya Yang Asal"
-    rightTableName="Senarai Loji Untuk Pemberitahuan Pelupusan" />
+    rightTableName="Senarai Loji Untuk Pemberitahuan Pelupusan" 
+/>
 ---
+
 #### C. Tab 3: Perihal Pemberitahuan
+
 <ExpandableImage
     src={imgPerihal}
     alt="Tab 3: Perihal Pemberitahuan"
     caption="Tab 3: Perihal Pemberitahuan"
-    width={450} />
+    width={450} 
+/>
 1. Klik butang **Isi Ulasan**. *Pop-up* **Perihal Pemberitahuan** akan dipaparkan.
 2. Isi maklumat di medan **Ulasan Pemberitahuan** dan klik butang **Simpan**.
 3. Klik butang **Ok** pada halaman *pop-up* Makluman yang memaparkan “Ulasan berjaya disimpan”.
@@ -108,7 +130,8 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
     alphabetNumbering="D"
     tabNumber={4}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokumenSokongan} />
+    tabImgSrc={imgDokumenSokongan} 
+/>
 ---
 <Perakuan
     alphabetNumbering="E"
@@ -116,14 +139,32 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
     noRujukan="XX/PSL/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+/>
 </div>
+
+
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PSL
+
+<div className="step-card">
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PSL"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>
+
+## 📩 Semak Surat Menyurat
+
+<div className="step-card">
 
 <SemakSurat
-    stepNumber={5} />
+    stepNumber={5} 
+/>
+
+</div>

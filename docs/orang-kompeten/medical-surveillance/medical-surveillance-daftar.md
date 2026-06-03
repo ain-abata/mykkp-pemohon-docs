@@ -1,7 +1,7 @@
 ---
 title: PENDAFTARAN MEDICAL SURVEILLANCE (MS)
 description: Panduan lengkap pendaftaran sijil Medical Surveillance
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pendaftaran'
 ---
 
@@ -12,11 +12,21 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
   
 import MenuOk from '../../../src/components/menu-ok';
+
+<div className="step-card">
+
+### Halaman Pendaftaran Sijil Medical Surveillance
 
 <MenuOk
   stepNumber={2}
@@ -24,11 +34,13 @@ import MenuOk from '../../../src/components/menu-ok';
   okType="Doktor Kesihatan"
   hasDropdown={false}
   moduleName="[MS] - Medical Surveillance"
- />
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Medical Surveillance
+### Pengisian Borang Pendaftaran Medical Surveillance
 
 {/* Step A. Tab 1: Maklumat tempat Kerja */}
 
@@ -46,6 +58,7 @@ import imgCarianTempatKerja from '@site/assets/images/orang-kompeten/medical-sur
   tabImgSrc={imgTab1TempatKerja}
   carianImgSrc={imgCarianTempatKerja}
 />
+---
 
 {/* Step B. Tab 2: Maklumat Bahan Kimia */}
 import MaklumatBahanKimia from '../../../src/components/medical-surveillance/maklumat-bahan-kimia';
@@ -60,6 +73,7 @@ import imgPopupBahanKimia from '@site/assets/images/orang-kompeten/medical-surve
   tabImgSrc={imgTab2BahanKimia}
   popupImgSrc={imgPopupBahanKimia}
 />
+---
 
 {/* Step C. Tab 3: Maklumat Pekerja */}
 
@@ -73,6 +87,7 @@ import imgTab3MaklumatPekerja from '@site/assets/images/orang-kompeten/medical-s
   tabName="Maklumat Pekerja"
   tabImgSrc={imgTab3MaklumatPekerja}
 />
+---
 
 {/* Step D. Tab 4: Butiran Pemeriksaan Abnormal */}
 import ButiranPemeriksaanAbnormal from '../../../src/components/medical-surveillance/butiran-pemeriksaan-abnormal';
@@ -88,6 +103,7 @@ import imgPopupAbnormal from '@site/assets/images/orang-kompeten/medical-surveil
   tabImgSrc={imgTab4Abnormal}
   popupImgSrc={imgPopupAbnormal}
 />
+---
 
 {/* Step I. Tab 9: Dokumen Sokongan */}
 
@@ -100,6 +116,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/medical-sur
     tabNumber={5}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step F. Tab 6: Perakuan */}
 

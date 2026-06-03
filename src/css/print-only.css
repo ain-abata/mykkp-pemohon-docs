@@ -1,0 +1,30 @@
+@media print {
+    .theme-doc-markdown {
+        color: black;
+    }
+    
+    table {
+        background: white !important;
+        color: black !important;    
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        width: auto;
+    }
+
+    th {
+        background: #BDD6EE !important;
+        color: black !important;
+        border: 2px solid white !important;
+    }
+
+    td {
+        background: #F2F2F2 !important;
+        color: black !important;
+        border: 2px solid white !important;
+    }
+
+    .doc-card {
+        background: white !important;
+        color: black !important;
+    }
+}

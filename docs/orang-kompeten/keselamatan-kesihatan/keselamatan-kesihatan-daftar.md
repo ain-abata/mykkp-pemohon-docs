@@ -1,7 +1,7 @@
 ---
 title: PENDAFTARAN PEGAWAI KESELAMATAN & KESIHATAN (SHO)
 description: Panduan lengkap pendaftaran pegawai keselamatan & kesihatan
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pendaftaran'
 ---
 
@@ -12,11 +12,19 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
-
+</div>
 import MenuOk from '../../../src/components/menu-ok';
+
+<div className="step-card">
+
+### Halaman Pendaftaran Keselamatan & Kesihatan
 
 <MenuOk
   stepNumber={2}
@@ -25,10 +33,11 @@ import MenuOk from '../../../src/components/menu-ok';
   hasDropdown={true}
   moduleName="[SHO] - Pegawai Keselamatan & Kesihatan"
  />
+ </div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Pegawai Keselamatan & Kesihatan
+### Pengisian Borang Pendaftaran Pegawai Keselamatan & Kesihatan
 
 {/* Step A. Tab 1: Maklumat Am */}
 
@@ -39,7 +48,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/keselamatan-kesi
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -49,7 +58,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/keselamatan
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={false}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -64,7 +73,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/kesel
     tabName="Maklumat Kelayakan Akademik"
     tabImgSrc={imgJadualKelayakanAkademik}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/keselamatan-kesihatan/daftar/tab_pengalaman_kerja.png';
@@ -77,7 +86,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/keselam
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
 {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/keselamatan-kesihatan/daftar/tab_kursus_berkaitan.png';
@@ -90,7 +99,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/keselam
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -102,7 +111,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/keselamatan-kesihatan
     tabNumber={6}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step G. Tab 7: Maklumat Perubatan */}
 
 import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan-mmc';
@@ -114,7 +123,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/keselamat
     tabNumber={7}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
-
+---
 {/* Step H. Tab 8: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -126,7 +135,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/keselamatan
     tabNumber={8}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step I. Tab 9: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';

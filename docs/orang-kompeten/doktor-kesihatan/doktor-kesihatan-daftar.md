@@ -1,7 +1,7 @@
 ---
 title: PENDAFTARAN DOKTOR KESIHATAN PEKERJAAN
 description: Panduan lengkap pendaftaran sijil Doktor Kesihatan Pekerjaan
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pendaftaran'
 ---
 
@@ -12,11 +12,21 @@ import React from 'react';
 
 import LoginStep from '../../../src/components/login-step';
 
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+</div>
   
 import MenuOk from '../../../src/components/menu-ok';
+
+<div className="step-card">
+
+### Halaman Pendaftaran Doktor Kesihatan Pekerjaan
 
 <MenuOk
   stepNumber={2}
@@ -25,10 +35,11 @@ import MenuOk from '../../../src/components/menu-ok';
   hasDropdown={false}
   moduleName="[OHD] - Pendaftaran Doktor Kesihatan Pekerjaan"
  />
+ </div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pendaftaran Doktor Kesihatan Pekerjaan
+### Pengisian Borang Pendaftaran Doktor Kesihatan Pekerjaan
 {/* Step A. Tab 1: Maklumat Am */}
 
 import OkMaklumatAm from '../../../src/components/tab-ok/maklumat-am';
@@ -38,7 +49,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/doktor-kesihatan
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -48,7 +59,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/doktor-kesi
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={false}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat Kelayakan Akademik */}
 
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
@@ -64,7 +75,7 @@ import imgTambahKelayakanAkademik from '@site/assets/images/orang-kompeten/dokto
     tabImgSrc={imgJadualKelayakanAkademik}
     hasDropdown={false}
     tambahImgSrc={imgTambahKelayakanAkademik} />
-
+---
 {/* Step D. Tab 4: Pengalaman Kerja */}
 
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/doktor-kesihatan/daftar/tab_pengalaman_kerja.png';
@@ -77,7 +88,7 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/doktor-
     tabName="Pengalaman Kerja"
     tabImgSrc={imgJadualPengalamanKerja}
     tambahImgSrc={imgTambahPengalamanKerja} />
-
+---
     {/* Step E. Tab 5: Kursus/Peperiksaan Berkaitan */}
 
 import imgJadualKursusBerkaitan from '@site/assets/images/orang-kompeten/major-hazard/daftar/tab_kursus_berkaitan.png';
@@ -90,7 +101,7 @@ import imgTambahKursusBerkaitan from '@site/assets/images/orang-kompeten/major-h
     tabName="Kursus/Peperiksaan Berkaitan"
     tabImgSrc={imgJadualKursusBerkaitan}
     tambahImgSrc={imgTambahKursusBerkaitan} />
-
+---
 {/* Step F. Tab 6: Pengalaman Kerja */}
 
 import imgJadualPengalamanPerubatan from '@site/assets/images/orang-kompeten/doktor-kesihatan/daftar/tab_pengalaman_perubatan.png';
@@ -103,7 +114,7 @@ import imgTambahPengalamanPerubatan from '@site/assets/images/orang-kompeten/dok
     tabName="Maklumat Pengalaman Kerja Dalam Pengawasan Perubatan"
     tabImgSrc={imgJadualPengalamanPerubatan}
     tambahImgSrc={imgTambahPengalamanPerubatan} />
-
+---
 {/* Step G. Tab 7: Maklumat Keahlian */}
 
 import imgMaklumatKeahlian from '@site/assets/images/orang-kompeten/pengapit/daftar/tab_maklumat _keahlian.png';
@@ -116,7 +127,7 @@ import imgTambahMaklumatKeahlian from '@site/assets/images/orang-kompeten/pengap
     tabName="Pengalaman Penaksiran Risiko Kimia"
     tabImgSrc={imgMaklumatKeahlian}
     tambahImgSrc={imgTambahMaklumatKeahlian} />
-
+---
 {/* Step H. Tab 8: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
@@ -128,7 +139,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/doktor-kesihatan/daft
     tabNumber={8}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step I. Tab 9: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -140,7 +151,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/doktor-kesi
     tabNumber={9}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
-
+---
 {/* Step J. Tab 10: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
