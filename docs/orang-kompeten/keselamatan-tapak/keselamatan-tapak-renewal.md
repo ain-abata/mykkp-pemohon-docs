@@ -29,7 +29,7 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tap
 
 <div className="step-card">
 
-### Halaman Pendaftaran Penyelia Keselamatan Tapak
+### Halaman Pembaharuan Penyelia Keselamatan Tapak
 
 <PembaharuanOk
   stepNumber={2}

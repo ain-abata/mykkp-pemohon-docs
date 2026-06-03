@@ -100,7 +100,7 @@ import imgPopupMakluman from '@site/assets/images/lain-lain/jkkp5/popup_makluman
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Aktiviti Loji
+### Langkah 3: Pengisian Borang Pemberitahuan Aktiviti Industri
 
 import TabButiranPepasangan from '@site/src/components/lain-lain/jkkp5/tab-butiran-pepasangan';
 
@@ -155,6 +155,63 @@ import imgMesejBerjaya from '@site/assets/images/lain-lain/jkkp5/mesej_penghanta
     tabImgSrc={imgPerakuan}
     mesejBerjayaImgSrc={imgMesejBerjaya} />
 </div>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Bil.</th>
+      <th>Klasifikasi Pepasangan</th>
+      <th>Tindakan Yang Perlu Dilakukan</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Major Hazard Installation (MHI)</td>
+      <td>
+        <strong>Laporan Yang Perlu Dihantar</strong>
+        <ul>
+          <li>Laporan Aktiviti Industri (LAI)</li>
+          <li>Pelan Kecemasan Tapak (ERP)</li>
+          <li>Maklumat Kepada Umum (ITP)</li>
+          <li>Consequences Analysis (CA)</li>
+        </ul>
+
+        <strong>Pelaksanaan Yang Perlu Dihantar</strong>
+        <ul>
+          <li>Pelaksanaan ERP (Dalam Tapak)</li>
+          <li>Pelaksanaan ERP (Luar Tapak)</li>
+          <li>Maklumat Kepada Umum (ITP)</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Non-Major Hazard Installation (NMHI)</td>
+      <td>
+        <strong>Laporan Yang Perlu Dihantar</strong>
+        <ul>
+          <li>Dokumen Demonstrasi Operasi Selamat (DOSO)</li>
+          <li>Consequences Analysis (CA)</li>
+        </ul>
+
+        <strong>Pelaksanaan Yang Perlu Dihantar</strong>
+        <ul>
+          <li>Pelaksanaan ERP (Dalam Tapak)</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Not To Comply (NTC)</td>
+      <td>Tiada Laporan Dan Pelaksanaan Yang Perlu Diisi.</td>
+    </tr>
+  </tbody>
+</table>
 
 <div className="step-card">
 
