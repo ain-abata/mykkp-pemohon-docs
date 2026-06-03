@@ -426,6 +426,12 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'doc',
+          id: 'lain-lain/kemaskini-maklumat-am',
+          label: 'Kemaskini Maklumat Am',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
           id: 'orang-kompeten/bohs',
           label: 'BOHS',
           className: 'hideItem',
