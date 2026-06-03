@@ -52,34 +52,46 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan 
 
 <Tabs>
   <TabItem value="pemunya" label="Pemunya" default>
-    <h2 className="print-only">Pemberitahuan Pembukaan Loji - Pemunya</h2>
+    <h2 className="print-only">Permohonan Pemberitahuan Pembukaan Loji - Pemunya</h2>
+      <div className="toc-only" style={{ marginLeft: "35px"}}>    
+        ## Pemunya
+      </div>
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Pembukaan Loji
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
-<div className="toc-only">
-### [Langkah 2: Halaman Pemberitahu Pembukaan Loji](#toLoginStep)
-</div>
+
 <MenuLoji
     stepNumber={2}
     pageName="Pemberitahuan Pembukaan Loji"
     kategoriPermohonan="Pemberitahuan Berkaitan Loji"
-    moduleType="Pemberitahuan Pembukaan Loji oleh Pemunya Loji" />
+    moduleType="Pemberitahuan Pembukaan Loji oleh Pemunya Loji" 
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemberitahuan Pembukaan Loji
+### Pengisian Borang Permohonan Pemberitahuan Pembukaan Loji
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
-
 import imgMaklumatAm from '@site/assets/images/loji/pbuka/tab_maklumat_am.png';
 
 <MaklumatAm
@@ -87,13 +99,12 @@ import imgMaklumatAm from '@site/assets/images/loji/pbuka/tab_maklumat_am.png';
     tabNumber={1}
     tabName="Maklumat Am"
     hasRujukan={false}
-    tabImgSrc={imgMaklumatAm} />
+    tabImgSrc={imgMaklumatAm} 
+/>
 ---
 
 import TabSenaraiLoji from '@site/src/components/loji/tab/senarai-loji-pbuka';
-
 import imgTab2 from '@site/assets/images/loji/pbuka/tab2_senarai_loji.png';
-
 import imgPopupLoji from '@site/assets/images/loji/pbuka/popup_carian_loji.png';
 
 <TabSenaraiLoji
@@ -106,7 +117,6 @@ import imgPopupLoji from '@site/assets/images/loji/pbuka/popup_carian_loji.png';
 ---
 
 import TabPerihalPemberitahuan from '@site/src/components/loji/tab/perihal-pemberitahuan-pbuka';
-
 import imgTab3 from '@site/assets/images/loji/pbuka/tab3_perihal.png';
 
 <TabPerihalPemberitahuan
@@ -118,9 +128,7 @@ import imgTab3 from '@site/assets/images/loji/pbuka/tab3_perihal.png';
 ---
 
 import TabMaklumatFyk from '@site/src/components/loji/tab/maklumat-fyk-pbuka';
-
 import imgTab4 from '@site/assets/images/loji/pbuka/tab4_fyk.png';
-
 import imgPopupFYK from '@site/assets/images/loji/pbuka/popup_carian_fyk.png';
 
 <TabMaklumatFyk
@@ -133,20 +141,18 @@ import imgPopupFYK from '@site/assets/images/loji/pbuka/popup_carian_fyk.png';
 ---
 
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
-
 import imgDokSokongan from '@site/assets/images/loji/pbuka/tab_dokumen_sokongan.png';
 
 <DokumenSokongan
     alphabetNumbering="E"
     tabNumber={5}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokSokongan} />
+    tabImgSrc={imgDokSokongan} 
+/>
 
 ---
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-
 import imgPerakuan from '@site/assets/images/loji/pbuka/tab_perakuan.png';
-
 import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_berjaya.png';
 
 <Perakuan 
@@ -156,33 +162,53 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_b
     tabImgSrc={imgPerakuan}
     mesejBerjayaImgSrc={imgMesejBerjaya}
     noRujukan="XX/PBUKA/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+/>
 </div>
 
 </TabItem>
   <TabItem value="penghuni" label="Penghuni">
     <h2 className="print-only">Permohonan Pemeriksaan Berkala - Penghuni</h2>
-
-<LoginStep 
-    stepNumber={1}
-    title="Akses Halaman Log Masuk MyKKP" />
-
-<MenuLoji
-    stepNumber={2}
-    pageName="Pemeriksaan Berkala Loji"
-    kategoriPermohonan="Pemeriksaan Berkala Loji Berperakuan"
-    moduleType="Pemeriksaan Berkala - Penghuni" />
+    <div className="toc-only" style={{ marginLeft: "35px" }} >
+        ## Penghuni
+    </div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemeriksaan Berkala Loji
+### Akses Halaman Log Masuk MyKKP   
+
+<LoginStep 
+  stepNumber={1}
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Pemberitahuan Loji
+
+<MenuLoji
+    stepNumber={2}
+    pageName="Pemberitahuan Pembaikan Loji"
+    kategoriPermohonan="Pemeriksaan Berkala Loji Berperakuan"
+    moduleType="Pemeriksaan Berkala - Penghuni" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Pengisian Borang Permohonan Pemberitahuan Pembukaan Loji
 
 <MaklumatAm
     alphabetNumbering="A"
     tabNumber={1}
     tabName="Maklumat Am"
     hasRujukan={true}
-    tabImgSrc={imgMaklumatAm} />
+    tabImgSrc={imgMaklumatAm} 
+/>
 ---
 
 <TabSenaraiLoji
@@ -215,7 +241,8 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_b
     alphabetNumbering="E"
     tabNumber={5}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokSokongan} />
+    tabImgSrc={imgDokSokongan} 
+/>
 
 ---
 
@@ -226,25 +253,34 @@ import imgMesejBerjaya from '@site/assets/images/loji/pbuka/mesej_penghantaran_b
     tabImgSrc={imgPerakuan}
     mesejBerjayaImgSrc={imgMesejBerjaya}
     noRujukan="XX/PBUKA/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+/>
 </div>
 </TabItem>
 </Tabs>
 
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PBUKA
+
+<div className="step-card">
+
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/pbuka/halaman_permohonan_sedang_diproses.png'
-
 import imgSelesaiProses from '@site/assets/images/loji/pbuka/halaman_permohonan_selesai_diproses.png'
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PBUKA"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>
 
 import WhatNext from '@site/src/components/loji/what-next';
 
 <WhatNext
   canBatalPermohonan={true}
-  linkPembatalan="pembatalan-permohonan" />
+  linkPembatalan="pembatalan-permohonan" 
+/>

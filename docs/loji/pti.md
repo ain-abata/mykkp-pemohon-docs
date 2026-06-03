@@ -140,28 +140,38 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan pengubahan **K
 
 ## 🧭 Langkah-langkah Permohonan
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+  title="Akses Halaman Log Masuk MyKKP"
+  headerId="toLoginStep"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Masuk Ke Halaman Permohonan Pemeriksaan Berkala Loji
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
+
 
 <MenuLoji
     stepNumber={2}
     pageName="Kebenaran Memasang Loji"
     kategoriPermohonan="Pendaftaran Loji Baru dan Pindah Loji"
-    moduleType="Permohonan Kebenaran Memasang Loji oleh Penghuni (Tempat Kerja)" />
+    moduleType="Permohonan Kebenaran Memasang Loji oleh Penghuni (Tempat Kerja)" 
+/>
 
-<div className="step-card">
-
-### Langkah 3: Pengisian Borang Permohonan Kebenaran Memasang Loji
+### Pengisian Borang Permohonan Kebenaran Memasang Loji
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
-
 import imgMaklumatAm from '@site/assets/images/loji/pti/tab_maklumat_am.png';
-
 import imgMaklumatAmCarian from '@site/assets/images/loji/pti/tab_maklumat_am_carian.png';
 
 <MaklumatAm
@@ -171,7 +181,8 @@ import imgMaklumatAmCarian from '@site/assets/images/loji/pti/tab_maklumat_am_ca
     hasRujukan={false}
     tabImgSrc={imgMaklumatAm}
     hasPemunyaSection={true}
-    carianImgSrc={imgMaklumatAmCarian} />
+    carianImgSrc={imgMaklumatAmCarian} 
+/>
 
 ---
 
@@ -183,7 +194,8 @@ import imgSenaraiLoji from '@site/assets/images/loji/pti/tab_senarai_loji.png';
     src={imgSenaraiLoji}
     alt="Tab 2: Senarai Loji"
     caption="Tab 2: Senarai Loji"
-    width={450} />
+    width={450} 
+/>
 
 1. Pilih **Tarikh Jangkaan Permulaan Loji Dipasang / Ubah Suai**.
 2. Klik butang **Tambah Loji**. *Pop-up* **Kategori Loji** dipaparkan.
@@ -195,14 +207,14 @@ import imgSenaraiLoji from '@site/assets/images/loji/pti/tab_senarai_loji.png';
 ---
 
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
-
 import imgDokSokongan from '@site/assets/images/loji/pti/tab_dokumen_sokongan.png';
 
 <DokumenSokongan
     alphabetNumbering="C"
     tabNumber={3}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokSokongan} />
+    tabImgSrc={imgDokSokongan} 
+/>
 
 <Admonition type="info">
     **Lampiran Lukisan Teknikal** hanya wajib dimuat naik sekiranya loji yang dipilih ialah **Lif/Eskalator/Laluan Bergerak**. 
@@ -218,7 +230,8 @@ import imgPelan from '@site/assets/images/loji/pti/tab_pelan.png';
     src={imgPelan}
     alt="Tab 4: Pelan Susun Atur/Lukisan Teknikal"
     caption="Tab 4: Pelan Susun Atur/Lukisan Teknikal"
-    width={450} />
+    width={450} 
+/>
 
 1. Klik butang **Lihat** bagi melihat semula pelan yang telah dimuat naik pada **Tab 3:Dokumen Sokongan**.
 2. Pilih loji yang berkaitan dan klik butang **Pilih Susun Atur/Lukisan Teknikal** bagi membuat padanan. *Pop-up* Pilih Susun Atur/Lukisan Teknikal dipaparkan. 
@@ -229,7 +242,6 @@ import imgPelan from '@site/assets/images/loji/pti/tab_pelan.png';
 ---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-
 import imgPerakuan from '@site/assets/images/loji/pti/tab_perakuan.png';
 
 
@@ -239,27 +251,36 @@ import imgPerakuan from '@site/assets/images/loji/pti/tab_perakuan.png';
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
     noRujukan="XX/PTI/XX/XXXXX"
-    hasPayment={false} />
-
-import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
-
-<BatalOlehPemohon />
+    hasPayment={false} 
+/>
 
 </div>
 
+## 🔍 Semak Status Permohonan PTI
+
+<div className="step-card">
+
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/pti/halaman_permohonan_sedang_diproses.png';
-
 import imgSelesaiProses from '@site/assets/images/loji/pti/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PTI"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>
+
+## 📩 Semak Surat Menyurat
+
+<div className="step-card">
 
 import SemakSurat from '@site/src/components/loji/semak-surat';
 
 <SemakSurat
-    stepNumber={5} />
+    stepNumber={5} 
+/>
+
+</div>
