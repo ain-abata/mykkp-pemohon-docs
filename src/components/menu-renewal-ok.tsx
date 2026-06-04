@@ -19,8 +19,7 @@ export default function PembaharuanOk({
     tambahImgSrc,
 }: PembaharuanOkProps) {
     return (
-        <div className="step-card">
-            <h3>Langkah {stepNumber}: Masuk Ke Halaman Pembaharuan {pageName}</h3>
+        <div>
 
             <ExpandableImage
                 src={pageImgSrc}
