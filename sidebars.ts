@@ -254,6 +254,12 @@ const sidebars: SidebarsConfig = {
           label: 'Aktif Tempat Kerja',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/belum-daftar',
+          label: 'Belum Daftar Tempat Kerja',
+          className: 'hideItem',
+        },
       ],
     },
     //Pengendalian tk n loji
@@ -376,6 +382,18 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'JKKP12/penilaian-kendiri',
           label: 'Penilaian Kendiri',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'JKKP12/ruangan-kerja-projek',
+          label: 'Ruangan Kerja Projek',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'JKKP12/ruangan-kerja-tapak-pembinaan',
+          label: 'Ruangan Kerja Tapak Pembinaan',
           className: 'hideItem',
         },
       ],
