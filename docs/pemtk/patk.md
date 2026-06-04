@@ -5,6 +5,7 @@ hide_table_of_contents: false
 sidebar_label: 'Aktif Tempat Kerja'
 ---
 import React from 'react';
+import Link from '@docusaurus/Link';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
 
@@ -59,63 +60,52 @@ import LoginStep from '../../src/components/login-step';
 ### Permohonan Pengaktifan Tempat Kerja
 
 <ol>
-  <li>
-    Laman <b>Menu Utama</b> akan terpapar seperti di bawah.
-  </li>
-  <ExpandableImage
-  src={lamanMenuUtamaImg}
-  alt="Laman Menu Utama"
-  caption="Laman Menu Utama"
-  width={650}
-/>
-  <li>
-    Klik pada butang <b>Profil Tempat Kerja</b> dan seterusnya pada butang Pengaktifan Tempat Kerja.
-  </li>
-  <li>
-    Skrin <b>Pengaktifan Tempat Kerja</b> akan terpapar sperti di bawah.
-  </li>
-  <ExpandableImage
-  src={senaraiPermohonanTempatKerjaImg}
-  alt="Senarai Tempat Kerja"
-  caption="Senarai Tempat Kerja"
-  width={650}
-/>
-<li>
-    Klik pada tab <b>Permohonan PATK</b>.
-</li>
-<li>
-     Isi carian pada medan ruangan Carian. Klik butang Carian.
-  </li>
-  <li>
-    Klik butang <b>Carian</b>.
-  </li>
-<li>
-    Klik pada butang <b>Borang PATK Tahap 1</b> untuk memuat turun borang PATK Tahap 1.
-      <Admonition type="info">
+  <li>Laman <b>Menu Utama</b> akan terpapar seperti di bawah.</li>
+      <ExpandableImage
+      src={lamanMenuUtamaImg}
+      alt="Laman Menu Utama"
+      caption="Laman Menu Utama"
+      width={650}
+    />
+  <li>Klik pada butang <b>Profil Tempat Kerja</b> pada menu sebelah kiri dan seterusnya tekan butang<b> Pengaktifan Tempat Kerja (PATK).</b></li>
+  <li>Halaman <b>Pengaktifan Tempat Kerja</b> akan terpapar.</li>
+      <ExpandableImage
+      src={senaraiPermohonanTempatKerjaImg}
+      alt="Senarai Tempat Kerja"
+      caption="Senarai Tempat Kerja"
+      width={650}
+      />
+  <li>Klik pada tab <b>Permohonan PATK</b>.</li>
+  <li>Isi No. Daftar Tempat Kerja pada medan ruangan Carian.</li>
+  <li>Klik butang <b>Carian</b>.</li>
+  <li>Klik pada butang <b>Borang PATK Tahap 1</b> untuk memuat turun borang PATK Tahap 1.</li>
+    <Admonition type="info">
         Jika anda tidak dapat memuat turun borang melalui sistem, sila gunakan pautan berikut:  
         👉https://mykkp.dosh.gov.my/manual/BORANG%20PATK%20TAHAP%201%20(NEW).pdf
-      </Admonition>
-    
-  </li>
-  <li>
-    Lengkapkan <b>borang PATK Tahap 1</b>.
-  </li>
-  <li>
-    Klik butang <b>Mohon PATK</b>.
-  </li>
+    </Admonition>
+  <li>Lengkapkan <b>borang PATK Tahap 1</b>.</li>
+    <Admonition type="tip">
+        <ul>
+          <li><b>Bahagian B</b> hendaklah diisi dengan maklumat pemilik akaun MyKKP tersebut. </li>
+          <li><b>Bahagian C</b> pula perlu diisi dengan maklumat majikan atau individu yang memegang jawatan tertinggi di tempat kerja berkenaan.</li>
+        </ul>  
+    </Admonition>
+  <li>Klik butang <b>Mohon PATK</b> selepas pengisian borang PATK Tahap 1.</li>
+      <Admonition type="info">
+        **Borang permohonan PATK Tahap 1** yang telah diisi perlu dimuat naik pada **[Tab 4: Dokumen Sokongan](#tab-4-dokumen-sokongan)**.
+    </Admonition>
+</ol>
  ---
- </ol>
+ 
  </div>
 
 
 <div className="step-card">
 
-### Pengisian Borang Permohonan Pengaktifan Tempat Kerja 
+### Penghantaran Borang Permohonan Pengaktifan Tempat Kerja 
 #### Tab 1: Tahap PATK
 <ol>
-  <li>
-    Halaman <b>Tahap PATK</b> akan dipaparkan seperti di bawah.
-  </li>
+  <li>Halaman <b>Tahap PATK</b> akan dipaparkan seperti di bawah.</li>
 
   <ExpandableImage
     src={tahapPatkImg}
@@ -124,20 +114,14 @@ import LoginStep from '../../src/components/login-step';
     width={650}
   />
 
-  <li>
-    Klik butang radio pada <b>Tahap PATK</b> yang ingin dimohon.
-  </li>
-  <li>
-    Klik butang <b>Seterusnya</b>.
-  </li>
+  <li>Klik butang radio <b>Tahap 1.</b></li>
+  <li>Klik butang <b>Seterusnya</b>.</li>
   </ol>
 ---
 
 #### Tab 2: Maklumat Am
 <ol>
-  <li>
-    Halaman <b>Maklumat Am</b> akan dipaparkan seperti di bawah.
-  </li>
+  <li>Halaman <b>Maklumat Am</b> akan dipaparkan seperti di bawah.</li>
 
   <ExpandableImage
     src={maklumatAmImg}
@@ -146,20 +130,14 @@ import LoginStep from '../../src/components/login-step';
     width={650}
   />
 
-  <li>
-    Semak maklumat yang dipaparkan.
-  </li>
-  <li>
-    Klik butang <b>Seterusnya</b>.
-  </li>
+  <li>Semak maklumat yang dipaparkan.</li>
+  <li>Klik butang <b>Seterusnya</b>.</li>
   </ol>
 ---
 
 #### Tab 3: Maklumat Tempat Kerja Yang Ingin Diaktifkan
   <ol>
-  <li>
-    Halaman <b>Maklumat Tempat Kerja Yang Ingin Diaktifkan</b> akan dipaparkan seperti di bawah.
-  </li>
+  <li>Halaman <b>Maklumat Tempat Kerja Yang Ingin Diaktifkan</b> akan dipaparkan seperti di bawah.</li>
 
   <ExpandableImage
     src={maklumatTempatKerjaImg}
@@ -168,24 +146,27 @@ import LoginStep from '../../src/components/login-step';
     width={650}
   />
 
-  <li>
-    Semak maklumat tempat kerja yang ingin diaktifkan.
-  </li>
-  <li>
-    Klik butang <b>Seterusnya</b>.
-  </li>
+  <li> Semak maklumat tempat kerja yang ingin diaktifkan.</li>
+  <li>Klik butang <b>Seterusnya</b>.</li>
 </ol>
+---
 
+#### Tab 4: Dokumen Sokongan
 <DokumenSokongan
         tabNumber={4}
         tabName="Dokumen Sokongan"
-        tabImgSrc={maklumatDokumenSokonganImg} />
+        tabImgSrc={maklumatDokumenSokonganImg} 
+/>
 ---
-    <Perakuan
+
+#### Tab 5: Perakuan
+
+  <Perakuan
         tabNumber={5}
         tabName="Perakuan"
         tabImgSrc={maklumatPerakuanImg}
-        hasPayment={false} />
+        hasPayment={false} 
+  />
 
 </div>
 
@@ -194,38 +175,24 @@ import LoginStep from '../../src/components/login-step';
 ### Pengaktifan Tempat Kerja
 
 <ol>
-  <li>
-    Laman <b>Menu Utama</b> akan terpapar seperti di bawah.
-  </li>
+  <li>Laman <b>Menu Utama</b> akan terpapar seperti di bawah.</li>
   <ExpandableImage
   src={lamanMenuUtamaImg}
   alt="Laman Menu Utama"
   caption="Laman Menu Utama"
   width={650}
 />
-  <li>
-    Klik pada butang <b>Profil Tempat Kerja</b> dan seterusnya pada butang Pengaktifan Tempat Kerja.
-  </li>
-  <li>
-    Skrin <b>Pengaktifan Tempat Kerja</b> akan terpapar sperti di bawah.
-  </li>
+  <li>Klik pada butang <b>Profil Tempat Kerja</b> dan seterusnya pada butang Pengaktifan Tempat Kerja.</li>
+  <li>Skrin <b>Pengaktifan Tempat Kerja</b> akan terpapar sperti di bawah.</li>
   <ExpandableImage
   src={senaraiTempatKerjaImg}
   alt="Senarai Tempat Kerja"
   caption="Senarai Tempat Kerja"
   width={650}
 />
-<li>
-    Klik pada tab <b>Tempat Kerja Aktif</b>.
-</li>
-<li>
-     Pilih Kategori dan isi carian pada medan ruangan Carian. Klik butang Carian.
-  </li>
-  <li>
-    Klik butang <b>Carian</b>.
-  </li>
-<li>
-    Klik pada butang <b>Aktif</b> pada tempat kerja yang ingin diaktifkan.
-  </li>
+<li>Klik pada tab <b>Tempat Kerja Aktif</b>.</li>
+<li>Pilih Kategori dan isi carian pada medan ruangan Carian. Klik butang Carian.</li>
+<li>Klik butang <b>Carian</b>.</li>
+<li>Klik pada butang <b>Aktif</b> pada tempat kerja yang ingin diaktifkan.</li>
 </ol>
 </div>

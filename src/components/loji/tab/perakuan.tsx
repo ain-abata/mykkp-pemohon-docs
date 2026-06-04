@@ -43,7 +43,6 @@ export default function Perakuan({
 }: PerakuanProps) {
     return (
         <div>
-            <h4 id={headerId}>Tab {tabNumber}: {tabName}</h4>
             <ExpandableImage
                 src={tabImgSrc}
                 alt={`Tab ${tabNumber}: ${tabName}`}
