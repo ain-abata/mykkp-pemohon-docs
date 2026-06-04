@@ -34,7 +34,7 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pendaftaran Te
     🏢 Pendaftaran Tempat Kerja
   </h3>
 
-  <div className="doc-card-row two-items">
+  <div className="doc-card-row">
     <div className="doc-card">
      <div className="doc-card-actions">
       <Link to="/docs/pemtk" className="doc-card-action">
@@ -44,10 +44,18 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pendaftaran Te
     </div>
     <div className="doc-card">
     <div className="doc-card-actions">
+    <Link to="/docs/tempat-kerja/belum-daftar" className="doc-card-action">
+      Tempat Kerja Belum Daftar
+    </Link>
+    </div>
+    </div>
+    <div className="doc-card">
+    <div className="doc-card-actions">
     <Link to="/docs/pemtk/patk" className="doc-card-action">
       Aktif Tempat Kerja
     </Link>
     </div>
     </div>
+    
   </div>
 </div>

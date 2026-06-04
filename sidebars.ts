@@ -438,6 +438,13 @@ const sidebars: SidebarsConfig = {
         },
       ]
     },
+    //Lampiran
+    {
+          type: 'doc',
+          id: 'lampiran/lampiran',
+          label: 'BOHS',
+          
+        },
     //FAQ
     {
       type: 'category',

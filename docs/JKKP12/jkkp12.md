@@ -45,7 +45,7 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pengendalian T
     🏗️ Pengendalian Tapak Pembinaan (JKKP12)
   </h3>
 
-  <div className="doc-card-row two-items">
+  <div className="doc-card-row">
     <div className="doc-card">
       <div className="doc-card-actions">
         <Link to="/docs/JKKP12/klien" className="doc-card-action">
@@ -53,7 +53,6 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pengendalian T
         </Link>
       </div>
     </div>
-
     <div className="doc-card">
       <div className="doc-card-actions">
         <Link to="/docs/JKKP12/klien-domestik" className="doc-card-action">
@@ -61,7 +60,6 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pengendalian T
         </Link>
       </div>
     </div>
-
     <div className="doc-card">
       <div className="doc-card-actions">
         <Link to="/docs/JKKP12/pengaktifan-tapak" className="doc-card-action">
@@ -69,11 +67,24 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pengendalian T
         </Link>
       </div>
     </div>
-
     <div className="doc-card">
       <div className="doc-card-actions">
         <Link to="/docs/JKKP12/penilaian-kendiri" className="doc-card-action">
           Penilaian Kendiri
+        </Link>
+      </div>
+    </div>
+    <div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="/docs/JKKP12/ruangan-kerja-projek" className="doc-card-action">
+          Ruangan Kerja Projek
+        </Link>
+      </div>
+    </div>
+    <div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="/docs/JKKP12/ruangan-kerja-tapak-pembinaan" className="doc-card-action">
+          Ruangan Kerja Tapak Pembinaan
         </Link>
       </div>
     </div>
