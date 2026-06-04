@@ -38,14 +38,14 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pendaftaran Te
     <div className="doc-card">
      <div className="doc-card-actions">
       <Link to="/docs/pemtk" className="doc-card-action">
-      Daftar Tempat Kerja
+      Pendaftaran Tempat Kerja (PEMTK)
       </Link>
      </div>
     </div>
     <div className="doc-card">
     <div className="doc-card-actions">
     <Link to="/docs/pemtk/patk" className="doc-card-action">
-      Aktif Tempat Kerja
+      Pengaktifan Tempat Kerja (PATK)
     </Link>
     </div>
     </div>

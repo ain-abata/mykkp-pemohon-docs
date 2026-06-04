@@ -205,56 +205,26 @@ import tab5 from '../../assets/images/pemtk/tab_perakuan.png';
 
 </div>
 
+## 🔍 Semak Status Permohonan PEMTK
+
 <div className="step-card">
 
-### Penyemakan Status Permohonan PEMTK
+import imgSedangProses from '@site/assets/images/pemtk/halaman_senarai_permohonan.png';
+import SemakStatus from '@site/src/components/loji/semak-status';
+import imgSelesaiProses from '@site/assets/images/pemtk/halaman_senarai_permohonan2.png';
 
-#### A. Semak status permohonan sedang diproses
-
-import step4 from '../../assets/images/pemtk/halaman_senarai_permohonan.png';
-
-<ExpandableImage
-        src={step4}
-        alt="Halaman Senarai Permohonan"
-        caption="Halaman Senarai Permohonan"
-        width={450} 
+<SemakStatus 
+    stepNumber={4}
+    moduleName="PEMTK"
+    imgTabSedangDiproses={imgSedangProses}
+    imgTabSelesaiDiproses={imgSelesaiProses} 
 />
-
-1. Klik butang menu **Senarai Permohonan** pada *side-bar* disebelah kiri untuk memaparkan halaman **Senarai Permohonan**.
-2. Klik butang **Tindakan** pada status **Sedang Diproses** bagi jenis permohonan **PEMTK**.
-3. Klik butang **Lihat Permohonan** untuk menyemak permohonan **PEMTK**.
-4. Semak permohonan yang telah diisi setelah selesai membuat permohonan **PEMTK**.
-
-#### B. Semak status permohonan setelah selesai proses
-
-import step4_2 from '../../assets/images/pemtk/halaman_senarai_permohonan2.png';
-
-<ExpandableImage
-        src={step4_2}
-        alt="Halaman Senarai Permohonan"
-        caption="Halaman Senarai Permohonan"
-        width={450} 
-/>
-
-1. Klik butang menu **Senarai Permohonan** pada *side-bar* disebelah kiri untuk memaparkan halaman **Senarai Permohonan**.
-2. Klik butang **Tindakan** pada status **Selesai Diproses – Diluluskan / Selesai Diproses - Dibatalkan** bagi jenis permohonan **PEMTK**.
-3. Klik butang **Lihat Maklumat** untuk menyemak permohonan **PEMTK**.
-4. Semak maklumat yang telah diisi setelah selesai proses **PEMTK**.
-
-{Admonition({
-  type: "tip",
-  children: React.createElement('null', null, 'Senarai ',
-    React.createElement('strong', null, 'Surat Pemberitahuan '), 'dan ',
-    React.createElement('strong', null, 'Surat Tolak '), 'akan dipaparkan pada medan ',
-    React.createElement('strong', null, 'Senarai Surat'), '.',
-  )
-})}
 
 </div>
 
-<div className="step-card">
+## 📬 Semak Surat Menyurat
 
-### Penyemakan Surat Menyurat
+<div className="step-card">
 
 import step5 from '../../assets/images/pemtk/halaman_surat_menyurat.png';
 

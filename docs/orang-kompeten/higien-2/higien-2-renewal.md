@@ -21,9 +21,7 @@ import LoginStep from '../../../src/components/login-step';
 </div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
-
 import imgMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/menu-kiri.png';
-
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembaharuan/butang-pembaharuan.png';
 
 
@@ -46,7 +44,6 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/pengapit/pembah
 {/* Step A. Tab 1: Maklumat Am */}
 
 import OkMaklumatAm from '../../../src/components/tab-ok/maklumat-am';
-
 import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_maklumat_am.png';
 
 <OkMaklumatAm
@@ -56,7 +53,6 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/higien-2/pembaha
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
-
 import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_maklumat_majikan.png';
 
 <OkMaklumatMajikan
@@ -65,9 +61,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/higien-2/pe
 ---
 {/* Step C. Tab 3: Pengalaman Kerja */}
 import OkMaklumatJadual from '../../../src/components/tab-ok/maklumat-jadual';
-
 import imgJadualPengalamanKerja from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_pengalaman_kimia.png';
-
 import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tambah_pengalaman_kimia.png';
 
 <OkMaklumatJadual
@@ -80,11 +74,8 @@ import imgTambahPengalamanKerja from '@site/assets/images/orang-kompeten/higien-
 {/* Step D. Tab 4: Maklumat CEP */}
 
 import OkMaklumatCep from '../../../src/components/tab-ok/maklumat-cep';
-
 import imgMaklumatCep from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_maklumat_cep.png';
-
 import imgTambahMaklumatCep from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tambah_maklumat_cep.png';
-
 import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/upload_maklumat_cep.png';
 
 <OkMaklumatCep
@@ -99,7 +90,6 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/higien-2/pe
 {/* Step E. Tab 5: Sijil Kompetensi */}
 
 import OkMaklumatSijil from '@site/src/components/tab-ok/sijil-kompetensi';
-
 import imgOkSijil from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_sijil_kompetensi.png';
 
 <OkMaklumatSijil
@@ -111,7 +101,6 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/
 {/* Step F. Tab 6: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
-
 import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_dokumen_sokongan.png';
 
 <OkDokumenSokongan
@@ -123,9 +112,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/higien-2/pe
 {/* Step G. Tab 7: Perakuan */}
 
 import OkPerakuan from '@site/src/components/tab-ok/perakuan';
-
 import imgOkPerakuan from '@site/assets/images/orang-kompeten/higien-2/pembaharuan/tab_perakuan.png';
-
 import imgOkMesejBerjaya from '@site/assets/images/orang-kompeten/mesej_penghantaran_berjaya.png';
 
 <OkPerakuan

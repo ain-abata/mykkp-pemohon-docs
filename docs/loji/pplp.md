@@ -151,19 +151,29 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 
 </div>
 
+## 🔍 Semak Status Permohonan PPLP
+
+<div className="step-card">
+
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/pplp/halaman_permohonan_sedang_diproses.png';
-
 import imgSelesaiProses from '@site/assets/images/loji/pplp/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
     stepNumber={4}
     moduleName="PPLP"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>
+
+<div className="step-card">
 
 import SemakSurat from '@site/src/components/loji/semak-surat';
 
 <SemakSurat
-    stepNumber={5} />
+    stepNumber={5} 
+/>
+
+</div>

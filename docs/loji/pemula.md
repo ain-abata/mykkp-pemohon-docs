@@ -222,12 +222,16 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
 import Pembayaran from '@site/src/components/loji/pembayaran';
 import imgPembayaran from '@site/assets/images/loji/pemula/halaman_pembayaran.png';
 import imgLihatResit from '@site/assets/images/loji/pembayaran/lihat_resit.png';
+import imgPembayaranKad from '@site/assets/images/loji/pembayaran/kaedah_pembayaran_kad.png';
+import imgPembayaranFPX from '@site/assets/images/loji/pembayaran/kaedah_pembayaran_online.png';
 
 <Pembayaran
     stepNumber={6}
     paymentType="Bayaran Bil"
     imgBayar={imgPembayaran}
     imgResit={imgLihatResit} 
+    imgKaedahBayarKad={imgPembayaranKad}
+    imgKaedahBayarFPX={imgPembayaranFPX}
 />
 
 </div>

@@ -6,6 +6,7 @@ sidebar_label: 'Aktif Tempat Kerja'
 ---
 import React from 'react';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
+import Admonition from '@site/src/components/admonition';
 
 import lamanMenuUtamaImg from '@site/assets/images/pemtk/laman-menu-utama.png';
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
@@ -89,7 +90,15 @@ import LoginStep from '../../src/components/login-step';
     Klik butang <b>Carian</b>.
   </li>
 <li>
-    Klik pada butang <b>Borang Patk Tahab 1</b> untuk muat turun borang dan lengkapkan borang tersebut.
+    Klik pada butang <b>Borang PATK Tahap 1</b> untuk memuat turun borang PATK Tahap 1.
+      <Admonition type="info">
+        Jika anda tidak dapat memuat turun borang melalui sistem, sila gunakan pautan berikut:  
+        👉https://mykkp.dosh.gov.my/manual/BORANG%20PATK%20TAHAP%201%20(NEW).pdf
+      </Admonition>
+    
+  </li>
+  <li>
+    Lengkapkan <b>borang PATK Tahap 1</b>.
   </li>
   <li>
     Klik butang <b>Mohon PATK</b>.
