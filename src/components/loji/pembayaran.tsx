@@ -59,12 +59,14 @@ export default function Pembayaran({
                 <div className="step-card">
                     <Tabs>
                                 <TabItem value="pageKad" label="Kad Kredit/Kad Debit" default>
+                                <h2 className="print-only">Pembayaran melalui Kad Kredit/Kad Debit</h2>
                                   <ol>
                                         <li>Pilih butang <b>Card</b>.</li>
                                             <ExpandableImage
                                                 src={imgKaedahBayarKad}
                                                 alt="Pilihan Kaedah Pembayaran"
                                                 caption="Pilihan Kaedah Pembayaran" 
+                                                width={400}
                                             /> 
                                         <li>Klik butang <b>Pay</b> untuk meneruskan pembayaran secara <b>Kad Debit/Kad Kredit.</b></li>
                                         <li>Isi maklumat Kad yang diperlukan.</li>
@@ -72,12 +74,14 @@ export default function Pembayaran({
                                     </ol>
                                 </TabItem>
                                 <TabItem value="pageFPX" label="FPX">               
+                                    <h2 className="print-only">Pembayaran melalui FPX</h2>
                                     <ol>
                                         <li>Pilih butang <b>Online Banking</b> atau <b>Online Banking (B2B)</b>.</li>
                                         <ExpandableImage
                                                 src={imgKaedahBayarFPX}
                                                 alt="Pilihan Kaedah Pembayaran"
                                                 caption="Pilihan Kaedah Pembayaran" 
+                                                width={400}
                                         /> 
                                        <li>Pilih bank yang dikehendaki.</li>
                                        <li>Klik butang <b>Pay</b> untuk meneruskan pembayaran.</li>

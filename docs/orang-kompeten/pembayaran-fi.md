@@ -82,6 +82,7 @@ import imgPembayaranFPX from '@site/assets/images/loji/pembayaran/kaedah_pembaya
 <div className="step-card">
     <Tabs>
       <TabItem value="pageKad" label="Kad Kredit/Kad Debit" default>
+        <h2 className="print-only">Pembayaran melalui Kad Kredit/Kad Debit</h2>
           <ol style={{ listStyleType: 'lower-roman' }}>
           <li>Pilih butang <b>Card</b>.</li>
           <ExpandableImage
@@ -95,7 +96,8 @@ import imgPembayaranFPX from '@site/assets/images/loji/pembayaran/kaedah_pembaya
           <li>Klik butang <b>Pay</b> untuk meneruskan transaksi.</li>
           </ol>
           </TabItem>
-                <TabItem value="pageFPX" label="FPX">               
+                <TabItem value="pageFPX" label="FPX">  
+                  <h2 className="print-only">Pembayaran melalui FPX</h2>             
                     <ol style={{ listStyleType: 'lower-roman' }}>
                         <li>Pilih butang <b>Online Banking</b> atau <b>Online Banking (B2B)</b>.</li>
                             <ExpandableImage
@@ -126,8 +128,8 @@ import imgStatusBayarProses from '@site/assets/images/orang-kompeten/pembayaran-
         <p>Halaman Status Bayaran</p>
   </div>
 
-  5. Selepas pembayaran berjaya, klik butang **Lihat Resit** untuk melihat salinan resit sebagai bukti pembayaran.
-  6. Maklumat resit akan dipaparkan pada halaman tab baru.
+    5. Selepas pembayaran berjaya, klik butang **Lihat Resit** untuk melihat salinan resit sebagai bukti pembayaran.
+    6. Maklumat resit akan dipaparkan pada halaman tab baru.
 
      {Admonition({
         type: "info",
