@@ -8,7 +8,7 @@ sidebar_label: 'Daftar Sebagai Pengguna MyKKP'
 import Admonition from '@site/src/components/admonition';
 import React from 'react';
 
-# 📝 Pendaftaran Akaun MyKKP Baru
+# 📝 Pendaftaran Akaun MyKKP
 
 ## 📌 Pengenalan
 Pendaftaran akaun diperlukan untuk membolehkan pengguna mengakses sistem MyKKP dan membuat permohonan berkaitan keselamatan dan kesihatan pekerjaan (KKP).

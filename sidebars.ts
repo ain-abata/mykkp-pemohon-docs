@@ -407,6 +407,20 @@ const sidebars: SidebarsConfig = {
           label: 'Penyakit - JKKP7',
           className: 'hideItem',
         },
+        
+        {
+          type: 'doc',
+          id: 'aduan/JKKP8-minor',
+          label: 'Minor - JKKP8',
+          className: 'hideItem',
+        },
+
+        {
+          type: 'doc',
+          id: 'aduan/PSM-JKKP8',
+          label: 'PSM - JKKP8',
+          className: 'hideItem',
+        },
       ],
     },
     //Lain-Lain
