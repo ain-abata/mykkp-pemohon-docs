@@ -1,0 +1,11 @@
+name = "mykkp-chatbot-worker"
+main = "index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# ANTHROPIC_KEY is set as a secret — run: wrangler secret put ANTHROPIC_KEY
+
+# Optional: restrict to your domain in production
+# [triggers]
+# crons = []

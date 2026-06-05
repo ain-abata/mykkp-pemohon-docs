@@ -1,0 +1,38 @@
+name: Update Chatbot Knowledge Base
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'   # Only runs when docs files change
+
+jobs:
+  update-knowledge-base:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build knowledge base
+        run: python scripts/build-knowledge-base.py
+
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
+      - name: Upload knowledge base to Cloudflare Worker
+        run: |
+          # Copy fresh knowledge base into worker folder
+          cp worker/knowledge-base.json worker/knowledge-base.json
+          
+          # Deploy updated worker (includes new knowledge base)
+          cd worker
+          wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
