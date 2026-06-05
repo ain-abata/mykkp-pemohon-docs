@@ -46,21 +46,32 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi **Permohonan Pemindahan L
 
 import LoginStep from '@site/src/components/login-step';
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk 
+
 <LoginStep 
-  stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+    stepNumber={1}
+    title="Akses Halaman Log Masuk MyKKP" />
+</div>
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
+
+<div className="step-card">
+
+### Halaman Permohonan Pemindahan Loji Hak Milik
+
 
 <MenuLoji
     stepNumber={2}
     pageName="Pemindahan Loji Hak Milik"
     kategoriPermohonan="Pendaftaran Loji Baru dan Pindah Loji"
     moduleType="Permohonan Pemindahan Loji Hak Milik" />
+    </div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemindahan Loji Hak Milik
+### Pengisian Borang Permohonan Pemindahan Loji Hak Milik
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
 

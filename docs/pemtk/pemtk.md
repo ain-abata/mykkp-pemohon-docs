@@ -29,15 +29,24 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan Pemberitahuan 
 
 ## 🧭 Langkah-langkah Pemberitahuan
 
+
+
+<div classname= "step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 import LoginStep from '../../src/components/login-step';
 
-<LoginStep 
+<loginstep
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+  title="Akses Halaman Log Masuk MyKKP" 
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 2: Masuk ke Halaman Pemberitahuan Tempat Kerja
+### Masuk ke Halaman Pemberitahuan Tempat Kerja
 
 import step2 from '../../assets/images/pemtk/menu_utama.png';
 
@@ -69,7 +78,7 @@ import step2 from '../../assets/images/pemtk/menu_utama.png';
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Tempat Kerja
+### Pengisian Borang Pemberitahuan Tempat Kerja
 
 #### A. Tab 1: Maklumat Am
 
@@ -184,7 +193,7 @@ import tab5 from '../../assets/images/pemtk/tab_perakuan.png';
 
 <div className="step-card">
 
-### Langkah 4: Penyemakan Status Permohonan PEMTK
+### Penyemakan Status Permohonan PEMTK
 
 #### A. Semak status permohonan sedang diproses
 
@@ -227,7 +236,7 @@ import step4_2 from '../../assets/images/pemtk/halaman_senarai_permohonan2.png';
 
 <div className="step-card">
 
-### Langkah 5: Penyemakan Surat Menyurat
+### Penyemakan Surat Menyurat
 
 import step5 from '../../assets/images/pemtk/halaman_surat_menyurat.png';
 

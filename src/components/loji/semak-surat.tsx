@@ -24,8 +24,7 @@ export default function SemakStatus({
     stepNumber,
 }: SemakStatusProps) {
     return (
-        <div className="step-card">
-            <h3>Langkah {stepNumber}: Penyemakan Surat Menyurat</h3>
+        <div>
             <ExpandableImage
                 src={pageSuratMenurat}
                 alt="Halaman Surat Menyurat"

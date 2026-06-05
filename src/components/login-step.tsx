@@ -2,27 +2,26 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Link from '@docusaurus/Link';
-
 import imgLogin from '@site/assets/images/log_masuk.png';
 
 interface LoginStepProps {
-    stepNumber: number;
-    title: string;
-    headerId: string;
+  stepNumber: number;
+  title: string;
+  headerId: string;
 }
 
-export default function LoginStep({ 
+export default function LoginStep({
   stepNumber,
   title,
   headerId,
-}: LoginStepProps ) {
-  return (
-    <div className="step-card">
-      <h3 id={headerId}>Langkah {stepNumber}: {title}</h3>
+}: LoginStepProps) {
 
+  
+   return (
+    <div>
       <p>
         Klik pautan berikut: 👉{' '}
-        <a href="https://mykkpstg.dosh.gov.my/#/home/log-masuk">
+        <a href="https://mykkp.dosh.gov.my/#/home/log-masuk">
           Log Masuk MyKKP
         </a>
       </p>
@@ -34,7 +33,7 @@ export default function LoginStep({
         width={300} />
 
       <ol>
-        <li>Masukkan <b>ID pengguna</b> dan <b>Kata Laluan</b>.</li>
+        <li>Masukkan <b>ID Pengguna</b> dan <b>Kata Laluan</b>.</li>
         <li>Klik butang <b>Log Masuk</b>.</li>
       </ol>
 

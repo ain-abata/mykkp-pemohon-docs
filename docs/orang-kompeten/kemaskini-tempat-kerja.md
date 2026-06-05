@@ -1,7 +1,7 @@
 ---
 title: Kemaskini Tempat Kerja
 description: Panduan lengkap Kemaskini Tempat Kerja
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Kemaskini Tempat Kerja'
 ---
 
@@ -12,6 +12,9 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
+<div className="toc-only">
+### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
+</div>
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
@@ -20,6 +23,9 @@ import LangkahMenuUtama from '@site/src/components/menu-kemaskini-tk';
 
 import imgMenuUtama from '@site/assets/images/orang-kompeten/kemaskini-tk/menu_utama.png';
 
+<div className="toc-only">
+### [Langkah 2: Halaman Kemaskini Tempat Kerja](#toLoginStep)
+</div>
 <LangkahMenuUtama
   stepNumber={2}
   menuUtamaImgSrc={imgMenuUtama}

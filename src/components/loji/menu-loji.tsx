@@ -48,9 +48,7 @@ export default function MenuLoji({
   moduleType,
 }: MenuLojiProps) {
   return (
-    <div className="step-card">
-      <h3>Langkah {stepNumber}: Masuk Ke Halaman Permohonan {pageName}</h3>
-      
+    <div>
       <ExpandableImage
         src={imgMenu}
         alt={`Halaman Menu Utama`}

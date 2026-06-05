@@ -1,6 +1,6 @@
 ---
-title: Permohonan Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
-description: Panduan lengkap permohonan pemberitahuan berkenaan ambil alih tempat kerja
+title: Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+description: Panduan lengkap pemberitahuan berkenaan ambil alih tempat kerja
 hide_table_of_contents: false
 sidebar_label: 'Pemberitahuan Berkenaan Ambil Alih Tempat Kerja'
 ---
@@ -11,13 +11,24 @@ import React from 'react';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## 🧭 Langkah-langkah Permohonan
+## 🧭 Langkah-langkah Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
 
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
-  stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+    stepNumber={1}
+    title="Akses Halaman Log Masuk MyKKP" 
+/>
+
+</div>
+
+<div className="step-card">
+
+### Halaman Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
@@ -25,11 +36,14 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
     stepNumber={2}
     pageName="Proses Ambil Alih"
     kategoriPermohonan="Pemberitahuan Tempat Kerja"
-    moduleType="Pemberitahuan Berkenaan Ambil Alih Tempat Kerja" />
+    moduleType="Pemberitahuan Berkenaan Ambil Alih Tempat Kerja" 
+/>
+
+</div>
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+### Pengisian Borang Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
 
 #### A. Tab 1: Maklumat Penduduk Dulu
 
@@ -83,7 +97,8 @@ import imgPerakuan from '@site/assets/images/loji/ambil-alih-tk/tab_perakuan.png
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
     noRujukan="XX/102/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+/>
 
 import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
 
@@ -91,14 +106,21 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 
 </div>
 
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan Pemberitahuan Berkenaan Ambil Alih Tempat Kerja
+
+<div className="step-card">
+
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/ambil-alih-tk/halaman_permohonan_sedang_diproses.png';
-
 import imgSelesaiProses from '@site/assets/images/loji/ambil-alih-tk/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
     stepNumber={4}
     moduleName="Ambil Alih Tempat Kerja"
     imgTabSedangDiproses={imgSedangProses}
-    imgTabSelesaiDiproses={imgSelesaiProses} />
+    imgTabSelesaiDiproses={imgSelesaiProses} 
+/>
+
+</div>

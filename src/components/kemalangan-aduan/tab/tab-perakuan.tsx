@@ -18,7 +18,7 @@ export default function TabPerakuan({
 }: TabPerakuanProps) {
   return (
     <div>
-      <h4>E. Tab {tabNumber}: {tabName}</h4>
+      <h4>Tab {tabNumber}: {tabName}</h4>
 
       <ExpandableImage
         src={tabImgSrc}

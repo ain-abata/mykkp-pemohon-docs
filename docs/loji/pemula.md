@@ -88,13 +88,26 @@ Pemohon perlu menyediakan dokumen yang diperlukan bagi permohonan **Pemeriksaan 
   </TabItem>
 </Tabs>
 
+<div className="page-break"></div>
+
 ## 🧭 Langkah-langkah Permohonan
+
+
+<div className="step-card">
+### Akses Halaman Log Masuk MyKKP
 
 import LoginStep from '@site/src/components/login-step';
 
 <LoginStep 
   stepNumber={1}
-  title="Akses Halaman Log Masuk MyKKP" />
+  title="Akses Halaman Log Masuk MyKKP"
+/>
+
+</div>
+
+<div className="step-card">
+
+### Halaman Permohonan Pemeriksaan Permulaan
 
 import MenuLoji from '@site/src/components/loji/menu-loji';
 
@@ -102,14 +115,17 @@ import MenuLoji from '@site/src/components/loji/menu-loji';
     stepNumber={2}
     pageName="Kebenaran Memasang Loji"
     kategoriPermohonan="Pendaftaran Loji Baru dan Pindah Loji"
-    moduleType="Permohonan Pemeriksaan Permulaan Loji oleh Penghuni (Tempat Kerja)" />
+    moduleType="Permohonan Pemeriksaan Permulaan Loji oleh Penghuni (Tempat Kerja)" 
+/>
+
+</div>
+
 
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
+### Pengisian Borang Permohonan Pemeriksaan Permulaan Loji
 
 import MaklumatAm from '@site/src/components/loji/tab/maklumat-am';
-
 import imgMaklumatAm from '@site/assets/images/loji/pemula/tab_maklumat_am.png';
 
 <MaklumatAm
@@ -117,12 +133,12 @@ import imgMaklumatAm from '@site/assets/images/loji/pemula/tab_maklumat_am.png';
     tabNumber={1}
     tabName="Maklumat Am"
     hasRujukan={true}
-    tabImgSrc={imgMaklumatAm} />
+    tabImgSrc={imgMaklumatAm} 
+/>
 
 ---
 
 import SenaraiLoji from '@site/src/components/loji/tab/senarai-loji';
-
 import imgSenaraiLoji from '@site/assets/images/loji/pemula/tab_senarai_loji.png';
 
 <SenaraiLoji
@@ -131,36 +147,36 @@ import imgSenaraiLoji from '@site/assets/images/loji/pemula/tab_senarai_loji.png
     tabName="Senarai Loji"
     tabImgSrc={imgSenaraiLoji}
     leftTableName="Senarai PTI"
-    rightTableName="Senarai PTI Yang Dipilih Untuk Pemeriksaan" />
+    rightTableName="Senarai PTI Yang Dipilih Untuk Pemeriksaan"
+/>
 
 ---
 
 import PengesahanSpesifikasi from '@site/src/components/loji/tab/pengesahan-spesifikasi';
-
 import imgPengesahanSpesifikasi from '@site/assets/images/loji/pemula/tab_pengesahan_spesifikasi.png';
 
 <PengesahanSpesifikasi
     alphabetNumbering="C"
     tabNumber={3}
     tabName="Pengesahan Spesifikasi"
-    tabImgSrc={imgPengesahanSpesifikasi} />
+    tabImgSrc={imgPengesahanSpesifikasi} 
+/>
 
 ---
 
 import DokumenSokongan from '@site/src/components/loji/tab/dokumen-sokongan';
-
 import imgDokSokongan from '@site/assets/images/loji/pemula/tab_dokumen_sokongan.png';
 
 <DokumenSokongan
-    alphabetNumbering="C"
-    tabNumber={3}
+    alphabetNumbering="D"
+    tabNumber={4}
     tabName="Dokumen Sokongan"
-    tabImgSrc={imgDokSokongan} />
+    tabImgSrc={imgDokSokongan} 
+/>
 
 ---
 
 import Perakuan from '@site/src/components/loji/tab/perakuan';
-
 import imgPerakuan from '@site/assets/images/loji/pemula/tab_perakuan.png';
 
 <Perakuan 
@@ -169,7 +185,8 @@ import imgPerakuan from '@site/assets/images/loji/pemula/tab_perakuan.png';
     tabName="Perakuan"
     tabImgSrc={imgPerakuan}
     noRujukan="XX/PEMULA/XX/XXXXX"
-    hasPayment={false} />
+    hasPayment={false} 
+/>
 
 import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemohon';
 
@@ -177,10 +194,14 @@ import BatalOlehPemohon from '@site/src/components/admonitions/batal-oleh-pemoho
 
 </div>
 
+<div className="page-break"></div>
+
+## 🔍 Semak Status Permohonan PEKALA
+
+<div className="step-card">
+
 import SemakStatus from '@site/src/components/loji/semak-status';
-
 import imgSedangProses from '@site/assets/images/loji/pemula/halaman_permohonan_sedang_diproses.png';
-
 import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan_selesai_diproses.png';
 
 <SemakStatus 
@@ -193,14 +214,20 @@ import imgSelesaiProses from '@site/assets/images/loji/pemula/halaman_permohonan
     Pembayaran bil perlu dilakukan setelah permohonan **Pemeriksaan Permulaan** selesai diluluskan oleh pegawai JKKP.
 </Admonition>
 
+</div>
+
+## 📄 Pembayaran Pekhidmatan
+<div className="step-card">
+
 import Pembayaran from '@site/src/components/loji/pembayaran';
-
 import imgPembayaran from '@site/assets/images/loji/pemula/halaman_pembayaran.png';
-
 import imgLihatResit from '@site/assets/images/loji/pembayaran/lihat_resit.png';
 
 <Pembayaran
     stepNumber={6}
     paymentType="Bayaran Bil"
     imgBayar={imgPembayaran}
-    imgResit={imgLihatResit} />
+    imgResit={imgLihatResit} 
+/>
+
+</div>

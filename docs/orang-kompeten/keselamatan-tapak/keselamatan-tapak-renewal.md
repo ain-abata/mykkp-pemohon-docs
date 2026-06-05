@@ -1,7 +1,7 @@
 ---
 title: PEMBAHARUAN PENYELIA KESELAMATAN TAPAK (SSS)
 description: Panduan lengkap pendaftaran penyelia keselamatan tapak
-hide_table_of_contents: true
+hide_table_of_contents: false
 sidebar_label: 'Pembaharuan'
 ---
 
@@ -11,15 +11,25 @@ import React from 'react';
 # 📝 Pembaharuan Sijil Penyelia Keselamatan Tapak
 import LoginStep from '../../../src/components/login-step';
 
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
+
+</div>
 
 import PembaharuanOk from '../../../src/components/menu-renewal-ok';
 
 import imgMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tapak/pembaharuan/menu-kiri.png';
 
 import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tapak/pembaharuan/butang-pembaharuan.png';
+
+<div className="step-card">
+
+### Halaman Pendaftaran Penyelia Keselamatan Tapak
 
 <PembaharuanOk
   stepNumber={2}
@@ -29,9 +39,11 @@ import tambahMaklumatOk from '@site/assets/images/orang-kompeten/keselamatan-tap
   tambahImgSrc={tambahMaklumatOk}
 />
 
+</div>
+
 <div className="step-card">
 
-### Langkah 3: Pengisian Borang Pembaharuan Penyelia Keselamatan Tapak
+### Pengisian Borang Pembaharuan Penyelia Keselamatan Tapak
 
 {/* Step A. Tab 1: Maklumat Am */}
 
@@ -42,7 +54,7 @@ import imgOkMaklumatAm from '@site/assets/images/orang-kompeten/keselamatan-tapa
 <OkMaklumatAm
     hasPanduan={false}
     tabImgSrc={imgOkMaklumatAm}/>
-
+---
 {/* Step B. Tab 2: Maklumat Majikan */}
 
 import OkMaklumatMajikan from '../../../src/components/tab-ok/maklumat-majikan';
@@ -52,7 +64,7 @@ import imgOkMaklumatMajikan from '@site/assets/images/orang-kompeten/keselamatan
 <OkMaklumatMajikan
     hasOptionTiadaMajikan={true}
     tabImgSrc={imgOkMaklumatMajikan} />
-
+---
 {/* Step C. Tab 3: Maklumat CEP */}
 
 import OkMaklumatCep from '../../../src/components/tab-ok/maklumat-cep';
@@ -70,7 +82,7 @@ import imgUploadMaklumatCep from '@site/assets/images/orang-kompeten/keselamatan
   tabImgSrc={imgMaklumatCep}
   tambahImgSrc={imgTambahMaklumatCep}
   uploadImgSrc={imgUploadMaklumatCep}/>
-
+---
 
 {/* Step D. Tab 4: Sijil Kompetensi */}
 
@@ -83,7 +95,7 @@ import imgOkSijil from '@site/assets/images/orang-kompeten/keselamatan-tapak/pem
     tabNumber={4}
     tabName="Sijil Kompetensi"
     tabImgSrc={imgOkSijil} />
-
+---
 {/* Step E. Tab 5: Maklumat Perubatan */}
 
 import OkMaklumatPerubatan from '@site/src/components/tab-ok/maklumat-perubatan-mmc';
@@ -95,7 +107,7 @@ import imgOkMaklumatPerubatan from '@site/assets/images/orang-kompeten/keselamat
     tabNumber={5}
     tabName="Maklumat Perubatan"
     tabImgSrc={imgOkMaklumatPerubatan} />
-
+---
 {/* Step F. Tab 6: Dokumen Sokongan */}
 
 import OkDokumenSokongan from '@site/src/components/tab-ok/dokumen-sokongan';
@@ -107,6 +119,7 @@ import imgOkDokumenSokongan from '@site/assets/images/orang-kompeten/keselamatan
     tabNumber={6}
     tabName="Dokumen Sokongan"
     tabImgSrc={imgOkDokumenSokongan} />
+---
 
 {/* Step G. Tab 7: Perakuan */}
 

@@ -1,51 +1,121 @@
-/* CSS child items */
-.menu__link { 
-  color: #6b7280;
+/* ==========================================================
+   Sidebar Color Tokens (Light Theme - blue System)
+   ========================================================== */
+:root {
+  /* Normal sidebar links */
+  --sidebar-hover-text: #1868DB;      /* blue-700 */
+
+  /* Section headers / collapsible parents */
+  --sidebar-heading-text: #0f172a;    /* slate-900 */
+
+  /* Active item */
+  --sidebar-active-text: #357DE8;     /* blue-600 */
+}
+
+/* ==========================================================
+   Sidebar Color Tokens (Dark Theme - blue System)
+   ========================================================== */
+[data-theme='dark'] {
+  /* Normal sidebar links */
+  --sidebar-hover-text: #8FB8F6;      /* blue-300 */
+
+  /* Section headers / collapsible parents */
+  --sidebar-heading-text: #ffffff;
+
+  /* Active item */
+  --sidebar-active-text: #669DF1;     /* blue-400 */
+}
+
+.menu__link {
+  color: var(--sidebar-heading-text);
   font-weight: 600;
-
-  :hover {
-  color: #374151;
-  }
-
+  font-size: 0.913rem;
   padding-left: 0;
+  border-radius: 6px;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.menu__link:hover {
+  color: var(--sidebar-hover-text);
+  background-color: var(--background-hover);
 }
 
 .menu__list-item-collapsible > .menu__link {
-  color: #000;
+  color: var(--sidebar-heading-text);
   font-weight: 600;
-  font-size: .913rem;
+  font-size: 0.913rem;
 }
-
+.hideItem {   display: none; }
+ 
 .menu__list-item-collapsible > .menu__link:hover {
-  color: #000;
+  color: var(--sidebar-heading-text);
+  background-color: var(--background-hover);
 }
 
 
 .menu__link--active {
-  color: #3880ff !important;
+  color: var(--sidebar-active-text) !important;
   font-weight: 600;
+  background-color: var(--background-active);
 }
 
 .menu__list-item {
   margin: 4px 0;
-  font-size: .813rem;
+  font-size: 0.813rem;
+
 }
 
 .menu__list-item-collapsible {
   margin-top: 10px;
 }
 
-/* menu caret on left */
+/* Move submenu caret to the left */
 .menu__link--sublist {
   flex-direction: row-reverse;
-}
 
-/* scrollbar styling */
+}
+.menu__caret {
+    display: none !important;
+  }
+/* Scrollbar styling */
 .theme-doc-sidebar-container {
   scrollbar-width: thin;
 }
 
+/* Nested list indentation */
 ul.menu__list {
   padding-left: 10px;
 }
 
+.menu__caret::before,
+.menu__link--sublist-caret::after {
+  width: 1.5rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  background-size: 1.5rem 1.5rem;
+}
+
+
+.hideChildren {
+  .menu__list-item-collapsible {
+    margin: 0;
+  }
+  .menu__caret {
+    display: none !important;
+  }
+ 
+  .menu__link {
+    color: #6b7280 !important;
+    font-size: .813rem !important;
+    font-weight: 600;
+    margin: 0 !important;
+   
+    :hover {
+      color: #374151;
+    }
+  }
+ 
+  .menu__list-item {
+    display: none;
+  }
+}

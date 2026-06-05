@@ -14,7 +14,7 @@ export default function TabButirPengadu({
 }: TabButirPengaduProps) {
   return (
     <div>
-      <h4>A. Tab {tabNumber}: {tabName}</h4>
+      <h4>Tab {tabNumber}: {tabName}</h4>
       <ExpandableImage
         src={tabImgSrc}
         alt={`Tab ${tabNumber}: ${tabName}`}
