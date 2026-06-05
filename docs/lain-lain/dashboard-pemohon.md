@@ -18,9 +18,9 @@ import imgTukarMenu from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_
 import imgTempatKerja from '@site/assets/images/lain-lain/dashboard-pemohon/menu_tempat_kerja_kilang.png';
 import imgOrangKompeten from '@site/assets/images/lain-lain/dashboard-pemohon/menu_orang_kompeten.png';
 
-<div className="toc-only">
-### [Laman Menu Utama](#toLoginStep)
-</div>
+
+### Laman Menu Utama
+
 
 <LangkahMenuUtama
   stepNumber={1}
@@ -40,9 +40,7 @@ import imgJadualCep from '@site/assets/images/lain-lain/dashboard-pemohon/jadual
 import imgMaklumatEmel from '@site/assets/images/lain-lain/dashboard-pemohon/maklumat_emel.png';
 import imgTukarKataLaluan from '@site/assets/images/lain-lain/dashboard-pemohon/tukar_kata_laluan.png';
 
-<div className="toc-only">
-### [Laman Profil Saya](#toLoginStep)
-</div>
+### Laman Profil Saya
 
 <LangkahProfilSaya
   stepNumber={2}
@@ -63,10 +61,13 @@ import imgCarian from '@site/assets/images/lain-lain/dashboard-pemohon/carian_te
 import imgKemaskini from '@site/assets/images/lain-lain/dashboard-pemohon/kemaskini_tempat_kerja.png';
 import imgSenaraiJentera from '@site/assets/images/lain-lain/dashboard-pemohon/senarai_jentera_cf.png';
 import imgPenilaian from '@site/assets/images/lain-lain/dashboard-pemohon/penilaian_tempat_kerja.png';
+import imgModulKemaskini from '@site/assets/images/orang-kompeten/kemaskini-tk/modul_kemaskini_tempat_kerja.png';
+import imgLokasiKemaskini from '@site/assets/images/orang-kompeten/kemaskini-tk/lokasi_kemaskini_tempat_kerja.png';
 
-<div className="toc-only">
-### [Laman Profil Tempat Kerja](#toLoginStep)
-</div>
+import imgMaklumatPerhubungan from '@site/assets/images/orang-kompeten/kemaskini-tk/maklumat_tempat_kerja.png';
+
+### Laman Profil Tempat Kerja
+
 <LangkahProfilTempatKerja
   stepNumber={3}
   menuProfilTempatKerjaImgSrc={imgMenuProfilTempatKerja}
@@ -75,6 +76,9 @@ import imgPenilaian from '@site/assets/images/lain-lain/dashboard-pemohon/penila
   kemaskiniImgSrc={imgKemaskini}
   senaraiJenteraImgSrc={imgSenaraiJentera}
   penilaianImgSrc={imgPenilaian}
+  modulImgSrc={imgModulKemaskini}
+  IICMSImgSrc={imgLokasiKemaskini}
+  maklumatPerhubunganImgSrc={imgMaklumatPerhubungan}
 />
 ---
 
@@ -87,9 +91,8 @@ import imgLulus from '@site/assets/images/lain-lain/dashboard-pemohon/tab_lulus.
 import imgBatalTolak from '@site/assets/images/lain-lain/dashboard-pemohon/tab_batal_tolak.png';
 import imgPengurusan from '@site/assets/images/lain-lain/dashboard-pemohon/tab_pengurusan_deraf.png';
 
-<div className="toc-only">
-### [Laman Senarai Permohonan](#toLoginStep)
-</div>
+### Laman Senarai Permohonan
+
 <LangkahSenaraiPermohonan
   stepNumber={4}
   menuSenaraiPermohonanImgSrc={imgMenuSenaraiPermohonan}
@@ -105,9 +108,9 @@ import LangkahTemudugaVerifikasi from '@site/src/components/lain-lain/dashboard-
 
 import imgTemudugaVerifikasi from '@site/assets/images/lain-lain/dashboard-pemohon/menu_temuduga_verifikasi.png';
 
-<div className="toc-only">
-### [Laman Temu Duga Verifikasi](#toLoginStep)
-</div>
+
+### Laman Temu Duga Verifikasi
+
 
 <LangkahTemudugaVerifikasi
   stepNumber={5}
@@ -119,9 +122,8 @@ import LangkahPembayaran from '@site/src/components/lain-lain/dashboard-pemohon/
 
 import imgPembayaran from '@site/assets/images/lain-lain/dashboard-pemohon/pembayaran.png';
 
-<div className="toc-only">
-### [Laman Pembayaran](#toLoginStep)
-</div>
+### Laman Pembayaran
+
 
 <LangkahPembayaran
   stepNumber={6}
@@ -133,9 +135,7 @@ import LangkahSuratMenyurat from '@site/src/components/lain-lain/dashboard-pemoh
 
 import imgSuratMenyurat from '@site/assets/images/lain-lain/dashboard-pemohon/surat_menyurat.png';
 
-<div className="toc-only">
-### [Laman Surat Menyurat](#toLoginStep)
-</div>
+### Laman Surat Menyurat
 
 <LangkahSuratMenyurat
   stepNumber={7}

@@ -89,12 +89,11 @@ import LoginStep from '../../src/components/login-step';
     Klik butang <b>Carian</b>.
   </li>
 <li>
-    Klik pada butang <b>Borang Patk Tahab 1</b> untuk muat turun borang dan lengkapkan borang tersebut.
-  </li>
+  Klik pada butang <a href="https://mykkp.dosh.gov.my/manual/BORANG%20PATK%20TAHAP%201%20(NEW).pdf" target="_blank" rel="noopener noreferrer"> <b>Borang PATK Tahap 1</b></a> untuk muat turun borang dan lengkapkan borang tersebut.
+</li>
   <li>
     Klik butang <b>Mohon PATK</b>.
   </li>
- ---
  </ol>
  </div>
 

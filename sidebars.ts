@@ -254,6 +254,18 @@ const sidebars: SidebarsConfig = {
           label: 'Aktif Tempat Kerja',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/belum-daftar',
+          label: 'Belum Daftar Tempat Kerja',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/kemaskini-tempat-kerja',
+          label: 'Kemaskini Tempat Kerja',
+          className: 'hideItem',
+        },
       ],
     },
     //Pengendalian tk n loji
@@ -378,6 +390,18 @@ const sidebars: SidebarsConfig = {
           label: 'Penilaian Kendiri',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'JKKP12/ruangan-kerja-projek',
+          label: 'Ruangan Kerja Projek',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'JKKP12/ruangan-kerja-tapak-pembinaan',
+          label: 'Ruangan Kerja Tapak Pembinaan',
+          className: 'hideItem',
+        },
       ],
     },
     //Kemalangan & Aduan
@@ -452,6 +476,13 @@ const sidebars: SidebarsConfig = {
         },
       ]
     },
+    //Lampiran
+    {
+          type: 'doc',
+          id: 'lampiran/lampiran',
+          label: 'BOHS',
+          
+        },
     //FAQ
     {
       type: 'category',

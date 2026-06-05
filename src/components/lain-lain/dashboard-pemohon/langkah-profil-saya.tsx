@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ExpandableImage from '../../common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 interface LangkahProfilSayaProps {
   stepNumber: number;
@@ -21,70 +23,12 @@ export default function LangkahProfilSaya({
   maklumatEmelImgSrc,
   tukarKataLaluanImgSrc,
 }: LangkahProfilSayaProps) {
-  const [activeTab, setActiveTab] = useState<
-    'maklumatAm' | 'maklumatOyk' | 'jadualCep' | 'maklumatEmel' | 'tukarKataLaluan'
-  >('maklumatAm');
-
   return (
     <div>
-      <h3>{stepNumber}. Laman Profil Saya</h3>
+      <Tabs>
+        <TabItem value="maklumatAm" label="Maklumat Am" default>
 
-      <ol>
-        <li>Klik menu <b>Profil Saya</b>.</li>
-        <li>Skrin menu <b>Profil Saya</b> akan dipaparkan seperti di bawah.</li>
-      </ol>
-
-      <ExpandableImage
-        src={menuProfilImgSrc}
-        alt="Menu Profil Saya"
-        caption="Menu Profil Saya"
-        width={450}
-      />
-
-      <div className="inner-tabs">
-        <button
-          type="button"
-          className={activeTab === 'maklumatAm' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('maklumatAm')}
-        >
-          Maklumat Am
-        </button>
-
-        <button
-          type="button"
-          className={activeTab === 'maklumatOyk' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('maklumatOyk')}
-        >
-          Maklumat OYK
-        </button>
-
-        <button
-          type="button"
-          className={activeTab === 'jadualCep' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('jadualCep')}
-        >
-          Jadual CEP
-        </button>
-
-        <button
-          type="button"
-          className={activeTab === 'maklumatEmel' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('maklumatEmel')}
-        >
-          Maklumat Emel
-        </button>
-
-        <button
-          type="button"
-          className={activeTab === 'tukarKataLaluan' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('tukarKataLaluan')}
-        >
-          Tukar Kata Laluan
-        </button>
-      </div>
-
-      {activeTab === 'maklumatAm' && (
-        <div>
+          <h4>Maklumat Am</h4>
           <ExpandableImage
             src={maklumatAmImgSrc}
             alt="Maklumat Am"
@@ -98,11 +42,11 @@ export default function LangkahProfilSaya({
             <li>Klik butang <b>Kemaskini</b> jika ingin mengemaskini maklumat.</li>
             <li>Klik butang <b>Simpan</b> setelah selesai mengemaskini maklumat.</li>
           </ol>
-        </div>
-      )}
 
-      {activeTab === 'maklumatOyk' && (
-        <div>
+        </TabItem>
+
+        <TabItem value="maklumatOyk" label="Maklumat OYK">
+          <h4>Maklumat Oyk</h4>
           <ExpandableImage
             src={maklumatOykImgSrc}
             alt="Maklumat OYK"
@@ -117,11 +61,11 @@ export default function LangkahProfilSaya({
             <li>Klik butang <b>Baru</b> untuk membuat pembaharuan OYK.</li>
             <li>Klik butang <b>Kemaskini Maklumat OYK</b> untuk mengemaskini maklumat majikan.</li>
           </ol>
-        </div>
-      )}
 
-      {activeTab === 'jadualCep' && (
-        <div>
+        </TabItem>
+
+        <TabItem value="jadualCep" label="Jadual CEP">
+          <h4>Jadual CEP</h4>
           <ExpandableImage
             src={jadualCepImgSrc}
             alt="Jadual CEP"
@@ -135,11 +79,11 @@ export default function LangkahProfilSaya({
             <li>Klik medan <b>Sila Pilih Jenis OYK</b> untuk memilih jenis Orang Yang Kompeten.</li>
             <li>Klik butang <b>Tambah Baru</b> untuk memuat naik dokumen CEP.</li>
           </ol>
-        </div>
-      )}
 
-      {activeTab === 'maklumatEmel' && (
-        <div>
+        </TabItem>
+
+        <TabItem value="maklumatEmel" label="Maklumat Emel">
+          <h4>Maklumat Emel</h4>
           <ExpandableImage
             src={maklumatEmelImgSrc}
             alt="Maklumat Emel"
@@ -154,11 +98,11 @@ export default function LangkahProfilSaya({
             <li>Klik butang <b>Hantar</b>.</li>
             <li>Kod verifikasi akan dihantar ke emel baru.</li>
           </ol>
-        </div>
-      )}
 
-      {activeTab === 'tukarKataLaluan' && (
-        <div>
+        </TabItem>
+
+        <TabItem value="tukarKataLaluan" label="Tukar Kata Laluan">
+          <h4>Tukar Kata Laluan</h4>
           <ExpandableImage
             src={tukarKataLaluanImgSrc}
             alt="Tukar Kata Laluan"
@@ -172,8 +116,9 @@ export default function LangkahProfilSaya({
             <li>Masukkan kata laluan lama dan kata laluan baru.</li>
             <li>Klik butang <b>Hantar</b>.</li>
           </ol>
-        </div>
-      )}
+
+        </TabItem>
+      </Tabs>
 
       <Admonition type="info">
         Menu <b>Profil Saya</b> digunakan untuk menyemak dan mengemaskini maklumat pengguna, maklumat OYK, jadual CEP, emel dan kata laluan.
