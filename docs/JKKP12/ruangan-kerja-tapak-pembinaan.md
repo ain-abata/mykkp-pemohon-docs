@@ -9,18 +9,18 @@ import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import LoginStep from '@site/src/components/login-step';
 
-import lamanMenuUtamaImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/laman-menu-utama.png';
-import lamanJkkp12Img from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/laman-jkkp12.png';
-import pengurusanTapakImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/pengurusan-jkkp12-tapak-pembinaan.png';
-import menuTindakanTapakImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/menu-tindakan-tapak-pembinaan.png';
-import ruanganKerjaTapakImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/ruangan-kerja-tapak-pembinaan.png';
-import doketTapakImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/doket-tapak-pembinaan.png';
-import maklumatTapakImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/maklumat-tapak-pembinaan.png';
-import penilaianKendiriImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/penilaian-kendiri.png';
-import penguatkuasaanJkkpImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/penguatkuasaan-jkkp.png';
-import butiranLanjutImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/butiran-lanjut.png';
-import pengemaskinianTapakImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/pengemaskinian-tapak-pembinaan.png';
-import sejarahPengemaskinianImg from '@site/assets/images/JKKP12/ruangan-kerja-tapak-pembinaan/sejarah-pengemaskinian.png';
+import lamanMenuUtamaImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/laman-menu-utama.png';
+import lamanJkkp12Img from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/laman-jkkp12.png';
+import pengurusanTapakImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/pengurusan-jkkp12-tapak-pembinaan.png';
+import menuTindakanTapakImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/menu-tindakan-tapak-pembinaan.png';
+import ruanganKerjaTapakImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/ruangan-kerja-tapak-pembinaan.png';
+import doketTapakImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/doket-tapak-pembinaan.png';
+import maklumatTapakImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/maklumat-tapak-pembinaan.png';
+import penilaianKendiriImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/penilaian-kendiri.png';
+import penguatkuasaanJkkpImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/penguatkuasaan-jkkp.png';
+import butiranLanjutImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/butiran-lanjut.png';
+import pengemaskinianTapakImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/pengemaskinian-tapak-pembinaan.png';
+import sejarahPengemaskinianImg from '@site/assets/images/jkkp12/ruangan-kerja-tapak-pembinaan/sejarah-pengemaskinian.png';
 
 ## 📌 Ringkasan Modul
 

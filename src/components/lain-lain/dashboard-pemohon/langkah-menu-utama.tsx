@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ExpandableImage from '../../common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 interface LangkahMenuUtamaProps {
   stepNumber: number;
@@ -17,12 +19,8 @@ export default function LangkahMenuUtama({
   tempatKerjaImgSrc,
   orangKompetenImgSrc,
 }: LangkahMenuUtamaProps) {
-  const [activeTab, setActiveTab] = useState<'tempatKerja' | 'orangKompeten'>('tempatKerja');
-
   return (
     <div>
-      <h3>{stepNumber}. Laman Menu Utama</h3>
-
       <ol>
         <li>Skrin <b>Dashboard Pemohon</b> akan dipaparkan.</li>
         <ExpandableImage
@@ -41,9 +39,6 @@ export default function LangkahMenuUtama({
         </li>
         <li>Butang <b>Tukar Menu</b> akan dipaparkan.</li>
       </ol>
-
-
-
       <ExpandableImage
         src={tukarMenuImgSrc}
         alt="Butang Tukar Menu"
@@ -51,26 +46,10 @@ export default function LangkahMenuUtama({
         width={350}
       />
 
-      <div className="inner-tabs">
-        <button
-          type="button"
-          className={activeTab === 'tempatKerja' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('tempatKerja')}
-        >
-          Menu Tempat Kerja/Kilang
-        </button>
-
-        <button
-          type="button"
-          className={activeTab === 'orangKompeten' ? 'inner-tab active' : 'inner-tab'}
-          onClick={() => setActiveTab('orangKompeten')}
-        >
-          Menu Orang Kompeten
-        </button>
-      </div>
-
-      {activeTab === 'tempatKerja' && (
-        <div>
+      <div>
+        <Tabs>
+          <TabItem value="tempatKerja" label="Tempat Kerja" default>
+          <h4>Menu Tempat Kerja</h4>
           <ExpandableImage
             src={tempatKerjaImgSrc}
             alt="Menu Tempat Kerja/Kilang"
@@ -83,29 +62,31 @@ export default function LangkahMenuUtama({
             <li>Pilih <b>Tempat Kerja/Kilang</b>.</li>
             <li>Menu <b>Tempat Kerja/Kilang</b> akan dipaparkan.</li>
           </ol>
-        </div>
-      )}
 
-      {activeTab === 'orangKompeten' && (
-        <div>
-          <ExpandableImage
-            src={orangKompetenImgSrc}
-            alt="Menu Orang Yang Kompeten"
-            caption="Menu Orang Yang Kompeten"
-            width={650}
-          />
+        </TabItem>
 
-          <ol>
-            <li>Klik butang <b>Tukar Menu</b>.</li>
-            <li>Pilih <b>Orang Yang Kompeten</b>.</li>
-            <li>Menu <b>Orang Yang Kompeten</b> akan dipaparkan.</li>
-          </ol>
-        </div>
-      )}
+        <TabItem value="oyk" label="Orang Yang Kompeten" default>
+        <h4>Menu Orang Yang Kompeten</h4>
+        <ExpandableImage
+          src={orangKompetenImgSrc}
+          alt="Menu Orang Yang Kompeten"
+          caption="Menu Orang Yang Kompeten"
+          width={650}
+        />
 
-      <Admonition type="info">
-        Pengguna boleh menukar paparan menu mengikut jenis perkhidmatan yang ingin digunakan.
-      </Admonition>
-      </div>
+        <ol>
+          <li>Klik butang <b>Tukar Menu</b>.</li>
+          <li>Pilih <b>Orang Yang Kompeten</b>.</li>
+          <li>Menu <b>Orang Yang Kompeten</b> akan dipaparkan.</li>
+        </ol>
+
+        </TabItem>
+        </Tabs >
+      </div >
+
+    <Admonition type="info">
+      Pengguna boleh menukar paparan menu mengikut jenis perkhidmatan yang ingin digunakan.
+    </Admonition>
+    </div >
   );
 }

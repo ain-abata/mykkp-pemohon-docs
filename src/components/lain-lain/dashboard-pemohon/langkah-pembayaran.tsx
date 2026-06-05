@@ -3,6 +3,8 @@ import ExpandableImage from '../../common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 interface LangkahPembayaranProps {
     stepNumber: number;
@@ -20,8 +22,6 @@ export default function LangkahPembayaran({
 
     return (
         <div>
-            <h3>{stepNumber}. Laman Pembayaran</h3>
-
             <ol>
                 <li>Pilih menu yang betul sama ada <b>Kilang/Jentera</b> atau <b>OYK</b>.</li>
                 <li>Klik menu <b>Pembayaran</b>.</li>
@@ -38,82 +38,58 @@ export default function LangkahPembayaran({
                 caption="Laman Pembayaran"
                 width={650}
             />
+            <div>
+                <Tabs>
+                    <TabItem value="belumDilaksanakan" label="Pembayaran Belum Dilaksanakan" default>
 
-            <div className="inner-tabs">
-                <button
-                    type="button"
-                    className={activeTab === 'bilBelumBayar' ? 'inner-tab active' : 'inner-tab'}
-                    onClick={() => setActiveTab('bilBelumBayar')}
-                >
-                    Pembayaran Belum Dilaksanakan
-                </button>
+                        <h4>Tab Pembayaran Belum Dilaksanakan</h4>
+                        <ol>
+                            <li>Klik tab <b>Pembayaran Belum Dilaksanakan</b>.</li>
+                            <li>
+                                Pilih <b>Kategori Carian</b> seperti <b>No. Rujukan</b>,
+                                <b> Tarikh Permohonan</b>, <b>Nama</b>, <b>Maklumat Bil</b>,
+                                <b> Amaun (RM)</b> atau <b>Semua</b>.
+                            </li>
+                            <li>Masukkan maklumat pada medan <b>Carian</b>.</li>
+                            <li>Klik butang <b>Carian</b>.</li>
+                            <li>Klik butang <b>Lihat</b> untuk melihat <b>Lampiran Butiran Sebut Harga</b>.</li>
+                            <li>Klik butang <b>Bayar</b>untuk membuat pembayaran.</li>
+                        </ol>
+                    </TabItem>
+                    <TabItem value="telahDibayar" label="Telah Dibayar" default>
 
-                <button
-                    type="button"
-                    className={activeTab === 'bilDahBayar' ? 'inner-tab active' : 'inner-tab'}
-                    onClick={() => setActiveTab('bilDahBayar')}
-                >
-                    Bil Telah Bayar
-                </button>
+                        <h4>Tab Bil Telah Dibayar</h4>
+                        <ol>
+                            <li>Klik tab <b>Bil Telah Bayar</b>.</li>
+                            <li>
+                                Pilih <b>Kategori Carian</b> seperti <b>No. Rujukan</b>,
+                                <b> Tarikh Permohonan</b>, <b>Nama</b>, <b>Maklumat Bil</b>,
+                                <b> Amaun (RM)</b> atau <b>Semua</b>.
+                            </li>
+                            <li>Masukkan maklumat pada medan <b>Carian</b>.</li>
+                            <li>Klik butang <b>Carian</b>.</li>
+                            <li>Klik butang <b>Lihat Bil</b>untuk melihat lampiran bil.</li>
+                        </ol>
+                    </TabItem>
+                    <TabItem value="Resit" label="Resit" default>
 
-                <button
-                    type="button"
-                    className={activeTab === 'resit' ? 'inner-tab active' : 'inner-tab'}
-                    onClick={() => setActiveTab('resit')}
-                >
-                    Resit
-                </button>
+                        <h4>Resit</h4>
+                        <ol>
+                            <li>Klik tab <b>Resit</b>.</li>
+                            <li>
+                                Pilih <b>Kategori Carian</b> seperti <b>No. Resit</b>,
+                                <b> Tarikh Resit</b>, <b>No. Rujukan/No. Bil</b>,
+                                <b> Kaedah Pembayaran</b>, <b>Nama</b> atau <b>Jumlah (RM)</b>.
+                            </li>
+                            <li>Masukkan maklumat pada medan <b>Carian</b>.</li>
+                            <li>Klik butang <b>Carian</b>.</li>
+                            <li>Klik butang <b>Lihat Resit</b>untuk melihat lampiran resit.</li>
+
+                        </ol>
+                    </TabItem>
+                </Tabs>
             </div>
 
-            {activeTab === 'bilBelumBayar' && (
-                <div>
-                    <ol>
-                        <li>Klik tab <b>Pembayaran Belum Dilaksanakan</b>.</li>
-                        <li>
-                            Pilih <b>Kategori Carian</b> seperti <b>No. Rujukan</b>,
-                            <b> Tarikh Permohonan</b>, <b>Nama</b>, <b>Maklumat Bil</b>,
-                            <b> Amaun (RM)</b> atau <b>Semua</b>.
-                        </li>
-                        <li>Masukkan maklumat pada medan <b>Carian</b>.</li>
-                        <li>Klik butang <b>Carian</b>.</li>
-                        <li>Klik butang <b>Lihat</b> untuk melihat <b>Lampiran Butiran Sebut Harga</b>.</li>
-                        <li>Klik butang <b>Bayar</b>untuk membuat pembayaran.</li>
-                    </ol>
-                </div>
-            )}
-
-            {activeTab === 'bilDahBayar' && (
-                <div>
-                    <ol>
-                        <li>Klik tab <b>Bil Telah Bayar</b>.</li>
-                        <li>
-                            Pilih <b>Kategori Carian</b> seperti <b>No. Rujukan</b>,
-                            <b> Tarikh Permohonan</b>, <b>Nama</b>, <b>Maklumat Bil</b>,
-                            <b> Amaun (RM)</b> atau <b>Semua</b>.
-                        </li>
-                        <li>Masukkan maklumat pada medan <b>Carian</b>.</li>
-                        <li>Klik butang <b>Carian</b>.</li>
-                        <li>Klik butang <b>Lihat Bil</b>untuk melihat lampiran bil.</li>
-                    </ol>
-                </div>
-            )}
-
-            {activeTab === 'resit' && (
-                <div>
-                    <ol>
-                        <li>Klik tab <b>Resit</b>.</li>
-                        <li>
-                            Pilih <b>Kategori Carian</b> seperti <b>No. Resit</b>,
-                            <b> Tarikh Resit</b>, <b>No. Rujukan/No. Bil</b>,
-                            <b> Kaedah Pembayaran</b>, <b>Nama</b> atau <b>Jumlah (RM)</b>.
-                        </li>
-                        <li>Masukkan maklumat pada medan <b>Carian</b>.</li>
-                        <li>Klik butang <b>Carian</b>.</li>
-                        <li>Klik butang <b>Lihat Resit</b>untuk melihat lampiran resit.</li>
-
-                    </ol>
-                </div>
-            )}
 
             <Admonition type="info">
                 <p>
@@ -121,7 +97,7 @@ export default function LangkahPembayaran({
                     <b>
                         <Link to={pembayaranFiUrl}>
                             Cara Pembayaran Fi
-                        </Link>                 
+                        </Link>
                     </b>.
                 </p>
             </Admonition>

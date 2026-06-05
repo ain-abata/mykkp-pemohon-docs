@@ -260,6 +260,12 @@ const sidebars: SidebarsConfig = {
           label: 'Belum Daftar Tempat Kerja',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/kemaskini-tempat-kerja',
+          label: 'Kemaskini Tempat Kerja',
+          className: 'hideItem',
+        },
       ],
     },
     //Pengendalian tk n loji

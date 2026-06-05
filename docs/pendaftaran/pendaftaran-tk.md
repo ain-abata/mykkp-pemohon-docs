@@ -34,28 +34,36 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pendaftaran Te
     🏢 Pendaftaran Tempat Kerja
   </h3>
 
-  <div className="doc-card-row">
-    <div className="doc-card">
-     <div className="doc-card-actions">
+<div className="doc-card-row">
+  <div className="doc-card">
+    <div className="doc-card-actions">
       <Link to="/docs/pemtk" className="doc-card-action">
-      Daftar Tempat Kerja
+        Daftar Tempat Kerja
       </Link>
-     </div>
     </div>
-    <div className="doc-card">
-    <div className="doc-card-actions">
-    <Link to="/docs/tempat-kerja/belum-daftar" className="doc-card-action">
-      Tempat Kerja Belum Daftar
-    </Link>
-    </div>
-    </div>
-    <div className="doc-card">
-    <div className="doc-card-actions">
-    <Link to="/docs/pemtk/patk" className="doc-card-action">
-      Aktif Tempat Kerja
-    </Link>
-    </div>
-    </div>
-    
   </div>
+  <div className="doc-card">
+    <div className="doc-card-actions">
+      <Link to="/docs/tempat-kerja/belum-daftar" className="doc-card-action">
+        Tempat Kerja Belum Daftar
+    </Link>
+    </div>
+  </div>
+  <div className="doc-card">
+    <div className="doc-card-actions">
+      <Link to="/docs/pemtk/patk" className="doc-card-action">
+      Aktif Tempat Kerja
+      </Link>
+    </div>
+  </div>
+</div>
+<div className="doc-card-row one-items">
+  <div className="doc-card">
+    <div className="doc-card-actions">
+          <Link to="/docs/tempat-kerja/kemaskini-tempat-kerja" className="doc-card-action">
+          Kemaskini Tempat Kerja
+          </Link>
+    </div>
+  </div>
+</div>      
 </div>

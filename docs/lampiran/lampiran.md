@@ -20,7 +20,7 @@ Sila klik pilihan di bawah 👇 untuk melihat lampiran dan borang.
     Lampiran Tempat Kerja
   </h3>
 
-  <div className="doc-card-row">
+  <div className="doc-card-row one-items">
     <div className="doc-card">
       <div className="doc-card-actions">
         <Link to="https://mykkp.dosh.gov.my/manual/BORANG%20PATK%20TAHAP%201%20(NEW).pdf" className="doc-card-action">
@@ -28,7 +28,7 @@ Sila klik pilihan di bawah 👇 untuk melihat lampiran dan borang.
         </Link>
       </div>
     </div>
-</div>
+  </div>
 </div>
 <div className="toc-only">
 ### [Borang Perubatan](#toLoginStep)
