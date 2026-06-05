@@ -9,16 +9,16 @@ import Admonition from '@site/src/components/admonition';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import LoginStep from '@site/src/components/login-step';
 
-import lamanMenuUtamaImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/laman-menu-utama.png';
-import lamanJkkp12Img from '@site/assets/images/JKKP12/ruangan-kerja-projek/laman-jkkp12.png';
-import pengurusanProjekImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/pengurusan-jkkp12-projek.png';
-import menuTindakanProjekImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/menu-tindakan-projek.png';
-import ruanganKerjaProjekImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/ruangan-kerja-projek.png';
-import doketProjekImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/doket-projek.png';
-import senaraiTapakPembinaanImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/senarai-tapak-pembinaan.png';
-import butiranLanjutImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/butiran-lanjut.png';
-import butiranProjekImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/butiran-projek.png';
-import sejarahPengemaskinianImg from '@site/assets/images/JKKP12/ruangan-kerja-projek/sejarah-pengemaskinian.png';
+import lamanMenuUtamaImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/laman-menu-utama.png';
+import lamanJkkp12Img from '@site/assets/images/jkkp12/ruangan-kerja-projek/laman-jkkp12.png';
+import pengurusanProjekImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/pengurusan-jkkp12-projek.png';
+import menuTindakanProjekImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/menu-tindakan-projek.png';
+import ruanganKerjaProjekImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/ruangan-kerja-projek.png';
+import doketProjekImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/doket-projek.png';
+import senaraiTapakPembinaanImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/senarai-tapak-pembinaan.png';
+import butiranLanjutImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/butiran-lanjut.png';
+import butiranProjekImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/butiran-projek.png';
+import sejarahPengemaskinianImg from '@site/assets/images/jkkp12/ruangan-kerja-projek/sejarah-pengemaskinian.png';
 
 ## 📌 Ringkasan Modul
 
