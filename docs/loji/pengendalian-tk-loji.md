@@ -163,3 +163,23 @@ Setiap fungsi mempunyai:
         
 </div>
 </div>
+
+<div className="toc-only">
+### [Penilaian Kendiri](#toLoginStep)
+</div>
+<div className="step-card">
+  <h3 style={{ textAlign: "center" }}>
+    Penilaian Kendiri
+  </h3>
+
+ <div className="doc-card-row one-items">
+        <div className="doc-card">
+            <div className="doc-card-actions">
+                <Link to="/docs/loji/oshwa" className="doc-card-action">
+                Penilaian Tempat Kerja (OSHWA)
+                </Link>
+            </div>
+        </div>
+</div> 
+</div>
+

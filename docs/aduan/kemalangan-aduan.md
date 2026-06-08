@@ -82,7 +82,7 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Kemalangan dan
     🚨 Pelaporan Sepanjang Masa (PSM) 
   </h3>
 
-<div className="doc-card-row">
+<div className="doc-card-row one-items">
  <div className="center-card">
   <div className="doc-card">
       <div className="doc-card-actions">

@@ -9,29 +9,32 @@
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   color: var(--text-color);
-  font-weight: 400;
+  font-weight: 400;  
 }
-
+ 
 .doc-card-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+ 
 }
-
-.step-card .doc-card-row + .doc-card-row {
-  margin-top: 30px;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  padding: 0 50px 25px;
-  margin: 10px 0 10px 0;
-  justify-content: center;
-}
+ 
 .doc-card-row.two-items {
   grid-template-columns: repeat(2, minmax(220px, 300px));
   justify-content: center;
 }
-
-
+ 
+.doc-card-row.one-items {
+  display: grid;
+  grid-template-columns: minmax(220px, 300px);
+  justify-content: center;
+  gap: 30px;
+}
+ 
+.step-card .doc-card-row + .doc-card-row {
+  margin-top: 30px;
+}
+ 
 .doc-card:hover {
   transform: scale(1.03);
   color: var(--link-hover-color);

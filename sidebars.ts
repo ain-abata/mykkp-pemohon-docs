@@ -343,6 +343,12 @@ const sidebars: SidebarsConfig = {
           label: 'Hak Milik',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'loji/oshwa',
+          label: 'OSHWA',
+          className: 'hideItem',
+        },  
       ],
     },
     //JKKP12
