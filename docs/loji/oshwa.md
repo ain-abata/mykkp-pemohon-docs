@@ -97,13 +97,13 @@ import imgRumusanPemeriksaanFizikal from '@site/assets/images/loji/oshwa/oshwa-r
 
 <ol>
     <li>Klik butang <i>dropdown</i> <b>Pemeriksaan Fizikal</b> pada pilihan pemeriksaan.</li>
-    <li>Klik butang <b>OK</b> pada makluman popup blocker.</li>
+    <li>Klik butang <b>OK</b> pada makluman <i>pop-up blocker</i>.</li>
     <li>Skrin <b>Pemeriksaan Fizikal</b> akan dipaparkan.</li>
     <li>Klik butang <b>Sila klik untuk panduan senarai semak</b>.</li> 
     <li>Panduan senarai semak akan dipaparkan pada halaman tab baru.</li>
     <li>Isi keseluruhan <b>Senarai Semak OSHWA – Pemeriksaan Fizikal</b> dengan lengkap.</li>
     <li>Klik butang <b>Simpan</b> untuk menyimpan dan menjana <b>Markah Semakan</b> bagi <b>Senarai Semak OSHWA – Pemeriksaan Fizikal</b>.</li>
-    <li><i>Popup</i> semakan berjaya disimpan akan dipaparkan.</li> 
+    <li><i>Pop-up</i> semakan berjaya disimpan akan dipaparkan.</li> 
     <li>Klik butang <b>OK</b>.</li>
     <li><b>Markah Semakan</b> akan dipaparkan selepas berjaya menyimpan maklumat pemeriksaan.</li>
 </ol>
@@ -137,13 +137,13 @@ import imgRumusanPemeriksaanDokumentasi from '@site/assets/images/loji/oshwa/osh
 
 <ol>
     <li>Klik butang <i>dropdown</i> <b>Pemeriksaan Dokumentasi</b> pada pilihan pemeriksaan.</li>
-    <li>Klik butang <b>OK</b> pada makluman popup blocker.</li>
+    <li>Klik butang <b>OK</b> pada makluman <i>pop-up blocker</i>.</li>
     <li>Skrin <b>Pemeriksaan Dokumentasi</b> akan dipaparkan.</li>
     <li>Klik butang <b>Sila klik untuk panduan senarai semak</b>.</li> 
     <li>Panduan senarai semak akan dipaparkan pada halaman tab baru.</li>
     <li>Isi keseluruhan <b>Senarai Semak OSHWA – Pemeriksaan Dokumentasi</b> dengan lengkap.</li>
     <li>Klik butang <b>Simpan</b> untuk menyimpan dan menjana <b>Markah Semakan</b> bagi <b>Senarai Semak OSHWA – Pemeriksaan Dokumentasi</b>.</li>
-    <li><i>Popup</i> semakan berjaya disimpan akan dipaparkan.</li> 
+    <li><i>Pop-up</i> semakan berjaya disimpan akan dipaparkan.</li> 
     <li>Klik butang <b>OK</b>.</li>
     <li><b>Markah Semakan</b> akan dipaparkan selepas berjaya menyimpan maklumat pemeriksaan.</li>
 </ol>
@@ -177,13 +177,13 @@ import imgRumusanPemeriksaan5P from '@site/assets/images/loji/oshwa/oshwa-rumusa
 
 <ol>
     <li>Klik butang <i>dropdown</i> <b>Pemeriksaan 5P(SPKKP)</b> pada pilihan pemeriksaan.</li>
-    <li>Klik butang <b>OK</b> pada makluman popup blocker.</li>
+    <li>Klik butang <b>OK</b> pada makluman <i>pop-up blocker</i>.</li>
     <li>Skrin <b>Pemeriksaan 5P(SPKKP)</b> akan dipaparkan.</li>
     <li>Klik butang <b>Sila klik untuk panduan senarai semak</b>.</li> 
     <li>Panduan senarai semak akan dipaparkan pada halaman tab baru.</li>
     <li>Isi keseluruhan <b>Senarai Semak OSHWA – Pemeriksaan 5P(SPKKP)</b> dengan lengkap.</li>
     <li>Klik butang <b>Simpan</b> untuk menyimpan dan menjana <b>Markah Semakan</b> bagi <b>Senarai Semak OSHWA – Pemeriksaan 5P(SPKKP)</b>.</li>
-    <li><i>Popup</i> semakan berjaya disimpan akan dipaparkan.</li> 
+    <li><i>Pop-up</i> semakan berjaya disimpan akan dipaparkan.</li> 
     <li>Klik butang <b>OK</b>.</li>
     <li><b>Markah Semakan</b> akan dipaparkan selepas berjaya menyimpan maklumat pemeriksaan.</li>
 </ol>
@@ -216,13 +216,13 @@ import imgPemeriksaanHazard from '@site/assets/images/loji/oshwa/oshwa-pemeriksa
 
 <ol>
     <li>Klik butang <i>dropdown</i> <b>Pemeriksaan Hazard</b> pada pilihan pemeriksaan.</li>
-    <li>Klik butang <b>OK</b> pada makluman popup blocker.</li>
+    <li>Klik butang <b>OK</b> pada makluman <i>pop-up blocker</i>.</li>
     <li>Skrin <b>Pemeriksaan Hazard</b> akan dipaparkan.</li>
     <li>Klik butang <b>Sila klik untuk panduan senarai semak</b>.</li> 
     <li>Panduan senarai semak akan dipaparkan pada halaman tab baru.</li>
     <li>Isi keseluruhan <b>Senarai Semak OSHWA – Pemeriksaan Hazard</b> dengan lengkap.</li>
     <li>Klik butang <b>Simpan</b> untuk menyimpan maklumat <b>Senarai Semak OSHWA – Pemeriksaan Hazard</b>.</li>
-    <li><i>Popup</i> semakan berjaya disimpan akan dipaparkan.</li> 
+    <li><i>Pop-up</i> semakan berjaya disimpan akan dipaparkan.</li> 
     <li>Klik butang <b>OK</b>.</li>
 </ol>
 
@@ -241,13 +241,13 @@ import imgPemeriksaanCIMAH from '@site/assets/images/loji/oshwa/oshwa-pemeriksaa
 
 <ol>
     <li>Klik butang <i>dropdown</i> <b>Pemeriksaan CIMAH</b> pada pilihan pemeriksaan.</li>
-    <li>Klik butang <b>OK</b> pada makluman popup blocker.</li>
+    <li>Klik butang <b>OK</b> pada makluman <i>pop-up blocker</i>.</li>
     <li>Skrin <b>Pemeriksaan CIMAH</b> akan dipaparkan.</li>
     <li>Klik butang <b>Sila klik untuk panduan senarai semak</b>.</li> 
     <li>Panduan senarai semak akan dipaparkan pada halaman tab baru.</li>
     <li>Isi keseluruhan <b>Senarai Semak OSHWA – Pemeriksaan CIMAH</b> dengan lengkap.</li>
     <li>Klik butang <b>Simpan</b> untuk menyimpan maklumat <b>Senarai Semak OSHWA – Pemeriksaan CIMAH</b>.</li>
-    <li><i>Popup</i> semakan berjaya disimpan akan dipaparkan.</li> 
+    <li><i>Pop-up</i> semakan berjaya disimpan akan dipaparkan.</li> 
     <li>Klik butang <b>OK</b>.</li>
 </ol>
 </div>
