@@ -4,3 +4,9 @@
   padding: 0 50px 25px;
   margin: 10px 0 10px 0;
 }
+
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

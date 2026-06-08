@@ -60,4 +60,38 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Kemalangan dan
       </div>
     </div>
   </div>
+  
+  <br/>
+
+  <div className="center-card">
+    <div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="/docs/aduan/JKKP8-minor" className="doc-card-action">
+          Pemberitahuan JKKP8 (Minor)
+        </Link>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div className="toc-only">
+### [🚨 Pelaporan Sepanjang Masa](#toLoginStep)
+</div>
+<div className="step-card">
+  <h3 style={{ textAlign: "center" }}>
+    🚨 Pelaporan Sepanjang Masa (PSM) 
+  </h3>
+
+<div className="doc-card-row">
+ <div className="center-card">
+  <div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="/docs/aduan/PSM-JKKP8" className="doc-card-action">
+          Pelaporan Sepanjang Masa (PSM)
+        </Link>
+      </div>
+  </div>
+  </div>
+</div>  
+</div>
+    
