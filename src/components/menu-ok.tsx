@@ -44,7 +44,7 @@ import React from 'react';
 import Admonition from '@site/src/components/admonition';
 import ExpandableImage from './common/ExpandableImage';
 
-import imgMenu from @site/assets/images/orang-kompeten/menu_utama.png';
+import imgMenu from '@site/assets/images/orang-kompeten/menu_utama.png';
 
 interface MenuOkProps {
   stepNumber: number;
