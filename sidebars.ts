@@ -231,6 +231,12 @@ const sidebars: SidebarsConfig = {
           label: 'Medical Surveillance',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'orang-kompeten/pelaporan-OK',
+          label: 'Pelaporan Orang Kompeten',
+          className: 'hideItem',
+        },
       ],
     },
     // Pendaftaran Tempat Kerja

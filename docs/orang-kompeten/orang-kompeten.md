@@ -204,3 +204,21 @@ Sila klik jenis orang kompeten dibawah 👇 untuk melihat cara mendapatkan **Sij
 </div>
   </div>
 </div>
+
+<div className="toc-only">
+### [📋 Pelaporan Orang Kompeten](#toLoginStep)
+</div>
+<div className="step-card">
+  <h3 style={{ textAlign: "center" }}>
+    📋 Pelaporan Orang Kompeten
+  </h3>
+
+  <div className="doc-card-row one-items">
+    <div className="doc-card">
+      <h4>Pelaporan Orang Kompeten (OK)</h4>
+      <div className="doc-card-actions">
+        <Link to="/docs/orang-kompeten/pelaporan-OK" className="doc-card-action">Pelaporan OK</Link>
+      </div>
+    </div>
+    </div>
+  </div>

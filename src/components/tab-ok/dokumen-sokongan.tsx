@@ -60,10 +60,10 @@ export default function OkDokumenSokongan({
                 width={650}
             />
             <ol>
-                <li>Klik butang <img src={iconMuatNaik} style={{ width: 15 }} /> untuk memuat naik dokumen <b>PDF</b> yang berkenaan pada medan bersyarat <b>Wajib</b>.</li>
+                <li>Klik butang  <img src={iconMuatNaik} style={{ width: 15 }} />  untuk memuat naik dokumen <b>PDF</b> yang berkenaan pada medan bersyarat <b>Wajib</b>.</li>
                 <li>Isi medan <b>Diskripsi</b> dan klik butang <b><i>Choose File</i></b> untuk memilih dokumen.</li>
                 <li>Klik butang <b>Simpan</b>. <i>Pop-up</i> mesej berjaya akan dipaparkan dan klik butang <b>OK</b>.</li>
-                <li>Dokumen yang berjaya dimuat naik akan dipaparkan dalam <b>Jadual Senarai Dokumen</b></li>
+                <li>Dokumen yang berjaya dimuat naik akan dipaparkan dalam jadual <b>Senarai Dokumen</b>.</li>
                 <li>Klik butang <b>Tutup</b>. Pada kolum <b> Bil. Fail</b> akan menunjukkan jumlah bilangan fail yang telah dimuat naik.</li>
             </ol>
             <Admonition type="warning">

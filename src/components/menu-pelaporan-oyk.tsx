@@ -2,68 +2,76 @@ import React from 'react';
 import ExpandableImage from '@site/src/components/common/ExpandableImage';
 import Admonition from '@site/src/components/admonition';
 
-interface LangkahMaklumatOykProps {
+import imgMenu from '@site/assets/images/orang-kompeten/pelaporan/menu_pelaporan.png';
+import imgMaklumatOK from '@site/assets/images/orang-kompeten/pelaporan/maklumat_ok.png';
+
+
+interface MenuPelaporanOKProps {
   stepNumber: number;
-  lamanPemohonImgSrc?: string;
-  subMenuProfilImgSrc?: string;
-  maklumatOykImgSrc?: string;
+  pageName: string;
+  kategoriPermohonan: string;
+  moduleName: string;
+  moduleType: string;
+  hasDropdown: boolean;
 }
 
-export default function LangkahMaklumatOyk({
+export default function MenuPelaporanOK({
   stepNumber,
-  lamanPemohonImgSrc,
-  subMenuProfilImgSrc,
-  maklumatOykImgSrc,
-}: LangkahMaklumatOykProps) {
+  pageName,
+  kategoriPermohonan,
+  moduleName,
+  moduleType,
+  hasDropdown
+}: MenuPelaporanOKProps) {
   return (
-    <div className="step-card">
-      <h3>Langkah {stepNumber}: Laman Maklumat OYK</h3>
+    <div>
+
+      <ExpandableImage
+        src={imgMenu}
+        alt={`Halaman Menu Utama`}
+        caption={`Halaman Menu Utama`}
+        width={650}
+      />
 
       <ol>
-        <li>Skrin <b>Pemohon</b> akan dipaparkan.</li>
-        <li>Klik menu <b>Profil Saya</b> di sebelah kiri.</li>
-      </ol>
-
-      <ExpandableImage
-        src={lamanPemohonImgSrc}
-        alt="Laman Pemohon"
-        caption="Laman Pemohon"
-        width={650}
-      />
-
-      <ol start={3}>
-        <li>Sub-menu <b>Profil Saya</b> akan dipaparkan.</li>
-        <li>Klik pada sub-menu <b>Maklumat OYK</b>.</li>
-      </ol>
-
-      <ExpandableImage
-        src={subMenuProfilImgSrc}
-        alt="Sub-menu Profil Saya"
-        caption="Sub-menu Profil Saya"
-        width={650}
-      />
-
-      <ol start={5}>
-        <li>Halaman <b>Maklumat OYK</b> akan dipaparkan.</li>
-        <li>Skrol ke bawah dan pergi ke bahagian <b>Senarai Permohonan Yang Diluluskan</b>.</li>
-        <li>Klik butang <b>Lihat Sijil</b> untuk melihat sijil.</li>
-        <li>Klik butang <b>Baru</b> untuk membuat permohonan baru.</li>
-        <li>Klik butang <b>Pelaporan OYK</b>.</li>
-      </ol>
-
-      <ExpandableImage
-        src={maklumatOykImgSrc}
-        alt="Maklumat OYK"
-        caption="Maklumat OYK"
-        width={650}
-      />
-
-      <ol start={10}>
-        <li>Halaman <b>Pelaporan OYK</b> akan dipaparkan pada tab baru.</li>
+        <li>Pada halaman <b>Menu Utama</b>, klik pada butang <b>Profil Saya</b> dan seterusnya pada butang <b>{kategoriPermohonan}</b>.</li>
       </ol>
 
       <Admonition type="info">
-        Butang <b>Pelaporan OYK</b> digunakan untuk memulakan permohonan pelaporan bagi Orang Yang Kompeten.
+      <ul>  
+        <li>Pastikan dashboard yang dipilih adalah dashboard <b>Orang Kompeten</b>.</li>
+      </ul>
+      </Admonition>
+            
+      <ExpandableImage
+        src={imgMaklumatOK}
+        alt="Halaman Profil Saya - Maklumat OK / Orang Terlatih"
+        caption="Halaman Profil Saya - Maklumat OK / Orang Terlatih"
+        width={650}
+      />
+
+      <ol start={2}>
+        <li>Halaman <b>{pageName}</b> akan dipaparkan.</li>
+        <li>Skrol ke bawah dan pergi ke bahagian <b>Senarai Kompetensi Yang Diluluskan</b>.</li>
+        <li>Klik butang <b>Lihat Slip</b> untuk melihat paparan <b>Slip Ringkas Perakuan Pendaftaran</b>.</li>
+        <li>Klik butang <b>Pembaharuan</b> untuk membuat permohonan pembaharuan bagi Orang Kompeten yang akan atau telah tamat tempoh.</li>
+        <li>Klik butang <b>Pelaporan OK</b> untuk membuat pelaporan Orang Kompeten bagi modul yang dikehendaki.</li>
+      </ol>
+
+        <Admonition type="info">
+
+        <p>Bagi <b>Pelaporan OK</b>, modul Orang Kompeten yang terlibat adalah seperti berikut:</p>
+        <ul>
+          <li><b>Penaksir Risiko Bising (OYKPEB)</b></li>
+          <li><b>Juruteknik Higien 1 (OYKJHI)</b></li>
+          <li><b>Juruteknik Higien 2 (OYKJHII)</b></li>
+          <li><b>Pengapit (OYKCHRA)</b></li>
+          <li><b>Kualiti Udara Dalaman (OYKIAQ)</b></li>
+          <li><b>Penguji Gas Bertauliah dan Penyelia Kemasukan (OYKAGTES)</b></li>
+          <li><b>Penyelia Keselamatan Tapak Bina (OYKSSS)</b></li>
+          <li><b>Pegawai Keselamatan dan Kesihatan (OYKSHO)</b></li>
+          <li><b>Major Hazard (OYKMH)</b></li>
+        </ul>
       </Admonition>
     </div>
   );
