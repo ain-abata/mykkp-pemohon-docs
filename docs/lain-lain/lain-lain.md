@@ -40,5 +40,14 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan Lain-Lain.
     </div>
     
 </div>
+<div className="doc-card-row one-items">
+    <div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="/docs/orang-kompeten/majikan-luar-negara" className="doc-card-action">
+          Majikan Orang Kompeten Luar Negara
+        </Link>
+      </div>
+    </div>
+    </div>
 </div>
 

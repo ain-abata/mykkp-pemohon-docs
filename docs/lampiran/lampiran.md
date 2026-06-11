@@ -60,5 +60,12 @@ Sila klik pilihan di bawah 👇 untuk melihat lampiran dan borang.
         </Link>
       </div>
     </div>
+<div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="https://mykkpstg.dosh.gov.my/manual/PEMOHON/ORANG%20YANG%20KOMPETEN/MEDICAL%20SURVEILLANCE%20EMPLOYEE%20REFERRAL%20FORM.pdf" className="doc-card-action">
+           Medical Surveillance (Employee Referal Form)
+        </Link>
+      </div>
+    </div>
 </div>
 </div>

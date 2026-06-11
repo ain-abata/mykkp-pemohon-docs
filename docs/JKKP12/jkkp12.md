@@ -88,5 +88,12 @@ Sila klik pilihan di bawah 👇 untuk melihat panduan berkaitan **Pengendalian T
         </Link>
       </div>
     </div>
+    <div className="doc-card">
+      <div className="doc-card-actions">
+        <Link to="https://mykkpstg.dosh.gov.my/manual/PEMOHON/KILANG%20DAN%20JENTERA/Manual%20Pemutihan%20Tapak%20Pembinaan%20JKKP12.pdf" className="doc-card-action">
+          Pemutihan Tapak Pembinaan
+        </Link>
+      </div>
+    </div>
   </div>
 </div>
