@@ -46,7 +46,7 @@ import MenuPelaporanOK from '@site/src/components/menu-pelaporan-oyk';
 import imgTabMaklumatPemohonPEB1 from '@site/assets/images/orang-kompeten/pelaporan/tab_maklumatpemohon_peb1.png';
 import imgTabMaklumatPemohonPEB2 from '@site/assets/images/orang-kompeten/pelaporan/tab_maklumatpemohon_peb2.png';
 import imgTabMaklumatPemohon from '@site/assets/images/orang-kompeten/pelaporan/tab_maklumatpemohon.png';
-import popupCarianTK from '@site/assets/images/orang-kompeten/pelaporan/popup_carian_TK.png';
+import popupCarianTK from '@site/assets/images/orang-kompeten/pelaporan/popup_carian_tk.png';
 
 <div>
 
