@@ -474,6 +474,12 @@ const sidebars: SidebarsConfig = {
           label: 'SOHELP',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'orang-kompeten/majikan-luar-negara',
+          label: 'Majikan Luar Negara',
+          className: 'hideItem',
+        },
       ]
     },
     //Lampiran
