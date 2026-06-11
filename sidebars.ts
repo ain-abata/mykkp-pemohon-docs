@@ -254,6 +254,18 @@ const sidebars: SidebarsConfig = {
           label: 'Aktif Tempat Kerja',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/belum-daftar',
+          label: 'Belum Daftar Tempat Kerja',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'tempat-kerja/kemaskini-tempat-kerja',
+          label: 'Kemaskini Tempat Kerja',
+          className: 'hideItem',
+        },
       ],
     },
     //Pengendalian tk n loji
@@ -378,6 +390,18 @@ const sidebars: SidebarsConfig = {
           label: 'Penilaian Kendiri',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'JKKP12/ruangan-kerja-projek',
+          label: 'Ruangan Kerja Projek',
+          className: 'hideItem',
+        },
+        {
+          type: 'doc',
+          id: 'JKKP12/ruangan-kerja-tapak-pembinaan',
+          label: 'Ruangan Kerja Tapak Pembinaan',
+          className: 'hideItem',
+        },
       ],
     },
     //Kemalangan & Aduan
@@ -405,6 +429,20 @@ const sidebars: SidebarsConfig = {
           type: 'doc',
           id: 'aduan/penyakit-JKKP7',
           label: 'Penyakit - JKKP7',
+          className: 'hideItem',
+        },
+        
+        {
+          type: 'doc',
+          id: 'aduan/JKKP8-minor',
+          label: 'Minor - JKKP8',
+          className: 'hideItem',
+        },
+
+        {
+          type: 'doc',
+          id: 'aduan/PSM-JKKP8',
+          label: 'PSM - JKKP8',
           className: 'hideItem',
         },
       ],
@@ -436,8 +474,21 @@ const sidebars: SidebarsConfig = {
           label: 'SOHELP',
           className: 'hideItem',
         },
+        {
+          type: 'doc',
+          id: 'orang-kompeten/majikan-luar-negara',
+          label: 'Majikan Luar Negara',
+          className: 'hideItem',
+        },
       ]
     },
+    //Lampiran
+    {
+          type: 'doc',
+          id: 'lampiran/lampiran',
+          label: 'BOHS',
+          
+        },
     //FAQ
     {
       type: 'category',

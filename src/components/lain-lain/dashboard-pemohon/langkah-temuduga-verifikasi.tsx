@@ -13,8 +13,6 @@ export default function LangkahTemudugaVerifikasi({
 }: LangkahTemudugaVerifikasiProps) {
   return (
     <div>
-      <h3>{stepNumber}. Laman Temuduga/Verifikasi</h3>
-
       <ol>
         <li>Pilih menu yang betul sama ada <b>Kilang/Jentera</b> atau <b>OYK</b>.</li>
         <li>Klik menu <b>Temuduga/Verifikasi</b>.</li>

@@ -13,8 +13,6 @@ export default function LangkahSuratMenyurat({
 }: LangkahSuratMenyuratProps) {
   return (
     <div>
-      <h3>{stepNumber}. Laman Surat Menyurat</h3>
-
       <ol>
         <li>Pilih menu yang betul sama ada <b>Kilang/Jentera</b> atau <b>OYK</b>.</li>
         <li>Klik menu <b>Surat Menyurat</b>.</li>

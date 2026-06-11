@@ -12,34 +12,41 @@ import React from 'react';
 
 import LoginStep from '@site/src/components/login-step';
 
-<div className="toc-only">
-### [Langkah 1: Akses Halaman Log Masuk MyKKP](#toLoginStep)
-</div>
+
+<div className="step-card">
+
+### Akses Halaman Log Masuk MyKKP
+
 <LoginStep 
   stepNumber={1}
   title="Akses Halaman Log Masuk MyKKP" />
 
+</div>
+<div className="step-card">
 import LangkahMenuUtama from '@site/src/components/menu-kemaskini-tk';
 
 import imgMenuUtama from '@site/assets/images/orang-kompeten/kemaskini-tk/menu_utama.png';
-
-<div className="toc-only">
-### [Langkah 2: Halaman Kemaskini Tempat Kerja](#toLoginStep)
-</div>
+    
+### Halaman Menu Utama
 <LangkahMenuUtama
   stepNumber={2}
   menuUtamaImgSrc={imgMenuUtama}
 />
-
+</div>
 <div className="step-card">
 import LangkahModulKemaskiniTempatKerja from '@site/src/components/tab-ok/kemaskini-tempat-kerja';
 
 import imgModulKemaskini from '@site/assets/images/orang-kompeten/kemaskini-tk/modul_kemaskini_tempat_kerja.png';
+import imgLokasiKemaskini from '@site/assets/images/orang-kompeten/kemaskini-tk/lokasi_kemaskini_tempat_kerja.png';
+
 import imgMaklumatPerhubungan from '@site/assets/images/orang-kompeten/kemaskini-tk/maklumat_tempat_kerja.png';
+
+### Halaman Kemaskini Tempat Kerja
 
 <LangkahModulKemaskiniTempatKerja
   stepNumber={3}
   modulImgSrc={imgModulKemaskini}
+  IICMSImgSrc={imgLokasiKemaskini}
   maklumatPerhubunganImgSrc={imgMaklumatPerhubungan}
 />
 </div>
